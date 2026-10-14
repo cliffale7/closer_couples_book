@@ -1,0 +1,869 @@
+{
+  "system": "Night Library",
+  "chapters": [
+    {
+      "id": "001",
+      "title": "The Stranger Across From Me",
+      "part": 1,
+      "motif": "Two empty chairs and a constellation shaped like a question mark",
+      "svg": "assets/chapters/001/motif.svg",
+      "alt": "Line motif for 001 The Stranger Across From Me: Two empty chairs and a constellation shaped like a question mark"
+    },
+    {
+      "id": "002",
+      "title": "The Life You’ve Never Told Me",
+      "part": 1,
+      "motif": "A closed book with a loose ribbon and a small lamp",
+      "svg": "assets/chapters/002/motif.svg",
+      "alt": "Line motif for 002 The Life You’ve Never Told Me: A closed book with a loose ribbon and a small lamp"
+    },
+    {
+      "id": "003",
+      "title": "The Five Defining Moments",
+      "part": 1,
+      "motif": "Five stones set along a path, the last one still in a hand",
+      "svg": "assets/chapters/003/motif.svg",
+      "alt": "Line motif for 003 The Five Defining Moments: Five stones set along a path, the last one still in a hand"
+    },
+    {
+      "id": "004",
+      "title": "Before I Was Me",
+      "part": 1,
+      "motif": "A paper boat beside an adult coat on the same hook",
+      "svg": "assets/chapters/004/motif.svg",
+      "alt": "Line motif for 004 Before I Was Me: A paper boat beside an adult coat on the same hook"
+    },
+    {
+      "id": "005",
+      "title": "The Things Nobody Thinks to Ask",
+      "part": 1,
+      "motif": "A question mark assembled from a key, a spoon, a ticket, and a star",
+      "svg": "assets/chapters/005/motif.svg",
+      "alt": "Line motif for 005 The Things Nobody Thinks to Ask: A question mark assembled from a key, a spoon, a ticket, and a star"
+    },
+    {
+      "id": "006",
+      "title": "The Museum of Me",
+      "part": 1,
+      "motif": "Three museum plinths and a tiny empty frame",
+      "svg": "assets/chapters/006/motif.svg",
+      "alt": "Line motif for 006 The Museum of Me: Three museum plinths and a tiny empty frame"
+    },
+    {
+      "id": "007",
+      "title": "The Opinion I Changed",
+      "part": 1,
+      "motif": "A path that forks and then rejoins",
+      "svg": "assets/chapters/007/motif.svg",
+      "alt": "Line motif for 007 The Opinion I Changed: A path that forks and then rejoins"
+    },
+    {
+      "id": "008",
+      "title": "The Secret Biography",
+      "part": 1,
+      "motif": "A biography page with a half-mask resting in the margin",
+      "svg": "assets/chapters/008/motif.svg",
+      "alt": "Line motif for 008 The Secret Biography: A biography page with a half-mask resting in the margin"
+    },
+    {
+      "id": "009",
+      "title": "The Uncomfortable Truth",
+      "part": 2,
+      "motif": "A sealed envelope with the flap lifted by choice",
+      "svg": "assets/chapters/009/motif.svg",
+      "alt": "Line motif for 009 The Uncomfortable Truth: A sealed envelope with the flap lifted by choice"
+    },
+    {
+      "id": "010",
+      "title": "The Fear Beneath the Fear",
+      "part": 2,
+      "motif": "Nested strata of earth and a small lamp at the lowest layer",
+      "svg": "assets/chapters/010/motif.svg",
+      "alt": "Line motif for 010 The Fear Beneath the Fear: Nested strata of earth and a small lamp at the lowest layer"
+    },
+    {
+      "id": "011",
+      "title": "What I Don’t Show the World",
+      "part": 2,
+      "motif": "A coat on a hook and a brighter garment showing underneath",
+      "svg": "assets/chapters/011/motif.svg",
+      "alt": "Line motif for 011 What I Don’t Show the World: A coat on a hook and a brighter garment showing underneath"
+    },
+    {
+      "id": "012",
+      "title": "The Permission Slip",
+      "part": 2,
+      "motif": "A permission slip with an unused wax seal",
+      "svg": "assets/chapters/012/motif.svg",
+      "alt": "Line motif for 012 The Permission Slip: A permission slip with an unused wax seal"
+    },
+    {
+      "id": "013",
+      "title": "Confession Without Consequence",
+      "part": 2,
+      "motif": "A speech bubble and a separate door labeled pass",
+      "svg": "assets/chapters/013/motif.svg",
+      "alt": "Line motif for 013 Confession Without Consequence: A speech bubble and a separate door labeled pass"
+    },
+    {
+      "id": "014",
+      "title": "The Part of Me That Still Hurts",
+      "part": 2,
+      "motif": "A mended cup with a copper line along the crack",
+      "svg": "assets/chapters/014/motif.svg",
+      "alt": "Line motif for 014 The Part of Me That Still Hurts: A mended cup with a copper line along the crack"
+    },
+    {
+      "id": "015",
+      "title": "When I Feel Small",
+      "part": 2,
+      "motif": "A chair drawn small because the room around it is vast",
+      "svg": "assets/chapters/015/motif.svg",
+      "alt": "Line motif for 015 When I Feel Small: A chair drawn small because the room around it is vast"
+    },
+    {
+      "id": "016",
+      "title": "No Armor Tonight",
+      "part": 2,
+      "motif": "A set of armor left on a stand beside the table",
+      "svg": "assets/chapters/016/motif.svg",
+      "alt": "Line motif for 016 No Armor Tonight: A set of armor left on a stand beside the table"
+    },
+    {
+      "id": "017",
+      "title": "Four Minutes of Forever",
+      "part": 3,
+      "motif": "Two profiles and four minute-marks, with no hearts",
+      "svg": "assets/chapters/017/motif.svg",
+      "alt": "Line motif for 017 Four Minutes of Forever: Two profiles and four minute-marks, with no hearts"
+    },
+    {
+      "id": "018",
+      "title": "The Silent Conversation",
+      "part": 3,
+      "motif": "Hands shaping a sentence in the air while mouths stay closed",
+      "svg": "assets/chapters/018/motif.svg",
+      "alt": "Line motif for 018 The Silent Conversation: Hands shaping a sentence in the air while mouths stay closed"
+    },
+    {
+      "id": "019",
+      "title": "Breathe With Me",
+      "part": 3,
+      "motif": "Two breath arcs meeting over a shared bench",
+      "svg": "assets/chapters/019/motif.svg",
+      "alt": "Line motif for 019 Breathe With Me: Two breath arcs meeting over a shared bench"
+    },
+    {
+      "id": "020",
+      "title": "The Listening Experiment",
+      "part": 3,
+      "motif": "An open speaker and a still listener with words reflected back",
+      "svg": "assets/chapters/020/motif.svg",
+      "alt": "Line motif for 020 The Listening Experiment: An open speaker and a still listener with words reflected back"
+    },
+    {
+      "id": "021",
+      "title": "The Trust Walk",
+      "part": 3,
+      "motif": "A blindfold offered, not tied, and a clear hallway",
+      "svg": "assets/chapters/021/motif.svg",
+      "alt": "Line motif for 021 The Trust Walk: A blindfold offered, not tied, and a clear hallway"
+    },
+    {
+      "id": "022",
+      "title": "The Language of Touch",
+      "part": 3,
+      "motif": "An open palm hovering, waiting to be welcomed",
+      "svg": "assets/chapters/022/motif.svg",
+      "alt": "Line motif for 022 The Language of Touch: An open palm hovering, waiting to be welcomed"
+    },
+    {
+      "id": "023",
+      "title": "The Sixty-Second Embrace",
+      "part": 3,
+      "motif": "Two figures in a still embrace and a single minute-mark",
+      "svg": "assets/chapters/023/motif.svg",
+      "alt": "Line motif for 023 The Sixty-Second Embrace: Two figures in a still embrace and a single minute-mark"
+    },
+    {
+      "id": "024",
+      "title": "The Presence Challenge",
+      "part": 3,
+      "motif": "A phone lying face down on a cleared table",
+      "svg": "assets/chapters/024/motif.svg",
+      "alt": "Line motif for 024 The Presence Challenge: A phone lying face down on a cleared table"
+    },
+    {
+      "id": "025",
+      "title": "What Loving Me Actually Looks Like",
+      "part": 4,
+      "motif": "A scatter of loving gestures drawn as objects, not five labeled boxes",
+      "svg": "assets/chapters/025/motif.svg",
+      "alt": "Line motif for 025 What Loving Me Actually Looks Like: A scatter of loving gestures drawn as objects, not five labeled boxes"
+    },
+    {
+      "id": "026",
+      "title": "The Appreciation Avalanche",
+      "part": 4,
+      "motif": "Notes stacking from vague praise to a specific memory",
+      "svg": "assets/chapters/026/motif.svg",
+      "alt": "Line motif for 026 The Appreciation Avalanche: Notes stacking from vague praise to a specific memory"
+    },
+    {
+      "id": "027",
+      "title": "The Moment I Knew",
+      "part": 4,
+      "motif": "A clock stopped on one remembered hour",
+      "svg": "assets/chapters/027/motif.svg",
+      "alt": "Line motif for 027 The Moment I Knew: A clock stopped on one remembered hour"
+    },
+    {
+      "id": "028",
+      "title": "Instructions for Loving Me",
+      "part": 4,
+      "motif": "A playful owner's manual with warning labels",
+      "svg": "assets/chapters/028/motif.svg",
+      "alt": "Line motif for 028 Instructions for Loving Me: A playful owner's manual with warning labels"
+    },
+    {
+      "id": "029",
+      "title": "The Reassurance Menu",
+      "part": 4,
+      "motif": "A small menu card, a kettle, and four weather marks",
+      "svg": "assets/chapters/029/motif.svg",
+      "alt": "Line motif for 029 The Reassurance Menu: A small menu card, a kettle, and four weather marks"
+    },
+    {
+      "id": "030",
+      "title": "The Compliment You Can’t Dodge",
+      "part": 4,
+      "motif": "A compliment card that stays on the receiver's side of the table",
+      "svg": "assets/chapters/030/motif.svg",
+      "alt": "Line motif for 030 The Compliment You Can’t Dodge: A compliment card that stays on the receiver's side of the table"
+    },
+    {
+      "id": "031",
+      "title": "A Love Letter From the Future",
+      "part": 4,
+      "motif": "A letter dated years ahead, sealed but not prophetic",
+      "svg": "assets/chapters/031/motif.svg",
+      "alt": "Line motif for 031 A Love Letter From the Future: A letter dated years ahead, sealed but not prophetic"
+    },
+    {
+      "id": "032",
+      "title": "The Everyday Devotion Experiment",
+      "part": 4,
+      "motif": "Seven tiny copper marks across ordinary days, not a score chart",
+      "svg": "assets/chapters/032/motif.svg",
+      "alt": "Line motif for 032 The Everyday Devotion Experiment: Seven tiny copper marks across ordinary days, not a score chart"
+    },
+    {
+      "id": "033",
+      "title": "The Attraction Interview",
+      "part": 5,
+      "motif": "Two sparks on one timeline, years apart",
+      "svg": "assets/chapters/033/motif.svg",
+      "alt": "Line motif for 033 The Attraction Interview: Two sparks on one timeline, years apart"
+    },
+    {
+      "id": "034",
+      "title": "The Yes, No, Maybe Game",
+      "part": 5,
+      "motif": "Three equal cards reading yes, no, and maybe",
+      "svg": "assets/chapters/034/motif.svg",
+      "alt": "Line motif for 034 The Yes, No, Maybe Game: Three equal cards reading yes, no, and maybe"
+    },
+    {
+      "id": "035",
+      "title": "The Art of Anticipation",
+      "part": 5,
+      "motif": "A trail of small notes leading to a set table",
+      "svg": "assets/chapters/035/motif.svg",
+      "alt": "Line motif for 035 The Art of Anticipation: A trail of small notes leading to a set table"
+    },
+    {
+      "id": "036",
+      "title": "The Sensory Date",
+      "part": 5,
+      "motif": "A record, a citrus peel, a cloth, a glass, and a low lamp",
+      "svg": "assets/chapters/036/motif.svg",
+      "alt": "Line motif for 036 The Sensory Date: A record, a citrus peel, a cloth, a glass, and a low lamp"
+    },
+    {
+      "id": "037",
+      "title": "The Desire Nobody Asked About",
+      "part": 5,
+      "motif": "A closed locket on an open palm",
+      "svg": "assets/chapters/037/motif.svg",
+      "alt": "Line motif for 037 The Desire Nobody Asked About: A closed locket on an open palm"
+    },
+    {
+      "id": "038",
+      "title": "The Slow Dance With No Music",
+      "part": 5,
+      "motif": "Two pairs of bare feet and an empty music stand",
+      "svg": "assets/chapters/038/motif.svg",
+      "alt": "Line motif for 038 The Slow Dance With No Music: Two pairs of bare feet and an empty music stand"
+    },
+    {
+      "id": "039",
+      "title": "The Romantic Time Machine",
+      "part": 5,
+      "motif": "One doorway wearing two different centuries",
+      "svg": "assets/chapters/039/motif.svg",
+      "alt": "Line motif for 039 The Romantic Time Machine: One doorway wearing two different centuries"
+    },
+    {
+      "id": "040",
+      "title": "The Intimacy Blueprint",
+      "part": 5,
+      "motif": "A room plan with space, light, and a closed door that can stay closed",
+      "svg": "assets/chapters/040/motif.svg",
+      "alt": "Line motif for 040 The Intimacy Blueprint: A room plan with space, light, and a closed door that can stay closed"
+    },
+    {
+      "id": "041",
+      "title": "Two Truths and a Beautiful Lie",
+      "part": 6,
+      "motif": "Three story cards, one of them slightly crooked",
+      "svg": "assets/chapters/041/motif.svg",
+      "alt": "Line motif for 041 Two Truths and a Beautiful Lie: Three story cards, one of them slightly crooked"
+    },
+    {
+      "id": "042",
+      "title": "Would You Rather: Unhinged Edition",
+      "part": 6,
+      "motif": "A fork in the road with a ridiculous hat on each path",
+      "svg": "assets/chapters/042/motif.svg",
+      "alt": "Line motif for 042 Would You Rather: Unhinged Edition: A fork in the road with a ridiculous hat on each path"
+    },
+    {
+      "id": "043",
+      "title": "The Newlywed Game, Without the Wedding",
+      "part": 6,
+      "motif": "Two quiz paddles and a wedding cake lightly crossed out",
+      "svg": "assets/chapters/043/motif.svg",
+      "alt": "Line motif for 043 The Newlywed Game, Without the Wedding: Two quiz paddles and a wedding cake lightly crossed out"
+    },
+    {
+      "id": "044",
+      "title": "The Ridiculous Role Reversal",
+      "part": 6,
+      "motif": "Two coats swapped, sleeves comically wrong",
+      "svg": "assets/chapters/044/motif.svg",
+      "alt": "Line motif for 044 The Ridiculous Role Reversal: Two coats swapped, sleeves comically wrong"
+    },
+    {
+      "id": "045",
+      "title": "The Great Debate of Absolutely Nothing",
+      "part": 6,
+      "motif": "A teacup podium and a tiny gavel",
+      "svg": "assets/chapters/045/motif.svg",
+      "alt": "Line motif for 045 The Great Debate of Absolutely Nothing: A teacup podium and a tiny gavel"
+    },
+    {
+      "id": "046",
+      "title": "The Alternate Universe Couple",
+      "part": 6,
+      "motif": "A small planet with two homemade flags",
+      "svg": "assets/chapters/046/motif.svg",
+      "alt": "Line motif for 046 The Alternate Universe Couple: A small planet with two homemade flags"
+    },
+    {
+      "id": "047",
+      "title": "Truth, Dare, or Discover",
+      "part": 6,
+      "motif": "Three doors marked truth, dare, and discover, each with a pass key",
+      "svg": "assets/chapters/047/motif.svg",
+      "alt": "Line motif for 047 Truth, Dare, or Discover: Three doors marked truth, dare, and discover, each with a pass key"
+    },
+    {
+      "id": "048",
+      "title": "The Secret Mission Exchange",
+      "part": 6,
+      "motif": "Sealed mission envelopes on a week calendar",
+      "svg": "assets/chapters/048/motif.svg",
+      "alt": "Line motif for 048 The Secret Mission Exchange: Sealed mission envelopes on a week calendar"
+    },
+    {
+      "id": "049",
+      "title": "The Life Not Taken",
+      "part": 7,
+      "motif": "A map with a second road drawn faintly beside the lived one",
+      "svg": "assets/chapters/049/motif.svg",
+      "alt": "Line motif for 049 The Life Not Taken: A map with a second road drawn faintly beside the lived one"
+    },
+    {
+      "id": "050",
+      "title": "The Things That Make Life Worth Living",
+      "part": 7,
+      "motif": "Ordinary objects arranged like treasures on a table",
+      "svg": "assets/chapters/050/motif.svg",
+      "alt": "Line motif for 050 The Things That Make Life Worth Living: Ordinary objects arranged like treasures on a table"
+    },
+    {
+      "id": "051",
+      "title": "The Unfinished Version of Me",
+      "part": 7,
+      "motif": "A portrait whose outline is still in pencil",
+      "svg": "assets/chapters/051/motif.svg",
+      "alt": "Line motif for 051 The Unfinished Version of Me: A portrait whose outline is still in pencil"
+    },
+    {
+      "id": "052",
+      "title": "The Belief Beneath the Belief",
+      "part": 7,
+      "motif": "A stone split to show another stone inside",
+      "svg": "assets/chapters/052/motif.svg",
+      "alt": "Line motif for 052 The Belief Beneath the Belief: A stone split to show another stone inside"
+    },
+    {
+      "id": "053",
+      "title": "If Nobody Were Watching",
+      "part": 7,
+      "motif": "An empty theater and one willing figure on the stage",
+      "svg": "assets/chapters/053/motif.svg",
+      "alt": "Line motif for 053 If Nobody Were Watching: An empty theater and one willing figure on the stage"
+    },
+    {
+      "id": "054",
+      "title": "The Personal Mythology",
+      "part": 7,
+      "motif": "A mythic beast sketched in the margin of a life",
+      "svg": "assets/chapters/054/motif.svg",
+      "alt": "Line motif for 054 The Personal Mythology: A mythic beast sketched in the margin of a life"
+    },
+    {
+      "id": "055",
+      "title": "What I Want to Experience Before I Die",
+      "part": 7,
+      "motif": "A list holding both a mountain and a Tuesday lunch",
+      "svg": "assets/chapters/055/motif.svg",
+      "alt": "Line motif for 055 What I Want to Experience Before I Die: A list holding both a mountain and a Tuesday lunch"
+    },
+    {
+      "id": "056",
+      "title": "The Questions Without Answers",
+      "part": 7,
+      "motif": "A constellation of question marks and no answer key",
+      "svg": "assets/chapters/056/motif.svg",
+      "alt": "Line motif for 056 The Questions Without Answers: A constellation of question marks and no answer key"
+    },
+    {
+      "id": "057",
+      "title": "The Instruction Manual for My Bad Days",
+      "part": 8,
+      "motif": "A field manual, a kettle, and a folded blanket",
+      "svg": "assets/chapters/057/motif.svg",
+      "alt": "Line motif for 057 The Instruction Manual for My Bad Days: A field manual, a kettle, and a folded blanket"
+    },
+    {
+      "id": "058",
+      "title": "What You Heard vs. What I Meant",
+      "part": 8,
+      "motif": "Two speech bubbles that do not match, and a gentle pencil",
+      "svg": "assets/chapters/058/motif.svg",
+      "alt": "Line motif for 058 What You Heard vs. What I Meant: Two speech bubbles that do not match, and a gentle pencil"
+    },
+    {
+      "id": "059",
+      "title": "The Gentle Disagreement",
+      "part": 8,
+      "motif": "Two chairs angled toward each other, not a courtroom",
+      "svg": "assets/chapters/059/motif.svg",
+      "alt": "Line motif for 059 The Gentle Disagreement: Two chairs angled toward each other, not a courtroom"
+    },
+    {
+      "id": "060",
+      "title": "The Repair Shop",
+      "part": 8,
+      "motif": "A small repair bench with thread and no pointing arrow",
+      "svg": "assets/chapters/060/motif.svg",
+      "alt": "Line motif for 060 The Repair Shop: A small repair bench with thread and no pointing arrow"
+    },
+    {
+      "id": "061",
+      "title": "The Invisible Need",
+      "part": 8,
+      "motif": "A need outlined inside the shape of a joke",
+      "svg": "assets/chapters/061/motif.svg",
+      "alt": "Line motif for 061 The Invisible Need: A need outlined inside the shape of a joke"
+    },
+    {
+      "id": "062",
+      "title": "The Safety Map",
+      "part": 8,
+      "motif": "A house plan with warm rooms and drafty rooms",
+      "svg": "assets/chapters/062/motif.svg",
+      "alt": "Line motif for 062 The Safety Map: A house plan with warm rooms and drafty rooms"
+    },
+    {
+      "id": "063",
+      "title": "The Appreciation Behind the Complaint",
+      "part": 8,
+      "motif": "A complaint card folded to reveal a wish on the reverse",
+      "svg": "assets/chapters/063/motif.svg",
+      "alt": "Line motif for 063 The Appreciation Behind the Complaint: A complaint card folded to reveal a wish on the reverse"
+    },
+    {
+      "id": "064",
+      "title": "The Trust Bank",
+      "part": 8,
+      "motif": "A jar of small coins, deposits and one withdrawal",
+      "svg": "assets/chapters/064/motif.svg",
+      "alt": "Line motif for 064 The Trust Bank: A jar of small coins, deposits and one withdrawal"
+    },
+    {
+      "id": "065",
+      "title": "The First-Time Challenge",
+      "part": 9,
+      "motif": "A door neither person has opened, two hands on one handle",
+      "svg": "assets/chapters/065/motif.svg",
+      "alt": "Line motif for 065 The First-Time Challenge: A door neither person has opened, two hands on one handle"
+    },
+    {
+      "id": "066",
+      "title": "The Twenty-Dollar Adventure",
+      "part": 9,
+      "motif": "A banknote folded into a paper boat",
+      "svg": "assets/chapters/066/motif.svg",
+      "alt": "Line motif for 066 The Twenty-Dollar Adventure: A banknote folded into a paper boat"
+    },
+    {
+      "id": "067",
+      "title": "The Comfort Zone Exchange",
+      "part": 9,
+      "motif": "Two comfort circles and a third circle just outside them",
+      "svg": "assets/chapters/067/motif.svg",
+      "alt": "Line motif for 067 The Comfort Zone Exchange: Two comfort circles and a third circle just outside them"
+    },
+    {
+      "id": "068",
+      "title": "The Night of Random Decisions",
+      "part": 9,
+      "motif": "Dice, a coin, and a card, each with a small veto mark",
+      "svg": "assets/chapters/068/motif.svg",
+      "alt": "Line motif for 068 The Night of Random Decisions: Dice, a coin, and a card, each with a small veto mark"
+    },
+    {
+      "id": "069",
+      "title": "Build Something Together",
+      "part": 9,
+      "motif": "Two piles of parts becoming one built object",
+      "svg": "assets/chapters/069/motif.svg",
+      "alt": "Line motif for 069 Build Something Together: Two piles of parts becoming one built object"
+    },
+    {
+      "id": "070",
+      "title": "The World Through Your Eyes",
+      "part": 9,
+      "motif": "A pair of spectacles looking at a landscape only one person knew",
+      "svg": "assets/chapters/070/motif.svg",
+      "alt": "Line motif for 070 The World Through Your Eyes: A pair of spectacles looking at a landscape only one person knew"
+    },
+    {
+      "id": "071",
+      "title": "The Twelve-Hour Vacation",
+      "part": 9,
+      "motif": "An ordinary Tuesday page stamped with a tiny holiday seal",
+      "svg": "assets/chapters/071/motif.svg",
+      "alt": "Line motif for 071 The Twelve-Hour Vacation: An ordinary Tuesday page stamped with a tiny holiday seal"
+    },
+    {
+      "id": "072",
+      "title": "The Shared Courage Experiment",
+      "part": 9,
+      "motif": "A low wall both people can step over together",
+      "svg": "assets/chapters/072/motif.svg",
+      "alt": "Line motif for 072 The Shared Courage Experiment: A low wall both people can step over together"
+    },
+    {
+      "id": "073",
+      "title": "The First Chapter",
+      "part": 10,
+      "motif": "Chapter one written twice and laid side by side",
+      "svg": "assets/chapters/073/motif.svg",
+      "alt": "Line motif for 073 The First Chapter: Chapter one written twice and laid side by side"
+    },
+    {
+      "id": "074",
+      "title": "The Moments You Didn’t Know Mattered",
+      "part": 10,
+      "motif": "A tiny gesture enlarged inside a magnifying glass",
+      "svg": "assets/chapters/074/motif.svg",
+      "alt": "Line motif for 074 The Moments You Didn’t Know Mattered: A tiny gesture enlarged inside a magnifying glass"
+    },
+    {
+      "id": "075",
+      "title": "Our Greatest Hits",
+      "part": 10,
+      "motif": "Tickets, a joke, and a photograph on one string",
+      "svg": "assets/chapters/075/motif.svg",
+      "alt": "Line motif for 075 Our Greatest Hits: Tickets, a joke, and a photograph on one string"
+    },
+    {
+      "id": "076",
+      "title": "The Moment I Saw You Differently",
+      "part": 10,
+      "motif": "The same portrait in two frames, the second one changed",
+      "svg": "assets/chapters/076/motif.svg",
+      "alt": "Line motif for 076 The Moment I Saw You Differently: The same portrait in two frames, the second one changed"
+    },
+    {
+      "id": "077",
+      "title": "The Relationship Timeline",
+      "part": 10,
+      "motif": "A long string timeline with knots for turning points",
+      "svg": "assets/chapters/077/motif.svg",
+      "alt": "Line motif for 077 The Relationship Timeline: A long string timeline with knots for turning points"
+    },
+    {
+      "id": "078",
+      "title": "The Unspoken Thank-You",
+      "part": 10,
+      "motif": "A thank-you card finally addressed",
+      "svg": "assets/chapters/078/motif.svg",
+      "alt": "Line motif for 078 The Unspoken Thank-You: A thank-you card finally addressed"
+    },
+    {
+      "id": "079",
+      "title": "The Soundtrack of Us",
+      "part": 10,
+      "motif": "A ribbon of musical notes running through a row of years",
+      "svg": "assets/chapters/079/motif.svg",
+      "alt": "Line motif for 079 The Soundtrack of Us: A ribbon of musical notes running through a row of years"
+    },
+    {
+      "id": "080",
+      "title": "The Day Worth Reliving",
+      "part": 10,
+      "motif": "One calendar day circled, with both sun and rain",
+      "svg": "assets/chapters/080/motif.svg",
+      "alt": "Line motif for 080 The Day Worth Reliving: One calendar day circled, with both sun and rain"
+    },
+    {
+      "id": "081",
+      "title": "The Forbidden Question Box",
+      "part": 11,
+      "motif": "A question box and a hand setting one slip aside",
+      "svg": "assets/chapters/081/motif.svg",
+      "alt": "Line motif for 081 The Forbidden Question Box: A question box and a hand setting one slip aside"
+    },
+    {
+      "id": "082",
+      "title": "The Moral Gray Area",
+      "part": 11,
+      "motif": "A balance scale that is allowed to stay uneven",
+      "svg": "assets/chapters/082/motif.svg",
+      "alt": "Line motif for 082 The Moral Gray Area: A balance scale that is allowed to stay uneven"
+    },
+    {
+      "id": "083",
+      "title": "The Secret Nobody Would Guess",
+      "part": 11,
+      "motif": "A pocket turned out to show one surprising marble",
+      "svg": "assets/chapters/083/motif.svg",
+      "alt": "Line motif for 083 The Secret Nobody Would Guess: A pocket turned out to show one surprising marble"
+    },
+    {
+      "id": "084",
+      "title": "The Dark Side of Me",
+      "part": 11,
+      "motif": "A shadow given a face and drawn without scorn",
+      "svg": "assets/chapters/084/motif.svg",
+      "alt": "Line motif for 084 The Dark Side of Me: A shadow given a face and drawn without scorn"
+    },
+    {
+      "id": "085",
+      "title": "What Would You Do If…?",
+      "part": 11,
+      "motif": "Three doors under a single handwritten if",
+      "svg": "assets/chapters/085/motif.svg",
+      "alt": "Line motif for 085 What Would You Do If…?: Three doors under a single handwritten if"
+    },
+    {
+      "id": "086",
+      "title": "The Unpopular Opinion Club",
+      "part": 11,
+      "motif": "A small club pin and two cups, no gavel",
+      "svg": "assets/chapters/086/motif.svg",
+      "alt": "Line motif for 086 The Unpopular Opinion Club: A small club pin and two cups, no gavel"
+    },
+    {
+      "id": "087",
+      "title": "The Question Behind the Question",
+      "part": 11,
+      "motif": "Stairs of questions, each one under the last",
+      "svg": "assets/chapters/087/motif.svg",
+      "alt": "Line motif for 087 The Question Behind the Question: Stairs of questions, each one under the last"
+    },
+    {
+      "id": "088",
+      "title": "The Thing I’m Still Figuring Out",
+      "part": 11,
+      "motif": "An unfinished equation left on a napkin",
+      "svg": "assets/chapters/088/motif.svg",
+      "alt": "Line motif for 088 The Thing I’m Still Figuring Out: An unfinished equation left on a napkin"
+    },
+    {
+      "id": "089",
+      "title": "The Relationship We Would Invent",
+      "part": 12,
+      "motif": "A blank constitution and two pens",
+      "svg": "assets/chapters/089/motif.svg",
+      "alt": "Line motif for 089 The Relationship We Would Invent: A blank constitution and two pens"
+    },
+    {
+      "id": "090",
+      "title": "The Future Memory",
+      "part": 12,
+      "motif": "A postcard sent from a day that has not happened yet",
+      "svg": "assets/chapters/090/motif.svg",
+      "alt": "Line motif for 090 The Future Memory: A postcard sent from a day that has not happened yet"
+    },
+    {
+      "id": "091",
+      "title": "What We Want More Of",
+      "part": 12,
+      "motif": "A list titled more of, with no fix-it column",
+      "svg": "assets/chapters/091/motif.svg",
+      "alt": "Line motif for 091 What We Want More Of: A list titled more of, with no fix-it column"
+    },
+    {
+      "id": "092",
+      "title": "The Dream Exchange",
+      "part": 12,
+      "motif": "Two kites on different strings in one sky",
+      "svg": "assets/chapters/092/motif.svg",
+      "alt": "Line motif for 092 The Dream Exchange: Two kites on different strings in one sky"
+    },
+    {
+      "id": "093",
+      "title": "The Relationship Bucket List",
+      "part": 12,
+      "motif": "A suitcase packed with shared plans",
+      "svg": "assets/chapters/093/motif.svg",
+      "alt": "Line motif for 093 The Relationship Bucket List: A suitcase packed with shared plans"
+    },
+    {
+      "id": "094",
+      "title": "The Annual Reintroduction",
+      "part": 12,
+      "motif": "The same door reopened in a new season",
+      "svg": "assets/chapters/094/motif.svg",
+      "alt": "Line motif for 094 The Annual Reintroduction: The same door reopened in a new season"
+    },
+    {
+      "id": "095",
+      "title": "A Promise I Actually Want to Keep",
+      "part": 12,
+      "motif": "A promise short enough to fit on a kept card",
+      "svg": "assets/chapters/095/motif.svg",
+      "alt": "Line motif for 095 A Promise I Actually Want to Keep: A promise short enough to fit on a kept card"
+    },
+    {
+      "id": "096",
+      "title": "The Next Chapter",
+      "part": 12,
+      "motif": "A next-chapter page with the rest of the book unwritten",
+      "svg": "assets/chapters/096/motif.svg",
+      "alt": "Line motif for 096 The Next Chapter: A next-chapter page with the rest of the book unwritten"
+    },
+    {
+      "id": "097",
+      "title": "The Emotional Archaeologists",
+      "part": 13,
+      "motif": "An archaeologist's brush and a label being peeled back",
+      "svg": "assets/chapters/097/motif.svg",
+      "alt": "Line motif for 097 The Emotional Archaeologists: An archaeologist's brush and a label being peeled back"
+    },
+    {
+      "id": "098",
+      "title": "The One-Hundred-Year Interview",
+      "part": 13,
+      "motif": "Two very old teacups and three blank future-memory cards",
+      "svg": "assets/chapters/098/motif.svg",
+      "alt": "Line motif for 098 The One-Hundred-Year Interview: Two very old teacups and three blank future-memory cards"
+    },
+    {
+      "id": "099",
+      "title": "The Invisible Postcards",
+      "part": 13,
+      "motif": "Ordinary-day postcards so small they could be missed",
+      "svg": "assets/chapters/099/motif.svg",
+      "alt": "Line motif for 099 The Invisible Postcards: Ordinary-day postcards so small they could be missed"
+    },
+    {
+      "id": "100",
+      "title": "The Emotional Weather Report",
+      "part": 13,
+      "motif": "An inner weather map and a closed umbrella",
+      "svg": "assets/chapters/100/motif.svg",
+      "alt": "Line motif for 100 The Emotional Weather Report: An inner weather map and a closed umbrella"
+    },
+    {
+      "id": "101",
+      "title": "The Borrowed Brain Experiment",
+      "part": 13,
+      "motif": "Two borrowed hats over one scenario card",
+      "svg": "assets/chapters/101/motif.svg",
+      "alt": "Line motif for 101 The Borrowed Brain Experiment: Two borrowed hats over one scenario card"
+    },
+    {
+      "id": "102",
+      "title": "The Museum of Unsaid Things",
+      "part": 13,
+      "motif": "Twin museum labels: what happened, and what I wish you understood",
+      "svg": "assets/chapters/102/motif.svg",
+      "alt": "Line motif for 102 The Museum of Unsaid Things: Twin museum labels: what happened, and what I wish you understood"
+    },
+    {
+      "id": "103",
+      "title": "The Relationship Escape Room",
+      "part": 13,
+      "motif": "A room, split clues, and two keys that turn together",
+      "svg": "assets/chapters/103/motif.svg",
+      "alt": "Line motif for 103 The Relationship Escape Room: A room, split clues, and two keys that turn together"
+    },
+    {
+      "id": "104",
+      "title": "The Two-Person Civilization",
+      "part": 13,
+      "motif": "A tiny map of a civilization and a storm-shaped event card",
+      "svg": "assets/chapters/104/motif.svg",
+      "alt": "Line motif for 104 The Two-Person Civilization: A tiny map of a civilization and a storm-shaped event card"
+    },
+    {
+      "id": "105",
+      "title": "The Compliment Decoder",
+      "part": 13,
+      "motif": "Five compliments written as coded tickets",
+      "svg": "assets/chapters/105/motif.svg",
+      "alt": "Line motif for 105 The Compliment Decoder: Five compliments written as coded tickets"
+    },
+    {
+      "id": "106",
+      "title": "The Intimacy Negotiators",
+      "part": 13,
+      "motif": "One hundred beads and two bowls, with no demand",
+      "svg": "assets/chapters/106/motif.svg",
+      "alt": "Line motif for 106 The Intimacy Negotiators: One hundred beads and two bowls, with no demand"
+    },
+    {
+      "id": "107",
+      "title": "The Memory Smuggler",
+      "part": 13,
+      "motif": "A true story with one smuggled star",
+      "svg": "assets/chapters/107/motif.svg",
+      "alt": "Line motif for 107 The Memory Smuggler: A true story with one smuggled star"
+    },
+    {
+      "id": "108",
+      "title": "The Secret Door",
+      "part": 13,
+      "motif": "A corridor of doors and keys that can be offered or kept",
+      "svg": "assets/chapters/108/motif.svg",
+      "alt": "Line motif for 108 The Secret Door: A corridor of doors and keys that can be offered or kept"
+    }
+  ]
+}

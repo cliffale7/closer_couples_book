@@ -1,0 +1,14 @@
+{
+  "checksums_match_source_file": true,
+  "checksums": {
+    "The_Closer_Project_Concept_and_Feedback_Invitation.docx": "8bebf324b4a945a7440a00b5fd4ca714dece7e555a4e3f6c5894381c3758724a",
+    "The_Closer_Project_Working_Manuscript_v0.1.docx": "48f6d32c94e3b0bac1e6e3df3007203ffae30104dcc03015aa8f2b15de6b821e"
+  },
+  "docx_paragraphs": 560,
+  "docx_tables": 1,
+  "entries_found_in_docx": 108,
+  "title_mismatches": [],
+  "premise_mismatches": [],
+  "issues": [],
+  "pass": true
+}

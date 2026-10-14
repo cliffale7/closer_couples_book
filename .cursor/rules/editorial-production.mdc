@@ -1,0 +1,12 @@
+---
+description: Editorial and production rules for The Closer Project book, journal, and research.
+alwaysApply: true
+---
+
+# The Closer Project
+
+Follow `CURSOR_MASTER_WORK_ORDER.md`. Keep all 108 catalog titles, IDs, and part placements. Signature sessions are S01–S06 only. Never mention or design around a scavenger hunt.
+
+Write for two intelligent adults who already enjoy each other. Consent, passing, and privacy are part of the activity, not a legal banner on every page. Do not fabricate the couple’s memories or citations. Cite only `research/CITATION_WHITELIST.md` unless an evidence review adds a source. Keep real notes out of Git: `journal/private/` is ignored.
+
+Chapters follow `styles/CHAPTER_CONTRACT.md` and `styles/HOUSE_STYLE.md`. Do not publish source expansion briefs as chapters. Do not mark a release complete without files and a validation run.

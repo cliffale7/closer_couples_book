@@ -1,0 +1,1225 @@
+{
+  "project": "The Closer Project",
+  "edition": "v1-draft",
+  "updated": "2026-10-14",
+  "phase": "1-research-art-layout",
+  "source_audit": "pass",
+  "chapters": {
+    "001": {
+      "title": "The Stranger Across From Me",
+      "part": 1,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [
+        "A1997",
+        "L1998"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "002": {
+      "title": "The Life You’ve Never Told Me",
+      "part": 1,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [
+        "L1998"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "003": {
+      "title": "The Five Defining Moments",
+      "part": 1,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [
+        "L1998"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "004": {
+      "title": "Before I Was Me",
+      "part": 1,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "005": {
+      "title": "The Things Nobody Thinks to Ask",
+      "part": 1,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [
+        "L1998"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "006": {
+      "title": "The Museum of Me",
+      "part": 1,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [
+        "102"
+      ],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "007": {
+      "title": "The Opinion I Changed",
+      "part": 1,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "008": {
+      "title": "The Secret Biography",
+      "part": 1,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [
+        "L1998"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "009": {
+      "title": "The Uncomfortable Truth",
+      "part": 2,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [
+        "L1998"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "010": {
+      "title": "The Fear Beneath the Fear",
+      "part": 2,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [
+        "L1998"
+      ],
+      "near_duplicates": [
+        "097"
+      ],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "011": {
+      "title": "What I Don’t Show the World",
+      "part": 2,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [
+        "L1998"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "012": {
+      "title": "The Permission Slip",
+      "part": 2,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "013": {
+      "title": "Confession Without Consequence",
+      "part": 2,
+      "state": "unstarted",
+      "classification_seed": "mixed",
+      "source_hints": [
+        "L1998"
+      ],
+      "near_duplicates": [
+        "108"
+      ],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "014": {
+      "title": "The Part of Me That Still Hurts",
+      "part": 2,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [
+        "L1998"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "015": {
+      "title": "When I Feel Small",
+      "part": 2,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [
+        "L1998"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "016": {
+      "title": "No Armor Tonight",
+      "part": 2,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [
+        "L1998"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "017": {
+      "title": "Four Minutes of Forever",
+      "part": 3,
+      "state": "unstarted",
+      "classification_seed": "mixed",
+      "source_hints": [
+        "K1989"
+      ],
+      "near_duplicates": [
+        "019"
+      ],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "018": {
+      "title": "The Silent Conversation",
+      "part": 3,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "019": {
+      "title": "Breathe With Me",
+      "part": 3,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "020": {
+      "title": "The Listening Experiment",
+      "part": 3,
+      "state": "unstarted",
+      "classification_seed": "mixed",
+      "source_hints": [
+        "L1998",
+        "G2004"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "021": {
+      "title": "The Trust Walk",
+      "part": 3,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "022": {
+      "title": "The Language of Touch",
+      "part": 3,
+      "state": "unstarted",
+      "classification_seed": "mixed",
+      "source_hints": [
+        "J2017"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "023": {
+      "title": "The Sixty-Second Embrace",
+      "part": 3,
+      "state": "unstarted",
+      "classification_seed": "mixed",
+      "source_hints": [
+        "J2017"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "024": {
+      "title": "The Presence Challenge",
+      "part": 3,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "025": {
+      "title": "What Loving Me Actually Looks Like",
+      "part": 4,
+      "state": "unstarted",
+      "classification_seed": "mixed",
+      "source_hints": [
+        "I2024"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "026": {
+      "title": "The Appreciation Avalanche",
+      "part": 4,
+      "state": "unstarted",
+      "classification_seed": "mixed",
+      "source_hints": [
+        "G2012",
+        "G2004"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "027": {
+      "title": "The Moment I Knew",
+      "part": 4,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "028": {
+      "title": "Instructions for Loving Me",
+      "part": 4,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "029": {
+      "title": "The Reassurance Menu",
+      "part": 4,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "030": {
+      "title": "The Compliment You Can’t Dodge",
+      "part": 4,
+      "state": "unstarted",
+      "classification_seed": "mixed",
+      "source_hints": [
+        "G2012"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "031": {
+      "title": "A Love Letter From the Future",
+      "part": 4,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "032": {
+      "title": "The Everyday Devotion Experiment",
+      "part": 4,
+      "state": "unstarted",
+      "classification_seed": "mixed",
+      "source_hints": [
+        "G2012"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "033": {
+      "title": "The Attraction Interview",
+      "part": 5,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "034": {
+      "title": "The Yes, No, Maybe Game",
+      "part": 5,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "035": {
+      "title": "The Art of Anticipation",
+      "part": 5,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "036": {
+      "title": "The Sensory Date",
+      "part": 5,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [
+        "J2017"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "037": {
+      "title": "The Desire Nobody Asked About",
+      "part": 5,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "038": {
+      "title": "The Slow Dance With No Music",
+      "part": 5,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "039": {
+      "title": "The Romantic Time Machine",
+      "part": 5,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "040": {
+      "title": "The Intimacy Blueprint",
+      "part": 5,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "041": {
+      "title": "Two Truths and a Beautiful Lie",
+      "part": 6,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [
+        "107"
+      ],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "042": {
+      "title": "Would You Rather: Unhinged Edition",
+      "part": 6,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "043": {
+      "title": "The Newlywed Game, Without the Wedding",
+      "part": 6,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [
+        "101"
+      ],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "044": {
+      "title": "The Ridiculous Role Reversal",
+      "part": 6,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "045": {
+      "title": "The Great Debate of Absolutely Nothing",
+      "part": 6,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "046": {
+      "title": "The Alternate Universe Couple",
+      "part": 6,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "047": {
+      "title": "Truth, Dare, or Discover",
+      "part": 6,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "048": {
+      "title": "The Secret Mission Exchange",
+      "part": 6,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [
+        "099"
+      ],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "049": {
+      "title": "The Life Not Taken",
+      "part": 7,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "050": {
+      "title": "The Things That Make Life Worth Living",
+      "part": 7,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "051": {
+      "title": "The Unfinished Version of Me",
+      "part": 7,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "052": {
+      "title": "The Belief Beneath the Belief",
+      "part": 7,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "053": {
+      "title": "If Nobody Were Watching",
+      "part": 7,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "054": {
+      "title": "The Personal Mythology",
+      "part": 7,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "055": {
+      "title": "What I Want to Experience Before I Die",
+      "part": 7,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "056": {
+      "title": "The Questions Without Answers",
+      "part": 7,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "057": {
+      "title": "The Instruction Manual for My Bad Days",
+      "part": 8,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [
+        "GOTTMAN"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "058": {
+      "title": "What You Heard vs. What I Meant",
+      "part": 8,
+      "state": "unstarted",
+      "classification_seed": "mixed",
+      "source_hints": [
+        "GOTTMAN",
+        "L1998"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "059": {
+      "title": "The Gentle Disagreement",
+      "part": 8,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [
+        "GOTTMAN"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "060": {
+      "title": "The Repair Shop",
+      "part": 8,
+      "state": "unstarted",
+      "classification_seed": "mixed",
+      "source_hints": [
+        "GOTTMAN"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "061": {
+      "title": "The Invisible Need",
+      "part": 8,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [
+        "L1998"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "062": {
+      "title": "The Safety Map",
+      "part": 8,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "063": {
+      "title": "The Appreciation Behind the Complaint",
+      "part": 8,
+      "state": "unstarted",
+      "classification_seed": "mixed",
+      "source_hints": [
+        "GOTTMAN"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "064": {
+      "title": "The Trust Bank",
+      "part": 8,
+      "state": "unstarted",
+      "classification_seed": "mixed",
+      "source_hints": [
+        "GOTTMAN"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "065": {
+      "title": "The First-Time Challenge",
+      "part": 9,
+      "state": "unstarted",
+      "classification_seed": "mixed",
+      "source_hints": [
+        "A2000"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "066": {
+      "title": "The Twenty-Dollar Adventure",
+      "part": 9,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "067": {
+      "title": "The Comfort Zone Exchange",
+      "part": 9,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "068": {
+      "title": "The Night of Random Decisions",
+      "part": 9,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "069": {
+      "title": "Build Something Together",
+      "part": 9,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "070": {
+      "title": "The World Through Your Eyes",
+      "part": 9,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "071": {
+      "title": "The Twelve-Hour Vacation",
+      "part": 9,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "072": {
+      "title": "The Shared Courage Experiment",
+      "part": 9,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "073": {
+      "title": "The First Chapter",
+      "part": 10,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "074": {
+      "title": "The Moments You Didn’t Know Mattered",
+      "part": 10,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [
+        "G2012"
+      ],
+      "near_duplicates": [
+        "099"
+      ],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "075": {
+      "title": "Our Greatest Hits",
+      "part": 10,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "076": {
+      "title": "The Moment I Saw You Differently",
+      "part": 10,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "077": {
+      "title": "The Relationship Timeline",
+      "part": 10,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "078": {
+      "title": "The Unspoken Thank-You",
+      "part": 10,
+      "state": "unstarted",
+      "classification_seed": "mixed",
+      "source_hints": [
+        "G2012"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "079": {
+      "title": "The Soundtrack of Us",
+      "part": 10,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "080": {
+      "title": "The Day Worth Reliving",
+      "part": 10,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "081": {
+      "title": "The Forbidden Question Box",
+      "part": 11,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "082": {
+      "title": "The Moral Gray Area",
+      "part": 11,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "083": {
+      "title": "The Secret Nobody Would Guess",
+      "part": 11,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "084": {
+      "title": "The Dark Side of Me",
+      "part": 11,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "085": {
+      "title": "What Would You Do If…?",
+      "part": 11,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "086": {
+      "title": "The Unpopular Opinion Club",
+      "part": 11,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "087": {
+      "title": "The Question Behind the Question",
+      "part": 11,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [
+        "L1998"
+      ],
+      "near_duplicates": [
+        "010"
+      ],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "088": {
+      "title": "The Thing I’m Still Figuring Out",
+      "part": 11,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "089": {
+      "title": "The Relationship We Would Invent",
+      "part": 12,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [
+        "104"
+      ],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "090": {
+      "title": "The Future Memory",
+      "part": 12,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [
+        "098"
+      ],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "091": {
+      "title": "What We Want More Of",
+      "part": 12,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "092": {
+      "title": "The Dream Exchange",
+      "part": 12,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "093": {
+      "title": "The Relationship Bucket List",
+      "part": 12,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "094": {
+      "title": "The Annual Reintroduction",
+      "part": 12,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "095": {
+      "title": "A Promise I Actually Want to Keep",
+      "part": 12,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "096": {
+      "title": "The Next Chapter",
+      "part": 12,
+      "state": "unstarted",
+      "classification_seed": "reimagined",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "097": {
+      "title": "The Emotional Archaeologists",
+      "part": 13,
+      "state": "unstarted",
+      "classification_seed": "original-formulation",
+      "source_hints": [
+        "L1998"
+      ],
+      "near_duplicates": [
+        "010"
+      ],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "098": {
+      "title": "The One-Hundred-Year Interview",
+      "part": 13,
+      "state": "unstarted",
+      "classification_seed": "original-formulation",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "099": {
+      "title": "The Invisible Postcards",
+      "part": 13,
+      "state": "unstarted",
+      "classification_seed": "original-formulation",
+      "source_hints": [
+        "G2012"
+      ],
+      "near_duplicates": [
+        "074"
+      ],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "100": {
+      "title": "The Emotional Weather Report",
+      "part": 13,
+      "state": "unstarted",
+      "classification_seed": "original-formulation",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "101": {
+      "title": "The Borrowed Brain Experiment",
+      "part": 13,
+      "state": "unstarted",
+      "classification_seed": "original-formulation",
+      "source_hints": [],
+      "near_duplicates": [
+        "043"
+      ],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "102": {
+      "title": "The Museum of Unsaid Things",
+      "part": 13,
+      "state": "unstarted",
+      "classification_seed": "original-formulation",
+      "source_hints": [],
+      "near_duplicates": [
+        "006"
+      ],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "103": {
+      "title": "The Relationship Escape Room",
+      "part": 13,
+      "state": "unstarted",
+      "classification_seed": "original-formulation",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "104": {
+      "title": "The Two-Person Civilization",
+      "part": 13,
+      "state": "unstarted",
+      "classification_seed": "original-formulation",
+      "source_hints": [],
+      "near_duplicates": [
+        "089"
+      ],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "105": {
+      "title": "The Compliment Decoder",
+      "part": 13,
+      "state": "unstarted",
+      "classification_seed": "original-formulation",
+      "source_hints": [
+        "G2012"
+      ],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "106": {
+      "title": "The Intimacy Negotiators",
+      "part": 13,
+      "state": "unstarted",
+      "classification_seed": "original-formulation",
+      "source_hints": [],
+      "near_duplicates": [],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "107": {
+      "title": "The Memory Smuggler",
+      "part": 13,
+      "state": "unstarted",
+      "classification_seed": "original-formulation",
+      "source_hints": [],
+      "near_duplicates": [
+        "041"
+      ],
+      "word_count": 0,
+      "artifacts": []
+    },
+    "108": {
+      "title": "The Secret Door",
+      "part": 13,
+      "state": "unstarted",
+      "classification_seed": "original-formulation",
+      "source_hints": [],
+      "near_duplicates": [
+        "013"
+      ],
+      "word_count": 0,
+      "artifacts": []
+    }
+  },
+  "signatures": {
+    "S01": {
+      "title": "The Long Table",
+      "state": "unstarted"
+    },
+    "S02": {
+      "title": "The Night With the Lights Low",
+      "state": "unstarted"
+    },
+    "S03": {
+      "title": "The Case of the Missing Tuesday",
+      "state": "unstarted"
+    },
+    "S04": {
+      "title": "The Branching Evening",
+      "state": "unstarted"
+    },
+    "S05": {
+      "title": "The Capsule We Open Later",
+      "state": "unstarted"
+    },
+    "S06": {
+      "title": "The Long Toast",
+      "state": "unstarted"
+    }
+  }
+}

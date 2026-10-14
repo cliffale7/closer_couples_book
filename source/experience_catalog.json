@@ -1,0 +1,1276 @@
+{
+  "project": "The Closer Project",
+  "source_edition": "v0.1",
+  "total_experiences": 108,
+  "total_parts": 13,
+  "parts": [
+    {
+      "part_number": 1,
+      "part_title": "The Art of Really Knowing Someone",
+      "ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "part_number": 2,
+      "part_title": "Vulnerability and the Courage to Be Seen",
+      "ids": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "part_number": 3,
+      "part_title": "The Science and Experience of Closeness",
+      "ids": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "part_number": 4,
+      "part_title": "Love, Affection, and Feeling Chosen",
+      "ids": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "part_number": 5,
+      "part_title": "Desire, Attraction, and Sensual Intimacy",
+      "ids": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "part_number": 6,
+      "part_title": "Playfulness, Laughter, and a Little Mischief",
+      "ids": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ]
+    },
+    {
+      "part_number": 7,
+      "part_title": "The Inner World: Dreams, Meaning, and Identity",
+      "ids": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ]
+    },
+    {
+      "part_number": 8,
+      "part_title": "Trust, Communication, and Emotional Safety",
+      "ids": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
+      ]
+    },
+    {
+      "part_number": 9,
+      "part_title": "Shared Adventures and New Experiences",
+      "ids": [
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ]
+    },
+    {
+      "part_number": 10,
+      "part_title": "The Past, the Present, and the Story of Us",
+      "ids": [
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ]
+    },
+    {
+      "part_number": 11,
+      "part_title": "Radical Curiosity and the Surprising Stuff",
+      "ids": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88
+      ]
+    },
+    {
+      "part_number": 12,
+      "part_title": "Building a Closer Future Together",
+      "ids": [
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ]
+    },
+    {
+      "part_number": 13,
+      "part_title": "The Inventor’s Workshop: Original Proposals",
+      "ids": [
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "id": 1,
+      "display_id": "001",
+      "title": "The Stranger Across From Me",
+      "part_number": 1,
+      "part_title": "The Art of Really Knowing Someone",
+      "source_premise": "Pretend you have just met. Interview one another as fascinating strangers and discover how familiarity can hide curiosity.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 2,
+      "display_id": "002",
+      "title": "The Life You’ve Never Told Me",
+      "part_number": 1,
+      "part_title": "The Art of Really Knowing Someone",
+      "source_premise": "Share a significant episode of life the other has never heard in detail, including turning points and formative relationships.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 3,
+      "display_id": "003",
+      "title": "The Five Defining Moments",
+      "part_number": 1,
+      "part_title": "The Art of Really Knowing Someone",
+      "source_premise": "Identify five experiences that fundamentally changed who you are and explain their ongoing influence.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 4,
+      "display_id": "004",
+      "title": "Before I Was Me",
+      "part_number": 1,
+      "part_title": "The Art of Really Knowing Someone",
+      "source_premise": "Explore childhood personalities, family dynamics, early dreams, and parts of your younger selves still present today.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 5,
+      "display_id": "005",
+      "title": "The Things Nobody Thinks to Ask",
+      "part_number": 1,
+      "part_title": "The Art of Really Knowing Someone",
+      "source_premise": "Ask unusual, specific questions about beliefs, habits, memories, preferences, and private thoughts.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 6,
+      "display_id": "006",
+      "title": "The Museum of Me",
+      "part_number": 1,
+      "part_title": "The Art of Really Knowing Someone",
+      "source_premise": "Curate an imaginary museum of objects, people, songs, and events representing your life; give your partner a tour.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 7,
+      "display_id": "007",
+      "title": "The Opinion I Changed",
+      "part_number": 1,
+      "part_title": "The Art of Really Knowing Someone",
+      "source_premise": "Discuss convictions you once held strongly, how they changed, and what that reveals about growth.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 8,
+      "display_id": "008",
+      "title": "The Secret Biography",
+      "part_number": 1,
+      "part_title": "The Art of Really Knowing Someone",
+      "source_premise": "Write a revealing biography of your contradictions, motivations, vulnerabilities, and less visible qualities.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 9,
+      "display_id": "009",
+      "title": "The Uncomfortable Truth",
+      "part_number": 2,
+      "part_title": "Vulnerability and the Courage to Be Seen",
+      "source_premise": "Willingly share something difficult to admit, while the listener receives it without judgment or immediate repair.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 10,
+      "display_id": "010",
+      "title": "The Fear Beneath the Fear",
+      "part_number": 2,
+      "part_title": "Vulnerability and the Courage to Be Seen",
+      "source_premise": "Explore successive layers beneath a fear to reveal underlying needs, experiences, or beliefs.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 11,
+      "display_id": "011",
+      "title": "What I Don’t Show the World",
+      "part_number": 2,
+      "part_title": "Vulnerability and the Courage to Be Seen",
+      "source_premise": "Describe parts of yourself you hide from others and what would make them safe to reveal.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 12,
+      "display_id": "012",
+      "title": "The Permission Slip",
+      "part_number": 2,
+      "part_title": "Vulnerability and the Courage to Be Seen",
+      "source_premise": "Write yourself permission to be imperfect, playful, uncertain, ambitious, needy, or emotionally open.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 13,
+      "display_id": "013",
+      "title": "Confession Without Consequence",
+      "part_number": 2,
+      "part_title": "Vulnerability and the Courage to Be Seen",
+      "source_premise": "Offer a chosen embarrassment, regret, insecurity, or harmless private truth for curious listening; this is not immunity for harmful behavior.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 14,
+      "display_id": "014",
+      "title": "The Part of Me That Still Hurts",
+      "part_number": 2,
+      "part_title": "Vulnerability and the Courage to Be Seen",
+      "source_premise": "Discuss an old disappointment or rejection that still has emotional weight, focusing on understanding.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 15,
+      "display_id": "015",
+      "title": "When I Feel Small",
+      "part_number": 2,
+      "part_title": "Vulnerability and the Courage to Be Seen",
+      "source_premise": "Describe what makes you feel inadequate or overlooked and which reassurances genuinely help.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 16,
+      "display_id": "016",
+      "title": "No Armor Tonight",
+      "part_number": 2,
+      "part_title": "Vulnerability and the Courage to Be Seen",
+      "source_premise": "Set aside habitual jokes, defensiveness, and impressive answers in favor of straightforward emotional honesty.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 17,
+      "display_id": "017",
+      "title": "Four Minutes of Forever",
+      "part_number": 3,
+      "part_title": "The Science and Experience of Closeness",
+      "source_premise": "Share four minutes of comfortable, uninterrupted eye contact, noticing what arises without needing to talk.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 18,
+      "display_id": "018",
+      "title": "The Silent Conversation",
+      "part_number": 3,
+      "part_title": "The Science and Experience of Closeness",
+      "source_premise": "Communicate for an agreed period only by expression, movement, and gestures.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 19,
+      "display_id": "019",
+      "title": "Breathe With Me",
+      "part_number": 3,
+      "part_title": "The Science and Experience of Closeness",
+      "source_premise": "Sit together and let your breathing settle naturally, noticing shared presence.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 20,
+      "display_id": "020",
+      "title": "The Listening Experiment",
+      "part_number": 3,
+      "part_title": "The Science and Experience of Closeness",
+      "source_premise": "Take turns speaking uninterrupted about something meaningful while the other listens and reflects back.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 21,
+      "display_id": "021",
+      "title": "The Trust Walk",
+      "part_number": 3,
+      "part_title": "The Science and Experience of Closeness",
+      "source_premise": "Guide a partner with closed or covered eyes through a safe space; practice clear direction and trust.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 22,
+      "display_id": "022",
+      "title": "The Language of Touch",
+      "part_number": 3,
+      "part_title": "The Science and Experience of Closeness",
+      "source_premise": "Explore welcome nonsexual forms of touch and discover which create comfort and affection.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 23,
+      "display_id": "023",
+      "title": "The Sixty-Second Embrace",
+      "part_number": 3,
+      "part_title": "The Science and Experience of Closeness",
+      "source_premise": "Share an unhurried, mutually comfortable embrace and notice how deliberate affection differs from routine.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 24,
+      "display_id": "024",
+      "title": "The Presence Challenge",
+      "part_number": 3,
+      "part_title": "The Science and Experience of Closeness",
+      "source_premise": "Remove phones, chores, and other distractions for a dedicated stretch of undivided attention.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 25,
+      "display_id": "025",
+      "title": "What Loving Me Actually Looks Like",
+      "part_number": 4,
+      "part_title": "Love, Affection, and Feeling Chosen",
+      "source_premise": "Compare the exact behaviors, words, and gestures that make each person feel loved.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 26,
+      "display_id": "026",
+      "title": "The Appreciation Avalanche",
+      "part_number": 4,
+      "part_title": "Love, Affection, and Feeling Chosen",
+      "source_premise": "Exchange increasingly specific appreciations until you move beyond the obvious.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 27,
+      "display_id": "027",
+      "title": "The Moment I Knew",
+      "part_number": 4,
+      "part_title": "Love, Affection, and Feeling Chosen",
+      "source_premise": "Tell stories of when the other started to matter more, or closeness deepened.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 28,
+      "display_id": "028",
+      "title": "Instructions for Loving Me",
+      "part_number": 4,
+      "part_title": "Love, Affection, and Feeling Chosen",
+      "source_premise": "Write a playful personal owner’s manual, including emotional needs, warning signs, and useful maintenance.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 29,
+      "display_id": "029",
+      "title": "The Reassurance Menu",
+      "part_number": 4,
+      "part_title": "Love, Affection, and Feeling Chosen",
+      "source_premise": "Create individualized menus of what helps when lonely, stressed, insecure, sad, or disconnected.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 30,
+      "display_id": "030",
+      "title": "The Compliment You Can’t Dodge",
+      "part_number": 4,
+      "part_title": "Love, Affection, and Feeling Chosen",
+      "source_premise": "Offer thoughtful compliments and practice receiving them without dismissal or deflection.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 31,
+      "display_id": "031",
+      "title": "A Love Letter From the Future",
+      "part_number": 4,
+      "part_title": "Love, Affection, and Feeling Chosen",
+      "source_premise": "Write letters from years ahead describing the love and qualities you hope endure.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 32,
+      "display_id": "032",
+      "title": "The Everyday Devotion Experiment",
+      "part_number": 4,
+      "part_title": "Love, Affection, and Feeling Chosen",
+      "source_premise": "Spend several days performing small, personally meaningful acts of affection and notice their effects.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 33,
+      "display_id": "033",
+      "title": "The Attraction Interview",
+      "part_number": 5,
+      "part_title": "Desire, Attraction, and Sensual Intimacy",
+      "source_premise": "Explore first attraction, current attraction, and how your understanding of chemistry has evolved.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 34,
+      "display_id": "034",
+      "title": "The Yes, No, Maybe Game",
+      "part_number": 5,
+      "part_title": "Desire, Attraction, and Sensual Intimacy",
+      "source_premise": "Individually classify romantic, affectionate, sensual, and sexual ideas as yes, no, or maybe; compare without pressure.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 35,
+      "display_id": "035",
+      "title": "The Art of Anticipation",
+      "part_number": 5,
+      "part_title": "Desire, Attraction, and Sensual Intimacy",
+      "source_premise": "Experiment with thoughtful messages, hints, and gestures leading to a mutually planned romantic experience.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 36,
+      "display_id": "036",
+      "title": "The Sensory Date",
+      "part_number": 5,
+      "part_title": "Desire, Attraction, and Sensual Intimacy",
+      "source_premise": "Create an experience based on music, scent, texture, taste, lighting, and welcome touch.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 37,
+      "display_id": "037",
+      "title": "The Desire Nobody Asked About",
+      "part_number": 5,
+      "part_title": "Desire, Attraction, and Sensual Intimacy",
+      "source_premise": "Discuss previously unexpressed wishes, fantasies, or forms of affection without obligations to act.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 38,
+      "display_id": "038",
+      "title": "The Slow Dance With No Music",
+      "part_number": 5,
+      "part_title": "Desire, Attraction, and Sensual Intimacy",
+      "source_premise": "Move together slowly in silence and explore unstructured closeness.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 39,
+      "display_id": "039",
+      "title": "The Romantic Time Machine",
+      "part_number": 5,
+      "part_title": "Desire, Attraction, and Sensual Intimacy",
+      "source_premise": "Imagine meeting in a different era or circumstance and what would still attract you.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 40,
+      "display_id": "040",
+      "title": "The Intimacy Blueprint",
+      "part_number": 5,
+      "part_title": "Desire, Attraction, and Sensual Intimacy",
+      "source_premise": "Map conditions that support romance and desire, what impedes them, and how to design for both partners.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 41,
+      "display_id": "041",
+      "title": "Two Truths and a Beautiful Lie",
+      "part_number": 6,
+      "part_title": "Playfulness, Laughter, and a Little Mischief",
+      "source_premise": "Tell two true personal stories and one convincing fiction; guess and uncover the truths.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 42,
+      "display_id": "042",
+      "title": "Would You Rather: Unhinged Edition",
+      "part_number": 6,
+      "part_title": "Playfulness, Laughter, and a Little Mischief",
+      "source_premise": "Choose between ludicrous, revealing, morally complicated, or romantic hypotheticals.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 43,
+      "display_id": "043",
+      "title": "The Newlywed Game, Without the Wedding",
+      "part_number": 6,
+      "part_title": "Playfulness, Laughter, and a Little Mischief",
+      "source_premise": "Privately answer trivia about your partner and compare knowledge, assumptions, and surprises.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 44,
+      "display_id": "044",
+      "title": "The Ridiculous Role Reversal",
+      "part_number": 6,
+      "part_title": "Playfulness, Laughter, and a Little Mischief",
+      "source_premise": "Lightheartedly impersonate each other, then discuss what is accurate or wildly wrong.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 45,
+      "display_id": "045",
+      "title": "The Great Debate of Absolutely Nothing",
+      "part_number": 6,
+      "part_title": "Playfulness, Laughter, and a Little Mischief",
+      "source_premise": "Argue opposite sides of entirely absurd propositions with exaggerated seriousness.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 46,
+      "display_id": "046",
+      "title": "The Alternate Universe Couple",
+      "part_number": 6,
+      "part_title": "Playfulness, Laughter, and a Little Mischief",
+      "source_premise": "Invent versions of yourselves in another world and imagine your meeting, attraction, and misadventures.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 47,
+      "display_id": "047",
+      "title": "Truth, Dare, or Discover",
+      "part_number": 6,
+      "part_title": "Playfulness, Laughter, and a Little Mischief",
+      "source_premise": "Use a three-mode game of revealing truths, funny dares, playful affection, and discovery.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 48,
+      "display_id": "048",
+      "title": "The Secret Mission Exchange",
+      "part_number": 6,
+      "part_title": "Playfulness, Laughter, and a Little Mischief",
+      "source_premise": "Assign each other private thoughtful, funny, or affectionate missions over several days.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 49,
+      "display_id": "049",
+      "title": "The Life Not Taken",
+      "part_number": 7,
+      "part_title": "The Inner World: Dreams, Meaning, and Identity",
+      "source_premise": "Consider alternate lives produced by different choices and the dreams still attached to them.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 50,
+      "display_id": "050",
+      "title": "The Things That Make Life Worth Living",
+      "part_number": 7,
+      "part_title": "The Inner World: Dreams, Meaning, and Identity",
+      "source_premise": "Discuss meaning, freedom, beauty, pleasure, contribution, and what makes life worthwhile.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 51,
+      "display_id": "051",
+      "title": "The Unfinished Version of Me",
+      "part_number": 7,
+      "part_title": "The Inner World: Dreams, Meaning, and Identity",
+      "source_premise": "Describe qualities you are still developing and mysteries you have not solved about yourself.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 52,
+      "display_id": "052",
+      "title": "The Belief Beneath the Belief",
+      "part_number": 7,
+      "part_title": "The Inner World: Dreams, Meaning, and Identity",
+      "source_premise": "Examine a conviction’s origins, why it matters, and what might change it.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 53,
+      "display_id": "053",
+      "title": "If Nobody Were Watching",
+      "part_number": 7,
+      "part_title": "The Inner World: Dreams, Meaning, and Identity",
+      "source_premise": "Imagine life without external judgment and what you would pursue, express, or abandon.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 54,
+      "display_id": "054",
+      "title": "The Personal Mythology",
+      "part_number": 7,
+      "part_title": "The Inner World: Dreams, Meaning, and Identity",
+      "source_premise": "Tell your life as a legend or novel with themes, characters, antagonists, twists, and unfinished chapters.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 55,
+      "display_id": "055",
+      "title": "What I Want to Experience Before I Die",
+      "part_number": 7,
+      "part_title": "The Inner World: Dreams, Meaning, and Identity",
+      "source_premise": "Share personal bucket lists, including ordinary pleasures and grand adventures.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 56,
+      "display_id": "056",
+      "title": "The Questions Without Answers",
+      "part_number": 7,
+      "part_title": "The Inner World: Dreams, Meaning, and Identity",
+      "source_premise": "Explore consciousness, mortality, love, morality, fate, and mystery without forcing agreement.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 57,
+      "display_id": "057",
+      "title": "The Instruction Manual for My Bad Days",
+      "part_number": 8,
+      "part_title": "Trust, Communication, and Emotional Safety",
+      "source_premise": "Describe how you act when distressed and what kinds of support help or worsen things.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 58,
+      "display_id": "058",
+      "title": "What You Heard vs. What I Meant",
+      "part_number": 8,
+      "part_title": "Trust, Communication, and Emotional Safety",
+      "source_premise": "Compare intended meaning with perceived meaning and practice checking interpretations.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 59,
+      "display_id": "059",
+      "title": "The Gentle Disagreement",
+      "part_number": 8,
+      "part_title": "Trust, Communication, and Emotional Safety",
+      "source_premise": "Work through a manageable disagreement with warmth, curiosity, and respect.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 60,
+      "display_id": "060",
+      "title": "The Repair Shop",
+      "part_number": 8,
+      "part_title": "Trust, Communication, and Emotional Safety",
+      "source_premise": "Revisit a minor misstep and practice acknowledgment, accountability, and repair instead of blame.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 61,
+      "display_id": "061",
+      "title": "The Invisible Need",
+      "part_number": 8,
+      "part_title": "Trust, Communication, and Emotional Safety",
+      "source_premise": "Identify needs that can emerge indirectly through withdrawal, jokes, frustration, or tension.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 62,
+      "display_id": "062",
+      "title": "The Safety Map",
+      "part_number": 8,
+      "part_title": "Trust, Communication, and Emotional Safety",
+      "source_premise": "Map actions, situations, and words that create emotional safety or guardedness.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 63,
+      "display_id": "063",
+      "title": "The Appreciation Behind the Complaint",
+      "part_number": 8,
+      "part_title": "Trust, Communication, and Emotional Safety",
+      "source_premise": "Translate a recurring minor irritation into an underlying wish and a constructive request.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 64,
+      "display_id": "064",
+      "title": "The Trust Bank",
+      "part_number": 8,
+      "part_title": "Trust, Communication, and Emotional Safety",
+      "source_premise": "Notice small actions that deposit into or withdraw from everyday trust over time.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 65,
+      "display_id": "065",
+      "title": "The First-Time Challenge",
+      "part_number": 9,
+      "part_title": "Shared Adventures and New Experiences",
+      "source_premise": "Try something neither person has done before and reflect on how novelty changes interaction.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 66,
+      "display_id": "066",
+      "title": "The Twenty-Dollar Adventure",
+      "part_number": 9,
+      "part_title": "Shared Adventures and New Experiences",
+      "source_premise": "Design a memorable experience with a very small budget using imagination and cooperation.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 67,
+      "display_id": "067",
+      "title": "The Comfort Zone Exchange",
+      "part_number": 9,
+      "part_title": "Shared Adventures and New Experiences",
+      "source_premise": "Introduce each other to a mutually acceptable unfamiliar activity.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 68,
+      "display_id": "068",
+      "title": "The Night of Random Decisions",
+      "part_number": 9,
+      "part_title": "Shared Adventures and New Experiences",
+      "source_premise": "Use dice, coins, or cards to choose between agreed options throughout an evening.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 69,
+      "display_id": "069",
+      "title": "Build Something Together",
+      "part_number": 9,
+      "part_title": "Shared Adventures and New Experiences",
+      "source_premise": "Make, cook, invent, or construct something and notice how you collaborate.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 70,
+      "display_id": "070",
+      "title": "The World Through Your Eyes",
+      "part_number": 9,
+      "part_title": "Shared Adventures and New Experiences",
+      "source_premise": "Each partner plans an experience around a deeply meaningful interest and explains its significance.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 71,
+      "display_id": "071",
+      "title": "The Twelve-Hour Vacation",
+      "part_number": 9,
+      "part_title": "Shared Adventures and New Experiences",
+      "source_premise": "Transform an ordinary day into an intentional miniature holiday or adventure.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 72,
+      "display_id": "072",
+      "title": "The Shared Courage Experiment",
+      "part_number": 9,
+      "part_title": "Shared Adventures and New Experiences",
+      "source_premise": "Face a manageable, mutually chosen challenge with encouragement and teamwork.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 73,
+      "display_id": "073",
+      "title": "The First Chapter",
+      "part_number": 10,
+      "part_title": "The Past, the Present, and the Story of Us",
+      "source_premise": "Reconstruct your early relationship separately, then compare impressions, uncertainties, and memories.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 74,
+      "display_id": "074",
+      "title": "The Moments You Didn’t Know Mattered",
+      "part_number": 10,
+      "part_title": "The Past, the Present, and the Story of Us",
+      "source_premise": "Reveal small gestures or words that mattered much more than your partner realized.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 75,
+      "display_id": "075",
+      "title": "Our Greatest Hits",
+      "part_number": 10,
+      "part_title": "The Past, the Present, and the Story of Us",
+      "source_premise": "Compile the funniest, most romantic, unexpected, and meaningful shared moments.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 76,
+      "display_id": "076",
+      "title": "The Moment I Saw You Differently",
+      "part_number": 10,
+      "part_title": "The Past, the Present, and the Story of Us",
+      "source_premise": "Recall a time your understanding of your partner fundamentally expanded.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 77,
+      "display_id": "077",
+      "title": "The Relationship Timeline",
+      "part_number": 10,
+      "part_title": "The Past, the Present, and the Story of Us",
+      "source_premise": "Map key moments, challenges, successes, changes, and turning points together.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 78,
+      "display_id": "078",
+      "title": "The Unspoken Thank-You",
+      "part_number": 10,
+      "part_title": "The Past, the Present, and the Story of Us",
+      "source_premise": "Recognize something meaningful your partner did that never received a full thank-you.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 79,
+      "display_id": "079",
+      "title": "The Soundtrack of Us",
+      "part_number": 10,
+      "part_title": "The Past, the Present, and the Story of Us",
+      "source_premise": "Choose music representing chapters or feelings in your shared history and tell its stories.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 80,
+      "display_id": "080",
+      "title": "The Day Worth Reliving",
+      "part_number": 10,
+      "part_title": "The Past, the Present, and the Story of Us",
+      "source_premise": "Each pick a shared day you would relive and reconstruct why it mattered.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 81,
+      "display_id": "081",
+      "title": "The Forbidden Question Box",
+      "part_number": 11,
+      "part_title": "Radical Curiosity and the Surprising Stuff",
+      "source_premise": "Privately contribute rarely asked questions, draw randomly, and freely pass when desired.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 82,
+      "display_id": "082",
+      "title": "The Moral Gray Area",
+      "part_number": 11,
+      "part_title": "Radical Curiosity and the Surprising Stuff",
+      "source_premise": "Discuss dilemmas with competing values and no obvious right answers.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 83,
+      "display_id": "083",
+      "title": "The Secret Nobody Would Guess",
+      "part_number": 11,
+      "part_title": "Radical Curiosity and the Surprising Stuff",
+      "source_premise": "Volunteer a surprising fact, experience, or thought that challenges assumptions.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 84,
+      "display_id": "084",
+      "title": "The Dark Side of Me",
+      "part_number": 11,
+      "part_title": "Radical Curiosity and the Surprising Stuff",
+      "source_premise": "Explore less flattering tendencies such as jealousy, vanity, resentment, or control with self-awareness.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 85,
+      "display_id": "085",
+      "title": "What Would You Do If…?",
+      "part_number": 11,
+      "part_title": "Radical Curiosity and the Surprising Stuff",
+      "source_premise": "Consider unexpected dilemmas about money, morality, relationships, and life-changing opportunities.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 86,
+      "display_id": "086",
+      "title": "The Unpopular Opinion Club",
+      "part_number": 11,
+      "part_title": "Radical Curiosity and the Surprising Stuff",
+      "source_premise": "Share underexpressed opinions and practice curious, noncompetitive disagreement.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 87,
+      "display_id": "087",
+      "title": "The Question Behind the Question",
+      "part_number": 11,
+      "part_title": "Radical Curiosity and the Surprising Stuff",
+      "source_premise": "Follow an ordinary answer with successive thoughtful questions revealing deeper meaning.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 88,
+      "display_id": "088",
+      "title": "The Thing I’m Still Figuring Out",
+      "part_number": 11,
+      "part_title": "Radical Curiosity and the Surprising Stuff",
+      "source_premise": "Share unresolved questions about self, life, intimacy, identity, or relationships.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 89,
+      "display_id": "089",
+      "title": "The Relationship We Would Invent",
+      "part_number": 12,
+      "part_title": "Building a Closer Future Together",
+      "source_premise": "Design relationship expectations and rituals from scratch rather than borrowing assumptions.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 90,
+      "display_id": "090",
+      "title": "The Future Memory",
+      "part_number": 12,
+      "part_title": "Building a Closer Future Together",
+      "source_premise": "Describe a happy future memory as if it already happened, then consider how to create it.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 91,
+      "display_id": "091",
+      "title": "What We Want More Of",
+      "part_number": 12,
+      "part_title": "Building a Closer Future Together",
+      "source_premise": "Identify experiences and actions you want to increase, not just problems to remove.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 92,
+      "display_id": "092",
+      "title": "The Dream Exchange",
+      "part_number": 12,
+      "part_title": "Building a Closer Future Together",
+      "source_premise": "Share individual ambitions and imagine support that respects each person’s ownership.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 93,
+      "display_id": "093",
+      "title": "The Relationship Bucket List",
+      "part_number": 12,
+      "part_title": "Building a Closer Future Together",
+      "source_premise": "Build a shared collection of adventures, traditions, achievements, and delightfully ridiculous goals.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 94,
+      "display_id": "094",
+      "title": "The Annual Reintroduction",
+      "part_number": 12,
+      "part_title": "Building a Closer Future Together",
+      "source_premise": "Return yearly to rediscover changing needs, interests, values, and wishes.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 95,
+      "display_id": "095",
+      "title": "A Promise I Actually Want to Keep",
+      "part_number": 12,
+      "part_title": "Building a Closer Future Together",
+      "source_premise": "Make a few realistic, meaningful relationship commitments with actionable follow-through.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 96,
+      "display_id": "096",
+      "title": "The Next Chapter",
+      "part_number": 12,
+      "part_title": "Building a Closer Future Together",
+      "source_premise": "Reflect on discoveries and design ongoing practices and future experiences together.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 97,
+      "display_id": "097",
+      "title": "The Emotional Archaeologists",
+      "part_number": 13,
+      "part_title": "The Inventor’s Workshop: Original Proposals",
+      "source_premise": "Investigate a powerful emotional reaction layer by layer without prematurely interpreting it; discover the need below the surface.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 98,
+      "display_id": "098",
+      "title": "The One-Hundred-Year Interview",
+      "part_number": 13,
+      "part_title": "The Inventor’s Workshop: Original Proposals",
+      "source_premise": "Interview each other as imagined centenarians and turn three invented memories into real-life aspirations.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 99,
+      "display_id": "099",
+      "title": "The Invisible Postcards",
+      "part_number": 13,
+      "part_title": "The Inventor’s Workshop: Original Proposals",
+      "source_premise": "Secretly collect short notes over days about moments your partner helped, impressed, or delighted you, then exchange them.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 100,
+      "display_id": "100",
+      "title": "The Emotional Weather Report",
+      "part_number": 13,
+      "part_title": "The Inventor’s Workshop: Original Proposals",
+      "source_premise": "Describe your inner state as a weather forecast, with an optional forecast of what may help tomorrow.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 101,
+      "display_id": "101",
+      "title": "The Borrowed Brain Experiment",
+      "part_number": 13,
+      "part_title": "The Inventor’s Workshop: Original Proposals",
+      "source_premise": "Answer a scenario as you think your partner would and compare the reasoning, not just the final decision.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 102,
+      "display_id": "102",
+      "title": "The Museum of Unsaid Things",
+      "part_number": 13,
+      "part_title": "The Inventor’s Workshop: Original Proposals",
+      "source_premise": "Create exhibit labels for thoughts, appreciation, fears, or needs left unsaid; pair 'what happened' with 'what I wish you understood.'",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 103,
+      "display_id": "103",
+      "title": "The Relationship Escape Room",
+      "part_number": 13,
+      "part_title": "The Inventor’s Workshop: Original Proposals",
+      "source_premise": "Solve cooperative puzzles involving personal history, partner knowledge, and complementary skills.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 104,
+      "display_id": "104",
+      "title": "The Two-Person Civilization",
+      "part_number": 13,
+      "part_title": "The Inventor’s Workshop: Original Proposals",
+      "source_premise": "Invent a civilization’s founding principles together and adapt them when random events challenge your ideals.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 105,
+      "display_id": "105",
+      "title": "The Compliment Decoder",
+      "part_number": 13,
+      "part_title": "The Inventor’s Workshop: Original Proposals",
+      "source_premise": "Guess the lived story behind your partner’s deeper compliments before they disclose the actual source.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 106,
+      "display_id": "106",
+      "title": "The Intimacy Negotiators",
+      "part_number": 13,
+      "part_title": "The Inventor’s Workshop: Original Proposals",
+      "source_premise": "Allocate 100 imaginary points among forms of closeness and collaborate on a mutually appealing evening without demands.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 107,
+      "display_id": "107",
+      "title": "The Memory Smuggler",
+      "part_number": 13,
+      "part_title": "The Inventor’s Workshop: Original Proposals",
+      "source_premise": "Tell a true memory with one invented detail that symbolizes a wish, fear, or unrealized possibility; have the listener detect it.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    },
+    {
+      "id": 108,
+      "display_id": "108",
+      "title": "The Secret Door",
+      "part_number": 13,
+      "part_title": "The Inventor’s Workshop: Original Proposals",
+      "source_premise": "Use imaginary locked doors for inner-life themes; the person sharing controls which keys are offered and how deeply to explore.",
+      "status": "source-only",
+      "source_file": "The_Closer_Project_Working_Manuscript_v0.1.docx"
+    }
+  ]
+}

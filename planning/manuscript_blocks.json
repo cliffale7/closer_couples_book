@@ -1,0 +1,2882 @@
+[
+  {
+    "kind": "p",
+    "style": "Title",
+    "text": "THE CLOSER PROJECT"
+  },
+  {
+    "kind": "p",
+    "style": "Subtitle",
+    "text": "A working library of intimacy, discovery, play, and relationship-building experiences"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "MANUSCRIPT v0.1   •   108 candidate experiences   •   13 thematic parts   •   editable working architecture"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Purpose: for two mature, curious, open-minded people who already enjoy one another and want to continue discovering each other. Not relationship homework; not a linear repair program. Select the experience that suits the moment."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial status: this is a COMPLETE INVENTORY and working structure, NOT the finished prose. Every activity currently has its established concept and a dedicated expansion brief."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": ""
+  },
+  {
+    "kind": "p",
+    "style": "Heading1",
+    "text": "Table of Contents"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Front matter: Why this collection exists"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "How to use this book"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Navigation & quick-reference indexes"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Time index and duration variants"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Mood / goal index"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Energy index"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Emotional depth index"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Format index"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Surprise Us! random selection"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Master reference matrix"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Foundations, safety, and consent"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Standard chapter development blueprint"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Part 01 — The Art of Really Knowing Someone (entries 001–008)"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Part 02 — Vulnerability and the Courage to Be Seen (entries 009–016)"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Part 03 — The Science and Experience of Closeness (entries 017–024)"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Part 04 — Love, Affection, and Feeling Chosen (entries 025–032)"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Part 05 — Desire, Attraction, and Sensual Intimacy (entries 033–040)"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Part 06 — Playfulness, Laughter, and a Little Mischief (entries 041–048)"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Part 07 — The Inner World: Dreams, Meaning, and Identity (entries 049–056)"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Part 08 — Trust, Communication, and Emotional Safety (entries 057–064)"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Part 09 — Shared Adventures and New Experiences (entries 065–072)"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Part 10 — The Past, the Present, and the Story of Us (entries 073–080)"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Part 11 — Radical Curiosity and the Surprising Stuff (entries 081–088)"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Part 12 — Building a Closer Future Together (entries 089–096)"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Part 13 — The Inventor’s Workshop: Original Proposals (entries 097–108)"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Signature experiences (future larger-format sessions)"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Recurring rituals and return visits"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Appendices: prompts, worksheets, tools, notes & progress"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial and research log"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Revision priorities and selection tracker"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": ""
+  },
+  {
+    "kind": "p",
+    "style": "Heading1",
+    "text": "Front Matter: Why This Collection Exists"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "The ambition is to make closeness exploratory rather than obligatory. Activities should invite honest curiosity, affection, delight, self-knowledge, cooperation, playful absurdity, philosophical depth, and sensual discovery. Some nights call for a five-minute connection; other nights invite a multi-hour adventure. Neither is inherently more valuable."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Core promises: an approachable rotating library; variety beyond question lists; adults treated like adults; optional intensity and genuinely voluntary disclosure; engaging, substantial explanations in the finished book; and practical ways to repeat favorite experiences."
+  },
+  {
+    "kind": "p",
+    "style": "Heading1",
+    "text": "How to Use This Book"
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Pick by available time first, or by mood, energy, desired emotional depth, or activity format."
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "You may skip freely: these are independent experiences, not required steps in a curriculum."
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "For every entry, eventually offer a short, standard, and extended version when the concept reasonably supports it."
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Each person may pass on a prompt or adjust the activity. An invitation is not a demand for disclosure or physical contact."
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Revisit favorites; answers, boundaries, wishes, and relationships change over time."
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Use the random selector only after filtering for mutually welcome duration and intensity."
+  },
+  {
+    "kind": "p",
+    "style": "Heading1",
+    "text": "Navigation & Quick-Reference Indexes"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "A. Time Index"
+  },
+  {
+    "kind": "table",
+    "style": "",
+    "text": "Time || Category || Best for || Illustrative entry IDs | 5–10 min || Quick Connections || Short affection, reflection, or laughter || 17, 19, 23, 30, 100 | 10–20 min || Little Discoveries || Compact conversation and games || 27, 46, 86, 105 | 20–45 min || Meaningful Sessions || Focused depth or full short games || 03, 20, 33, 43, 101 | 45–90 min || Deep Dives || Longer creative or emotionally rich sessions || 06, 40, 77, 98, 102 | 90 min–3 hours || Full Experiences || Designed evenings and larger challenges || 36, 71 (adapted), 103 | Multi-day / ongoing || The Long Game || Experiments unfolding over time || 32, 48, 64, 94, 99"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "These are provisional recommendations, not validated runtimes. Finalize individual time estimates after the activities are fully written and tested."
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "B. Desired Experience / Mood"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Laugh together; learn something new; build trust; feel appreciated; explore sensuality; reconnect emotionally; seek adventure; go philosophical."
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "C. Energy & Effort"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Low-energy couch activities; moderate participation; higher-energy interactive adventures. Effort is distinct from duration."
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "D. Emotional Depth"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Light and playful; personal and revealing; deeply vulnerable; emotionally intense. Both partners can choose the ceiling."
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "E. Activity Format"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Conversation; physical connection; game; writing; creativity; roleplay; outdoor activity; guided reflection; multi-day challenge."
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "F. Surprise Us!"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Randomly choose from activities filtered by time, energy, intimacy level, and boundaries; use numbered slips, cards, dice, or digital randomization."
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "Master Reference Matrix — Working Rules"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Each entry must ultimately record ID, title, part, primary duration, optional short/long duration, emotional depth, energy, desired experience, activity formats, preparation/materials, whether touch is involved, and replay value. The compact inventory below gives each entry a home; detailed metadata is a future editorial pass."
+  },
+  {
+    "kind": "p",
+    "style": "Heading1",
+    "text": "Foundations, Safety, and Consent"
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Emotional vulnerability is voluntary; either person may pass, pause, or switch activities without penalty."
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "For sensual or touch-based activities, seek ongoing mutual agreement and avoid interpreting a game result as permission."
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Avoid manufactured consequences for truthful disclosure; accept that serious discoveries deserve real discussion outside the game."
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Comfortable disagreement and uncertainty are legitimate outcomes; closeness does not require identical beliefs."
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Never frame speculative benefits as established science. Check evidence before asserting specific psychological effects."
+  },
+  {
+    "kind": "p",
+    "style": "Heading1",
+    "text": "Standard Chapter Development Blueprint"
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Invitation: a compelling, distinctive opening, not generic instruction."
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Why it matters: relationship mechanism and research where applicable, clearly separating evidence from invention."
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Setup: suitable mood, environment, duration, materials, and advance agreements."
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "The experience: fully developed directions, example exchanges, rounds, and mechanics."
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Going deeper: carefully chosen variations and intensity/length options."
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Afterwards: reflection prompts and ways to appreciate discoveries."
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Make it yours: replay ideas, adaptations, and a practical way to remember insights."
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Editorial standard: substantial, enjoyable reading; generally multiple pages, with larger games potentially much longer. No skimpy entries."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": ""
+  },
+  {
+    "kind": "p",
+    "style": "Heading1",
+    "text": "Part 01 — The Art of Really Knowing Someone"
+  },
+  {
+    "kind": "p",
+    "style": "Subtitle",
+    "text": "Curiosity, identity, memories, personal history, and everything that makes someone who they are."
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "001. The Stranger Across From Me"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Pretend you have just met. Interview one another as fascinating strangers and discover how familiarity can hide curiosity."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "002. The Life You’ve Never Told Me"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Share a significant episode of life the other has never heard in detail, including turning points and formative relationships."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "003. The Five Defining Moments"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Identify five experiences that fundamentally changed who you are and explain their ongoing influence."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "004. Before I Was Me"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Explore childhood personalities, family dynamics, early dreams, and parts of your younger selves still present today."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "005. The Things Nobody Thinks to Ask"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Ask unusual, specific questions about beliefs, habits, memories, preferences, and private thoughts."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "006. The Museum of Me"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Curate an imaginary museum of objects, people, songs, and events representing your life; give your partner a tour."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "007. The Opinion I Changed"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Discuss convictions you once held strongly, how they changed, and what that reveals about growth."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "008. The Secret Biography"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Write a revealing biography of your contradictions, motivations, vulnerabilities, and less visible qualities."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": ""
+  },
+  {
+    "kind": "p",
+    "style": "Heading1",
+    "text": "Part 02 — Vulnerability and the Courage to Be Seen"
+  },
+  {
+    "kind": "p",
+    "style": "Subtitle",
+    "text": "Honesty, insecurities, secrets, hidden feelings, and acceptance."
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "009. The Uncomfortable Truth"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Willingly share something difficult to admit, while the listener receives it without judgment or immediate repair."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "010. The Fear Beneath the Fear"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Explore successive layers beneath a fear to reveal underlying needs, experiences, or beliefs."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "011. What I Don’t Show the World"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Describe parts of yourself you hide from others and what would make them safe to reveal."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "012. The Permission Slip"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Write yourself permission to be imperfect, playful, uncertain, ambitious, needy, or emotionally open."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "013. Confession Without Consequence"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Offer a chosen embarrassment, regret, insecurity, or harmless private truth for curious listening; this is not immunity for harmful behavior."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "014. The Part of Me That Still Hurts"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Discuss an old disappointment or rejection that still has emotional weight, focusing on understanding."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "015. When I Feel Small"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Describe what makes you feel inadequate or overlooked and which reassurances genuinely help."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "016. No Armor Tonight"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Set aside habitual jokes, defensiveness, and impressive answers in favor of straightforward emotional honesty."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": ""
+  },
+  {
+    "kind": "p",
+    "style": "Heading1",
+    "text": "Part 03 — The Science and Experience of Closeness"
+  },
+  {
+    "kind": "p",
+    "style": "Subtitle",
+    "text": "Presence, eye contact, synchronization, attention, and nonverbal connection."
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "017. Four Minutes of Forever"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Share four minutes of comfortable, uninterrupted eye contact, noticing what arises without needing to talk."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "018. The Silent Conversation"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Communicate for an agreed period only by expression, movement, and gestures."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "019. Breathe With Me"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Sit together and let your breathing settle naturally, noticing shared presence."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "020. The Listening Experiment"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Take turns speaking uninterrupted about something meaningful while the other listens and reflects back."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "021. The Trust Walk"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Guide a partner with closed or covered eyes through a safe space; practice clear direction and trust."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "022. The Language of Touch"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Explore welcome nonsexual forms of touch and discover which create comfort and affection."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "023. The Sixty-Second Embrace"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Share an unhurried, mutually comfortable embrace and notice how deliberate affection differs from routine."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "024. The Presence Challenge"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Remove phones, chores, and other distractions for a dedicated stretch of undivided attention."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": ""
+  },
+  {
+    "kind": "p",
+    "style": "Heading1",
+    "text": "Part 04 — Love, Affection, and Feeling Chosen"
+  },
+  {
+    "kind": "p",
+    "style": "Subtitle",
+    "text": "Appreciation, reassurance, security, and ways people feel loved."
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "025. What Loving Me Actually Looks Like"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Compare the exact behaviors, words, and gestures that make each person feel loved."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "026. The Appreciation Avalanche"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Exchange increasingly specific appreciations until you move beyond the obvious."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "027. The Moment I Knew"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Tell stories of when the other started to matter more, or closeness deepened."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "028. Instructions for Loving Me"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Write a playful personal owner’s manual, including emotional needs, warning signs, and useful maintenance."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "029. The Reassurance Menu"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Create individualized menus of what helps when lonely, stressed, insecure, sad, or disconnected."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "030. The Compliment You Can’t Dodge"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Offer thoughtful compliments and practice receiving them without dismissal or deflection."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "031. A Love Letter From the Future"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Write letters from years ahead describing the love and qualities you hope endure."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "032. The Everyday Devotion Experiment"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Spend several days performing small, personally meaningful acts of affection and notice their effects."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": ""
+  },
+  {
+    "kind": "p",
+    "style": "Heading1",
+    "text": "Part 05 — Desire, Attraction, and Sensual Intimacy"
+  },
+  {
+    "kind": "p",
+    "style": "Subtitle",
+    "text": "Romance, chemistry, sensuality, desires, boundaries, and adult curiosity."
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "033. The Attraction Interview"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Explore first attraction, current attraction, and how your understanding of chemistry has evolved."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "034. The Yes, No, Maybe Game"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Individually classify romantic, affectionate, sensual, and sexual ideas as yes, no, or maybe; compare without pressure."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "035. The Art of Anticipation"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Experiment with thoughtful messages, hints, and gestures leading to a mutually planned romantic experience."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "036. The Sensory Date"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Create an experience based on music, scent, texture, taste, lighting, and welcome touch."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "037. The Desire Nobody Asked About"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Discuss previously unexpressed wishes, fantasies, or forms of affection without obligations to act."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "038. The Slow Dance With No Music"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Move together slowly in silence and explore unstructured closeness."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "039. The Romantic Time Machine"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Imagine meeting in a different era or circumstance and what would still attract you."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "040. The Intimacy Blueprint"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Map conditions that support romance and desire, what impedes them, and how to design for both partners."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": ""
+  },
+  {
+    "kind": "p",
+    "style": "Heading1",
+    "text": "Part 06 — Playfulness, Laughter, and a Little Mischief"
+  },
+  {
+    "kind": "p",
+    "style": "Subtitle",
+    "text": "Absurdity, inside jokes, competition, imagination, and mischievous fun."
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "041. Two Truths and a Beautiful Lie"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Tell two true personal stories and one convincing fiction; guess and uncover the truths."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "042. Would You Rather: Unhinged Edition"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Choose between ludicrous, revealing, morally complicated, or romantic hypotheticals."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "043. The Newlywed Game, Without the Wedding"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Privately answer trivia about your partner and compare knowledge, assumptions, and surprises."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "044. The Ridiculous Role Reversal"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Lightheartedly impersonate each other, then discuss what is accurate or wildly wrong."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "045. The Great Debate of Absolutely Nothing"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Argue opposite sides of entirely absurd propositions with exaggerated seriousness."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "046. The Alternate Universe Couple"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Invent versions of yourselves in another world and imagine your meeting, attraction, and misadventures."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "047. Truth, Dare, or Discover"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Use a three-mode game of revealing truths, funny dares, playful affection, and discovery."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "048. The Secret Mission Exchange"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Assign each other private thoughtful, funny, or affectionate missions over several days."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": ""
+  },
+  {
+    "kind": "p",
+    "style": "Heading1",
+    "text": "Part 07 — The Inner World: Dreams, Meaning, and Identity"
+  },
+  {
+    "kind": "p",
+    "style": "Subtitle",
+    "text": "Philosophy, values, unrealized dreams, meaning, and evolving selfhood."
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "049. The Life Not Taken"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Consider alternate lives produced by different choices and the dreams still attached to them."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "050. The Things That Make Life Worth Living"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Discuss meaning, freedom, beauty, pleasure, contribution, and what makes life worthwhile."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "051. The Unfinished Version of Me"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Describe qualities you are still developing and mysteries you have not solved about yourself."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "052. The Belief Beneath the Belief"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Examine a conviction’s origins, why it matters, and what might change it."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "053. If Nobody Were Watching"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Imagine life without external judgment and what you would pursue, express, or abandon."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "054. The Personal Mythology"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Tell your life as a legend or novel with themes, characters, antagonists, twists, and unfinished chapters."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "055. What I Want to Experience Before I Die"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Share personal bucket lists, including ordinary pleasures and grand adventures."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "056. The Questions Without Answers"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Explore consciousness, mortality, love, morality, fate, and mystery without forcing agreement."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": ""
+  },
+  {
+    "kind": "p",
+    "style": "Heading1",
+    "text": "Part 08 — Trust, Communication, and Emotional Safety"
+  },
+  {
+    "kind": "p",
+    "style": "Subtitle",
+    "text": "Differences, repairs, emotional patterns, communication, and dependable trust."
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "057. The Instruction Manual for My Bad Days"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Describe how you act when distressed and what kinds of support help or worsen things."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "058. What You Heard vs. What I Meant"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Compare intended meaning with perceived meaning and practice checking interpretations."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "059. The Gentle Disagreement"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Work through a manageable disagreement with warmth, curiosity, and respect."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "060. The Repair Shop"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Revisit a minor misstep and practice acknowledgment, accountability, and repair instead of blame."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "061. The Invisible Need"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Identify needs that can emerge indirectly through withdrawal, jokes, frustration, or tension."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "062. The Safety Map"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Map actions, situations, and words that create emotional safety or guardedness."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "063. The Appreciation Behind the Complaint"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Translate a recurring minor irritation into an underlying wish and a constructive request."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "064. The Trust Bank"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Notice small actions that deposit into or withdraw from everyday trust over time."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": ""
+  },
+  {
+    "kind": "p",
+    "style": "Heading1",
+    "text": "Part 09 — Shared Adventures and New Experiences"
+  },
+  {
+    "kind": "p",
+    "style": "Subtitle",
+    "text": "Novelty, teamwork, courage, creativity, and shared memories."
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "065. The First-Time Challenge"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Try something neither person has done before and reflect on how novelty changes interaction."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "066. The Twenty-Dollar Adventure"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Design a memorable experience with a very small budget using imagination and cooperation."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "067. The Comfort Zone Exchange"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Introduce each other to a mutually acceptable unfamiliar activity."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "068. The Night of Random Decisions"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Use dice, coins, or cards to choose between agreed options throughout an evening."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "069. Build Something Together"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Make, cook, invent, or construct something and notice how you collaborate."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "070. The World Through Your Eyes"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Each partner plans an experience around a deeply meaningful interest and explains its significance."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "071. The Twelve-Hour Vacation"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Transform an ordinary day into an intentional miniature holiday or adventure."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "072. The Shared Courage Experiment"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Face a manageable, mutually chosen challenge with encouragement and teamwork."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": ""
+  },
+  {
+    "kind": "p",
+    "style": "Heading1",
+    "text": "Part 10 — The Past, the Present, and the Story of Us"
+  },
+  {
+    "kind": "p",
+    "style": "Subtitle",
+    "text": "Shared memories, evolving perceptions, and the relationship as an ongoing story."
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "073. The First Chapter"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Reconstruct your early relationship separately, then compare impressions, uncertainties, and memories."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "074. The Moments You Didn’t Know Mattered"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Reveal small gestures or words that mattered much more than your partner realized."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "075. Our Greatest Hits"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Compile the funniest, most romantic, unexpected, and meaningful shared moments."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "076. The Moment I Saw You Differently"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Recall a time your understanding of your partner fundamentally expanded."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "077. The Relationship Timeline"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Map key moments, challenges, successes, changes, and turning points together."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "078. The Unspoken Thank-You"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Recognize something meaningful your partner did that never received a full thank-you."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "079. The Soundtrack of Us"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Choose music representing chapters or feelings in your shared history and tell its stories."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "080. The Day Worth Reliving"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Each pick a shared day you would relive and reconstruct why it mattered."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": ""
+  },
+  {
+    "kind": "p",
+    "style": "Heading1",
+    "text": "Part 11 — Radical Curiosity and the Surprising Stuff"
+  },
+  {
+    "kind": "p",
+    "style": "Subtitle",
+    "text": "Taboos, contradictions, odd hypotheticals, nuanced values, and voluntary disclosure."
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "081. The Forbidden Question Box"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Privately contribute rarely asked questions, draw randomly, and freely pass when desired."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "082. The Moral Gray Area"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Discuss dilemmas with competing values and no obvious right answers."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "083. The Secret Nobody Would Guess"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Volunteer a surprising fact, experience, or thought that challenges assumptions."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "084. The Dark Side of Me"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Explore less flattering tendencies such as jealousy, vanity, resentment, or control with self-awareness."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "085. What Would You Do If…?"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Consider unexpected dilemmas about money, morality, relationships, and life-changing opportunities."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "086. The Unpopular Opinion Club"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Share underexpressed opinions and practice curious, noncompetitive disagreement."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "087. The Question Behind the Question"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Follow an ordinary answer with successive thoughtful questions revealing deeper meaning."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "088. The Thing I’m Still Figuring Out"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Share unresolved questions about self, life, intimacy, identity, or relationships."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": ""
+  },
+  {
+    "kind": "p",
+    "style": "Heading1",
+    "text": "Part 12 — Building a Closer Future Together"
+  },
+  {
+    "kind": "p",
+    "style": "Subtitle",
+    "text": "Shared purpose, intentional choices, supportive growth, and evolving partnership."
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "089. The Relationship We Would Invent"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Design relationship expectations and rituals from scratch rather than borrowing assumptions."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "090. The Future Memory"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Describe a happy future memory as if it already happened, then consider how to create it."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "091. What We Want More Of"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Identify experiences and actions you want to increase, not just problems to remove."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "092. The Dream Exchange"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Share individual ambitions and imagine support that respects each person’s ownership."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "093. The Relationship Bucket List"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Build a shared collection of adventures, traditions, achievements, and delightfully ridiculous goals."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "094. The Annual Reintroduction"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Return yearly to rediscover changing needs, interests, values, and wishes."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "095. A Promise I Actually Want to Keep"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Make a few realistic, meaningful relationship commitments with actionable follow-through."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "096. The Next Chapter"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Reflect on discoveries and design ongoing practices and future experiences together."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": ""
+  },
+  {
+    "kind": "p",
+    "style": "Heading1",
+    "text": "Part 13 — The Inventor’s Workshop: Original Proposals"
+  },
+  {
+    "kind": "p",
+    "style": "Subtitle",
+    "text": "Newly devised candidates: unusual formats combining imagination, emotional insight, and play."
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "097. The Emotional Archaeologists"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Investigate a powerful emotional reaction layer by layer without prematurely interpreting it; discover the need below the surface."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "098. The One-Hundred-Year Interview"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Interview each other as imagined centenarians and turn three invented memories into real-life aspirations."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "099. The Invisible Postcards"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Secretly collect short notes over days about moments your partner helped, impressed, or delighted you, then exchange them."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "100. The Emotional Weather Report"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Describe your inner state as a weather forecast, with an optional forecast of what may help tomorrow."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "101. The Borrowed Brain Experiment"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Answer a scenario as you think your partner would and compare the reasoning, not just the final decision."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "102. The Museum of Unsaid Things"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Create exhibit labels for thoughts, appreciation, fears, or needs left unsaid; pair 'what happened' with 'what I wish you understood.'"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "103. The Relationship Escape Room"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Solve cooperative puzzles involving personal history, partner knowledge, and complementary skills."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "104. The Two-Person Civilization"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Invent a civilization’s founding principles together and adapt them when random events challenge your ideals."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "105. The Compliment Decoder"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Guess the lived story behind your partner’s deeper compliments before they disclose the actual source."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "106. The Intimacy Negotiators"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Allocate 100 imaginary points among forms of closeness and collaborate on a mutually appealing evening without demands."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "107. The Memory Smuggler"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Tell a true memory with one invented detail that symbolizes a wish, fear, or unrealized possibility; have the listener detect it."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "Heading2",
+    "text": "108. The Secret Door"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Use imaginary locked doors for inner-life themes; the person sharing controls which keys are offered and how deeply to explore."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Expansion brief  Develop the invitation, purpose, setup, step-by-step procedure, sample prompts/game mechanics, duration variants, optional deeper round, post-experience discussion, and replay adaptations. Retain the specific premise above."
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Editorial metadata  Duration: TBD  |  Depth: TBD  |  Energy: TBD  |  Formats/tags: TBD  |  Materials: TBD  |  Provenance/evidence: verify"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": ""
+  },
+  {
+    "kind": "p",
+    "style": "Heading1",
+    "text": "Signature Experiences — Reserved Development Section"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Larger centerpiece experiences may combine progressive vulnerability, a complete evening of romance and attentive connection, an extended escalating conversation game, or a cooperative adventure. Proposed length: roughly 60–120+ minutes. Each gets a purpose-built chapter rather than an ordinary activity template."
+  },
+  {
+    "kind": "p",
+    "style": "Heading1",
+    "text": "Recurring Rituals and Return Visits"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Design repeat calendars and revisit paths: five-minute daily rituals, weekly light games, monthly deeper dives, and annual reintroductions. Create optional journals for changed answers, new interests, and emerging shared traditions. No mandatory streaks or performance scoring."
+  },
+  {
+    "kind": "p",
+    "style": "Heading1",
+    "text": "Appendices — Reserved Contents"
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Printable question cards and prompt banks"
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Yes/No/Maybe exploration worksheet and personal boundaries notes"
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Partner appreciation and invisible postcards templates"
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Relationship timeline and personal museum templates"
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "100-point intimacy allocation sheet"
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Scenario cards and random-event cards"
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Time-based and mood-based master index (complete assignment pending)"
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Blank activity notes and reflection journal"
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Suggested materials and low-cost preparation guide"
+  },
+  {
+    "kind": "p",
+    "style": "Heading1",
+    "text": "Editorial and Research Log"
+  },
+  {
+    "kind": "p",
+    "style": "",
+    "text": "Categories: established exercises, substantially reimagined variants, original formulations. These labels refer to how this manuscript develops concepts, not exclusive claims of intellectual originality. Verify named established methods, precise psychological claims, and any attribution during expansion. Add citations in the future researched edition."
+  },
+  {
+    "kind": "p",
+    "style": "Heading1",
+    "text": "Revision Priorities and Selection Tracker"
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Keep all 108 proposals until the curation pass is deliberate and documented."
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Flag duplicates or near-duplicates; consolidate without losing a unique mechanism."
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Increase unconventional activities, games, hands-on experiences, and genuinely surprising outcomes."
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Further develop candid adult intimacy, including desire, fantasy, sensuality, and boundaries."
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Develop distinct chapter voices: some playful, some contemplative, some adventurous."
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Pilot activities and revise instructions using real participant feedback."
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Assign full metadata and create the final searchable/clickable indexes."
+  },
+  {
+    "kind": "p",
+    "style": "ListBullet",
+    "text": "Prepare final ebook navigation, internal links, and printable companions."
+  }
+]

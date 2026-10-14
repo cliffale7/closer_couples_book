@@ -1,0 +1,9 @@
+---
+description: Required shape of canonical chapter and signature markdown.
+globs: chapters/**/*.md,signature/**/*.md
+alwaysApply: false
+---
+
+# Chapter files
+
+Use `styles/CHAPTER_CONTRACT.md`. Exact catalog title. Required headings. A `journal` block with equal prompts for both people. Fictional examples use Rowan and Vale and are labeled fictional. Cross-links must be real IDs. No TODO, TBD, TK, or lorem ipsum. Entries 097–108 stay original formulations and keep the twist in `planning/ORIGINAL_IDEAS_EXPANDED.md`.

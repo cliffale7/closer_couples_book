@@ -1,0 +1,16 @@
+# Personal writing must never enter shared version control
+journal/private/
+**/personal-notes/
+**/*_PRIVATE_MEMOIR_*
+.env
+.env.*
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.cache/
+.tmp/
+node_modules/
+.venv/
+build/
+*.log
