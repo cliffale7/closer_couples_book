@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" width="440" height="280" role="img" aria-label="Line motif for 089 The Relationship We Would Invent: A blank constitution and two pens"><title>Line motif for 089 The Relationship We Would Invent: A blank constitution and two pens</title><g data-motif="A blank constitution and two pens">
+<g transform="translate(50.00 30.00) rotate(0.0)">
+<rect x="0.00" y="0.00" width="230.00" height="210.00" rx="0.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2"/>
+</g>
+<circle cx="250.00" cy="60.00" r="16.00" fill="none" stroke="#A85A32" stroke-width="2"/>
+<g transform="translate(300.00 80.00) rotate(-60.0) scale(1.200)">
+<path d="M0.00 0.00L70.00 0.00" fill="none" stroke="#241F1C" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M70.00 -4.00 L86.00 0.00 L70.00 4.00 Z" fill="#A85A32" stroke="#A85A32" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16.00 -5.00L16.00 5.00" fill="none" stroke="#A85A32" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(330.00 150.00) rotate(-40.0) scale(1.150)">
+<path d="M0.00 0.00L70.00 0.00" fill="none" stroke="#A85A32" stroke-width="2.78261" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M70.00 -4.00 L86.00 0.00 L70.00 4.00 Z" fill="#A85A32" stroke="#A85A32" stroke-width="1.3913" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16.00 -5.00L16.00 5.00" fill="none" stroke="#A85A32" stroke-width="1.66957" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

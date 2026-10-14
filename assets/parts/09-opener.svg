@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 440" width="540" height="440" role="img" aria-label="Part opener for Shared Adventures and New Experiences: a dusk platform, two tickets, one suitcase, and a half-written destination board."><title>Part opener for Shared Adventures and New Experiences: a dusk platform, two tickets, one suitcase, and a half-written destination board.</title><rect x="8.00" y="8.00" width="524.00" height="424.00" rx="0.00" fill="#F6F1E7" stroke="#A85A32" stroke-width="1.1"/>
+<rect x="8.00" y="8.00" width="524.00" height="180.00" rx="0.00" fill="#2C3544" stroke="none" stroke-width="0"/>
+<rect x="8.00" y="188.00" width="524.00" height="244.00" rx="0.00" fill="#F6F1E7" stroke="none" stroke-width="0"/>
+<path d="M8.00 188.00L532.00 188.00" fill="none" stroke="#241F1C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8.00 300.00L532.00 300.00" fill="none" stroke="#A85A32" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M30.00 300.00L30.00 420.00" fill="none" stroke="#D9CFC0" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M94.00 300.00L94.00 420.00" fill="none" stroke="#D9CFC0" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M158.00 300.00L158.00 420.00" fill="none" stroke="#D9CFC0" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M222.00 300.00L222.00 420.00" fill="none" stroke="#D9CFC0" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M286.00 300.00L286.00 420.00" fill="none" stroke="#D9CFC0" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M350.00 300.00L350.00 420.00" fill="none" stroke="#D9CFC0" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M414.00 300.00L414.00 420.00" fill="none" stroke="#D9CFC0" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M478.00 300.00L478.00 420.00" fill="none" stroke="#D9CFC0" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="300.00" y="40.00" width="200.00" height="110.00" rx="0.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="2.2"/>
+<path d="M300.00 70.00L500.00 70.00" fill="none" stroke="#A85A32" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(318.00 78.00) scale(0.22000)">
+<path d="M10 4 V100" fill="none" stroke="#241F1C" stroke-width="9.09091" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M70 4 L10 56" fill="none" stroke="#241F1C" stroke-width="9.09091" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M30 42 L72 100" fill="none" stroke="#241F1C" stroke-width="9.09091" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(337.36 78.00) scale(0.22000)">
+<path d="M8 100 L40 4 L72 100" fill="none" stroke="#241F1C" stroke-width="9.09091" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 62 H58" fill="none" stroke="#241F1C" stroke-width="9.09091" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path d="M390 78 L410 96" fill="none" stroke="#241F1C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M416.00 88.00L470.00 88.00" fill="none" stroke="#D9CFC0" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 5"/>
+<rect x="60.00" y="214.00" width="119.60" height="80.60" rx="4.00" fill="#F6F1E7" stroke="#241F1C" stroke-width="2.2"/>
+<path d="M99.0 214.0 V193.2 H140.6 V214.0" fill="none" stroke="#241F1C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M119.80 214.00L119.80 294.60" fill="none" stroke="#A85A32" stroke-width="1.32" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="112.00" y="247.80" width="15.60" height="10.40" rx="0.00" fill="none" stroke="#A85A32" stroke-width="1.32"/>
+<path d="M180.0 240.4 L180.0 209.2 L216.4 193.6 L239.8 206.6 L224.2 222.2 L242.4 232.6 L219.0 243.0 L203.4 237.8 L190.4 250.8 Z" fill="#F6F1E7" stroke="#241F1C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(230.00 214.00) rotate(0.0)">
+<path d="M6.00 0.00 L42.00 0.00 L48.00 6.00 L48.00 20.00 L42.00 26.00 L6.00 26.00 L0.00 20.00 L0.00 6.00 Z" fill="#A85A32" stroke="#241F1C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M34.56 3.00L34.56 23.00" fill="none" stroke="#241F1C" stroke-width="1.12" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3"/>
+</g>
+<g transform="translate(248.00 228.00) rotate(-8.0)">
+<path d="M6.00 0.00 L42.00 0.00 L48.00 6.00 L48.00 20.00 L42.00 26.00 L6.00 26.00 L0.00 20.00 L0.00 6.00 Z" fill="#A85A32" stroke="#241F1C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M34.56 3.00L34.56 23.00" fill="none" stroke="#241F1C" stroke-width="1.12" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3"/>
+</g>
+<rect x="8.00" y="8.00" width="524.00" height="424.00" rx="0.00" fill="none" stroke="#A85A32" stroke-width="1.1"/>
+</svg>

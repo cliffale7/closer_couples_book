@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" width="440" height="280" role="img" aria-label="Line motif for 058 What You Heard vs. What I Meant: Two speech bubbles that do not match, and a gentle pencil"><title>Line motif for 058 What You Heard vs. What I Meant: Two speech bubbles that do not match, and a gentle pencil</title><g data-motif="Two speech bubbles that do not match, and a gentle pencil">
+<rect x="30.00" y="40.00" width="160.00" height="80.00" rx="18.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2"/>
+<path d="M52.00 118.00 L40.00 142.00 L78.00 118.00 Z" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46.00 60.00L172.00 60.00" fill="none" stroke="#D9CFC0" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46.00 74.00L172.00 74.00" fill="none" stroke="#D9CFC0" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46.00 88.00L172.00 88.00" fill="none" stroke="#D9CFC0" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="230.00" y="70.00" width="170.00" height="90.00" rx="2.00" fill="#F6F1E7" stroke="#241F1C" stroke-width="3.2"/>
+<path d="M352.00 158.00 L390.00 182.00 L378.00 158.00 Z" fill="#F6F1E7" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M246.00 90.00L382.00 90.00" fill="none" stroke="#D9CFC0" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M246.00 104.00L382.00 104.00" fill="none" stroke="#D9CFC0" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M246.00 118.00L382.00 118.00" fill="none" stroke="#D9CFC0" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(180.00 210.00) rotate(-30.0) scale(1.300)">
+<rect x="0.00" y="-4.00" width="62.00" height="8.00" rx="0.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="2.46154"/>
+<path d="M62.00 -4.00 L78.00 0.00 L62.00 4.00 Z" fill="#A85A32" stroke="#A85A32" stroke-width="1.23077" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.00 -4.00L10.00 4.00" fill="none" stroke="#A85A32" stroke-width="1.35385" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

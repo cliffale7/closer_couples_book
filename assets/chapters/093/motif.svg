@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" width="440" height="280" role="img" aria-label="Line motif for 093 The Relationship Bucket List: A suitcase packed with shared plans"><title>Line motif for 093 The Relationship Bucket List: A suitcase packed with shared plans</title><g data-motif="A suitcase packed with shared plans">
+<rect x="80.00" y="120.00" width="200.00" height="116.00" rx="3.00" fill="#F6F1E7" stroke="#241F1C" stroke-width="3.2"/>
+<path d="M96.00 120.00 L116.00 60.00 L264.00 72.00 L272.00 120.00 Z" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M80.00 176.00L280.00 176.00" fill="none" stroke="#A85A32" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(120.00 120.00) rotate(0.0)">
+<rect x="0.00" y="0.00" width="70.00" height="40.00" rx="0.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="2"/>
+<path d="M14.00 22.00L54.00 22.00" fill="none" stroke="#D9CFC0" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.00 23.33L54.00 23.33" fill="none" stroke="#D9CFC0" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.00 24.67L46.00 24.67" fill="none" stroke="#D9CFC0" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(200.00 130.00) rotate(0.0)">
+<path d="M6.00 0.00 L34.00 0.00 L40.00 6.00 L40.00 16.00 L34.00 22.00 L6.00 22.00 L0.00 16.00 L0.00 6.00 Z" fill="#FBF8F2" stroke="#241F1C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M28.80 3.00L28.80 19.00" fill="none" stroke="#A85A32" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3"/>
+</g>
+</g>
+</svg>

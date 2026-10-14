@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 360" width="540" height="360" role="img" aria-label="Hero for The Long Toast: a row of unmatched glasses like years, one glass raised, a night window, and a blank card at the far end."><title>Hero for The Long Toast: a row of unmatched glasses like years, one glass raised, a night window, and a blank card at the far end.</title><rect x="0.00" y="0.00" width="540.00" height="200.00" rx="0.00" fill="#1B2433" stroke="none" stroke-width="0"/>
+<rect x="0.00" y="200.00" width="540.00" height="160.00" rx="0.00" fill="#F6F1E7" stroke="none" stroke-width="0"/>
+<rect x="24.00" y="28.00" width="200.00" height="120.00" rx="0.00" fill="#1B2433" stroke="#FBF8F2" stroke-width="2.2"/>
+<path d="M24.00 200.00L516.00 200.00" fill="none" stroke="#241F1C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M36.0 160.0 L40.0 200.0 Q50.0 208.0 60.0 200.0 L64.0 160.0" fill="none" stroke="#241F1C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="50.00" cy="160.00" rx="14.00" ry="5.00" fill="none" stroke="#241F1C" stroke-width="1.6"/>
+<path d="M81.1 146.0 L86.5 200.0 Q100.0 210.8 113.5 200.0 L118.9 146.0" fill="none" stroke="#241F1C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="100.00" cy="146.00" rx="18.90" ry="6.75" fill="none" stroke="#C6A15B" stroke-width="1.6"/>
+<path d="M148.8 168.0 L152.0 200.0 Q160.0 206.4 168.0 200.0 L171.2 168.0" fill="#7C3A46" stroke="#241F1C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="160.00" cy="168.00" rx="11.20" ry="4.00" fill="none" stroke="#241F1C" stroke-width="1.6"/>
+<path d="M193.9 122.0 L198.5 168.0 Q210.0 177.2 221.5 168.0 L226.1 122.0" fill="none" stroke="#241F1C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="210.00" cy="122.00" rx="16.10" ry="5.75" fill="none" stroke="#C6A15B" stroke-width="1.6"/>
+<path d="M249.0 140.0 L255.0 200.0 Q270.0 212.0 285.0 200.0 L291.0 140.0" fill="none" stroke="#241F1C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="270.00" cy="140.00" rx="21.00" ry="7.50" fill="none" stroke="#241F1C" stroke-width="1.6"/>
+<path d="M320.2 172.0 L323.0 200.0 Q330.0 205.6 337.0 200.0 L339.8 172.0" fill="none" stroke="#241F1C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="330.00" cy="172.00" rx="9.80" ry="3.50" fill="none" stroke="#241F1C" stroke-width="1.6"/>
+<path d="M363.2 152.0 L368.0 200.0 Q380.0 209.6 392.0 200.0 L396.8 152.0" fill="none" stroke="#241F1C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="380.00" cy="152.00" rx="16.80" ry="6.00" fill="none" stroke="#241F1C" stroke-width="1.6"/>
+<path d="M426.7 162.0 L430.5 200.0 Q440.0 207.6 449.5 200.0 L453.3 162.0" fill="none" stroke="#241F1C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="440.00" cy="162.00" rx="13.30" ry="4.75" fill="none" stroke="#C6A15B" stroke-width="1.6"/>
+<g transform="translate(470.00 150.00) rotate(0.0)">
+<rect x="0.00" y="0.00" width="48.00" height="64.00" rx="3.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="1.5"/>
+</g>
+</svg>

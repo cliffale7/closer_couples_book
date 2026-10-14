@@ -1,0 +1,169 @@
+/* Reflow stylesheet for the digital reader.
+   Copied into the EPUB by scripts/build_all.py.
+   Georgia and Palatino Linotype ship with Windows; readers may substitute. */
+
+html {
+  background: #F6F1E7;
+  color: #241F1C;
+}
+
+body {
+  margin: 1.1em 1.15em 1.4em;
+  background: #F6F1E7;
+  color: #241F1C;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  font-weight: normal;
+  color: #241F1C;
+  line-height: 1.2;
+}
+
+h1 { font-size: 1.7em; margin: 0 0 0.4em; }
+h2 {
+  font-size: 1.25em;
+  margin: 1.3em 0 0.35em;
+  padding-top: 0.4em;
+  border-top: 1px solid #A85A32;
+}
+h3 { font-size: 1.1em; margin: 1em 0 0.25em; }
+
+p { margin: 0 0 0.7em; }
+
+a { color: #3E6464; }
+
+.kicker,
+.subtitle,
+.chapter-number,
+.meta-line,
+.motif-note,
+.see-also,
+.journal-kicker,
+figcaption {
+  font-family: Calibri, "Segoe UI", sans-serif;
+  color: #A85A32;
+}
+
+.kicker,
+.chapter-number,
+.journal-kicker {
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.78em;
+}
+
+.subtitle { letter-spacing: 0.08em; text-transform: uppercase; }
+.deck { font-style: italic; }
+.meta-line, .motif-note, .see-also, figcaption { color: #3E6464; font-size: 0.85em; }
+
+.title-page { text-align: center; margin-top: 12vh; }
+.title-page .rule {
+  width: 6em;
+  border-top: 1px solid #A85A32;
+  border-bottom: 1px solid #C6A15B;
+  height: 3px;
+  margin: 0.9em auto;
+}
+
+.proof-banner {
+  border: 1px solid #A85A32;
+  background: #FBF8F2;
+  padding: 0.7em 0.85em;
+  text-align: left;
+  font-family: Calibri, "Segoe UI", sans-serif;
+  font-size: 0.92em;
+}
+
+nav#toc a,
+nav.toc a {
+  color: #241F1C;
+  text-decoration: none;
+  border-bottom: 1px dotted #C6A15B;
+}
+
+.toc-group {
+  font-family: "Palatino Linotype", Palatino, Georgia, serif;
+  color: #7C3A46;
+  margin: 1em 0 0.2em;
+}
+
+figure.motif { margin: 0.6em 0 1em; }
+figure.motif img { max-width: 8em; height: auto; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.8em 0 1.1em;
+  font-size: 0.95em;
+}
+
+th {
+  font-family: "Palatino Linotype", Palatino, Georgia, serif;
+  font-weight: normal;
+  text-align: left;
+  border-bottom: 2px solid #A85A32;
+  padding: 0.35em 0.4em 0.35em 0;
+}
+
+td {
+  border-bottom: 1px solid #D9CFC0;
+  padding: 0.4em 0.4em 0.4em 0;
+  vertical-align: top;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  gap: 0.75em;
+  margin: 0.8em 0 1.2em;
+}
+
+.card {
+  display: block;
+  background: #FBF8F2;
+  border: 1px solid #A85A32;
+  padding: 0.75em 0.8em;
+  margin: 0 0 0.75em;
+}
+
+.card h3 { margin: 0 0 0.3em; color: #7C3A46; }
+.card p { margin: 0; }
+
+.journal-spread {
+  background: #FBF8F2;
+  border: 1px solid #D9CFC0;
+  padding: 0.85em 0.95em;
+  margin: 0.8em 0 1.2em;
+}
+
+.journal-spread h3 {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0.9em;
+}
+
+.journal-private { font-style: italic; }
+.writing-lines span {
+  display: block;
+  height: 1.8em;
+  border-bottom: 1px solid #D9CFC0;
+  margin-top: 0.15em;
+}
+
+code {
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 0.92em;
+}
+
+figure.part-art { margin: 0.6em 0 1em; }
+figure.part-art img { display: block; max-width: 100%; height: auto; }
+
+.index-note {
+  font-family: Calibri, "Segoe UI", sans-serif;
+  color: #3E6464;
+  font-size: 0.85em;
+}

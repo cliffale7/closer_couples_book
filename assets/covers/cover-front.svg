@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 522 738" width="522" height="738" role="img" aria-label="Front cover of The Closer Project on a midnight ground: an emblem of two circles, a key, and gold stars, with the title and subtitle."><title>Front cover of The Closer Project on a midnight ground: an emblem of two circles, a key, and gold stars, with the title and subtitle.</title><rect x="0.00" y="0.00" width="522.00" height="738.00" rx="0.00" fill="#1B2433" stroke="none" stroke-width="0"/>
+<rect x="48.60" y="48.60" width="424.80" height="640.80" rx="0.00" fill="none" stroke="#A85A32" stroke-width="0.5"/>
+<rect x="54.60" y="54.60" width="412.80" height="628.80" rx="0.00" fill="none" stroke="#A85A32" stroke-width="0.5"/>
+<circle cx="236.70" cy="168.00" r="43.20" fill="none" stroke="#FBF8F2" stroke-width="1.8"/>
+<circle cx="285.30" cy="168.00" r="43.20" fill="none" stroke="#FBF8F2" stroke-width="1.8"/>
+<g transform="translate(247.50 173.40) rotate(-20.0) scale(1.147)">
+<circle cx="0.00" cy="0.00" r="12.00" fill="none" stroke="#A85A32" stroke-width="1.56863"/>
+<circle cx="0.00" cy="0.00" r="5.00" fill="none" stroke="#A85A32" stroke-width="1.56863"/>
+<path d="M11.00 0.00L46.00 0.00" fill="none" stroke="#A85A32" stroke-width="1.56863" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M32.00 0.00L32.00 9.00" fill="none" stroke="#A85A32" stroke-width="1.56863" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M39.00 0.00L39.00 7.00" fill="none" stroke="#A85A32" stroke-width="1.56863" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path d="M190.80 123.45 L192.47 127.91 L197.22 128.11 L193.50 131.08 L194.77 135.66 L190.80 133.03 L186.83 135.66 L188.10 131.08 L184.38 128.11 L189.13 127.91 Z" fill="#C6A15B" stroke="#C6A15B" stroke-width="1.08" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M325.80 130.20 L327.13 133.77 L330.94 133.93 L327.96 136.30 L328.97 139.97 L325.80 137.87 L322.63 139.97 L323.64 136.30 L320.66 133.93 L324.47 133.77 Z" fill="#C6A15B" stroke="#C6A15B" stroke-width="1.08" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M315.00 203.78 L316.17 206.89 L319.49 207.04 L316.89 209.11 L317.78 212.32 L315.00 210.48 L312.22 212.32 L313.11 209.11 L310.51 207.04 L313.83 206.89 Z" fill="#C6A15B" stroke="#C6A15B" stroke-width="1.08" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M198.90 199.05 L199.90 201.72 L202.75 201.85 L200.52 203.63 L201.28 206.38 L198.90 204.80 L196.52 206.38 L197.28 203.63 L195.05 201.85 L197.90 201.72 Z" fill="#C6A15B" stroke="#C6A15B" stroke-width="1.08" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M261.00 108.60 L262.33 112.17 L266.14 112.33 L263.16 114.70 L264.17 118.37 L261.00 116.27 L257.83 118.37 L258.84 114.70 L255.86 112.33 L259.67 112.17 Z" fill="#C6A15B" stroke="#C6A15B" stroke-width="1.08" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="261" y="360" text-anchor="middle" fill="#FBF8F2" font-family="Palatino Linotype, Palatino, 'Book Antiqua', serif" font-size="40" font-weight="700">The Closer Project</text>
+<text x="261" y="392" text-anchor="middle" fill="#F6F1E7" font-family="Palatino Linotype, Palatino, 'Book Antiqua', serif" font-size="13" font-style="italic">A library of closeness, play, and the story of us</text>
+</svg>

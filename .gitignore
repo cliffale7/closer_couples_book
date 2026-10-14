@@ -12,5 +12,8 @@ Thumbs.db
 .tmp/
 node_modules/
 .venv/
-build/
+# Generated editions stay local. The typesetting fixture is source.
+build/*
+!build/fixtures/
+!build/fixtures/**
 *.log

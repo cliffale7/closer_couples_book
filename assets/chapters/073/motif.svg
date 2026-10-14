@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" width="440" height="280" role="img" aria-label="Line motif for 073 The First Chapter: Chapter one written twice and laid side by side"><title>Line motif for 073 The First Chapter: Chapter one written twice and laid side by side</title><g data-motif="Chapter one written twice and laid side by side">
+<g transform="translate(40.00 40.00) rotate(0.0)">
+<rect x="0.00" y="0.00" width="160.00" height="200.00" rx="0.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2"/>
+<path d="M14.00 22.00L144.00 22.00" fill="none" stroke="#D9CFC0" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.00 49.33L144.00 49.33" fill="none" stroke="#D9CFC0" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.00 76.67L136.00 76.67" fill="none" stroke="#D9CFC0" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.00 104.00L144.00 104.00" fill="none" stroke="#D9CFC0" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.00 131.33L144.00 131.33" fill="none" stroke="#D9CFC0" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.00 158.67L136.00 158.67" fill="none" stroke="#D9CFC0" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(230.00 48.00) rotate(0.0)">
+<rect x="0.00" y="0.00" width="160.00" height="200.00" rx="0.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2"/>
+<path d="M14.00 22.00L144.00 22.00" fill="none" stroke="#D9CFC0" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.00 54.80L144.00 54.80" fill="none" stroke="#D9CFC0" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.00 87.60L136.00 87.60" fill="none" stroke="#D9CFC0" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.00 120.40L144.00 120.40" fill="none" stroke="#D9CFC0" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.00 153.20L144.00 153.20" fill="none" stroke="#D9CFC0" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(96.00 50.00) scale(0.28000)">
+<path d="M28 22 L40 4 V100" fill="none" stroke="#241F1C" stroke-width="8.57143" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 100 H58" fill="none" stroke="#241F1C" stroke-width="8.57143" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(292.00 58.00) scale(0.28000)">
+<path d="M28 22 L40 4 V100" fill="none" stroke="#241F1C" stroke-width="8.57143" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 100 H58" fill="none" stroke="#241F1C" stroke-width="8.57143" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

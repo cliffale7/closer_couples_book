@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" width="440" height="280" role="img" aria-label="Line motif for 032 The Everyday Devotion Experiment: Seven tiny copper marks across ordinary days, not a score chart"><title>Line motif for 032 The Everyday Devotion Experiment: Seven tiny copper marks across ordinary days, not a score chart</title><g data-motif="Seven tiny copper marks across ordinary days, not a score chart">
+<path d="M33.7 168.0 Q32.4 191.4 48.0 194.0 Q63.6 191.4 62.3 168.0" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="48.00" cy="168.00" rx="14.30" ry="4.55" fill="#F6F1E7" stroke="#241F1C" stroke-width="3.2"/>
+<path d="M62.3 173.2 Q74.0 177.1 62.3 186.2" fill="none" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="48.00" cy="118.00" r="4.50" fill="#A85A32" stroke="#A85A32" stroke-width="1"/>
+<g transform="translate(108.00 176.00) rotate(-28.0) scale(0.720)">
+<circle cx="0.00" cy="0.00" r="12.00" fill="none" stroke="#A85A32" stroke-width="4.44444"/>
+<circle cx="0.00" cy="0.00" r="5.00" fill="none" stroke="#A85A32" stroke-width="4.44444"/>
+<path d="M11.00 0.00L46.00 0.00" fill="none" stroke="#A85A32" stroke-width="4.44444" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M32.00 0.00L32.00 9.00" fill="none" stroke="#A85A32" stroke-width="4.44444" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M39.00 0.00L39.00 7.00" fill="none" stroke="#A85A32" stroke-width="4.44444" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<circle cx="108.00" cy="108.00" r="4.50" fill="#A85A32" stroke="#A85A32" stroke-width="1"/>
+<path d="M168.0 188.0 Q184.0 170.0 172.0 160.0 Q154.0 172.0 168.0 188.0 Z" fill="#FBF8F2" stroke="#3E6464" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="164.00" cy="132.00" r="4.50" fill="#A85A32" stroke="#A85A32" stroke-width="1"/>
+<g transform="translate(214.00 160.00) rotate(18.0) scale(0.620)">
+<ellipse cx="0.00" cy="-18.00" rx="12.00" ry="16.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="5.16129"/>
+<path d="M0 -2 C8 18 6 40 0 58" fill="none" stroke="#241F1C" stroke-width="5.16129" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<circle cx="214.00" cy="100.00" r="4.50" fill="#A85A32" stroke="#A85A32" stroke-width="1"/>
+<g transform="translate(250.00 150.00) rotate(0.0)">
+<rect x="0.00" y="0.00" width="34.00" height="46.00" rx="2.00" fill="#F6F1E7" stroke="#241F1C" stroke-width="3.2"/>
+<path d="M8.00 0.00L8.00 46.00" fill="none" stroke="#A85A32" stroke-width="2.56" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M28.00 4.00L31.00 42.00" fill="none" stroke="#241F1C" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M24.00 4.00L27.00 42.00" fill="none" stroke="#241F1C" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<circle cx="268.00" cy="136.00" r="4.50" fill="#A85A32" stroke="#A85A32" stroke-width="1"/>
+<path d="M316.0 196.0 Q314.5 185.5 325.0 182.5 Q338.5 181.0 341.5 191.5 Q340.0 200.5 328.0 199.0 Q317.5 200.5 316.0 196.0 Z" fill="#D9CFC0" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="328.00" cy="150.00" r="4.50" fill="#A85A32" stroke="#A85A32" stroke-width="1"/>
+<ellipse cx="390.00" cy="194.32" rx="7.56" ry="2.52" fill="#F6F1E7" stroke="#241F1C" stroke-width="3.2"/>
+<path d="M390.00 192.64L390.00 184.24" fill="none" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M385.80 173.32 L394.20 173.32 L399.24 185.92 L380.76 185.92 Z" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="390.00" cy="183.40" rx="1.68" ry="2.94" fill="#C6A15B" stroke="#C6A15B" stroke-width="1.28"/>
+<path d="M383.28 185.92L378.24 193.48" fill="none" stroke="#A85A32" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M396.72 185.92L401.76 193.48" fill="none" stroke="#A85A32" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="390.00" cy="128.00" r="4.50" fill="#A85A32" stroke="#A85A32" stroke-width="1"/>
+</g>
+</svg>

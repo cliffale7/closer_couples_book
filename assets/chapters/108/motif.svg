@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" width="440" height="280" role="img" aria-label="Line motif for 108 The Secret Door: A corridor of doors and keys that can be offered or kept"><title>Line motif for 108 The Secret Door: A corridor of doors and keys that can be offered or kept</title><g data-motif="A corridor of doors and keys that can be offered or kept">
+<rect x="30.00" y="40.00" width="200.00" height="200.00" rx="0.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="2"/>
+<rect x="58.00" y="56.00" width="144.00" height="160.00" rx="0.00" fill="none" stroke="#A85A32" stroke-width="1.4"/>
+<path d="M30.00 40.00L58.00 56.00" fill="none" stroke="#241F1C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M230.00 40.00L202.00 56.00" fill="none" stroke="#241F1C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M30.00 240.00L58.00 216.00" fill="none" stroke="#241F1C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M230.00 240.00L202.00 216.00" fill="none" stroke="#241F1C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="244.00" y="30.00" width="62.00" height="108.00" rx="0.00" fill="none" stroke="#241F1C" stroke-width="2"/>
+<rect x="250.00" y="36.00" width="50.00" height="100.00" rx="0.00" fill="#F6F1E7" stroke="#241F1C" stroke-width="2"/>
+<rect x="258.00" y="46.00" width="34.00" height="38.00" rx="0.00" fill="none" stroke="#241F1C" stroke-width="1.4"/>
+<rect x="258.00" y="84.00" width="34.00" height="38.00" rx="0.00" fill="none" stroke="#241F1C" stroke-width="1.4"/>
+<circle cx="284.00" cy="91.00" r="4.00" fill="#A85A32" stroke="#A85A32" stroke-width="0.8"/>
+<rect x="314.00" y="44.00" width="62.00" height="118.00" rx="0.00" fill="none" stroke="#241F1C" stroke-width="2"/>
+<path d="M320.00 50.00 L352.50 58.00 L352.50 154.00 L320.00 160.00 Z" fill="#F6F1E7" stroke="#241F1C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M326.00 54.00L326.00 158.00" fill="none" stroke="#A85A32" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="344.50" cy="110.50" r="3.50" fill="#A85A32" stroke="#A85A32" stroke-width="0.8"/>
+<rect x="380.00" y="64.00" width="52.00" height="98.00" rx="0.00" fill="none" stroke="#241F1C" stroke-width="2"/>
+<rect x="386.00" y="70.00" width="40.00" height="90.00" rx="0.00" fill="#F6F1E7" stroke="#241F1C" stroke-width="2"/>
+<rect x="394.00" y="80.00" width="24.00" height="34.20" rx="0.00" fill="none" stroke="#241F1C" stroke-width="1.4"/>
+<rect x="394.00" y="113.20" width="24.00" height="34.20" rx="0.00" fill="none" stroke="#241F1C" stroke-width="1.4"/>
+<circle cx="410.00" cy="119.50" r="4.00" fill="#A85A32" stroke="#A85A32" stroke-width="0.8"/>
+<g transform="translate(70.00 200.00) rotate(-25.0) scale(0.800)">
+<circle cx="0.00" cy="0.00" r="12.00" fill="none" stroke="#A85A32" stroke-width="4"/>
+<circle cx="0.00" cy="0.00" r="5.00" fill="none" stroke="#A85A32" stroke-width="4"/>
+<path d="M11.00 0.00L46.00 0.00" fill="none" stroke="#A85A32" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M32.00 0.00L32.00 9.00" fill="none" stroke="#A85A32" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M39.00 0.00L39.00 7.00" fill="none" stroke="#A85A32" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path d="M141.00 235.00 L135.00 226.00 L126.00 222.00 L123.00 212.00 L130.00 208.00 L136.00 217.00 L134.00 206.00 L132.00 186.00 L139.00 183.00 L143.00 201.00 L144.00 197.00 L146.00 178.00 L151.00 176.00 L155.00 198.00 L156.00 199.00 L158.00 181.00 L163.00 180.00 L164.00 201.00 L165.00 203.00 L169.00 189.00 L173.00 192.00 L169.00 212.00 L165.00 227.00 L158.00 236.00 Z" fill="#F6F1E7" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M147.0 221.0 Q154.0 216.0 160.0 222.0" fill="none" stroke="#A85A32" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(300.00 200.00) rotate(20.0) scale(0.700)">
+<circle cx="0.00" cy="0.00" r="12.00" fill="none" stroke="#A85A32" stroke-width="4.57143"/>
+<circle cx="0.00" cy="0.00" r="5.00" fill="none" stroke="#A85A32" stroke-width="4.57143"/>
+<path d="M11.00 0.00L46.00 0.00" fill="none" stroke="#A85A32" stroke-width="4.57143" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M32.00 0.00L32.00 9.00" fill="none" stroke="#A85A32" stroke-width="4.57143" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M39.00 0.00L39.00 7.00" fill="none" stroke="#A85A32" stroke-width="4.57143" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path d="M360 210 Q400 190 410 220 Q390 240 370 228" fill="#F6F1E7" stroke="#241F1C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

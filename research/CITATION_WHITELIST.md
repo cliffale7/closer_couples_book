@@ -88,6 +88,40 @@ John Gottman’s clinical writing popularized love maps, bids for connection, re
 
 Gary Chapman’s *The 5 Love Languages* (1992) is a popular book. Cite I2024 if the chapter mentions it, and do not present the five languages as established science.
 
+## Added after evidence review of dossiers 073–108
+
+The evidence reviewer opened these on 14 October 2026. DOI landing pages returned HTTP 406. Verification is from the PDFs named below, plus the PsycNet record snippet for B1992. Chapters may cite them only inside these limits.
+
+### B1992
+
+Buehlman, K. T., Gottman, J. M., & Katz, L. F. (1992). How a couple views their past predicts their future: Predicting divorce from an oral history interview. *Journal of Family Psychology, 5*(3–4), 295–318. https://doi.org/10.1037/0893-3200.5.3-4.295
+
+What it supports: a coded Oral History Interview about dating and marital history, philosophy of marriage, and change over time, in a selected sample of married parents. Methods recruited 56 families; the summary and follow-up concern 52. The interview was conducted for the study. Over about three years, the manner of telling was associated with later marital stability. Fondness, we-ness, negativity, chaos, and disappointment ran in the directions stated in the abstract. This is a correlate in that sample, not a reminiscence treatment, and not this book’s exercise.
+
+What it does not support: any discriminant-function accuracy or divorce-prediction percentage. Do not quote one. Do not write that either spouse’s fondness score predicted stability. Wife fondness was below the paper’s predictor cutoff and was not in the nine-variable predictor set. Do not turn separate husband and wife codes into gender advice. Do not describe an interview section the paper does not have. The prompts that are fair to name are good times and bad times, philosophy, and change.
+
+PDF checked: `https://www.johngottman.net/wp-content/uploads/2011/05/How-a-couple-views-their-past-predicts-their-future-predicting-divorce-from-an-oral-history-interview.pdf`
+
+### S2007
+
+Schacter, D. L., Addis, D. R., & Buckner, R. L. (2007). Remembering the past to imagine the future: The prospective brain. *Nature Reviews Neuroscience, 8*(9), 657–661. https://doi.org/10.1038/nrn2213
+
+What it supports: the authors argue that imagining the future depends on much of the same neural machinery as remembering. Their constructive episodic simulation hypothesis says future simulation recombines details from the past, and the review says that hypothesis has support. Use “argue.” The same review says further work still has to test whether future simulations recombine elements from different episodes or retrieve fragments.
+
+What it does not support: that imagining makes an event happen, that people cannot tell memory from imagination, that neuroscience validates any chapter in this book, or that a centenarian game or a future-memory exercise was tested. Do not quote the review’s clinical cases. Do not say the review proved recombination.
+
+PDF checked: `https://gwern.net/doc/psychology/neuroscience/2007-schacter.pdf`
+
+### G1999
+
+Gollwitzer, P. M. (1999). Implementation intentions: Strong effects of simple plans. *American Psychologist, 54*(7), 493–503. https://doi.org/10.1037/0003-066X.54.7.493
+
+What it supports: a distinction between goal intentions (“I intend to reach x”) and implementation intentions (“When situation x arises, I will perform response y”). The review describes a research program in which those if-then plans supported goal attainment in the domains studied. In that review, goal intentions had modest effects. They were not useless.
+
+What it does not support: a study of promises between partners, proof that a vow in this book will be kept, or the phrase “bare sincerity is weak” as Gollwitzer’s conclusion. The if-then line is not a tested couple treatment.
+
+PDF checked: `https://www.socmot.uni-konstanz.de/sites/default/files/99_Gollwitzer_Implementation_Intentions.pdf`
+
 ## Hard bans
 
 - No fabricated papers, authors, sample sizes, or DOIs.

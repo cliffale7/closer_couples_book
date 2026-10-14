@@ -1,0 +1,181 @@
+/* Our Story companion. Inlined by scripts/build_journal.py.
+   US Letter. Georgia, Palatino Linotype, and Calibri. No font files. */
+
+@page {
+  size: letter;
+  margin: 0.70in 0.70in 0.75in 0.85in;
+  @top-center {
+    content: "Our Story";
+    font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif;
+    font-size: 8pt;
+    letter-spacing: 0.14em;
+    color: #A85A32;
+  }
+  @bottom-center {
+    content: counter(page);
+    font-family: "Palatino Linotype", Palatino, serif;
+    font-size: 9pt;
+    color: #A85A32;
+  }
+}
+
+@page :first {
+  @top-center { content: none; }
+  @bottom-center { content: none; }
+}
+
+* { box-sizing: border-box; }
+
+html {
+  background: #F6F1E7;
+  color: #241F1C;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+body {
+  margin: 0;
+  background: #F6F1E7;
+  color: #241F1C;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 11pt;
+  line-height: 1.45;
+}
+
+@media screen {
+  html { background: #1B2433; }
+  body {
+    width: 8.5in;
+    min-height: 11in;
+    margin: 0.4in auto 0.6in;
+    padding: 0.70in 0.70in 0.75in 0.85in;
+    box-shadow: 0 0 0 1px #2C3544, 0 16px 40px rgba(0, 0, 0, 0.35);
+  }
+}
+
+h1, h2, h3, h4 {
+  font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif;
+  font-weight: normal;
+  color: #241F1C;
+  line-height: 1.15;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+h1 {
+  font-size: 26pt;
+  margin: 0 0 0.16in;
+  break-before: page;
+  page-break-before: always;
+}
+
+h2 {
+  font-size: 16pt;
+  margin: 0.28in 0 0.08in;
+  color: #7C3A46;
+}
+
+h3 { font-size: 13pt; margin: 0.2in 0 0.06in; }
+
+p { margin: 0 0 0.12in; }
+
+a { color: #3E6464; }
+
+ul, ol { margin: 0.08in 0 0.16in; padding-left: 1.15em; }
+li { margin: 0.06in 0; }
+
+.kicker,
+.meta {
+  font-family: Calibri, "Segoe UI", sans-serif;
+  color: #A85A32;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 9pt;
+}
+
+.title-page {
+  text-align: center;
+  min-height: 8.2in;
+}
+
+.title-page h1 {
+  break-before: auto;
+  page-break-before: auto;
+  font-size: 32pt;
+}
+
+.title-page .statement {
+  font-style: italic;
+  max-width: 5.4in;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title-page .writing-lines,
+.title-page p.fact-line {
+  width: 4.2in;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+p.fact-line {
+  margin: 0;
+  line-height: 0.36in;
+  min-height: 0.36in;
+}
+
+.writing-lines span {
+  display: block;
+  height: 0.36in;
+  border-bottom: 1px solid #D9CFC0;
+}
+
+.prompt-block { break-inside: avoid; page-break-inside: avoid; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.12in 0 0.2in;
+  font-size: 10pt;
+  break-inside: auto;
+  page-break-inside: auto;
+}
+
+tr { break-inside: avoid; page-break-inside: avoid; }
+
+th {
+  font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif;
+  font-weight: normal;
+  text-align: left;
+  border-bottom: 1.25pt solid #A85A32;
+  padding: 0.06in 0.08in 0.06in 0;
+}
+
+td {
+  border-bottom: 0.5pt solid #D9CFC0;
+  padding: 0.06in 0.08in 0.06in 0;
+  vertical-align: top;
+}
+
+pre {
+  white-space: pre-wrap;
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 9pt;
+  background: #FBF8F2;
+  padding: 0.12in 0.14in;
+}
+
+code { font-family: Consolas, "Courier New", monospace; }
+
+.colophon {
+  break-before: page;
+  page-break-before: always;
+  font-size: 10pt;
+}
+
+hr {
+  border: 0;
+  border-top: 0.75pt solid #A85A32;
+  margin: 0.2in 0;
+}

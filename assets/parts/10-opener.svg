@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 440" width="540" height="440" role="img" aria-label="Part opener for The Past, the Present, and the Story of Us: a windowsill with a faded photograph, a warm cup, and a blank page."><title>Part opener for The Past, the Present, and the Story of Us: a windowsill with a faded photograph, a warm cup, and a blank page.</title><rect x="8.00" y="8.00" width="524.00" height="424.00" rx="0.00" fill="#F6F1E7" stroke="#A85A32" stroke-width="1.1"/>
+<rect x="36.00" y="28.00" width="468.00" height="250.00" rx="0.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="2.2"/>
+<path d="M36.00 278.00L504.00 278.00" fill="none" stroke="#A85A32" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="36.00" y="278.00" width="468.00" height="28.00" rx="0.00" fill="#F6F1E7" stroke="#241F1C" stroke-width="2.2"/>
+<g transform="translate(90 150) rotate(-8)">
+<rect x="0.00" y="0.00" width="120.00" height="90.00" rx="0.00" fill="#F6F1E7" stroke="#C6A15B" stroke-width="1.6"/>
+<path d="M16 70 L40 40 L60 58 L80 30 L104 70" fill="none" stroke="#D9CFC0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="78.00" cy="28.00" r="6.00" fill="none" stroke="#D9CFC0" stroke-width="1.4"/>
+</g>
+<path d="M254.7 230.0 Q252.4 271.4 280.0 276.0 Q307.6 271.4 305.3 230.0" fill="#FBF8F2" stroke="#241F1C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="280.00" cy="230.00" rx="25.30" ry="8.05" fill="#F6F1E7" stroke="#241F1C" stroke-width="2.2"/>
+<path d="M305.3 239.2 Q326.0 246.1 305.3 262.2" fill="none" stroke="#241F1C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="280.00" cy="270.00" rx="26.00" ry="6.00" fill="none" stroke="#A85A32" stroke-width="1.3"/>
+<g transform="translate(350.00 200.00) rotate(0.0)">
+<rect x="0.00" y="0.00" width="110.00" height="70.00" rx="0.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="1.6"/>
+</g>
+<g transform="translate(400.00 196.00) rotate(8.0) scale(1.000)">
+<rect x="0.00" y="-4.00" width="62.00" height="8.00" rx="0.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="1.6"/>
+<path d="M62.00 -4.00 L78.00 0.00 L62.00 4.00 Z" fill="#A85A32" stroke="#A85A32" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.00 -4.00L10.00 4.00" fill="none" stroke="#A85A32" stroke-width="0.88" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<rect x="8.00" y="8.00" width="524.00" height="424.00" rx="0.00" fill="none" stroke="#A85A32" stroke-width="1.1"/>
+</svg>

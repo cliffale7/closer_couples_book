@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 504 720" width="504" height="720" role="img" aria-label="Title page on parchment with the night-library emblem, the title The Closer Project, and an edition line."><title>Title page on parchment with the night-library emblem, the title The Closer Project, and an edition line.</title><rect x="0.00" y="0.00" width="504.00" height="720.00" rx="0.00" fill="#F6F1E7" stroke="none" stroke-width="0"/>
+<circle cx="223.20" cy="250.00" r="51.20" fill="none" stroke="#241F1C" stroke-width="1.7"/>
+<circle cx="280.80" cy="250.00" r="51.20" fill="none" stroke="#241F1C" stroke-width="1.7"/>
+<g transform="translate(236.00 256.40) rotate(-20.0) scale(1.360)">
+<circle cx="0.00" cy="0.00" r="12.00" fill="none" stroke="#A85A32" stroke-width="1.25"/>
+<circle cx="0.00" cy="0.00" r="5.00" fill="none" stroke="#A85A32" stroke-width="1.25"/>
+<path d="M11.00 0.00L46.00 0.00" fill="none" stroke="#A85A32" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M32.00 0.00L32.00 9.00" fill="none" stroke="#A85A32" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M39.00 0.00L39.00 7.00" fill="none" stroke="#A85A32" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path d="M168.80 197.20 L170.77 202.48 L176.41 202.73 L172.00 206.24 L173.50 211.67 L168.80 208.56 L164.10 211.67 L165.60 206.24 L161.19 202.73 L166.83 202.48 Z" fill="#C6A15B" stroke="#C6A15B" stroke-width="1.02" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M328.80 205.20 L330.38 209.43 L334.89 209.62 L331.36 212.43 L332.56 216.78 L328.80 214.29 L325.04 216.78 L326.24 212.43 L322.71 209.62 L327.22 209.43 Z" fill="#C6A15B" stroke="#C6A15B" stroke-width="1.02" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M316.00 292.40 L317.38 296.10 L321.33 296.27 L318.24 298.73 L319.29 302.53 L316.00 300.35 L312.71 302.53 L313.76 298.73 L310.67 296.27 L314.62 296.10 Z" fill="#C6A15B" stroke="#C6A15B" stroke-width="1.02" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M178.40 286.80 L179.58 289.97 L182.97 290.12 L180.32 292.22 L181.22 295.48 L178.40 293.62 L175.58 295.48 L176.48 292.22 L173.83 290.12 L177.22 289.97 Z" fill="#C6A15B" stroke="#C6A15B" stroke-width="1.02" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M252.00 179.60 L253.58 183.83 L258.09 184.02 L254.56 186.83 L255.76 191.18 L252.00 188.69 L248.24 191.18 L249.44 186.83 L245.91 184.02 L250.42 183.83 Z" fill="#C6A15B" stroke="#C6A15B" stroke-width="1.02" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="252" y="400" text-anchor="middle" fill="#241F1C" font-family="Palatino Linotype, Palatino, 'Book Antiqua', serif" font-size="32">The Closer Project</text>
+<path d="M212.00 418.00L292.00 418.00" fill="none" stroke="#A85A32" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="252" y="442" text-anchor="middle" fill="#2C3544" font-family="Calibri, 'Segoe UI', sans-serif" font-size="9">Illustrated workbook edition</text>
+</svg>

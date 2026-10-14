@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" width="440" height="280" role="img" aria-label="Line motif for 101 The Borrowed Brain Experiment: Two borrowed hats over one scenario card"><title>Line motif for 101 The Borrowed Brain Experiment: Two borrowed hats over one scenario card</title><g data-motif="Two borrowed hats over one scenario card">
+<ellipse cx="130.00" cy="90.00" rx="39.20" ry="11.20" fill="#F6F1E7" stroke="#241F1C" stroke-width="3.2"/>
+<path d="M107.6 90.0 Q104.8 50.8 130.0 39.6 Q155.2 50.8 152.4 90.0" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M110.4 78.8 Q130.0 84.4 149.6 78.8" fill="none" stroke="#C6A15B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M250.0 86.0 Q256.0 41.0 292.0 38.0 L301.0 86.0 Z" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M292.00 77.00L328.00 83.00" fill="none" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M265.00 74.00L295.00 77.00" fill="none" stroke="#C6A15B" stroke-width="2.24" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(150.00 140.00) rotate(0.0)">
+<rect x="0.00" y="0.00" width="140.00" height="90.00" rx="3.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2"/>
+<path d="M10.00 24.00L128.00 24.00" fill="none" stroke="#D9CFC0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.00 40.00L128.00 40.00" fill="none" stroke="#D9CFC0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.00 56.00L128.00 56.00" fill="none" stroke="#D9CFC0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.00 72.00L128.00 72.00" fill="none" stroke="#D9CFC0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

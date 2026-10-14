@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="presentation" aria-hidden="true"><defs><filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" seed="14" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0.141  0 0 0 0 0.122  0 0 0 0 0.110  0 0 0 0.06 0"/></filter></defs>
+<rect x="0.00" y="0.00" width="240.00" height="240.00" rx="0.00" fill="#F6F1E7" stroke="none" stroke-width="0"/>
+<rect x="0.00" y="0.00" width="240.00" height="240.00" rx="0.00" fill="#F6F1E7" stroke="none" stroke-width="0"/>
+<rect width="240" height="240" filter="url(#grain)"/>
+<path d="M12 40 C40 36 70 48 100 42" fill="none" stroke="#D9CFC0" stroke-width="0.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+<path d="M20 180 C80 176 140 188 210 174" fill="none" stroke="#D9CFC0" stroke-width="0.35" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"/>
+</svg>

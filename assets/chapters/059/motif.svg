@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" width="440" height="280" role="img" aria-label="Line motif for 059 The Gentle Disagreement: Two chairs angled toward each other, not a courtroom"><title>Line motif for 059 The Gentle Disagreement: Two chairs angled toward each other, not a courtroom</title><g data-motif="Two chairs angled toward each other, not a courtroom">
+<path d="M40.00 230.00L400.00 230.00" fill="none" stroke="#D9CFC0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(120 230) rotate(-18)">
+<path d="M0.00 0.00L0.00 -110.40" fill="none" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M55.20 0.00L55.20 -48.00" fill="none" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-7.20 -48.00L62.40 -48.00" fill="none" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0.00 -110.40 Q21.60 -124.80 36.00 -103.20" fill="none" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0.00 -81.60L19.20 -76.80" fill="none" stroke="#A85A32" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4.80 0.00L48.00 0.00" fill="none" stroke="#241F1C" stroke-width="2.24" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(300 230) rotate(18)">
+<path d="M0.00 0.00L0.00 -110.40" fill="none" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-55.20 0.00L-55.20 -48.00" fill="none" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7.20 -48.00L-62.40 -48.00" fill="none" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0.00 -110.40 Q-21.60 -124.80 -36.00 -103.20" fill="none" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0.00 -81.60L-19.20 -76.80" fill="none" stroke="#A85A32" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-4.80 0.00L-48.00 0.00" fill="none" stroke="#241F1C" stroke-width="2.24" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

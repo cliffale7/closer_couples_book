@@ -2,118 +2,154 @@
   "project": "The Closer Project",
   "edition": "v1-draft",
   "updated": "2026-10-14",
-  "phase": "1-research-art-layout",
+  "phase": "8-first-draft",
   "source_audit": "pass",
   "chapters": {
     "001": {
       "title": "The Stranger Across From Me",
       "part": 1,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [
         "A1997",
         "L1998"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2199,
+      "artifacts": [
+        "research/dossiers/001.md",
+        "chapters/part-01/001-the-stranger-across-from-me.md",
+        "assets/chapters/001/motif.svg"
+      ]
     },
     "002": {
       "title": "The Life You’ve Never Told Me",
       "part": 1,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [
         "L1998"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2073,
+      "artifacts": [
+        "research/dossiers/002.md",
+        "chapters/part-01/002-the-life-youve-never-told-me.md",
+        "assets/chapters/002/motif.svg"
+      ]
     },
     "003": {
       "title": "The Five Defining Moments",
       "part": 1,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [
         "L1998"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1925,
+      "artifacts": [
+        "research/dossiers/003.md",
+        "chapters/part-01/003-the-five-defining-moments.md",
+        "assets/chapters/003/motif.svg"
+      ]
     },
     "004": {
       "title": "Before I Was Me",
       "part": 1,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1822,
+      "artifacts": [
+        "research/dossiers/004.md",
+        "chapters/part-01/004-before-i-was-me.md",
+        "assets/chapters/004/motif.svg"
+      ]
     },
     "005": {
       "title": "The Things Nobody Thinks to Ask",
       "part": 1,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [
         "L1998"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2035,
+      "artifacts": [
+        "research/dossiers/005.md",
+        "chapters/part-01/005-the-things-nobody-thinks-to-ask.md",
+        "assets/chapters/005/motif.svg"
+      ]
     },
     "006": {
       "title": "The Museum of Me",
       "part": 1,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [
         "102"
       ],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2065,
+      "artifacts": [
+        "research/dossiers/006.md",
+        "chapters/part-01/006-the-museum-of-me.md",
+        "assets/chapters/006/motif.svg"
+      ]
     },
     "007": {
       "title": "The Opinion I Changed",
       "part": 1,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1830,
+      "artifacts": [
+        "research/dossiers/007.md",
+        "chapters/part-01/007-the-opinion-i-changed.md",
+        "assets/chapters/007/motif.svg"
+      ]
     },
     "008": {
       "title": "The Secret Biography",
       "part": 1,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [
         "L1998"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2008,
+      "artifacts": [
+        "research/dossiers/008.md",
+        "chapters/part-01/008-the-secret-biography.md",
+        "assets/chapters/008/motif.svg"
+      ]
     },
     "009": {
       "title": "The Uncomfortable Truth",
       "part": 2,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [
         "L1998"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2018,
+      "artifacts": [
+        "research/dossiers/009.md",
+        "chapters/part-02/009-the-uncomfortable-truth.md",
+        "assets/chapters/009/motif.svg"
+      ]
     },
     "010": {
       "title": "The Fear Beneath the Fear",
       "part": 2,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [
         "L1998"
@@ -121,35 +157,47 @@
       "near_duplicates": [
         "097"
       ],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1984,
+      "artifacts": [
+        "research/dossiers/010.md",
+        "chapters/part-02/010-the-fear-beneath-the-fear.md",
+        "assets/chapters/010/motif.svg"
+      ]
     },
     "011": {
       "title": "What I Don’t Show the World",
       "part": 2,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [
         "L1998"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1817,
+      "artifacts": [
+        "research/dossiers/011.md",
+        "chapters/part-02/011-what-i-dont-show-the-world.md",
+        "assets/chapters/011/motif.svg"
+      ]
     },
     "012": {
       "title": "The Permission Slip",
       "part": 2,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1726,
+      "artifacts": [
+        "research/dossiers/012.md",
+        "chapters/part-02/012-the-permission-slip.md",
+        "assets/chapters/012/motif.svg"
+      ]
     },
     "013": {
       "title": "Confession Without Consequence",
       "part": 2,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "mixed",
       "source_hints": [
         "L1998"
@@ -157,49 +205,65 @@
       "near_duplicates": [
         "108"
       ],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1936,
+      "artifacts": [
+        "research/dossiers/013.md",
+        "chapters/part-02/013-confession-without-consequence.md",
+        "assets/chapters/013/motif.svg"
+      ]
     },
     "014": {
       "title": "The Part of Me That Still Hurts",
       "part": 2,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [
         "L1998"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1901,
+      "artifacts": [
+        "research/dossiers/014.md",
+        "chapters/part-02/014-the-part-of-me-that-still-hurts.md",
+        "assets/chapters/014/motif.svg"
+      ]
     },
     "015": {
       "title": "When I Feel Small",
       "part": 2,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [
         "L1998"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1841,
+      "artifacts": [
+        "research/dossiers/015.md",
+        "chapters/part-02/015-when-i-feel-small.md",
+        "assets/chapters/015/motif.svg"
+      ]
     },
     "016": {
       "title": "No Armor Tonight",
       "part": 2,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [
         "L1998"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1924,
+      "artifacts": [
+        "research/dossiers/016.md",
+        "chapters/part-02/016-no-armor-tonight.md",
+        "assets/chapters/016/motif.svg"
+      ]
     },
     "017": {
       "title": "Four Minutes of Forever",
       "part": 3,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "mixed",
       "source_hints": [
         "K1989"
@@ -207,614 +271,842 @@
       "near_duplicates": [
         "019"
       ],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2044,
+      "artifacts": [
+        "research/dossiers/017.md",
+        "chapters/part-03/017-four-minutes-of-forever.md",
+        "assets/chapters/017/motif.svg"
+      ]
     },
     "018": {
       "title": "The Silent Conversation",
       "part": 3,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1786,
+      "artifacts": [
+        "research/dossiers/018.md",
+        "chapters/part-03/018-the-silent-conversation.md",
+        "assets/chapters/018/motif.svg"
+      ]
     },
     "019": {
       "title": "Breathe With Me",
       "part": 3,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1669,
+      "artifacts": [
+        "research/dossiers/019.md",
+        "chapters/part-03/019-breathe-with-me.md",
+        "assets/chapters/019/motif.svg"
+      ]
     },
     "020": {
       "title": "The Listening Experiment",
       "part": 3,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "mixed",
       "source_hints": [
         "L1998",
         "G2004"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2172,
+      "artifacts": [
+        "research/dossiers/020.md",
+        "chapters/part-03/020-the-listening-experiment.md",
+        "assets/chapters/020/motif.svg"
+      ]
     },
     "021": {
       "title": "The Trust Walk",
       "part": 3,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1936,
+      "artifacts": [
+        "research/dossiers/021.md",
+        "chapters/part-03/021-the-trust-walk.md",
+        "assets/chapters/021/motif.svg"
+      ]
     },
     "022": {
       "title": "The Language of Touch",
       "part": 3,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "mixed",
       "source_hints": [
         "J2017"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1815,
+      "artifacts": [
+        "research/dossiers/022.md",
+        "chapters/part-03/022-the-language-of-touch.md",
+        "assets/chapters/022/motif.svg"
+      ]
     },
     "023": {
       "title": "The Sixty-Second Embrace",
       "part": 3,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "mixed",
       "source_hints": [
         "J2017"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1710,
+      "artifacts": [
+        "research/dossiers/023.md",
+        "chapters/part-03/023-the-sixty-second-embrace.md",
+        "assets/chapters/023/motif.svg"
+      ]
     },
     "024": {
       "title": "The Presence Challenge",
       "part": 3,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1708,
+      "artifacts": [
+        "research/dossiers/024.md",
+        "chapters/part-03/024-the-presence-challenge.md",
+        "assets/chapters/024/motif.svg"
+      ]
     },
     "025": {
       "title": "What Loving Me Actually Looks Like",
       "part": 4,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "mixed",
       "source_hints": [
         "I2024"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2047,
+      "artifacts": [
+        "research/dossiers/025.md",
+        "chapters/part-04/025-what-loving-me-actually-looks-like.md",
+        "assets/chapters/025/motif.svg"
+      ]
     },
     "026": {
       "title": "The Appreciation Avalanche",
       "part": 4,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "mixed",
       "source_hints": [
         "G2012",
         "G2004"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1921,
+      "artifacts": [
+        "research/dossiers/026.md",
+        "chapters/part-04/026-the-appreciation-avalanche.md",
+        "assets/chapters/026/motif.svg"
+      ]
     },
     "027": {
       "title": "The Moment I Knew",
       "part": 4,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1996,
+      "artifacts": [
+        "research/dossiers/027.md",
+        "chapters/part-04/027-the-moment-i-knew.md",
+        "assets/chapters/027/motif.svg"
+      ]
     },
     "028": {
       "title": "Instructions for Loving Me",
       "part": 4,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2137,
+      "artifacts": [
+        "research/dossiers/028.md",
+        "chapters/part-04/028-instructions-for-loving-me.md",
+        "assets/chapters/028/motif.svg"
+      ]
     },
     "029": {
       "title": "The Reassurance Menu",
       "part": 4,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2132,
+      "artifacts": [
+        "research/dossiers/029.md",
+        "chapters/part-04/029-the-reassurance-menu.md",
+        "assets/chapters/029/motif.svg"
+      ]
     },
     "030": {
       "title": "The Compliment You Can’t Dodge",
       "part": 4,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "mixed",
       "source_hints": [
         "G2012"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2052,
+      "artifacts": [
+        "research/dossiers/030.md",
+        "chapters/part-04/030-the-compliment-you-cant-dodge.md",
+        "assets/chapters/030/motif.svg"
+      ]
     },
     "031": {
       "title": "A Love Letter From the Future",
       "part": 4,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2139,
+      "artifacts": [
+        "research/dossiers/031.md",
+        "chapters/part-04/031-a-love-letter-from-the-future.md",
+        "assets/chapters/031/motif.svg"
+      ]
     },
     "032": {
       "title": "The Everyday Devotion Experiment",
       "part": 4,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "mixed",
       "source_hints": [
         "G2012"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2153,
+      "artifacts": [
+        "research/dossiers/032.md",
+        "chapters/part-04/032-the-everyday-devotion-experiment.md",
+        "assets/chapters/032/motif.svg"
+      ]
     },
     "033": {
       "title": "The Attraction Interview",
       "part": 5,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2066,
+      "artifacts": [
+        "research/dossiers/033.md",
+        "chapters/part-05/033-the-attraction-interview.md",
+        "assets/chapters/033/motif.svg"
+      ]
     },
     "034": {
       "title": "The Yes, No, Maybe Game",
       "part": 5,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2096,
+      "artifacts": [
+        "research/dossiers/034.md",
+        "chapters/part-05/034-the-yes-no-maybe-game.md",
+        "assets/chapters/034/motif.svg"
+      ]
     },
     "035": {
       "title": "The Art of Anticipation",
       "part": 5,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1989,
+      "artifacts": [
+        "research/dossiers/035.md",
+        "chapters/part-05/035-the-art-of-anticipation.md",
+        "assets/chapters/035/motif.svg"
+      ]
     },
     "036": {
       "title": "The Sensory Date",
       "part": 5,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [
         "J2017"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2177,
+      "artifacts": [
+        "research/dossiers/036.md",
+        "chapters/part-05/036-the-sensory-date.md",
+        "assets/chapters/036/motif.svg"
+      ]
     },
     "037": {
       "title": "The Desire Nobody Asked About",
       "part": 5,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2146,
+      "artifacts": [
+        "research/dossiers/037.md",
+        "chapters/part-05/037-the-desire-nobody-asked-about.md",
+        "assets/chapters/037/motif.svg"
+      ]
     },
     "038": {
       "title": "The Slow Dance With No Music",
       "part": 5,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2009,
+      "artifacts": [
+        "research/dossiers/038.md",
+        "chapters/part-05/038-the-slow-dance-with-no-music.md",
+        "assets/chapters/038/motif.svg"
+      ]
     },
     "039": {
       "title": "The Romantic Time Machine",
       "part": 5,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1944,
+      "artifacts": [
+        "research/dossiers/039.md",
+        "chapters/part-05/039-the-romantic-time-machine.md",
+        "assets/chapters/039/motif.svg"
+      ]
     },
     "040": {
       "title": "The Intimacy Blueprint",
       "part": 5,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1993,
+      "artifacts": [
+        "research/dossiers/040.md",
+        "chapters/part-05/040-the-intimacy-blueprint.md",
+        "assets/chapters/040/motif.svg"
+      ]
     },
     "041": {
       "title": "Two Truths and a Beautiful Lie",
       "part": 6,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [
         "107"
       ],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2782,
+      "artifacts": [
+        "research/dossiers/041.md",
+        "chapters/part-06/041-two-truths-and-a-beautiful-lie.md",
+        "assets/chapters/041/motif.svg"
+      ]
     },
     "042": {
       "title": "Would You Rather: Unhinged Edition",
       "part": 6,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2741,
+      "artifacts": [
+        "research/dossiers/042.md",
+        "chapters/part-06/042-would-you-rather-unhinged-edition.md",
+        "assets/chapters/042/motif.svg"
+      ]
     },
     "043": {
       "title": "The Newlywed Game, Without the Wedding",
       "part": 6,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [
         "101"
       ],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2406,
+      "artifacts": [
+        "research/dossiers/043.md",
+        "chapters/part-06/043-the-newlywed-game-without-the-wedding.md",
+        "assets/chapters/043/motif.svg"
+      ]
     },
     "044": {
       "title": "The Ridiculous Role Reversal",
       "part": 6,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2221,
+      "artifacts": [
+        "research/dossiers/044.md",
+        "chapters/part-06/044-the-ridiculous-role-reversal.md",
+        "assets/chapters/044/motif.svg"
+      ]
     },
     "045": {
       "title": "The Great Debate of Absolutely Nothing",
       "part": 6,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2610,
+      "artifacts": [
+        "research/dossiers/045.md",
+        "chapters/part-06/045-the-great-debate-of-absolutely-nothing.md",
+        "assets/chapters/045/motif.svg"
+      ]
     },
     "046": {
       "title": "The Alternate Universe Couple",
       "part": 6,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2390,
+      "artifacts": [
+        "research/dossiers/046.md",
+        "chapters/part-06/046-the-alternate-universe-couple.md",
+        "assets/chapters/046/motif.svg"
+      ]
     },
     "047": {
       "title": "Truth, Dare, or Discover",
       "part": 6,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2887,
+      "artifacts": [
+        "research/dossiers/047.md",
+        "chapters/part-06/047-truth-dare-or-discover.md",
+        "assets/chapters/047/motif.svg"
+      ]
     },
     "048": {
       "title": "The Secret Mission Exchange",
       "part": 6,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [
         "099"
       ],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2971,
+      "artifacts": [
+        "research/dossiers/048.md",
+        "chapters/part-06/048-the-secret-mission-exchange.md",
+        "assets/chapters/048/motif.svg"
+      ]
     },
     "049": {
       "title": "The Life Not Taken",
       "part": 7,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2010,
+      "artifacts": [
+        "research/dossiers/049.md",
+        "chapters/part-07/049-the-life-not-taken.md",
+        "assets/chapters/049/motif.svg"
+      ]
     },
     "050": {
       "title": "The Things That Make Life Worth Living",
       "part": 7,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1819,
+      "artifacts": [
+        "research/dossiers/050.md",
+        "chapters/part-07/050-the-things-that-make-life-worth-living.md",
+        "assets/chapters/050/motif.svg"
+      ]
     },
     "051": {
       "title": "The Unfinished Version of Me",
       "part": 7,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1838,
+      "artifacts": [
+        "research/dossiers/051.md",
+        "chapters/part-07/051-the-unfinished-version-of-me.md",
+        "assets/chapters/051/motif.svg"
+      ]
     },
     "052": {
       "title": "The Belief Beneath the Belief",
       "part": 7,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1967,
+      "artifacts": [
+        "research/dossiers/052.md",
+        "chapters/part-07/052-the-belief-beneath-the-belief.md",
+        "assets/chapters/052/motif.svg"
+      ]
     },
     "053": {
       "title": "If Nobody Were Watching",
       "part": 7,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2113,
+      "artifacts": [
+        "research/dossiers/053.md",
+        "chapters/part-07/053-if-nobody-were-watching.md",
+        "assets/chapters/053/motif.svg"
+      ]
     },
     "054": {
       "title": "The Personal Mythology",
       "part": 7,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2098,
+      "artifacts": [
+        "research/dossiers/054.md",
+        "chapters/part-07/054-the-personal-mythology.md",
+        "assets/chapters/054/motif.svg"
+      ]
     },
     "055": {
       "title": "What I Want to Experience Before I Die",
       "part": 7,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2159,
+      "artifacts": [
+        "research/dossiers/055.md",
+        "chapters/part-07/055-what-i-want-to-experience-before-i-die.md",
+        "assets/chapters/055/motif.svg"
+      ]
     },
     "056": {
       "title": "The Questions Without Answers",
       "part": 7,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1974,
+      "artifacts": [
+        "research/dossiers/056.md",
+        "chapters/part-07/056-the-questions-without-answers.md",
+        "assets/chapters/056/motif.svg"
+      ]
     },
     "057": {
       "title": "The Instruction Manual for My Bad Days",
       "part": 8,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [
         "GOTTMAN"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2318,
+      "artifacts": [
+        "research/dossiers/057.md",
+        "chapters/part-08/057-the-instruction-manual-for-my-bad-days.md",
+        "assets/chapters/057/motif.svg"
+      ]
     },
     "058": {
       "title": "What You Heard vs. What I Meant",
       "part": 8,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "mixed",
       "source_hints": [
         "GOTTMAN",
         "L1998"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2176,
+      "artifacts": [
+        "research/dossiers/058.md",
+        "chapters/part-08/058-what-you-heard-vs-what-i-meant.md",
+        "assets/chapters/058/motif.svg"
+      ]
     },
     "059": {
       "title": "The Gentle Disagreement",
       "part": 8,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [
         "GOTTMAN"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2153,
+      "artifacts": [
+        "research/dossiers/059.md",
+        "chapters/part-08/059-the-gentle-disagreement.md",
+        "assets/chapters/059/motif.svg"
+      ]
     },
     "060": {
       "title": "The Repair Shop",
       "part": 8,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "mixed",
       "source_hints": [
         "GOTTMAN"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2144,
+      "artifacts": [
+        "research/dossiers/060.md",
+        "chapters/part-08/060-the-repair-shop.md",
+        "assets/chapters/060/motif.svg"
+      ]
     },
     "061": {
       "title": "The Invisible Need",
       "part": 8,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [
         "L1998"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2115,
+      "artifacts": [
+        "research/dossiers/061.md",
+        "chapters/part-08/061-the-invisible-need.md",
+        "assets/chapters/061/motif.svg"
+      ]
     },
     "062": {
       "title": "The Safety Map",
       "part": 8,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2160,
+      "artifacts": [
+        "research/dossiers/062.md",
+        "chapters/part-08/062-the-safety-map.md",
+        "assets/chapters/062/motif.svg"
+      ]
     },
     "063": {
       "title": "The Appreciation Behind the Complaint",
       "part": 8,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "mixed",
       "source_hints": [
         "GOTTMAN"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2113,
+      "artifacts": [
+        "research/dossiers/063.md",
+        "chapters/part-08/063-the-appreciation-behind-the-complaint.md",
+        "assets/chapters/063/motif.svg"
+      ]
     },
     "064": {
       "title": "The Trust Bank",
       "part": 8,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "mixed",
       "source_hints": [
         "GOTTMAN"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2113,
+      "artifacts": [
+        "research/dossiers/064.md",
+        "chapters/part-08/064-the-trust-bank.md",
+        "assets/chapters/064/motif.svg"
+      ]
     },
     "065": {
       "title": "The First-Time Challenge",
       "part": 9,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "mixed",
       "source_hints": [
         "A2000"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2173,
+      "artifacts": [
+        "research/dossiers/065.md",
+        "chapters/part-09/065-the-first-time-challenge.md",
+        "assets/chapters/065/motif.svg"
+      ]
     },
     "066": {
       "title": "The Twenty-Dollar Adventure",
       "part": 9,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2042,
+      "artifacts": [
+        "research/dossiers/066.md",
+        "chapters/part-09/066-the-twenty-dollar-adventure.md",
+        "assets/chapters/066/motif.svg"
+      ]
     },
     "067": {
       "title": "The Comfort Zone Exchange",
       "part": 9,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1844,
+      "artifacts": [
+        "research/dossiers/067.md",
+        "chapters/part-09/067-the-comfort-zone-exchange.md",
+        "assets/chapters/067/motif.svg"
+      ]
     },
     "068": {
       "title": "The Night of Random Decisions",
       "part": 9,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2060,
+      "artifacts": [
+        "research/dossiers/068.md",
+        "chapters/part-09/068-the-night-of-random-decisions.md",
+        "assets/chapters/068/motif.svg"
+      ]
     },
     "069": {
       "title": "Build Something Together",
       "part": 9,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1976,
+      "artifacts": [
+        "research/dossiers/069.md",
+        "chapters/part-09/069-build-something-together.md",
+        "assets/chapters/069/motif.svg"
+      ]
     },
     "070": {
       "title": "The World Through Your Eyes",
       "part": 9,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1843,
+      "artifacts": [
+        "research/dossiers/070.md",
+        "chapters/part-09/070-the-world-through-your-eyes.md",
+        "assets/chapters/070/motif.svg"
+      ]
     },
     "071": {
       "title": "The Twelve-Hour Vacation",
       "part": 9,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1922,
+      "artifacts": [
+        "research/dossiers/071.md",
+        "chapters/part-09/071-the-twelve-hour-vacation.md",
+        "assets/chapters/071/motif.svg"
+      ]
     },
     "072": {
       "title": "The Shared Courage Experiment",
       "part": 9,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1894,
+      "artifacts": [
+        "research/dossiers/072.md",
+        "chapters/part-09/072-the-shared-courage-experiment.md",
+        "assets/chapters/072/motif.svg"
+      ]
     },
     "073": {
       "title": "The First Chapter",
       "part": 10,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2104,
+      "artifacts": [
+        "research/dossiers/073.md",
+        "chapters/part-10/073-the-first-chapter.md",
+        "assets/chapters/073/motif.svg"
+      ]
     },
     "074": {
       "title": "The Moments You Didn’t Know Mattered",
       "part": 10,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [
         "G2012"
@@ -822,135 +1114,187 @@
       "near_duplicates": [
         "099"
       ],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1859,
+      "artifacts": [
+        "research/dossiers/074.md",
+        "chapters/part-10/074-the-moments-you-didnt-know-mattered.md",
+        "assets/chapters/074/motif.svg"
+      ]
     },
     "075": {
       "title": "Our Greatest Hits",
       "part": 10,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2020,
+      "artifacts": [
+        "research/dossiers/075.md",
+        "chapters/part-10/075-our-greatest-hits.md",
+        "assets/chapters/075/motif.svg"
+      ]
     },
     "076": {
       "title": "The Moment I Saw You Differently",
       "part": 10,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2093,
+      "artifacts": [
+        "research/dossiers/076.md",
+        "chapters/part-10/076-the-moment-i-saw-you-differently.md",
+        "assets/chapters/076/motif.svg"
+      ]
     },
     "077": {
       "title": "The Relationship Timeline",
       "part": 10,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2046,
+      "artifacts": [
+        "research/dossiers/077.md",
+        "chapters/part-10/077-the-relationship-timeline.md",
+        "assets/chapters/077/motif.svg"
+      ]
     },
     "078": {
       "title": "The Unspoken Thank-You",
       "part": 10,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "mixed",
       "source_hints": [
         "G2012"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1910,
+      "artifacts": [
+        "research/dossiers/078.md",
+        "chapters/part-10/078-the-unspoken-thank-you.md",
+        "assets/chapters/078/motif.svg"
+      ]
     },
     "079": {
       "title": "The Soundtrack of Us",
       "part": 10,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1961,
+      "artifacts": [
+        "research/dossiers/079.md",
+        "chapters/part-10/079-the-soundtrack-of-us.md",
+        "assets/chapters/079/motif.svg"
+      ]
     },
     "080": {
       "title": "The Day Worth Reliving",
       "part": 10,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2155,
+      "artifacts": [
+        "research/dossiers/080.md",
+        "chapters/part-10/080-the-day-worth-reliving.md",
+        "assets/chapters/080/motif.svg"
+      ]
     },
     "081": {
       "title": "The Forbidden Question Box",
       "part": 11,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2346,
+      "artifacts": [
+        "research/dossiers/081.md",
+        "chapters/part-11/081-the-forbidden-question-box.md",
+        "assets/chapters/081/motif.svg"
+      ]
     },
     "082": {
       "title": "The Moral Gray Area",
       "part": 11,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2468,
+      "artifacts": [
+        "research/dossiers/082.md",
+        "chapters/part-11/082-the-moral-gray-area.md",
+        "assets/chapters/082/motif.svg"
+      ]
     },
     "083": {
       "title": "The Secret Nobody Would Guess",
       "part": 11,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2000,
+      "artifacts": [
+        "research/dossiers/083.md",
+        "chapters/part-11/083-the-secret-nobody-would-guess.md",
+        "assets/chapters/083/motif.svg"
+      ]
     },
     "084": {
       "title": "The Dark Side of Me",
       "part": 11,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2455,
+      "artifacts": [
+        "research/dossiers/084.md",
+        "chapters/part-11/084-the-dark-side-of-me.md",
+        "assets/chapters/084/motif.svg"
+      ]
     },
     "085": {
       "title": "What Would You Do If…?",
       "part": 11,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2862,
+      "artifacts": [
+        "research/dossiers/085.md",
+        "chapters/part-11/085-what-would-you-do-if.md",
+        "assets/chapters/085/motif.svg"
+      ]
     },
     "086": {
       "title": "The Unpopular Opinion Club",
       "part": 11,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1875,
+      "artifacts": [
+        "research/dossiers/086.md",
+        "chapters/part-11/086-the-unpopular-opinion-club.md",
+        "assets/chapters/086/motif.svg"
+      ]
     },
     "087": {
       "title": "The Question Behind the Question",
       "part": 11,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [
         "L1998"
@@ -958,107 +1302,147 @@
       "near_duplicates": [
         "010"
       ],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1740,
+      "artifacts": [
+        "research/dossiers/087.md",
+        "chapters/part-11/087-the-question-behind-the-question.md",
+        "assets/chapters/087/motif.svg"
+      ]
     },
     "088": {
       "title": "The Thing I’m Still Figuring Out",
       "part": 11,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1759,
+      "artifacts": [
+        "research/dossiers/088.md",
+        "chapters/part-11/088-the-thing-im-still-figuring-out.md",
+        "assets/chapters/088/motif.svg"
+      ]
     },
     "089": {
       "title": "The Relationship We Would Invent",
       "part": 12,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [
         "104"
       ],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1810,
+      "artifacts": [
+        "research/dossiers/089.md",
+        "chapters/part-12/089-the-relationship-we-would-invent.md",
+        "assets/chapters/089/motif.svg"
+      ]
     },
     "090": {
       "title": "The Future Memory",
       "part": 12,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [
         "098"
       ],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1912,
+      "artifacts": [
+        "research/dossiers/090.md",
+        "chapters/part-12/090-the-future-memory.md",
+        "assets/chapters/090/motif.svg"
+      ]
     },
     "091": {
       "title": "What We Want More Of",
       "part": 12,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1735,
+      "artifacts": [
+        "research/dossiers/091.md",
+        "chapters/part-12/091-what-we-want-more-of.md",
+        "assets/chapters/091/motif.svg"
+      ]
     },
     "092": {
       "title": "The Dream Exchange",
       "part": 12,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1737,
+      "artifacts": [
+        "research/dossiers/092.md",
+        "chapters/part-12/092-the-dream-exchange.md",
+        "assets/chapters/092/motif.svg"
+      ]
     },
     "093": {
       "title": "The Relationship Bucket List",
       "part": 12,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1773,
+      "artifacts": [
+        "research/dossiers/093.md",
+        "chapters/part-12/093-the-relationship-bucket-list.md",
+        "assets/chapters/093/motif.svg"
+      ]
     },
     "094": {
       "title": "The Annual Reintroduction",
       "part": 12,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1755,
+      "artifacts": [
+        "research/dossiers/094.md",
+        "chapters/part-12/094-the-annual-reintroduction.md",
+        "assets/chapters/094/motif.svg"
+      ]
     },
     "095": {
       "title": "A Promise I Actually Want to Keep",
       "part": 12,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1908,
+      "artifacts": [
+        "research/dossiers/095.md",
+        "chapters/part-12/095-a-promise-i-actually-want-to-keep.md",
+        "assets/chapters/095/motif.svg"
+      ]
     },
     "096": {
       "title": "The Next Chapter",
       "part": 12,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "reimagined",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1864,
+      "artifacts": [
+        "research/dossiers/096.md",
+        "chapters/part-12/096-the-next-chapter.md",
+        "assets/chapters/096/motif.svg"
+      ]
     },
     "097": {
       "title": "The Emotional Archaeologists",
       "part": 13,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "original-formulation",
       "source_hints": [
         "L1998"
@@ -1066,23 +1450,31 @@
       "near_duplicates": [
         "010"
       ],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2180,
+      "artifacts": [
+        "research/dossiers/097.md",
+        "chapters/part-13/097-the-emotional-archaeologists.md",
+        "assets/chapters/097/motif.svg"
+      ]
     },
     "098": {
       "title": "The One-Hundred-Year Interview",
       "part": 13,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "original-formulation",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2047,
+      "artifacts": [
+        "research/dossiers/098.md",
+        "chapters/part-13/098-the-one-hundred-year-interview.md",
+        "assets/chapters/098/motif.svg"
+      ]
     },
     "099": {
       "title": "The Invisible Postcards",
       "part": 13,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "original-formulation",
       "source_hints": [
         "G2012"
@@ -1090,136 +1482,207 @@
       "near_duplicates": [
         "074"
       ],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2406,
+      "artifacts": [
+        "research/dossiers/099.md",
+        "chapters/part-13/099-the-invisible-postcards.md",
+        "assets/chapters/099/motif.svg"
+      ]
     },
     "100": {
       "title": "The Emotional Weather Report",
       "part": 13,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "original-formulation",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1863,
+      "artifacts": [
+        "research/dossiers/100.md",
+        "chapters/part-13/100-the-emotional-weather-report.md",
+        "assets/chapters/100/motif.svg"
+      ]
     },
     "101": {
       "title": "The Borrowed Brain Experiment",
       "part": 13,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "original-formulation",
       "source_hints": [],
       "near_duplicates": [
         "043"
       ],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 3116,
+      "artifacts": [
+        "research/dossiers/101.md",
+        "chapters/part-13/101-the-borrowed-brain-experiment.md",
+        "assets/chapters/101/motif.svg"
+      ]
     },
     "102": {
       "title": "The Museum of Unsaid Things",
       "part": 13,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "original-formulation",
       "source_hints": [],
       "near_duplicates": [
         "006"
       ],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2015,
+      "artifacts": [
+        "research/dossiers/102.md",
+        "chapters/part-13/102-the-museum-of-unsaid-things.md",
+        "assets/chapters/102/motif.svg"
+      ]
     },
     "103": {
       "title": "The Relationship Escape Room",
       "part": 13,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "original-formulation",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 3433,
+      "artifacts": [
+        "research/dossiers/103.md",
+        "chapters/part-13/103-the-relationship-escape-room.md",
+        "assets/chapters/103/motif.svg"
+      ]
     },
     "104": {
       "title": "The Two-Person Civilization",
       "part": 13,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "original-formulation",
       "source_hints": [],
       "near_duplicates": [
         "089"
       ],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 3167,
+      "artifacts": [
+        "research/dossiers/104.md",
+        "chapters/part-13/104-the-two-person-civilization.md",
+        "assets/chapters/104/motif.svg"
+      ]
     },
     "105": {
       "title": "The Compliment Decoder",
       "part": 13,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "original-formulation",
       "source_hints": [
         "G2012"
       ],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1854,
+      "artifacts": [
+        "research/dossiers/105.md",
+        "chapters/part-13/105-the-compliment-decoder.md",
+        "assets/chapters/105/motif.svg"
+      ]
     },
     "106": {
       "title": "The Intimacy Negotiators",
       "part": 13,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "original-formulation",
       "source_hints": [],
       "near_duplicates": [],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2463,
+      "artifacts": [
+        "research/dossiers/106.md",
+        "chapters/part-13/106-the-intimacy-negotiators.md",
+        "assets/chapters/106/motif.svg"
+      ]
     },
     "107": {
       "title": "The Memory Smuggler",
       "part": 13,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "original-formulation",
       "source_hints": [],
       "near_duplicates": [
         "041"
       ],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 1900,
+      "artifacts": [
+        "research/dossiers/107.md",
+        "chapters/part-13/107-the-memory-smuggler.md",
+        "assets/chapters/107/motif.svg"
+      ]
     },
     "108": {
       "title": "The Secret Door",
       "part": 13,
-      "state": "unstarted",
+      "state": "copyedited",
       "classification_seed": "original-formulation",
       "source_hints": [],
       "near_duplicates": [
         "013"
       ],
-      "word_count": 0,
-      "artifacts": []
+      "word_count": 2000,
+      "artifacts": [
+        "research/dossiers/108.md",
+        "chapters/part-13/108-the-secret-door.md",
+        "assets/chapters/108/motif.svg"
+      ]
     }
   },
   "signatures": {
     "S01": {
       "title": "The Long Table",
-      "state": "unstarted"
+      "state": "copyedited",
+      "word_count": 3398,
+      "artifacts": [
+        "signature/S01-the-long-table.md",
+        "assets/signatures/S01-hero.svg"
+      ]
     },
     "S02": {
       "title": "The Night With the Lights Low",
-      "state": "unstarted"
+      "state": "copyedited",
+      "word_count": 2883,
+      "artifacts": [
+        "signature/S02-the-night-with-the-lights-low.md",
+        "assets/signatures/S02-hero.svg"
+      ]
     },
     "S03": {
       "title": "The Case of the Missing Tuesday",
-      "state": "unstarted"
+      "state": "copyedited",
+      "word_count": 3634,
+      "artifacts": [
+        "signature/S03-the-case-of-the-missing-tuesday.md",
+        "assets/signatures/S03-hero.svg"
+      ]
     },
     "S04": {
       "title": "The Branching Evening",
-      "state": "unstarted"
+      "state": "copyedited",
+      "word_count": 3556,
+      "artifacts": [
+        "signature/S04-the-branching-evening.md",
+        "assets/signatures/S04-hero.svg"
+      ]
     },
     "S05": {
       "title": "The Capsule We Open Later",
-      "state": "unstarted"
+      "state": "copyedited",
+      "word_count": 2944,
+      "artifacts": [
+        "signature/S05-the-capsule-we-open-later.md",
+        "assets/signatures/S05-hero.svg"
+      ]
     },
     "S06": {
       "title": "The Long Toast",
-      "state": "unstarted"
+      "state": "copyedited",
+      "word_count": 3112,
+      "artifacts": [
+        "signature/S06-the-long-toast.md",
+        "assets/signatures/S06-hero.svg"
+      ]
     }
-  }
+  },
+  "chapter_contract_audit": "108 copyedited; headings and journal fences present; proofread logs in review/proofread/"
 }

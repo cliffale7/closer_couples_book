@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" width="440" height="280" role="img" aria-label="Line motif for 013 Confession Without Consequence: A speech bubble and a separate door labeled pass"><title>Line motif for 013 Confession Without Consequence: A speech bubble and a separate door labeled pass</title><g data-motif="A speech bubble and a separate door labeled pass">
+<rect x="36.00" y="48.00" width="180.00" height="90.00" rx="18.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2"/>
+<path d="M58.00 136.00 L46.00 160.00 L84.00 136.00 Z" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M52.00 68.00L198.00 68.00" fill="none" stroke="#D9CFC0" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M52.00 82.00L198.00 82.00" fill="none" stroke="#D9CFC0" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M52.00 96.00L198.00 96.00" fill="none" stroke="#D9CFC0" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="264.00" y="64.00" width="104.00" height="168.00" rx="0.00" fill="none" stroke="#241F1C" stroke-width="3.2"/>
+<rect x="270.00" y="70.00" width="92.00" height="160.00" rx="0.00" fill="#F6F1E7" stroke="#241F1C" stroke-width="3.2"/>
+<rect x="278.00" y="80.00" width="76.00" height="60.80" rx="0.00" fill="none" stroke="#241F1C" stroke-width="2.24"/>
+<rect x="278.00" y="146.80" width="76.00" height="60.80" rx="0.00" fill="none" stroke="#241F1C" stroke-width="2.24"/>
+<circle cx="346.00" cy="158.00" r="4.00" fill="#A85A32" stroke="#A85A32" stroke-width="1.28"/>
+<g transform="translate(286.00 146.00) scale(0.22000)">
+<path d="M10 100 V4 H46 Q76 4 76 32 Q76 56 46 56 H10" fill="none" stroke="#241F1C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(305.36 146.00) scale(0.22000)">
+<path d="M8 100 L40 4 L72 100" fill="none" stroke="#241F1C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 62 H58" fill="none" stroke="#241F1C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(324.72 146.00) scale(0.22000)">
+<path d="M66 24 Q58 4 36 4 Q8 4 8 28 Q8 50 40 54 Q74 58 74 80 Q74 96 40 96 Q14 96 8 78" fill="none" stroke="#241F1C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(344.08 146.00) scale(0.22000)">
+<path d="M66 24 Q58 4 36 4 Q8 4 8 28 Q8 50 40 54 Q74 58 74 80 Q74 96 40 96 Q14 96 8 78" fill="none" stroke="#241F1C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

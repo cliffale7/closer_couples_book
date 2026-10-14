@@ -1,0 +1,441 @@
+/* Print stylesheet for the 7 × 10 inch illustrated workbook.
+   Inlined into build/workbook.html by scripts/build_all.py.
+   Type is installed with Windows: Georgia, Palatino Linotype, Calibri.
+   No font files are bundled. */
+
+@page {
+  size: 7in 10in;
+  margin: 0.62in 0.68in 0.72in 0.68in;
+  @top-center {
+    content: "The Closer Project";
+    font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif;
+    font-size: 8pt;
+    letter-spacing: 0.14em;
+    color: #A85A32;
+  }
+  @bottom-center {
+    content: counter(page);
+    font-family: "Palatino Linotype", Palatino, serif;
+    font-size: 9pt;
+    color: #A85A32;
+  }
+}
+
+@page :first {
+  @top-center { content: none; }
+  @bottom-center { content: none; }
+}
+
+* { box-sizing: border-box; }
+
+html {
+  background: #F6F1E7;
+  color: #241F1C;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+body {
+  margin: 0;
+  background: #F6F1E7;
+  color: #241F1C;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 11pt;
+  line-height: 1.45;
+  orphans: 3;
+  widows: 3;
+}
+
+@media screen {
+  html { background: #1B2433; }
+  body {
+    width: 7in;
+    min-height: 10in;
+    margin: 0.4in auto 0.6in;
+    padding: 0.62in 0.68in 0.72in;
+    box-shadow: 0 0 0 1px #2C3544, 0 16px 40px rgba(0, 0, 0, 0.35);
+  }
+}
+
+@media print {
+  body {
+    width: auto;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+  }
+  body::before {
+    content: "";
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #F6F1E7;
+  }
+}
+
+h1, h2, h3, h4 {
+  font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif;
+  font-weight: normal;
+  color: #241F1C;
+  line-height: 1.15;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+h1 { font-size: 26pt; margin: 0 0 0.12in; }
+h2 {
+  font-size: 14pt;
+  margin: 0.28in 0 0.08in;
+  padding-top: 0.1in;
+  border-top: 0.75pt solid #A85A32;
+}
+h3 { font-size: 12.5pt; margin: 0.16in 0 0.04in; }
+
+p { margin: 0 0 0.55em; }
+strong { font-weight: bold; }
+em { font-style: italic; }
+
+a {
+  color: #3E6464;
+  text-decoration-color: #A85A32;
+  text-underline-offset: 0.12em;
+}
+
+ul, ol { margin: 0.2em 0 0.7em; padding-left: 1.15em; }
+li { margin: 0.18em 0; }
+
+code {
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 0.92em;
+}
+
+.title-page {
+  break-after: page;
+  page-break-after: always;
+  min-height: 8.15in;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title-page h1 {
+  font-size: 34pt;
+  margin: 0.08in 0 0.06in;
+}
+
+.subtitle {
+  font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif;
+  font-size: 13pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #A85A32;
+  margin: 0;
+}
+
+.title-page .rule {
+  width: 1.45in;
+  border-top: 1px solid #A85A32;
+  border-bottom: 1px solid #C6A15B;
+  height: 3px;
+  margin: 0.18in auto;
+}
+
+.title-page .deck {
+  max-width: 4.6in;
+  font-size: 12pt;
+}
+
+.kicker {
+  font-family: Calibri, "Segoe UI", sans-serif;
+  font-size: 9pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #A85A32;
+  margin: 0 0 0.08in;
+}
+
+.deck {
+  font-size: 12pt;
+  font-style: italic;
+  color: #241F1C;
+}
+
+.proof-banner {
+  border: 1px solid #A85A32;
+  background: #FBF8F2;
+  color: #241F1C;
+  padding: 0.1in 0.14in;
+  margin: 0.18in 0 0.12in;
+  max-width: 5.2in;
+  font-family: Calibri, "Segoe UI", sans-serif;
+  font-size: 10pt;
+  font-style: normal;
+  text-align: left;
+}
+
+nav.toc {
+  break-after: page;
+  page-break-after: always;
+}
+
+nav.toc h1 { font-size: 26pt; }
+
+nav.toc .toc-group {
+  font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif;
+  font-size: 13pt;
+  color: #7C3A46;
+  margin: 0.22in 0 0.06in;
+}
+
+nav.toc ol {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.12in;
+}
+
+nav.toc li { margin: 0; }
+
+nav.toc a {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.4em;
+  color: #241F1C;
+  text-decoration: none;
+  border-bottom: 1px dotted #C6A15B;
+  padding: 0.11em 0 0.13em;
+}
+
+nav.toc a:hover,
+nav.toc a:focus {
+  color: #A85A32;
+}
+
+.chapter,
+.part-opener,
+.colophon {
+  break-before: page;
+  page-break-before: always;
+}
+
+.part-opener {
+  min-height: 7.4in;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.part-opener h1 { font-size: 30pt; }
+
+.part-opener:has(figure.part-art) {
+  min-height: 0;
+  justify-content: flex-start;
+}
+
+.part-opener figure.part-art {
+  float: none;
+  width: 5.4in;
+  margin: 0.12in auto 0.18in;
+}
+
+.part-opener figure.part-art img {
+  display: block;
+  width: 5.4in;
+  height: auto;
+}
+
+.part-intro {
+  font-size: 11pt;
+  margin: 0.16in 0 0;
+}
+
+figure.cover {
+  margin: 0.15in auto 0.2in;
+  text-align: center;
+}
+
+figure.cover img {
+  width: 4.4in;
+  height: auto;
+}
+
+h2.page-break,
+h3.page-break,
+h4.page-break {
+  break-before: page;
+  page-break-before: always;
+}
+
+.index,
+.endmatter {
+  break-before: page;
+  page-break-before: always;
+}
+
+.index-note {
+  font-family: Calibri, "Segoe UI", sans-serif;
+  font-size: 9pt;
+  color: #3E6464;
+}
+
+table.index-table,
+table.index-table thead,
+table.index-table tbody,
+table.index-table tr {
+  break-inside: auto;
+  page-break-inside: auto;
+}
+
+table.index-table tr {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+table.index-table thead { display: table-header-group; }
+
+.chapter-number {
+  font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif;
+  font-size: 11pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #A85A32;
+  margin: 0.02in 0 0;
+}
+
+.chapter-open h1 { font-size: 26pt; margin-top: 0.04in; }
+
+.chapter-open::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.meta-line,
+.motif-note,
+.see-also,
+figcaption {
+  font-family: Calibri, "Segoe UI", sans-serif;
+  font-size: 9pt;
+  color: #3E6464;
+}
+
+.meta-line { letter-spacing: 0.03em; margin-top: 0.1in; }
+.motif-note { margin: 0.06in 0 0.12in; }
+.see-also { margin-top: 0.08in; }
+
+figure.motif {
+  float: right;
+  width: 1.4in;
+  margin: 0.04in 0 0.12in 0.18in;
+}
+
+figure.motif img {
+  display: block;
+  width: 1.4in;
+  height: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin: 0.12in 0 0.18in;
+  font-size: 10pt;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+th {
+  font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif;
+  font-weight: normal;
+  text-align: left;
+  color: #241F1C;
+  border-bottom: 1.25pt solid #A85A32;
+  padding: 0.08in 0.08in 0.07in 0;
+  vertical-align: bottom;
+}
+
+td {
+  border-bottom: 0.5pt solid #D9CFC0;
+  padding: 0.08in 0.08in 0.08in 0;
+  vertical-align: top;
+  overflow-wrap: break-word;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.14in;
+  margin: 0.1in 0 0.2in;
+}
+
+.card {
+  background: #FBF8F2;
+  border: 1px solid #A85A32;
+  padding: 0.12in 0.13in 0.11in;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.card h3 {
+  font-size: 13pt;
+  margin: 0 0 0.06in;
+  color: #7C3A46;
+}
+
+.card p { margin: 0; font-size: 10.5pt; }
+
+.journal-spread {
+  background: #FBF8F2;
+  border: 1px solid #D9CFC0;
+  padding: 0.2in 0.22in 0.16in;
+  margin: 0.12in 0 0.16in;
+}
+
+.journal-spread h3 {
+  margin: 0.14in 0 0.03in;
+  padding-top: 0;
+  border-top: none;
+  color: #241F1C;
+}
+
+.journal-kicker {
+  font-family: Calibri, "Segoe UI", sans-serif;
+  font-size: 8.5pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #A85A32;
+  margin: 0;
+}
+
+.journal-private {
+  font-size: 10pt;
+  font-style: italic;
+  margin: 0.06in 0 0.04in;
+}
+
+.journal-instruction { font-size: 10pt; margin: 0; }
+.prompt { margin: 0.1in 0 0; break-after: avoid; page-break-after: avoid; }
+
+.prompt-block { break-inside: auto; }
+
+.writing-lines {
+  break-inside: avoid;
+  page-break-inside: avoid;
+  break-before: avoid;
+  page-break-before: avoid;
+}
+
+.writing-lines span {
+  display: block;
+  height: 0.38in;
+  border-bottom: 1px solid #D9CFC0;
+}
+
+.colophon { font-size: 10pt; }
+.colophon h1 { font-size: 18pt; }
+.colophon li { font-family: Consolas, "Courier New", monospace; font-size: 9pt; }

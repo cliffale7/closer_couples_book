@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" width="440" height="280" role="img" aria-label="Line motif for 071 The Twelve-Hour Vacation: An ordinary Tuesday page stamped with a tiny holiday seal"><title>Line motif for 071 The Twelve-Hour Vacation: An ordinary Tuesday page stamped with a tiny holiday seal</title><g data-motif="An ordinary Tuesday page stamped with a tiny holiday seal">
+<rect x="70.00" y="36.00" width="280.00" height="176.00" rx="0.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2"/>
+<rect x="70.00" y="36.00" width="280.00" height="16.00" rx="0.00" fill="#F6F1E7" stroke="#241F1C" stroke-width="3.2"/>
+<path d="M70.00 52.00L70.00 212.00" fill="none" stroke="#D9CFC0" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M110.00 52.00L110.00 212.00" fill="none" stroke="#D9CFC0" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M150.00 52.00L150.00 212.00" fill="none" stroke="#D9CFC0" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M190.00 52.00L190.00 212.00" fill="none" stroke="#D9CFC0" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M230.00 52.00L230.00 212.00" fill="none" stroke="#D9CFC0" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M270.00 52.00L270.00 212.00" fill="none" stroke="#D9CFC0" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M310.00 52.00L310.00 212.00" fill="none" stroke="#D9CFC0" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M350.00 52.00L350.00 212.00" fill="none" stroke="#D9CFC0" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M70.00 52.00L350.00 52.00" fill="none" stroke="#D9CFC0" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M70.00 84.00L350.00 84.00" fill="none" stroke="#D9CFC0" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M70.00 116.00L350.00 116.00" fill="none" stroke="#D9CFC0" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M70.00 148.00L350.00 148.00" fill="none" stroke="#D9CFC0" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M70.00 180.00L350.00 180.00" fill="none" stroke="#D9CFC0" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M70.00 212.00L350.00 212.00" fill="none" stroke="#D9CFC0" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="170.00" cy="132.00" r="10.24" fill="#A85A32" stroke="#A85A32" stroke-width="1.12"/>
+<g transform="translate(168.00 14.00) scale(0.16000)">
+<path d="M8 4 H72" fill="none" stroke="#241F1C" stroke-width="11.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M40 4 V100" fill="none" stroke="#241F1C" stroke-width="11.25" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(182.08 14.00) scale(0.16000)">
+<path d="M10 4 V64 Q10 96 40 96 Q70 96 70 64 V4" fill="none" stroke="#241F1C" stroke-width="11.25" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(196.16 14.00) scale(0.16000)">
+<path d="M72 4 H10 V100 H72" fill="none" stroke="#241F1C" stroke-width="11.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 52 H54" fill="none" stroke="#241F1C" stroke-width="11.25" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

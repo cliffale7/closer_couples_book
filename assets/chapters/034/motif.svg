@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" width="440" height="280" role="img" aria-label="Line motif for 034 The Yes, No, Maybe Game: Three equal cards reading yes, no, and maybe"><title>Line motif for 034 The Yes, No, Maybe Game: Three equal cards reading yes, no, and maybe</title><g data-motif="Three equal cards reading yes, no, and maybe">
+<rect x="28.00" y="48.00" width="124.00" height="180.00" rx="4.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2"/>
+<rect x="28.00" y="48.00" width="124.00" height="10.00" rx="0.00" fill="#A85A32" stroke="#A85A32" stroke-width="1"/>
+<g transform="translate(42.00 124.00) scale(0.36000)">
+<path d="M8 4 L40 52 L72 4" fill="none" stroke="#241F1C" stroke-width="7.22222" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M40 52 V100" fill="none" stroke="#241F1C" stroke-width="7.22222" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(73.68 124.00) scale(0.36000)">
+<path d="M72 4 H10 V100 H72" fill="none" stroke="#241F1C" stroke-width="7.22222" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 52 H54" fill="none" stroke="#241F1C" stroke-width="7.22222" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(105.36 124.00) scale(0.36000)">
+<path d="M66 24 Q58 4 36 4 Q8 4 8 28 Q8 50 40 54 Q74 58 74 80 Q74 96 40 96 Q14 96 8 78" fill="none" stroke="#241F1C" stroke-width="7.22222" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<rect x="166.00" y="48.00" width="124.00" height="180.00" rx="4.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2"/>
+<rect x="166.00" y="48.00" width="124.00" height="10.00" rx="0.00" fill="#A85A32" stroke="#A85A32" stroke-width="1"/>
+<g transform="translate(180.00 124.00) scale(0.36000)">
+<path d="M10 100 V8 L70 100 V8" fill="none" stroke="#241F1C" stroke-width="7.22222" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(211.68 124.00) scale(0.36000)">
+<path d="M40 4 Q78 4 78 50 Q78 96 40 96 Q2 96 2 50 Q2 4 40 4" fill="none" stroke="#241F1C" stroke-width="7.22222" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<rect x="304.00" y="48.00" width="124.00" height="180.00" rx="4.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2"/>
+<rect x="304.00" y="48.00" width="124.00" height="10.00" rx="0.00" fill="#A85A32" stroke="#A85A32" stroke-width="1"/>
+<g transform="translate(318.00 136.00) scale(0.24000)">
+<path d="M8 100 V8 L40 58 L72 8 V100" fill="none" stroke="#241F1C" stroke-width="10.8333" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(339.12 136.00) scale(0.24000)">
+<path d="M8 100 L40 4 L72 100" fill="none" stroke="#241F1C" stroke-width="10.8333" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 62 H58" fill="none" stroke="#241F1C" stroke-width="10.8333" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(360.24 136.00) scale(0.24000)">
+<path d="M8 4 L40 52 L72 4" fill="none" stroke="#241F1C" stroke-width="10.8333" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M40 52 V100" fill="none" stroke="#241F1C" stroke-width="10.8333" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(381.36 136.00) scale(0.24000)">
+<path d="M10 4 V100" fill="none" stroke="#241F1C" stroke-width="10.8333" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 4 H44 Q74 4 74 28 Q74 52 44 52 H10" fill="none" stroke="#241F1C" stroke-width="10.8333" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 52 H48 Q78 52 78 76 Q78 100 48 100 H10" fill="none" stroke="#241F1C" stroke-width="10.8333" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(402.48 136.00) scale(0.24000)">
+<path d="M72 4 H10 V100 H72" fill="none" stroke="#241F1C" stroke-width="10.8333" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 52 H54" fill="none" stroke="#241F1C" stroke-width="10.8333" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

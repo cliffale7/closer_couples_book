@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 56" width="180" height="56" role="img" aria-label="Pause control: a teal ring and two bars beside the word Pause."><title>Pause control: a teal ring and two bars beside the word Pause.</title><circle cx="28.00" cy="28.00" r="18.00" fill="none" stroke="#3E6464" stroke-width="2.4"/>
+<rect x="20.00" y="16.00" width="5.00" height="24.00" rx="1.00" fill="#3E6464" stroke="#3E6464" stroke-width="0.6"/>
+<rect x="31.00" y="16.00" width="5.00" height="24.00" rx="1.00" fill="#3E6464" stroke="#3E6464" stroke-width="0.6"/>
+<text x="56" y="36" fill="#241F1C" font-family="Calibri, 'Segoe UI', sans-serif" font-size="22">Pause</text>
+</svg>

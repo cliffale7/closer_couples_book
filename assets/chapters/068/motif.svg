@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" width="440" height="280" role="img" aria-label="Line motif for 068 The Night of Random Decisions: Dice, a coin, and a card, each with a small veto mark"><title>Line motif for 068 The Night of Random Decisions: Dice, a coin, and a card, each with a small veto mark</title><g data-motif="Dice, a coin, and a card, each with a small veto mark">
+<rect x="50.00" y="80.00" width="64.80" height="64.80" rx="4.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2"/>
+<circle cx="68.00" cy="98.00" r="4.14" fill="#241F1C" stroke="#241F1C" stroke-width="0.96"/>
+<circle cx="82.40" cy="112.40" r="4.14" fill="#241F1C" stroke="#241F1C" stroke-width="0.96"/>
+<circle cx="96.80" cy="126.80" r="4.14" fill="#241F1C" stroke="#241F1C" stroke-width="0.96"/>
+<circle cx="120.00" cy="70.00" r="9.60" fill="none" stroke="#A85A32" stroke-width="2.56"/>
+<path d="M114.00 64.00L126.00 76.00" fill="none" stroke="#A85A32" stroke-width="2.56" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="210.00" cy="120.00" r="28.00" fill="#C6A15B" stroke="#A85A32" stroke-width="2.24"/>
+<circle cx="210.00" cy="120.00" r="12.60" fill="none" stroke="#A85A32" stroke-width="1.44"/>
+<circle cx="250.00" cy="80.00" r="9.60" fill="none" stroke="#A85A32" stroke-width="2.56"/>
+<path d="M244.00 74.00L256.00 86.00" fill="none" stroke="#A85A32" stroke-width="2.56" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(300.00 70.00) rotate(0.0)">
+<rect x="0.00" y="0.00" width="80.00" height="110.00" rx="3.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2"/>
+</g>
+<circle cx="370.00" cy="60.00" r="9.60" fill="none" stroke="#A85A32" stroke-width="2.56"/>
+<path d="M364.00 54.00L376.00 66.00" fill="none" stroke="#A85A32" stroke-width="2.56" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

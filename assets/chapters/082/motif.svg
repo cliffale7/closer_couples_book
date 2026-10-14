@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" width="440" height="280" role="img" aria-label="Line motif for 082 The Moral Gray Area: A balance scale that is allowed to stay uneven"><title>Line motif for 082 The Moral Gray Area: A balance scale that is allowed to stay uneven</title><g data-motif="A balance scale that is allowed to stay uneven">
+<path d="M220.00 220.00L220.00 125.50" fill="none" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M187.60 220.00L252.40 220.00" fill="none" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(220.00 125.50) rotate(-12.0)">
+<path d="M-94.50 0.00L94.50 0.00" fill="none" stroke="#A85A32" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-78.30 0.00L-86.40 37.80" fill="none" stroke="#241F1C" stroke-width="2.24" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-56.70 0.00L-48.60 37.80" fill="none" stroke="#241F1C" stroke-width="2.24" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-94.5 37.8 Q-67.5 54.0 -40.5 37.8" fill="none" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M56.70 0.00L48.60 21.60" fill="none" stroke="#241F1C" stroke-width="2.24" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M78.30 0.00L86.40 21.60" fill="none" stroke="#241F1C" stroke-width="2.24" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M40.5 21.6 Q67.5 35.1 94.5 21.6" fill="none" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" width="440" height="280" role="img" aria-label="Line motif for 098 The One-Hundred-Year Interview: Two very old teacups and three blank future-memory cards"><title>Line motif for 098 The One-Hundred-Year Interview: Two very old teacups and three blank future-memory cards</title><g data-motif="Two very old teacups and three blank future-memory cards">
+<path d="M57.0 80.0 Q54.0 134.0 90.0 140.0 Q126.0 134.0 123.0 80.0" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="90.00" cy="80.00" rx="33.00" ry="10.50" fill="#F6F1E7" stroke="#241F1C" stroke-width="3.2"/>
+<path d="M123.0 92.0 Q150.0 101.0 123.0 122.0" fill="none" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M66.0 83.0 Q81.0 77.0 96.0 81.5" fill="none" stroke="#A85A32" stroke-width="2.24" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M160.3 90.0 Q157.6 138.6 190.0 144.0 Q222.4 138.6 219.7 90.0" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="190.00" cy="90.00" rx="29.70" ry="9.45" fill="#F6F1E7" stroke="#241F1C" stroke-width="3.2"/>
+<path d="M219.7 100.8 Q244.0 108.9 219.7 127.8" fill="none" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M168.4 92.7 Q181.9 87.3 195.4 91.3" fill="none" stroke="#A85A32" stroke-width="2.24" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(280.00 40.00) rotate(-4.0)">
+<rect x="0.00" y="0.00" width="50.00" height="70.00" rx="3.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2"/>
+</g>
+<g transform="translate(320.00 90.00) rotate(3.0)">
+<rect x="0.00" y="0.00" width="50.00" height="70.00" rx="3.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2"/>
+</g>
+<g transform="translate(300.00 160.00) rotate(0.0)">
+<rect x="0.00" y="0.00" width="50.00" height="70.00" rx="3.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2"/>
+</g>
+</g>
+</svg>

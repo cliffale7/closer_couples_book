@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 440" width="540" height="440" role="img" aria-label="Part opener for The Inner World: an orrery of a stair, a seed, a closed eye, and a lamp above a blank journal."><title>Part opener for The Inner World: an orrery of a stair, a seed, a closed eye, and a lamp above a blank journal.</title><rect x="8.00" y="8.00" width="524.00" height="424.00" rx="0.00" fill="#F6F1E7" stroke="#A85A32" stroke-width="1.1"/>
+<g transform="translate(140.00 250.00) rotate(0.0)">
+<rect x="0.00" y="0.00" width="260.00" height="150.00" rx="0.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="2.2"/>
+</g>
+<path d="M270.00 250.00L270.00 150.00" fill="none" stroke="#241F1C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="270.00" cy="150.00" r="8.00" fill="#A85A32" stroke="#A85A32" stroke-width="1"/>
+<path d="M270.00 150.00L180.00 90.00" fill="none" stroke="#3E6464" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M164.00 100.00 L176.00 100.00 L176.00 90.00 L188.00 90.00 L188.00 80.00 L200.00 80.00 L200.00 72.00 L164.00 72.00 Z" fill="#FBF8F2" stroke="#241F1C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M270.00 150.00L270.00 46.00" fill="none" stroke="#3E6464" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M270 58 Q284 46 270 32 Q256 46 270 58 Z" fill="#FBF8F2" stroke="#241F1C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M270.00 150.00L380.00 110.00" fill="none" stroke="#3E6464" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M362 110 Q380 98 398 110 Q380 122 362 110 Z" fill="#FBF8F2" stroke="#241F1C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M362 110 Q380 104 398 110" fill="none" stroke="#241F1C" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M270.00 150.00L330.00 200.00" fill="none" stroke="#3E6464" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="330.00" cy="226.40" rx="7.20" ry="2.40" fill="#F6F1E7" stroke="#241F1C" stroke-width="1.5"/>
+<path d="M330.00 224.80L330.00 219.20" fill="none" stroke="#241F1C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M326.00 208.80 L334.00 208.80 L338.80 220.80 L321.20 220.80 Z" fill="#FBF8F2" stroke="#241F1C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="330.00" cy="218.40" rx="1.60" ry="2.80" fill="#C6A15B" stroke="#C6A15B" stroke-width="0.6"/>
+<path d="M323.60 220.80L318.80 228.00" fill="none" stroke="#A85A32" stroke-width="0.825" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M336.40 220.80L341.20 228.00" fill="none" stroke="#A85A32" stroke-width="0.825" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="8.00" y="8.00" width="524.00" height="424.00" rx="0.00" fill="none" stroke="#A85A32" stroke-width="1.1"/>
+</svg>

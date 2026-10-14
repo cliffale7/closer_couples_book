@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" width="440" height="280" role="img" aria-label="Line motif for 104 The Two-Person Civilization: A tiny map of a civilization and a storm-shaped event card"><title>Line motif for 104 The Two-Person Civilization: A tiny map of a civilization and a storm-shaped event card</title><g data-motif="A tiny map of a civilization and a storm-shaped event card">
+<rect x="30.00" y="40.00" width="250.00" height="190.00" rx="0.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2"/>
+<path d="M50 150 H120 V100 H170 V160 H250" fill="none" stroke="#A85A32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="70.00" y="70.00" width="28.00" height="22.00" rx="0.00" fill="none" stroke="#241F1C" stroke-width="2"/>
+<rect x="180.00" y="80.00" width="36.00" height="26.00" rx="0.00" fill="none" stroke="#241F1C" stroke-width="2"/>
+<path d="M300.00 70.00 L400.00 60.00 L410.00 120.00 L360.00 170.00 L290.00 140.00 Z" fill="#FBF8F2" stroke="#3E6464" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M320.00 90.00L314.00 130.00" fill="none" stroke="#3E6464" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M345.00 90.00L339.00 130.00" fill="none" stroke="#3E6464" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M370.00 90.00L364.00 130.00" fill="none" stroke="#3E6464" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

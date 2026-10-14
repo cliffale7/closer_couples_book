@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" width="440" height="280" role="img" aria-label="Line motif for 025 What Loving Me Actually Looks Like: A scatter of loving gestures drawn as objects, not five labeled boxes"><title>Line motif for 025 What Loving Me Actually Looks Like: A scatter of loving gestures drawn as objects, not five labeled boxes</title><g data-motif="A scatter of loving gestures drawn as objects, not five labeled boxes">
+<g transform="translate(70.00 70.00) rotate(-20.0) scale(1.100)">
+<circle cx="0.00" cy="0.00" r="12.00" fill="none" stroke="#A85A32" stroke-width="2.90909"/>
+<circle cx="0.00" cy="0.00" r="5.00" fill="none" stroke="#A85A32" stroke-width="2.90909"/>
+<path d="M11.00 0.00L46.00 0.00" fill="none" stroke="#A85A32" stroke-width="2.90909" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M32.00 0.00L32.00 9.00" fill="none" stroke="#A85A32" stroke-width="2.90909" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M39.00 0.00L39.00 7.00" fill="none" stroke="#A85A32" stroke-width="2.90909" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path d="M144.9 64.0 Q142.8 101.8 168.0 106.0 Q193.2 101.8 191.1 64.0" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="168.00" cy="64.00" rx="23.10" ry="7.35" fill="#F6F1E7" stroke="#241F1C" stroke-width="3.2"/>
+<path d="M191.1 72.4 Q210.0 78.7 191.1 93.4" fill="none" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(230.00 48.00) rotate(-8.0)">
+<rect x="0.00" y="0.00" width="70.00" height="90.00" rx="0.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2"/>
+<path d="M14.00 22.00L54.00 22.00" fill="none" stroke="#D9CFC0" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.00 35.50L54.00 35.50" fill="none" stroke="#D9CFC0" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.00 49.00L46.00 49.00" fill="none" stroke="#D9CFC0" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.00 62.50L54.00 62.50" fill="none" stroke="#D9CFC0" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path d="M48.0 160.0 Q81.0 138.0 125.0 160.0 Q103.0 177.6 87.6 190.8 Q65.6 175.4 48.0 160.0 Z" fill="#F6F1E7" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(300.00 150.00) rotate(20.0) scale(1.000)">
+<ellipse cx="0.00" cy="-18.00" rx="12.00" ry="16.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2"/>
+<path d="M0 -2 C8 18 6 40 0 58" fill="none" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<ellipse cx="360.00" cy="207.20" rx="12.60" ry="4.20" fill="#F6F1E7" stroke="#241F1C" stroke-width="3.2"/>
+<path d="M360.00 204.40L360.00 182.00" fill="none" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M353.00 163.80 L367.00 163.80 L375.40 184.80 L344.60 184.80 Z" fill="#FBF8F2" stroke="#241F1C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="360.00" cy="180.60" rx="2.80" ry="4.90" fill="#C6A15B" stroke="#C6A15B" stroke-width="1.28"/>
+<path d="M348.80 184.80L340.40 197.40" fill="none" stroke="#A85A32" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M371.20 184.80L379.60 197.40" fill="none" stroke="#A85A32" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
