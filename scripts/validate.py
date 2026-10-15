@@ -97,7 +97,11 @@ def main() -> int:
         ):
             check(f"HTML index {anchor}", f'id="{anchor}"' in html)
         if (ROOT / "assets" / "parts" / "01-opener.svg").is_file():
-            check("HTML part opener art", "assets/parts/01-opener.svg" in html and 'class="part-art"' in html)
+            check(
+                "HTML part opener art",
+                'class="part-art"' in html
+                and ("assets/parts/01-opener.svg" in html or "assets/parts/01-opener.jpg" in html),
+            )
         if (ROOT / "research" / "BIBLIOGRAPHY.md").is_file():
             check("HTML bibliography", 'id="bibliography"' in html and "Buehlman" in html)
         if "FIXTURE NOT A CHAPTER" in html:
