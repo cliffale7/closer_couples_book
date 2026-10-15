@@ -20,7 +20,7 @@ Updated during the first implementation pass on `phase3/book-completion`. A gate
 | G14 Accessibility | PASS for automated checks | EPUB nav, parsed XML, 129 images with alt text. No screen reader was used. `review/phase3/ACCESSIBILITY_AND_LAYOUT_QA.md`. |
 | G15 Field use | Desk kit ready; human play AWAITING_OWNER | `review/phase3/PLAYABILITY_CLOSEOUT.md`. Field scripts remain AWAITING_OWNER_REAL_USE. |
 | G16 Single status | PASS | `planning/PRODUCTION_BOARD.md` now points at `planning/STATUS.json` and this matrix. The old unstarted table is withdrawn. |
-| G17 Android handoff | PASS for the exporter tests | `scripts/test_phase3_app_bundle.py` (6 tests): 001–108 and S01–S06, stable prompt ids, initial baseline versus a no-op second bundle, explicit 103 spoiler, `requires_app_update` only for cards or a covered key. `source/prompt_registry.json` holds the current wording. The zip in `release/app_content/` is still the older bundle until the final export. On-device import is NOT TESTED IN BOOK PROJECT. |
+| G17 Android handoff | PASS for the public bundle | `release/app_content/The_Closer_Project_Content_v1-draft.zip` names source commit `b69f95bd37bc1e11842205fbf116343d3b581b3b`. `CHANGES.json` is an update against the previous zip: 13 drawing assets changed, no activities added or removed. On-device import is NOT TESTED IN BOOK PROJECT. |
 | G18 Branch and privacy | PASS for the branch checkpoint | Work is on `phase3/book-completion`. Private notes were not read or committed. |
 | G19 Unabridged master | PASS | No chapter was cut, merged, or retargeted to a retail page limit. Trim remains 7×10 for the workbook. |
 | G20 Owner approval | PENDING_OWNER | No owner has signed art, prose, or a playtest. |

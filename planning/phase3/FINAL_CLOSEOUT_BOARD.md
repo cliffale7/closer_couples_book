@@ -2,7 +2,7 @@
 
 Branch: `phase3/book-completion`. This board is the current machine record. It is not owner approval.
 
-Candidate: **READY FOR OWNER REVIEW** once the Android zip in this commit's follow-up matches the source commit. Human play and owner sign-off stay open.
+Candidate: **READY FOR OWNER REVIEW**. Human play and owner sign-off stay open. The Android zip is a public content bundle, not an installed app.
 
 | Gate | State | Evidence | Open |
 | --- | --- | --- | --- |
@@ -22,7 +22,7 @@ Candidate: **READY FOR OWNER REVIEW** once the Android zip in this commit's foll
 | G14 Accessibility | PASS for automated checks | EPUB alt text and nav. | No screen reader. |
 | G15 Field use | Desk kit ready | `review/phase3/PLAYABILITY_CLOSEOUT.md`. | AWAITING_OWNER_REAL_USE. |
 | G16 Single status | PASS | Production board points here. `STATUS.json` phase is `phase3-owner-review`. | None. |
-| G17 Android handoff | Tests pass; release zip refresh follows this book commit | Exporter tests passed earlier. The zip is rebuilt against this commit in the next commit. | On-device import NOT TESTED. |
+| G17 Android handoff | PASS for the public bundle | Zip compared with the previous bundle. 13 assets changed. | On-device import NOT TESTED. |
 | G18 Branch and privacy | PASS | `phase3/book-completion`. Private notes not committed. | Do not merge to `main`. |
 | G19 Unabridged | PASS | 7×10, 1,464 pages. | None. |
 | G20 Owner approval | AWAITING_OWNER | Art, prose, and a real playtest are not signed. | Owner. |

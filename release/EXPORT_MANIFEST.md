@@ -25,4 +25,4 @@ The 14 October manifest described a 1,452-page workbook. This rebuild replaces i
 - DOCX pictures are PNG rasters of the SVG drawings.
 - Chrome reprints the PDF on each run, so the PDF bytes are not stable across machines.
 - Owner art approval, owner prose approval, and a real playtest are still open.
-- The Android zip, when present, is a public content bundle. On-device import was not tested here.
+- The Android zip is `release/app_content/The_Closer_Project_Content_v1-draft.zip`, 654836 bytes, SHA-256 `3737f9c9d33214aaa3cd241a65cc4cefb9a21fa98e01eb34e1c195cc9c1deaa3`. Its manifest names source commit `b69f95bd37bc1e11842205fbf116343d3b581b3b`. `CHANGES.json` compares it with the previous public zip: no activities added or removed, 13 drawing files changed. On-device import was not tested.
