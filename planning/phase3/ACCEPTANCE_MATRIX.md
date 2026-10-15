@@ -11,14 +11,14 @@ Updated during the first implementation pass on `phase3/book-completion`. A gate
 | G05 Journal prompts | PASS for source | Each of the 114 files has a journal fence. Equal blank lines are in the repeat pack. |
 | G06 Repeat pack | PASS for files | `release/Our_Story_Repeatable_Session_Pack_v1.pdf` and `.docx`. Line height in the HTML is 0.38in. A physical print measurement is not done. |
 | G07 Memoir exporter | PASS | `scripts/test_phase3_memoir.py` builds shared, partner, and full-private PDF/DOCX from fictional temp sessions and refuses `release/` plus a path escape. |
-| G08 Distinct experiences | FAIL | Contrast revisions are not finished. |
+| G08 Distinct experiences | FAIL | 001/005/081, 041/107, 039/046, and 006/102 were left unchanged (`review/phase3/CONTRAST_001_046.md`). Part 10 is eight tools; only 080 was rewritten (`review/phase3/CONTRAST_PART10.md`). The other required clusters are still open. |
 | G09 Copy and research | FAIL | No new full-book proof or evidence pass has been signed in this phase. |
-| G10 Art | FAIL | No new contact sheets. Night Library files were not replaced. |
+| G10 Art | FAIL | All 130 drawings were reviewed in `review/phase3/ART_AUDIT.md`: 117 keep, 10 improve, 3 replace (005, 024, 061). No SVG was edited. Contact sheets and owner approval are still open. |
 | G11 Game materials | FAIL | Prior card packet still exists. It has not been regenerated against the Phase 3 text. |
 | G12 All formats | FAIL | Workbook PDF, DOCX, EPUB, and companion have not been rebuilt since the index change. |
 | G13 Layout scan | FAIL | The previous 1,452-page raster does not include this phase. |
 | G14 Accessibility | FAIL | Not rechecked after the index change. |
-| G15 Field use | FAIL | Desk matrix and the 13 human scripts are not logged as played. Real use is not claimed. |
+| G15 Field use | FAIL | Desk matrix: `review/phase3/PLAYABILITY_MATRIX.csv` (114 rows). One S04 handoff was corrected in the signature text. Field scripts: `review/phase3/FIELD_TEST_SCRIPTS.md`, all marked AWAITING_OWNER_REAL_USE. No real playtest is claimed. |
 | G16 Single status | FAIL | `PRODUCTION_BOARD.md` and `STATUS.json` still disagree. |
 | G17 Android handoff | PASS for the public bundle | `release/app_content/The_Closer_Project_Content_v1-draft.zip` and `scripts/test_phase3_app_bundle.py`. An installed app was not imported; that belongs to the Android project. |
 | G18 Branch and privacy | PASS for the branch checkpoint | Work is on `phase3/book-completion`. Private notes were not read or committed. |
