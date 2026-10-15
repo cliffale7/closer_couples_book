@@ -39,7 +39,7 @@ motif: "assets/chapters/001/motif.svg"
 ---
 ```
 
-Allowed `time_band`: `5-10`, `10-20`, `20-45`, `45-90`, `90-180`, `multi-day`.
+Allowed `time_band`: `5-10`, `10-20`, `20-45`, `45-90`, `90-180`, `long-day`, `multi-day`. Use `long-day` for one calendar day longer than 3 hours. Use `multi-day` only when the activity itself spans more than one date. The Time index still lists every version from `durations`, so a short sitting can appear on an earlier shelf than `time_band`.
 
 Allowed `emotional_intensity`: `light`, `personal`, `deep`, `intense`.
 

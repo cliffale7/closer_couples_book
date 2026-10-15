@@ -2,14 +2,17 @@
 
 Start with the time you actually have. The indexes are there so you can choose in a minute, not after a summit about which chapter would be optimal.
 
-There are six time shelves:
+There are seven time shelves. The Time index is built from each version, so a ten-minute form of a longer chapter appears under Quick Connections as its own line. Open the version named on that line.
 
 - **5–10 minutes — Quick Connections.** A question, a forecast, a specific thank-you.
 - **10–20 minutes — Little Discoveries.** One story, one game round, one small ritual.
 - **20–45 minutes — Meaningful Sessions.** Enough time to go past the first answer.
 - **45–90 minutes — Deep Dives.** Museums, maps, letters, a full game.
-- **90 minutes–3 hours — Full Experiences.** An evening with a shape.
-- **Multi-day — The Long Game.** Notes collected in secret, missions, a week of small devotion.
+- **90 minutes–3 hours — Full Experiences.** An evening with a shape. This is the shelf for "we have all evening."
+- **Long day — more than 3 hours, still one day.** A four-hour or twelve-hour plan that begins and ends the same day. This is the shelf for "we have the afternoon," and it is not a multi-day project.
+- **Multi-day — The Long Game.** Notes collected in secret, missions, a week of small devotion. The short talk at the end does not turn the whole thing into a ten-minute chapter.
+
+A length that lands on a boundary stays in the shorter shelf. Ten minutes is Quick Connections. Three hours is still a Full Experience.
 
 Time is not the same thing as effort. A 40-minute talk on the couch can be low energy. A 15-minute dance in the kitchen is not. Each chapter separates the two.
 

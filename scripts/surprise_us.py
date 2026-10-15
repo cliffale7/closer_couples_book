@@ -1,20 +1,10 @@
 #!/usr/bin/env python3
-"""Choose one chapter after the filters, for Surprise Us.
+"""Choose one activity version after the filters, for Surprise Us.
 
 The paper version lives in frontmatter/06-surprise-us.md.
 
-Usage, from the repository root:
-
-    python scripts/surprise_us.py
-    python scripts/surprise_us.py --time-band 20-45 --energy low
-    python scripts/surprise_us.py --help
-
-With no filters, one chapter is chosen from the full set. This is the
-no-argument demo. Filters are applied before the choice. If nothing
-matches, the script says so and does not drop a filter unless --relax
-is present.
-
-Reads chapter frontmatter only. Does not read journal/private/.
+A draw is a variant, not merely the chapter's default length. Touch and the
+depth ceiling are never dropped, including when --relax is present.
 """
 
 from __future__ import annotations
@@ -24,17 +14,21 @@ import random
 import sys
 from pathlib import Path
 
-import yaml
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
 
-import build_all
+import catalog_variants  # noqa: E402
 
-# The paper version lives in frontmatter/06-surprise-us.md.
-FILTER_ORDER = ("time_band", "energy", "emotional_intensity", "format", "mood")
-FRONTMATTER_LINE_CAP = 200
+RELAXABLE = ("time_band", "energy", "format", "mood")
+DEPTH_ORDER = ("light", "personal", "deep", "intense")
 
 
 def configure_stdio() -> None:
-    build_all.configure_stdio()
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(encoding="utf-8", errors="replace")
+        except (AttributeError, OSError):
+            pass
 
 
 def normalize(value: object) -> str:
@@ -50,168 +44,116 @@ def unique_values(values: list[str]) -> list[str]:
     return found
 
 
-def string_list(value) -> list[str]:
-    if value is None:
-        return []
-    items = value if isinstance(value, (list, tuple)) else [value]
-    found = []
-    for item in items:
-        text = str(item).strip()
-        if text:
-            found.append(text)
-    return found
+def depth_allowed(value: str, ceiling: str) -> bool:
+    if not ceiling:
+        return True
+    if value not in DEPTH_ORDER or ceiling not in DEPTH_ORDER:
+        return False
+    return DEPTH_ORDER.index(value) <= DEPTH_ORDER.index(ceiling)
 
 
-def read_frontmatter(path: Path) -> dict:
-    """Stop at the closing marker so the chapter body is not read."""
-    build_all.assert_readable(path)
-    lines: list[str] = []
-    markers = 0
-    with path.open(encoding="utf-8-sig") as handle:
-        for _ in range(FRONTMATTER_LINE_CAP):
-            line = handle.readline()
-            if line == "":
-                break
-            if line.strip() == "---":
-                markers += 1
-                if markers == 2:
-                    break
-                continue
-            if markers == 1:
-                lines.append(line)
-        else:
-            raise SystemExit(
-                f"{build_all.rel_posix(path)}: frontmatter did not close within {FRONTMATTER_LINE_CAP} lines."
-            )
-    if markers < 2:
-        raise SystemExit(f"{build_all.rel_posix(path)}: YAML frontmatter is missing its closing ---.")
-    raw = "".join(lines)
-    try:
-        loaded = yaml.safe_load(raw) if raw.strip() else {}
-    except yaml.YAMLError as exc:
-        raise SystemExit(f"{build_all.rel_posix(path)}: YAML frontmatter could not be parsed: {exc}") from exc
-    if loaded is None:
-        loaded = {}
-    if not isinstance(loaded, dict):
-        raise SystemExit(f"{build_all.rel_posix(path)}: YAML frontmatter must be a mapping.")
-    return loaded
-
-
-def load_chapters() -> list[dict]:
-    folder = build_all.ROOT / "chapters"
-    if not folder.is_dir():
-        return []
-    chapters = []
-    paths = sorted(
-        path for path in folder.glob("**/*.md") if path.is_file() and path.name.lower() != "readme.md"
-    )
-    for path in paths:
-        meta = read_frontmatter(path)
-        meta["_sort_id"] = int(str(meta.get("id")).strip()) if str(meta.get("id", "")).strip().isdigit() else 10**6
-        chapters.append(meta)
-    chapters.sort(key=lambda meta: (meta["_sort_id"], str(meta.get("title") or "").casefold()))
-    return chapters
-
-
-def field_values(meta: dict, name: str) -> set[str]:
-    if name == "format":
-        source = meta.get("formats", meta.get("format"))
-    elif name == "mood":
-        source = meta.get("moods", meta.get("mood"))
-    else:
-        source = meta.get(name)
-    return {normalize(item) for item in string_list(source) if normalize(item)}
-
-
-def matches(meta: dict, filters: dict[str, set[str]]) -> bool:
-    for name, wanted in filters.items():
-        if not wanted:
+def eligible(rows: list[catalog_variants.Variant], filters: dict[str, set[str]]) -> list[catalog_variants.Variant]:
+    chosen = []
+    ceilings = filters.get("depth_ceiling") or set()
+    ceiling = next(iter(ceilings), "")
+    for row in rows:
+        if not row.time_category:
             continue
-        if not field_values(meta, name).intersection(wanted):
-            return False
-    return True
+        wanted_time = filters.get("time_band") or set()
+        if wanted_time and row.time_category not in wanted_time:
+            continue
+        wanted_energy = filters.get("energy") or set()
+        if wanted_energy and normalize(row.energy) not in wanted_energy:
+            continue
+        wanted_format = filters.get("format") or set()
+        if wanted_format and not wanted_format.intersection(normalize(item) for item in row.formats):
+            continue
+        wanted_mood = filters.get("mood") or set()
+        if wanted_mood and not wanted_mood.intersection(normalize(item) for item in row.moods):
+            continue
+        if not depth_allowed(row.emotional_intensity, ceiling):
+            continue
+        touch = filters.get("touch") or set()
+        if "no" in touch and row.touch:
+            continue
+        chosen.append(row)
+    return chosen
 
 
 def print_filters(filters: dict[str, set[str]]) -> None:
-    for name in FILTER_ORDER:
-        if filters[name]:
+    for name in ("time_band", "energy", "depth_ceiling", "touch", "format", "mood"):
+        if filters.get(name):
             print(f"{name}: " + ", ".join(sorted(filters[name])))
 
 
-def print_match(meta: dict, dropped: list[str]) -> None:
-    raw = str(meta.get("id", "")).strip()
-    shown = raw.zfill(3) if raw.isdigit() else raw
-    title = str(meta.get("title") or "").strip()
-    print(f"{shown}  {title}".rstrip())
-    if raw.isdigit():
-        print(f"anchor: chapter-{int(raw):03d}")
-    elif raw:
-        print(f"id: {raw}")
-    for name in ("time_band", "energy", "emotional_intensity"):
-        print(f"{name}: {meta.get(name, '')}")
-    print("format: " + ", ".join(string_list(meta.get("formats", meta.get("format")))))
-    print("mood: " + ", ".join(string_list(meta.get("moods", meta.get("mood")))))
+def print_match(row: catalog_variants.Variant, dropped: list[str]) -> None:
+    print(f"{row.shown_id}  {row.title}".rstrip())
+    print(f"variant: {row.variant_id}")
+    if row.estimated_minutes is None:
+        print(f"estimate: {row.display_duration}")
+    else:
+        print(f"estimate: {row.estimated_minutes} minutes")
+    print(f"shelf: {row.time_category}")
+    print(f"anchor: {row.link_anchor}")
+    print(f"energy: {row.energy}")
+    print(f"emotional_intensity: {row.emotional_intensity}")
+    print(f"touch: {'true' if row.touch else 'false'}")
+    print("format: " + ", ".join(row.formats))
+    print("mood: " + ", ".join(row.moods))
     if dropped:
         print("Relaxed by dropping: " + ", ".join(dropped))
 
 
 def parser() -> argparse.ArgumentParser:
     tool = argparse.ArgumentParser(
-        description=(
-            "Choose one chapter after filters. "
-            "The paper version lives in frontmatter/06-surprise-us.md."
-        ),
-        formatter_class=argparse.RawDescriptionHelpFormatter,
-        epilog=(
-            "With no filters, one chapter is chosen from the full set.\n"
-            "Repeat a filter to allow more than one value. Values within one filter\n"
-            "are combined. Different filters all have to match.\n"
-            "If nothing matches, the filters stay as given unless you pass --relax.\n\n"
-            "Examples:\n"
-            "  python scripts/surprise_us.py\n"
-            "  python scripts/surprise_us.py --time-band 20-45 --energy low --mood discover\n"
-        ),
+        description="Choose one activity version after filters. Touch and depth are never relaxed.",
     )
-    tool.add_argument("--time-band", action="append", default=[], dest="time_band", help="Exact time_band. Repeat to allow a pair.")
-    tool.add_argument("--energy", action="append", default=[], help="Exact energy. Repeat to allow more than one.")
-    tool.add_argument(
-        "--emotional-intensity",
-        action="append",
-        default=[],
-        dest="emotional_intensity",
-        help="Exact emotional_intensity. Repeat to allow more than one.",
-    )
-    tool.add_argument("--format", action="append", default=[], help="Match a formats entry. Repeat to allow more than one.")
-    tool.add_argument("--mood", action="append", default=[], help="Match a moods entry. Repeat to allow more than one.")
+    tool.add_argument("--time-band", action="append", default=[], dest="time_band")
+    tool.add_argument("--energy", action="append", default=[])
+    tool.add_argument("--depth-ceiling", default="", choices=["", *DEPTH_ORDER])
+    tool.add_argument("--touch", default="", choices=["", "yes", "no"])
+    tool.add_argument("--format", action="append", default=[])
+    tool.add_argument("--mood", action="append", default=[])
     tool.add_argument(
         "--relax",
         action="store_true",
-        help="Only if nothing matches, drop filters from the end until a chapter matches.",
+        help="Drop time, energy, format, or mood from the end until something matches. Never drops touch or depth.",
     )
-    tool.add_argument("--seed", type=int, default=None, help="Optional choice seed. Omit it for a fresh draw.")
+    tool.add_argument("--seed", type=int, default=None)
     return tool
+
+
+def filters_from_args(args) -> dict[str, set[str]]:
+    filters = {
+        "time_band": set(unique_values(args.time_band)),
+        "energy": set(unique_values(args.energy)),
+        "format": set(unique_values(args.format)),
+        "mood": set(unique_values(args.mood)),
+        "depth_ceiling": {args.depth_ceiling} if args.depth_ceiling else set(),
+        "touch": {args.touch} if args.touch else set(),
+    }
+    return filters
 
 
 def main(argv: list[str] | None = None) -> int:
     configure_stdio()
     args = parser().parse_args(argv)
-    # Filters are applied before the choice. They are not relaxed unless --relax was passed.
-    filters = {name: set(unique_values(getattr(args, name))) for name in FILTER_ORDER}
-    chapters = load_chapters()
-    eligible = [meta for meta in chapters if matches(meta, filters)]
+    filters = filters_from_args(args)
+    rows = catalog_variants.load_variants()
+    chosen = eligible(rows, filters)
     dropped: list[str] = []
-    if not eligible and args.relax:
+    if not chosen and args.relax:
         narrowed = {name: set(values) for name, values in filters.items()}
-        for name in reversed(FILTER_ORDER):
-            if not narrowed[name]:
+        for name in reversed(RELAXABLE):
+            if not narrowed.get(name):
                 continue
             narrowed[name] = set()
             dropped.append(name)
-            eligible = [meta for meta in chapters if matches(meta, narrowed)]
-            if eligible:
+            chosen = eligible(rows, narrowed)
+            if chosen:
                 break
-    if not eligible:
-        print("No chapter matches these filters.")
+    if not chosen:
+        print("No activity matches these filters.")
         print_filters(filters)
         if dropped:
             print("Dropped while relaxing: " + ", ".join(dropped))
@@ -220,7 +162,7 @@ def main(argv: list[str] | None = None) -> int:
             print("Filters were not relaxed.")
         return 2
     rng = random.Random(args.seed) if args.seed is not None else random.SystemRandom()
-    print_match(rng.choice(eligible), dropped)
+    print_match(rng.choice(chosen), dropped)
     return 0
 
 

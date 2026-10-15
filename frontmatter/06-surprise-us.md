@@ -4,7 +4,7 @@ Surprise is only fun inside a boundary you both meant.
 
 Before you draw, agree on four filters:
 
-1. Time shelf: one of the six, or a pair of neighboring shelves.
+1. Time shelf: one of the seven, or a pair of neighboring shelves. A line in the Time index names the version, such as Short, ~10 min. Draw that version.
 2. Energy: low, medium, or high.
 3. Depth ceiling: light, personal, deep, or intense. Anything above the ceiling is out.
 4. Touch: welcome, or not tonight. Chapters that involve touch drop out when the answer is not tonight.
@@ -17,6 +17,6 @@ Use the ID index at the back, or write eligible IDs on slips. Shuffle. Draw one.
 
 Count the eligible IDs. If you have fewer than twenty, number the slips and use a twenty-sided die, rerolling empties. If you have more, split the list into two piles and flip a coin for the pile, then number within it.
 
-The digital selector, when you use the file that ships with this project, must apply the same filters before it chooses. It does not get to be more daring than you were.
+The digital selector, when you use the file that ships with this project, must apply the same filters before it chooses. It returns an activity, a version, and a time. It does not get to be more daring than you were. If you pass a relax flag, it may drop time, energy, format, or mood. It never drops a touch refusal or a depth ceiling.
 
 Do not use Surprise Us to corner someone into a chapter they already refused this month. Refusal expires when that person says it expires.

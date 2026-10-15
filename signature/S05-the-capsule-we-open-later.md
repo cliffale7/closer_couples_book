@@ -5,7 +5,7 @@ slug: the-capsule-we-open-later
 deck: "Seal a few pieces of this season at the table, write an opening date you can still change, and keep the key in the house."
 classification: original-formulation
 primary_minutes: 90
-time_band: "multi-day"
+time_band: "45-90"
 durations:
   short: "20 minutes"
   standard: "90 minutes"

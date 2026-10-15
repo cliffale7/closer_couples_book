@@ -7,7 +7,7 @@ slug: the-twelve-hour-vacation
 deck: "Give an ordinary day a name, an opening, one paused duty, and a clear return to usual time."
 classification: reimagined
 primary_minutes: 720
-time_band: "multi-day"
+time_band: "long-day"
 durations:
   short: "4 hours"
   standard: "12 hours"

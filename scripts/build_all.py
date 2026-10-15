@@ -29,6 +29,10 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.shared import Inches, Pt, RGBColor
 
+if str(Path(__file__).resolve().parent) not in sys.path:
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+import catalog_variants
+
 ROOT = Path(__file__).resolve().parents[1]
 HTML_PATH = ROOT / "build" / "workbook.html"
 DOCX_PATH = ROOT / "build" / "The_Closer_Project_Illustrated_Workbook_v1_draft.docx"
@@ -57,6 +61,7 @@ REQUIRED_HEADINGS = [
 ]
 
 INDEX_SPECS = (
+    ("how-much-time", "How much time"),
     ("index-alphabetical", "Alphabetical index"),
     ("index-time", "Time"),
     ("index-emotional-intensity", "Emotional intensity"),
@@ -66,7 +71,7 @@ INDEX_SPECS = (
     ("index-revisit", "Revisit"),
 )
 
-TIME_ORDER = ["5-10", "10-20", "20-45", "45-90", "90-180", "multi-day"]
+TIME_ORDER = list(catalog_variants.SHELF_ORDER)
 INTENSITY_ORDER = ["light", "personal", "deep", "intense"]
 ENERGY_ORDER = ["low", "medium", "high"]
 
@@ -843,15 +848,12 @@ def opener_xhtml(doc: SourceDoc, images: ImageSink, anchors: set[str]) -> str:
         rendered = []
         for item in links:
             raw = str(item).strip()
-            if raw.isdigit():
-                anchor = f"chapter-{int(raw):03d}"
-                label = raw.zfill(3)
-                if anchor in anchors:
-                    rendered.append(f'<a href="#{esc(anchor)}">{esc(label)}</a>')
-                else:
-                    rendered.append(esc(label))
+            anchor = experience_link_anchor(raw)
+            label = raw.zfill(3) if raw.isdigit() else raw
+            if anchor and anchor in anchors:
+                rendered.append(f'<a href="#{esc(anchor)}">{esc(label)}</a>')
             else:
-                rendered.append(esc(raw))
+                rendered.append(esc(label))
         bits.append('<p class="see-also">See also ' + ", ".join(rendered) + "</p>")
     bits.append("</header>")
     return "\n".join(bits)
@@ -1078,24 +1080,36 @@ def string_list(value) -> list[str]:
     return found
 
 
-def index_refs(docs: list[SourceDoc]) -> list[dict]:
-    """Chapter frontmatter only, using anchors already assigned.
+def experience_link_anchor(raw: str) -> str | None:
+    text = raw.strip()
+    if text.isdigit():
+        return f"chapter-{int(text):03d}"
+    if re.fullmatch(r"S\d{2}", text, re.IGNORECASE):
+        return "signature-" + text.lower()
+    return None
 
-    Does not call chapter_anchor. Signature ids such as S01 stay out of these indexes.
-    """
+
+def index_refs(docs: list[SourceDoc]) -> list[dict]:
+    """One row per chapter and signature. Time shelves are built separately, per version."""
     refs = []
     for doc in docs:
-        if doc.kind != "chapter":
+        if doc.kind not in {"chapter", "signature"}:
             continue
         meta = doc.meta
         raw = str(meta.get("id", "")).strip()
+        if raw.isdigit():
+            sort_id: tuple = (0, int(raw))
+            shown = raw.zfill(3)
+        else:
+            sort_id = (1, raw)
+            shown = raw
         refs.append(
             {
                 "anchor": doc.anchor,
                 "title": doc.title,
-                "shown": raw.zfill(3) if raw.isdigit() else raw,
-                "sort_id": int(raw) if raw.isdigit() else 10**6,
-                "time_band": str(meta.get("time_band") or "").strip(),
+                "shown": shown,
+                "label": f"{shown}  {doc.title}".strip(),
+                "sort_id": sort_id,
                 "emotional_intensity": str(meta.get("emotional_intensity") or "").strip(),
                 "energy": str(meta.get("energy") or "").strip(),
                 "formats": string_list(meta.get("formats", meta.get("format"))),
@@ -1104,6 +1118,45 @@ def index_refs(docs: list[SourceDoc]) -> list[dict]:
             }
         )
     return refs
+
+
+def time_index_blocks(docs: list[SourceDoc]) -> list:
+    buckets: dict[str, list] = {key: [] for key in catalog_variants.SHELF_ORDER}
+    for doc in docs:
+        if doc.kind not in {"chapter", "signature"}:
+            continue
+        for variant in catalog_variants.variants_from_meta(doc.meta, kind=doc.kind, anchor=doc.anchor):
+            if variant.time_category not in buckets:
+                continue
+            buckets[variant.time_category].append(variant)
+    blocks = []
+    for key in catalog_variants.SHELF_ORDER:
+        members = buckets[key]
+        if not members:
+            continue
+
+        def sort_key(row: catalog_variants.Variant, names=catalog_variants.VARIANT_ORDER):
+            raw = row.activity_id
+            variant_order = names.index(row.variant_id) if row.variant_id in names else 9
+            if raw.isdigit():
+                return (0, int(raw), variant_order)
+            return (1, raw, variant_order)
+
+        refs = []
+        for variant in sorted(members, key=sort_key):
+            refs.append(
+                {
+                    "anchor": variant.link_anchor,
+                    "title": variant.title,
+                    "shown": variant.shown_id,
+                    "label": variant.index_label,
+                    "sort_id": (0, 0),
+                }
+            )
+        blocks.append(("group", catalog_variants.SHELF_LABELS[key], refs, f"time-shelf-{key}"))
+    if not blocks:
+        blocks.append(("note", "No duration could be placed on a shelf."))
+    return blocks
 
 
 def group_blocks(refs: list[dict], values_fn, order: list[str] | None) -> list:
@@ -1141,6 +1194,25 @@ def group_blocks(refs: list[dict], values_fn, order: list[str] | None) -> list:
     return blocks
 
 
+def how_much_time_section() -> IndexSection:
+    links = [(f"time-shelf-{key}", catalog_variants.SHELF_LABELS[key]) for key in catalog_variants.SHELF_ORDER]
+    return IndexSection(
+        "how-much-time",
+        "How much time",
+        [
+            (
+                "note",
+                "Pick the time you actually have. A chapter can sit on more than one shelf when a shorter version exists. The line names that version. Open the version you drew.",
+            ),
+            (
+                "note",
+                "A stated length belongs to one shelf. Through 3 hours, the upper bound is inclusive: 10 minutes is Quick Connections, 45 minutes is Meaningful Sessions, and 3 hours is still a Full Experience. We have the afternoon means Long day, more than 3 hours and still one day. We have all evening means Full Experiences. A numbered span of days is The Long Game, even when the closing talk is short.",
+            ),
+            ("shelf-links", links),
+        ],
+    )
+
+
 def build_index_sections(docs: list[SourceDoc]) -> list[IndexSection]:
     refs = index_refs(docs)
     alpha = sorted(refs, key=lambda ref: (ref["title"].casefold(), ref["sort_id"], ref["anchor"]))
@@ -1148,10 +1220,11 @@ def build_index_sections(docs: list[SourceDoc]) -> list[IndexSection]:
         (ref for ref in refs if ref["repeatable"]),
         key=lambda ref: (ref["sort_id"], ref["title"].casefold()),
     )
-    revisit_blocks: list = [("rows", revisit)] if revisit else [("note", "No chapter is marked repeatable.")]
+    revisit_blocks: list = [("rows", revisit)] if revisit else [("note", "No activity is marked repeatable.")]
     return [
+        how_much_time_section(),
         IndexSection("index-alphabetical", "Alphabetical index", [("rows", alpha)]),
-        IndexSection("index-time", "Time", group_blocks(refs, lambda ref: [ref["time_band"]], TIME_ORDER)),
+        IndexSection("index-time", "Time", time_index_blocks(docs)),
         IndexSection(
             "index-emotional-intensity",
             "Emotional intensity",
@@ -1169,12 +1242,17 @@ def index_html(section: IndexSection) -> str:
         f'<section class="index" id="{esc(section.anchor)}">',
         '<p class="kicker">Index</p>',
         f"<h1>{esc(section.title)}</h1>",
-        '<p class="index-note">Generated from the chapter frontmatter at build time.</p>',
+        '<p class="index-note">Generated from the chapter frontmatter and signature frontmatter at build time.</p>',
     ]
     for block in section.blocks:
         kind = block[0]
         if kind == "note":
             parts.append(f"<p>{esc(block[1])}</p>")
+        elif kind == "shelf-links":
+            parts.append("<ul>")
+            for anchor, label in block[1]:
+                parts.append(f'<li><a href="#{esc(anchor)}">{esc(label)}</a></li>')
+            parts.append("</ul>")
         elif kind == "rows":
             parts.append('<table class="index-table"><thead><tr><th>Title</th><th>ID</th></tr></thead><tbody>')
             for ref in block[1]:
@@ -1186,10 +1264,12 @@ def index_html(section: IndexSection) -> str:
                 )
             parts.append("</tbody></table>")
         elif kind == "group":
-            parts.append(f"<h2>{esc(block[1])}</h2>")
+            heading_id = block[3] if len(block) > 3 else ""
+            id_attr = f' id="{esc(heading_id)}"' if heading_id else ""
+            parts.append(f"<h2{id_attr}>{esc(block[1])}</h2>")
             parts.append("<ul>")
             for ref in block[2]:
-                label = f"{ref['shown']}  {ref['title']}".strip()
+                label = ref.get("label") or f"{ref['shown']}  {ref['title']}".strip()
                 parts.append(f'<li><a href="#{esc(ref["anchor"])}">{esc(label)}</a></li>')
             parts.append("</ul>")
     parts.append("</section>")
@@ -2162,10 +2242,12 @@ def add_opener_docx(document: Document, doc: SourceDoc, bookmarks: Bookmarks) ->
                 comma = paragraph.add_run(", ")
                 set_run_font(comma, "Calibri", 9, TEAL)
             raw = str(item).strip()
-            if raw.isdigit():
-                add_internal_link(paragraph, bookmarks, f"#chapter-{int(raw):03d}", raw.zfill(3), 9)
+            anchor = experience_link_anchor(raw)
+            label = raw.zfill(3) if raw.isdigit() else raw
+            if anchor:
+                add_internal_link(paragraph, bookmarks, f"#{anchor}", label, 9)
             else:
-                plain = paragraph.add_run(raw)
+                plain = paragraph.add_run(label)
                 set_run_font(plain, "Calibri", 9, TEAL)
 
 
@@ -2185,7 +2267,7 @@ def add_indexes_docx(document: Document, bookmarks: Bookmarks, docs: list[Source
         )
         add_text_p(
             document,
-            "Generated from the chapter frontmatter at build time.",
+            "Generated from the chapter frontmatter and signature frontmatter at build time.",
             bookmarks,
             font="Calibri",
             size=9,
@@ -2195,6 +2277,10 @@ def add_indexes_docx(document: Document, bookmarks: Bookmarks, docs: list[Source
         for block in section.blocks:
             if block[0] == "note":
                 add_text_p(document, block[1], bookmarks)
+            elif block[0] == "shelf-links":
+                for anchor, label in block[1]:
+                    paragraph = document.add_paragraph()
+                    add_internal_link(paragraph, bookmarks, f"#{anchor}", label, 12)
             elif block[0] == "rows":
                 for ref in block[1]:
                     paragraph = document.add_paragraph()
@@ -2205,6 +2291,7 @@ def add_indexes_docx(document: Document, bookmarks: Bookmarks, docs: list[Source
                     set_run_font(ident, "Calibri", 10, TEAL)
                     add_bottom_border(paragraph, "C6A15B")
             elif block[0] == "group":
+                heading_id = block[3] if len(block) > 3 else ""
                 add_text_p(
                     document,
                     block[1],
@@ -2216,12 +2303,13 @@ def add_indexes_docx(document: Document, bookmarks: Bookmarks, docs: list[Source
                     before=12,
                     after=4,
                     keep=True,
+                    bookmark=heading_id or None,
                 )
                 for ref in block[2]:
                     paragraph = document.add_paragraph()
                     paragraph.paragraph_format.space_before = Pt(0)
                     paragraph.paragraph_format.space_after = Pt(1)
-                    label = f"{ref['shown']}  {ref['title']}".strip()
+                    label = ref.get("label") or f"{ref['shown']}  {ref['title']}".strip()
                     add_internal_link(paragraph, bookmarks, f"#{ref['anchor']}", label, 11)
 
 
@@ -2231,6 +2319,8 @@ def register_bookmarks(docs: list[SourceDoc], part_anchors: dict[str, str]) -> B
         bookmarks.register(html_id)
     for anchor, _title in INDEX_SPECS:
         bookmarks.register(anchor)
+    for key in catalog_variants.SHELF_ORDER:
+        bookmarks.register(f"time-shelf-{key}")
     for anchor in part_anchors.values():
         bookmarks.register(anchor)
     for doc in docs:
@@ -2665,16 +2755,20 @@ def self_check() -> None:
     sections = build_index_sections(sample_docs)
     by_anchor = {section.anchor: section for section in sections}
     alpha_rows = by_anchor["index-alphabetical"].blocks[0][1]
-    if [ref["title"] for ref in alpha_rows] != ["Alpha", "Beta"]:
+    if [ref["title"] for ref in alpha_rows] != ["Alpha", "Beta", "Sample"]:
         raise SystemExit(f"Alphabetical index order failed: {alpha_rows}")
-    if any(ref["anchor"].startswith("signature") for ref in alpha_rows):
-        raise SystemExit("Signature sessions were forced into the chapter index.")
+    if not any(ref["anchor"].startswith("signature") for ref in alpha_rows):
+        raise SystemExit("Signature sessions must appear in the alphabetical index.")
     time_labels = [block[1] for block in by_anchor["index-time"].blocks if block[0] == "group"]
-    if time_labels[:2] != ["5-10", "20-45"]:
+    expected_time = [
+        catalog_variants.SHELF_LABELS["5-10"],
+        catalog_variants.SHELF_LABELS["20-45"],
+    ]
+    if time_labels[:2] != expected_time:
         raise SystemExit(f"Time index order failed: {time_labels}")
     revisit_rows = by_anchor["index-revisit"].blocks[0][1]
     if [ref["anchor"] for ref in revisit_rows] != ["chapter-001"]:
-        raise SystemExit("Revisit index should list only chapters marked repeatable.")
+        raise SystemExit("Revisit index should list only activities marked repeatable.")
 
 
 def write_bytes(path: Path, data: bytes) -> None:
