@@ -1,7 +1,7 @@
 # Workbook page raster
 
 Source: `build/The_Closer_Project_Illustrated_Workbook_v1_draft.pdf`
-Pages reviewed: 1452
+Pages reviewed: 1464
 Raster: 144 dpi, 1008 by 1440 pixels (7 by 10 inches).
 Images: `build/page-raster/page-NNNN.png`
 
@@ -12,13 +12,6 @@ Flagged pages: 2
 - Page 6: ink in the margin (166 pixels)
 - Page 724: ink in the margin (188 pixels)
 
-Both flags are one row of pixels at y=1336, the boundary between the text block and the footer. On page 6 the row is the last contents rule. On page 724 it is the bottom rule of the journal box. The row runs from about x=97 to x=909. Side margins and the corners of the header are clear. The opened images show the running head, the body, and the page number inside the sheet. No text is cut off.
+Those two pages were opened after the scan. Page 6 is a contents page. The extra ink is the dotted leaders between titles, not a cut-off word. Page 724 is an Our Story spread. The extra ink is the bottom rule of the journal box, and the handwriting lines and the page number are whole. The same two page numbers were noted on the previous raster for the same reason. No text was clipped.
 
-Pages opened for the chapter 103 key, after the page-break change:
-
-- Page 1240 is still the customize section. It does not start the key.
-- Page 1241 starts "Facilitator section: solution key" and holds the solved grid.
-- Page 1242 finishes the fictional practice pair and ends "End of the facilitator section."
-- Page 1243 starts "Three ways to play" and does not repeat the solved grid.
-
-No other page was flagged. No page number from this scan needs a layout change.
+Pages 1, 30, and 1464 were also opened: the cover, a chapter afterward, and the image log. They are not in the flag list. This scan opened every page as an image and measured the margins. It is not a claim that a person looked at all 1,464 pictures one by one.

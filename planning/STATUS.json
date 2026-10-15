@@ -1,8 +1,8 @@
 {
   "project": "The Closer Project",
   "edition": "v1-draft",
-  "updated": "2026-10-14",
-  "phase": "8-first-draft",
+  "updated": "2026-10-15",
+  "phase": "phase3-owner-review",
   "source_audit": "pass",
   "chapters": {
     "001": {
