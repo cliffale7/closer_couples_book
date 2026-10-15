@@ -20,7 +20,7 @@ Updated during the first implementation pass on `phase3/book-completion`. A gate
 | G14 Accessibility | FAIL | Not rechecked after the index change. |
 | G15 Field use | FAIL | Desk matrix: `review/phase3/PLAYABILITY_MATRIX.csv` (114 rows). One S04 handoff was corrected in the signature text. Field scripts: `review/phase3/FIELD_TEST_SCRIPTS.md`, all marked AWAITING_OWNER_REAL_USE. No real playtest is claimed. |
 | G16 Single status | FAIL | `PRODUCTION_BOARD.md` and `STATUS.json` still disagree. |
-| G17 Android handoff | PASS for the public bundle | `release/app_content/The_Closer_Project_Content_v1-draft.zip` and `scripts/test_phase3_app_bundle.py`. An installed app was not imported; that belongs to the Android project. |
+| G17 Android handoff | PASS for the exporter tests | `scripts/test_phase3_app_bundle.py` (6 tests): 001–108 and S01–S06, stable prompt ids, initial baseline versus a no-op second bundle, explicit 103 spoiler, `requires_app_update` only for cards or a covered key. `source/prompt_registry.json` holds the current wording. The zip in `release/app_content/` is still the older bundle until the final export. On-device import is NOT TESTED IN BOOK PROJECT. |
 | G18 Branch and privacy | PASS for the branch checkpoint | Work is on `phase3/book-completion`. Private notes were not read or committed. |
 | G19 Unabridged master | PASS | No chapter was cut, merged, or retargeted to a retail page limit. Trim remains 7×10 for the workbook. |
 | G20 Owner approval | PENDING_OWNER | No owner has signed art, prose, or a playtest. |
