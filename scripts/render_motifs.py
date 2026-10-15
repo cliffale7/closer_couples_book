@@ -1157,11 +1157,12 @@ def s004(d):
 
 @scene(5)
 def s005(d):
-    # Question mark built from a spoon, a ticket, a key, and a star.
-    spoon(d, 168, 78, s=1.35, rot=-28)
-    ticket(d, 214, 78, w=64, h=34, rot=28)
-    key(d, 232, 118, s=1.5, rot=78)
-    star(d, 250, 214, 16)
+    # One question mark. The spoon is the hook, the ticket the descending
+    # stroke, the key the stem, and the star the dot.
+    spoon(d, 171, 107, s=1.75, rot=-125)
+    ticket(d, 268, 58, w=100, h=28, rot=112)
+    key(d, 222, 160, s=1.5, rot=90)
+    star(d, 222, 258, 13)
 
 
 @scene(6)
@@ -1227,7 +1228,8 @@ def s012(d):
 def s013(d):
     speech(d, 36, 48, w=180, h=90, tail="left")
     door(d, 270, 70, w=92, h=160)
-    draw_word(d, "PASS", 286, 168, 22, stroke=INK, sw=2.2)
+    # Upper panel, inset from both stiles and clear of the rail and the knob.
+    draw_word(d, "PASS", 292, 116, 15, stroke=INK, sw=2.2)
 
 
 @scene(14)
@@ -1290,9 +1292,22 @@ def s020(d):
 
 @scene(21)
 def s021(d):
-    hand_side(d, 36, 70, s=1.2, face=1)
-    blindfold(d, 78, 62, s=0.85)
-    hallway(d, 230, 70, w=170, h=150)
+    # Offered in the hand. No head, so it cannot be worn.
+    hand_side(d, 24, 86, s=1.15, face=1)
+    blindfold(d, 62, 74, s=0.78)
+    # Corridor: ceiling, two walls, a floor, and a door at the far end.
+    d.poly([(188, 250), (430, 250), (392, 168), (226, 168)], stroke=INK, fill=PARCHMENT, sw=MSW)
+    d.poly([(188, 28), (430, 28), (392, 78), (226, 78)], stroke=INK, fill=CHARCOAL, sw=MSW)
+    d.poly([(188, 28), (226, 78), (226, 168), (188, 250)], stroke=INK, fill=IVORY, sw=MSW)
+    d.poly([(430, 28), (392, 78), (392, 168), (430, 250)], stroke=INK, fill=IVORY, sw=MSW)
+    d.rect(226, 78, 166, 90, stroke=INK, fill=PARCHMENT, sw=MSW)
+    d.rect(286, 98, 46, 70, stroke=INK, fill=IVORY, sw=DSW)
+    d.circ(322, 136, 3.2, stroke=COPPER, fill=COPPER, sw=1.6)
+    d.line(188, 214, 226, 156, stroke=COPPER, sw=DSW)
+    d.line(430, 214, 392, 156, stroke=COPPER, sw=DSW)
+    d.line(236, 250, 270, 168, stroke=LINE, sw=1.6)
+    d.line(309, 250, 309, 168, stroke=LINE, sw=1.6)
+    d.line(382, 250, 348, 168, stroke=LINE, sw=1.6)
 
 
 @scene(22)
@@ -1318,7 +1333,11 @@ def s023(d):
 @scene(24)
 def s024(d):
     table(d, 70, 120, w=300, h=16)
-    phone(d, 196, 48, s=1.15)
+    # Horizontal back of the phone on the table. Camera island, no screen.
+    d.rect(124, 62, 192, 84, rx=12, stroke=INK, fill=CHARCOAL, sw=MSW)
+    d.rect(142, 76, 44, 32, rx=6, stroke=LINE, fill=MIDNIGHT, sw=DSW)
+    d.circ(156, 92, 6, stroke=COPPER, fill=COPPER, sw=1.6)
+    d.circ(174, 92, 5, stroke=IVORY, fill=CHARCOAL, sw=1.6)
 
 
 @scene(25)
@@ -1651,13 +1670,13 @@ def s060(d):
 
 @scene(61)
 def s061(d):
+    # A joke's outline, with an empty cup as the need inside it. No words.
     d.path(
-        "M80 60 Q120 20 180 40 Q250 10 300 50 Q360 30 380 90 "
-        "Q400 150 340 170 Q260 210 180 180 Q80 170 80 110 Z",
+        "M78 48 H330 Q372 48 372 92 V156 Q372 198 330 198 "
+        "H214 L186 246 L176 198 H78 Q36 198 36 156 V92 Q36 48 78 48 Z",
         stroke=INK, fill=IVORY, sw=MSW,
     )
-    d.path("M150 150 Q180 130 210 150", stroke=COPPER, sw=DSW)
-    blanket(d, 160, 70, s=0.8)
+    cup(d, 204, 90, s=1.15)
 
 
 @scene(62)
@@ -1694,14 +1713,35 @@ def s064(d):
 
 @scene(65)
 def s065(d):
-    door(d, 160, 40, w=120, h=200, sw=MSW)
-    hand_side(d, 210, 140, s=0.9, face=1)
-    hand_side(d, 250, 146, s=0.85, face=-1)
+    door(d, 120, 26, w=200, h=226, sw=MSW)
+    # One lever. The door knob sits under the rose.
+    d.rect(175, 142, 160, 16, rx=8, stroke=INK, fill=COPPER, sw=MSW)
+    d.circ(304, 150, 11, stroke=INK, fill=IVORY, sw=MSW)
+    # Forearms enter from opposite sides, then two separate hands.
+    d.path(
+        "M28 176 L28 152 L146 142 L152 164 L28 186 Z",
+        stroke=INK, fill=PARCHMENT, sw=MSW,
+    )
+    d.path(
+        "M412 180 L412 156 L362 146 L356 168 L412 190 Z",
+        stroke=INK, fill=PARCHMENT, sw=MSW,
+    )
+    hand_side(d, 142, 146, s=1.25, face=1)
+    hand_side(d, 358, 144, s=1.25, face=-1)
 
 
 @scene(66)
 def s066(d):
-    paper_boat(d, 120, 140, s=1.8, note=True)
+    # A bill folded once. Portrait, seal, and crease. No hull and no sail.
+    d.rect(78, 64, 284, 62, rx=2, stroke=INK, fill=PARCHMENT, sw=MSW)
+    d.rect(58, 118, 324, 96, rx=3, stroke=INK, fill=IVORY, sw=MSW)
+    d.line(58, 122, 382, 122, stroke=COPPER, sw=MSW)
+    d.rect(74, 136, 292, 64, stroke=LINE, sw=1.6, fill="none")
+    d.ell(186, 168, 28, 34, stroke=INK, fill=PARCHMENT, sw=DSW)
+    d.circ(286, 162, 16, stroke=COPPER, sw=DSW, fill="none")
+    d.circ(286, 162, 7, stroke=COPPER, sw=1.6, fill="none")
+    d.rect(86, 142, 24, 16, stroke=COPPER, sw=1.6, fill="none")
+    d.rect(330, 174, 24, 16, stroke=COPPER, sw=1.6, fill="none")
 
 
 @scene(67)
@@ -2009,9 +2049,18 @@ def s099(d):
     table_top(d, 30, 80, w=380, depth=130)
     cup(d, 120, 70, s=1.3)
     book(d, 220, 60, w=80, h=60)
-    postcard(d, 70, 150, w=22, h=14, sw=1.4)
-    postcard(d, 250, 160, w=18, h=12, sw=1.3, tilt=8)
-    postcard(d, 340, 140, w=16, h=11, sw=1.2, tilt=-6)
+    # Small enough to miss beside the cup and the book. Every stroke
+    # is at least 1.6 units, about half a point at the 2.20 in placement.
+    def small_postcard(x, y, w, h, tilt):
+        d.group(f"translate({x:.2f} {y:.2f}) rotate({tilt:.1f})")
+        d.rect(0, 0, w, h, stroke=INK, fill=IVORY, sw=1.6)
+        d.rect(w - 14, 3, 10, 8, stroke=COPPER, sw=1.6)
+        d.line(4, h * 0.62, w * 0.55, h * 0.62, stroke=INK, sw=1.6)
+        d.end()
+
+    small_postcard(58, 148, 40, 26, -4)
+    small_postcard(236, 158, 36, 24, 7)
+    small_postcard(328, 142, 34, 22, -6)
 
 
 @scene(100)
@@ -2090,21 +2139,21 @@ def s105(d):
 
 @scene(106)
 def s106(d):
-    bowl(d, 120, 150, s=1.5)
-    bowl(d, 320, 160, s=1.4)
-    # One hundred beads, shared between the bowls and the space between them.
-    for i in range(100):
-        if i < 42:
-            ang = i * 0.9
-            rad = 6 + (i % 6) * 5
-            bead(d, 120 + math.cos(ang) * rad, 156 + math.sin(ang) * rad * 0.42, r=3.1, sw=0.8)
-        elif i < 80:
-            ang = (i - 42) * 1.1
-            rad = 6 + ((i - 42) % 5) * 5
-            bead(d, 320 + math.cos(ang) * rad, 166 + math.sin(ang) * rad * 0.4, r=3.1, sw=0.8,
-                 fill=PARCHMENT if i % 2 == 0 else IVORY)
-        else:
-            bead(d, 190 + (i - 80) * 6, 80 + ((i * 17) % 30), r=3.1, sw=0.8)
+    bowl(d, 124, 178, s=1.55)
+    bowl(d, 318, 182, s=1.45)
+    # One hundred beads. Stroke 1.6 so the rings hold at the 2.20 in placement.
+    spots = []
+    for i in range(40):
+        col, row = i % 8, i // 8
+        spots.append((76 + col * 12 + (5 if row % 2 else 0), 146 + row * 10))
+    for i in range(40):
+        col, row = i % 8, i // 8
+        spots.append((270 + col * 12 + (5 if row % 2 else 0), 150 + row * 10))
+    for i in range(20):
+        col, row = i % 10, i // 10
+        spots.append((148 + col * 15, 72 + row * 18))
+    for i, (x, y) in enumerate(spots):
+        bead(d, x, y, r=3.5, sw=1.6, fill=IVORY if i % 3 else PARCHMENT)
 
 
 @scene(107)
@@ -2225,10 +2274,34 @@ def part_05(d: Draw):
     # Burgundy drape, half drawn.
     d.poly([(150, 36), (250, 36), (250, 300), (168, 320), (150, 200)], stroke=INK, fill=BURGUNDY, sw=PSW)
     d.path("M250 80 Q270 140 248 200", stroke=BURGUNDY, sw=1.5)
-    # Two pairs of shoes, side by side, empty.
-    for base in (200, 300):
-        d.ell(base, 360, 28, 12, stroke=INK, fill=IVORY, sw=PSW)
-        d.ell(base + 36, 366, 26, 11, stroke=INK, fill=PARCHMENT, sw=PSW)
+    # Two empty pairs. Stacked heel, sole, toe cap, open collar.
+    def shoe(px, py, face=1):
+        def X(v):
+            return px + face * v
+        def Y(v):
+            return py + v
+        d.path(
+            f"M{X(4):.1f} {Y(0):.1f} L{X(4):.1f} {Y(-18):.1f} L{X(18):.1f} {Y(-20):.1f} "
+            f"L{X(24):.1f} {Y(-38):.1f} L{X(54):.1f} {Y(-38):.1f} L{X(60):.1f} {Y(-26):.1f} "
+            f"L{X(78):.1f} {Y(-28):.1f} Q{X(108):.1f} {Y(-26):.1f} {X(106):.1f} {Y(-8):.1f} "
+            f"L{X(98):.1f} {Y(0):.1f} L{X(22):.1f} {Y(2):.1f} Z",
+            stroke=INK, fill=IVORY, sw=PSW,
+        )
+        d.path(
+            f"M{X(0):.1f} {Y(2):.1f} L{X(26):.1f} {Y(2):.1f} L{X(24):.1f} {Y(12):.1f} L{X(2):.1f} {Y(12):.1f} Z",
+            stroke=INK, fill=PARCHMENT, sw=PSW,
+        )
+        d.line(X(22), Y(2), X(22), Y(-18), stroke=INK, sw=1.6)
+        d.line(X(60), Y(-26), X(90), Y(-12), stroke=INK, sw=1.6)
+        d.path(
+            f"M{X(26):.1f} {Y(-34):.1f} Q{X(40):.1f} {Y(-28):.1f} {X(52):.1f} {Y(-34):.1f}",
+            stroke=COPPER, sw=1.8,
+        )
+
+    shoe(118, 336, 1)
+    shoe(140, 388, 1)
+    shoe(286, 332, 1)
+    shoe(308, 384, 1)
     lamp(d, 470, 400, s=0.7, sw=PSW, stem=36, lit=True)
 
 
@@ -2257,13 +2330,17 @@ def part_06(d: Draw):
 
     pawn(180 + 4 * 28 + 14, 150 + 5 * 28 * 0.55, 1.0)
     hat(d, 180 + 4 * 28 + 14, 150 + 5 * 28 * 0.55 - 40, kind="crown", s=0.7, sw=1.6)
-    # Knight stepped off the board onto the wood. Geometric horse-head, no face cartoon.
+    # Knight off the board: plinth, mane, ear, and snout. No eye, no smile.
+    d.path("M42 372 H156 L146 356 H52 Z", stroke=INK, fill=PARCHMENT, sw=PSW)
+    d.path("M58 356 H140 L130 342 H68 Z", stroke=INK, fill=IVORY, sw=PSW)
     d.path(
-        "M70 300 L78 250 Q90 220 120 214 Q150 210 148 240 L156 268 Q140 300 110 310 Z",
+        "M78 342 C70 300 64 268 70 236 C74 214 66 196 80 184 "
+        "L64 162 L94 188 C112 166 140 168 160 178 L176 196 L164 210 "
+        "C146 216 128 228 118 252 C112 288 120 322 128 342 Z",
         stroke=INK, fill=IVORY, sw=PSW,
     )
-    d.path("M120 214 Q138 196 150 206", stroke=COPPER, sw=1.5)
-    d.rect(74, 308, 80, 12, stroke=INK, fill=PARCHMENT, sw=PSW)
+    d.path("M74 230 C88 248 84 280 92 312", stroke=COPPER, sw=1.6)
+    d.path("M86 210 C98 232 94 268 102 300", stroke=COPPER, sw=1.6)
 
 
 def part_07(d: Draw):
@@ -2453,8 +2530,12 @@ def hero_s01(d: Draw):
     lamp(d, 250, 200, s=0.62, sw=1.5, stem=36, stroke=IVORY)
     lamp(d, 290, 130, s=0.42, sw=1.3, stem=24, stroke=IVORY)
     # Place cards: near ones plain, farther ones more particular, far one face down.
-    card(d, 120, 250, w=46, h=28, sw=1.3, face="lines")
-    card(d, 360, 246, w=44, h=26, sw=1.3, face="lines")
+    card(d, 120, 250, w=46, h=28, sw=1.3, face="blank")
+    for yy in (257, 265, 273):
+        d.line(128, yy, 156, yy, stroke=INK, sw=1.15)
+    card(d, 360, 246, w=44, h=26, sw=1.3, face="blank")
+    for yy in (252, 259, 266):
+        d.line(368, yy, 394, yy, stroke=INK, sw=1.15)
     card(d, 200, 180, w=40, h=24, sw=1.2, face="blank")
     key(d, 214, 186, s=0.28, rot=-20, sw=1.2)
     card(d, 300, 150, w=36, h=22, sw=1.2, face="blank")
@@ -2497,12 +2578,18 @@ def hero_s03(d: Draw):
     armchair(d, 40, 300, s=1.2, face=1, sw=PSW)
     armchair(d, 180, 310, s=1.15, face=-1, sw=PSW)
     coat(d, 250, 175, s=0.7, hem=60, sw=1.5)
-    # Teapot with copper body.
-    d.path("M80 250 Q70 210 110 200 Q150 210 140 250 Z", stroke=INK, fill=IVORY, sw=PSW)
-    d.ell(110, 200, 22, 6, stroke=INK, sw=1.5)
-    d.path("M140 220 Q165 215 160 240", stroke=COPPER, sw=PSW)
-    d.path("M90 210 Q70 230 92 242", stroke=INK, sw=1.5)
-    d.line(100, 188, 120, 188, stroke=COPPER, sw=1.4)
+    # Teapot between the chairs: round copper body, lid, spout, handle, foot.
+    d.ell(148, 246, 36, 7, stroke=INK, fill=PARCHMENT, sw=PSW)
+    d.path(
+        "M110 240 C102 208 116 180 148 174 C180 180 194 208 186 240 Z",
+        stroke=INK, fill=COPPER, sw=PSW,
+    )
+    d.ell(148, 172, 20, 6, stroke=INK, fill=IVORY, sw=PSW)
+    d.circ(148, 160, 5, stroke=INK, fill=GOLD, sw=1.6)
+    d.path("M182 202 C204 194 212 176 206 162", stroke=INK, sw=PSW)
+    d.path("M184 216 C200 210 208 194 202 178", stroke=INK, sw=PSW)
+    d.path("M206 162 Q214 170 202 178", stroke=INK, fill=IVORY, sw=PSW)
+    d.path("M114 198 C86 192 84 232 116 236", stroke=INK, sw=PSW)
     # Charcoal calendar, Tuesday parchment and blank.
     d.rect(360, 180, 150, 110, stroke=INK, fill=CHARCOAL, sw=PSW)
     draw_word(d, "TUE", 392, 206, 18, stroke=IVORY, sw=1.6)

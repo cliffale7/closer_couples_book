@@ -10,18 +10,18 @@
 <rect x="278.00" y="80.00" width="76.00" height="60.80" rx="0.00" fill="none" stroke="#241F1C" stroke-width="2.24"/>
 <rect x="278.00" y="146.80" width="76.00" height="60.80" rx="0.00" fill="none" stroke="#241F1C" stroke-width="2.24"/>
 <circle cx="346.00" cy="158.00" r="4.00" fill="#A85A32" stroke="#A85A32" stroke-width="1.28"/>
-<g transform="translate(286.00 146.00) scale(0.22000)">
-<path d="M10 100 V4 H46 Q76 4 76 32 Q76 56 46 56 H10" fill="none" stroke="#241F1C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(292.00 101.00) scale(0.15000)">
+<path d="M10 100 V4 H46 Q76 4 76 32 Q76 56 46 56 H10" fill="none" stroke="#241F1C" stroke-width="14.6667" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<g transform="translate(305.36 146.00) scale(0.22000)">
-<path d="M8 100 L40 4 L72 100" fill="none" stroke="#241F1C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M22 62 H58" fill="none" stroke="#241F1C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(305.20 101.00) scale(0.15000)">
+<path d="M8 100 L40 4 L72 100" fill="none" stroke="#241F1C" stroke-width="14.6667" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 62 H58" fill="none" stroke="#241F1C" stroke-width="14.6667" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<g transform="translate(324.72 146.00) scale(0.22000)">
-<path d="M66 24 Q58 4 36 4 Q8 4 8 28 Q8 50 40 54 Q74 58 74 80 Q74 96 40 96 Q14 96 8 78" fill="none" stroke="#241F1C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(318.40 101.00) scale(0.15000)">
+<path d="M66 24 Q58 4 36 4 Q8 4 8 28 Q8 50 40 54 Q74 58 74 80 Q74 96 40 96 Q14 96 8 78" fill="none" stroke="#241F1C" stroke-width="14.6667" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<g transform="translate(344.08 146.00) scale(0.22000)">
-<path d="M66 24 Q58 4 36 4 Q8 4 8 28 Q8 50 40 54 Q74 58 74 80 Q74 96 40 96 Q14 96 8 78" fill="none" stroke="#241F1C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(331.60 101.00) scale(0.15000)">
+<path d="M66 24 Q58 4 36 4 Q8 4 8 28 Q8 50 40 54 Q74 58 74 80 Q74 96 40 96 Q14 96 8 78" fill="none" stroke="#241F1C" stroke-width="14.6667" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
 </svg>

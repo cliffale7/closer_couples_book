@@ -22,18 +22,16 @@
 <path d="M296.72 121.60L301.76 129.16" fill="none" stroke="#A85A32" stroke-width="0.715" stroke-linecap="round" stroke-linejoin="round"/>
 <g transform="translate(120.00 250.00) rotate(0.0)">
 <rect x="0.00" y="0.00" width="46.00" height="28.00" rx="3.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="1.3"/>
-<path d="M10.00 24.00L34.00 24.00" fill="none" stroke="#D9CFC0" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10.00 40.00L34.00 40.00" fill="none" stroke="#D9CFC0" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10.00 56.00L34.00 56.00" fill="none" stroke="#D9CFC0" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10.00 72.00L34.00 72.00" fill="none" stroke="#D9CFC0" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
+<path d="M128.00 257.00L156.00 257.00" fill="none" stroke="#241F1C" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M128.00 265.00L156.00 265.00" fill="none" stroke="#241F1C" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M128.00 273.00L156.00 273.00" fill="none" stroke="#241F1C" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
 <g transform="translate(360.00 246.00) rotate(0.0)">
 <rect x="0.00" y="0.00" width="44.00" height="26.00" rx="3.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="1.3"/>
-<path d="M10.00 24.00L32.00 24.00" fill="none" stroke="#D9CFC0" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10.00 40.00L32.00 40.00" fill="none" stroke="#D9CFC0" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10.00 56.00L32.00 56.00" fill="none" stroke="#D9CFC0" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10.00 72.00L32.00 72.00" fill="none" stroke="#D9CFC0" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
+<path d="M368.00 252.00L394.00 252.00" fill="none" stroke="#241F1C" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M368.00 259.00L394.00 259.00" fill="none" stroke="#241F1C" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M368.00 266.00L394.00 266.00" fill="none" stroke="#241F1C" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
 <g transform="translate(200.00 180.00) rotate(0.0)">
 <rect x="0.00" y="0.00" width="40.00" height="24.00" rx="3.00" fill="#FBF8F2" stroke="#241F1C" stroke-width="1.2"/>
 </g>

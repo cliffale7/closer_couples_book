@@ -13,7 +13,7 @@ Branch: `phase3/book-completion`. This board is the current machine record. It i
 | G07 Memoir privacy | PASS | `review/phase3/PRIVACY_REGRESSION.md`. Four synthetic tests. | Not identity verification. Not encrypted. |
 | G08 Distinct experiences | PASS for the assigned clusters | `review/phase3/EDITORIAL_CLOSEOUT.md`. 52 practical-middle hashes recomputed and matched. No chapter rewritten. | Not a human playtest. |
 | G09 Copy and research | FAIL | No new full proof. | After chapter edits. |
-| G10 Art | FAIL | Audit stands. Drawing corrections are in progress with the art director. | 13 assets, contact sheets, owner approval. |
+| G10 Art | Corrections drawn, not approved | Thirteen SVGs regenerated. Rasters of those thirteen were looked at. | Contact-sheet PDF and owner approval. |
 | G11 Game materials | FAIL | S04 spent-room rule is in the signature and the last card packet. | Regenerate cards after final text. |
 | G12 All formats | FAIL | Workbook, companion, and release zip are older than HEAD. | Full rebuild after content locks. |
 | G13 Layout scan | FAIL | Previous raster is not this phase. | Raster the new PDF and say what was only scanned. |

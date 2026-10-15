@@ -13,7 +13,7 @@ Updated during the first implementation pass on `phase3/book-completion`. A gate
 | G07 Memoir exporter | PASS | `scripts/test_phase3_memoir.py` (4 tests). Shared PDF and DOCX omit fictional private markers, unmarked captions, and private images. Partner A omits Partner B-only markers and media. Full-private requires both local authorization files and both flags, then includes the private images. Path escape and `release/` are refused. Existing exports are not overwritten. See `review/phase3/PRIVACY_REGRESSION.md`. |
 | G08 Distinct experiences | PASS for the assigned clusters | `review/phase3/EDITORIAL_CLOSEOUT.md`. All 52 practical-middle hashes were recomputed against the chapter files and matched. No chapter was rewritten. This is a text inspection, not a couple playing the activities. |
 | G09 Copy and research | FAIL | No new full-book proof or evidence pass has been signed in this phase. |
-| G10 Art | FAIL | All 130 drawings were reviewed in `review/phase3/ART_AUDIT.md`: 117 keep, 10 improve, 3 replace (005, 024, 061). No SVG was edited. Contact sheets and owner approval are still open. |
+| G10 Art | Corrections drawn, not approved | The thirteen audit fixes are in the SVGs and `scripts/render_motifs.py`. `review/phase3/ART_CLOSEOUT.md`. The integration lead looked at rasters of all thirteen. Owner approval is AWAITING_OWNER. A full contact-sheet PDF is still open. |
 | G11 Game materials | FAIL | Prior card packet still exists. It has not been regenerated against the Phase 3 text. |
 | G12 All formats | FAIL | Workbook PDF, DOCX, EPUB, and companion have not been rebuilt since the index change. |
 | G13 Layout scan | FAIL | The previous 1,452-page raster does not include this phase. |
