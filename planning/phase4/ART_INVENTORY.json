@@ -1,8 +1,8 @@
 {
   "style": "lamp-lit table",
   "counts": {
-    "approved": 10,
-    "rejected_svg": 120
+    "approved": 18,
+    "rejected_svg": 112
   },
   "slots": [
     {
@@ -202,64 +202,64 @@
       "kind": "chapter",
       "title": "The Uncomfortable Truth",
       "scene_seed": "A sealed envelope with the flap lifted by choice",
-      "live_path": "assets/chapters/009/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/009/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "010",
       "kind": "chapter",
       "title": "The Fear Beneath the Fear",
       "scene_seed": "Nested strata of earth and a small lamp at the lowest layer",
-      "live_path": "assets/chapters/010/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/010/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "011",
       "kind": "chapter",
       "title": "What I Don’t Show the World",
       "scene_seed": "A coat on a hook and a brighter garment showing underneath",
-      "live_path": "assets/chapters/011/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/011/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "012",
       "kind": "chapter",
       "title": "The Permission Slip",
       "scene_seed": "A permission slip with an unused wax seal",
-      "live_path": "assets/chapters/012/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/012/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "013",
       "kind": "chapter",
       "title": "Confession Without Consequence",
       "scene_seed": "A speech bubble and a separate door labeled pass",
-      "live_path": "assets/chapters/013/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/013/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "014",
       "kind": "chapter",
       "title": "The Part of Me That Still Hurts",
       "scene_seed": "A mended cup with a copper line along the crack",
-      "live_path": "assets/chapters/014/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/014/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "015",
       "kind": "chapter",
       "title": "When I Feel Small",
       "scene_seed": "A chair drawn small because the room around it is vast",
-      "live_path": "assets/chapters/015/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/015/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "016",
       "kind": "chapter",
       "title": "No Armor Tonight",
       "scene_seed": "A set of armor left on a stand beside the table",
-      "live_path": "assets/chapters/016/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/016/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "017",

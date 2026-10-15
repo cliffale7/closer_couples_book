@@ -6,8 +6,8 @@ import shutil
 
 ROOT = Path(__file__).resolve().parents[2]
 SRC = Path(r"C:\Users\cliff\.cursor\projects\c-Users-cliff-cursor-The-Closer-Project-Android-Cursor-Package\assets")
-ACCEPTED = ["002", "003", "004", "005", "006", "007", "008"]
-SOURCES = {"007": "ch-007b.jpg"}
+ACCEPTED = ["009", "010", "011", "012", "013", "014", "015", "016"]
+SOURCES = {}
 
 for number in ACCEPTED:
     src = SRC / SOURCES.get(number, f"ch-{number}.jpg")
