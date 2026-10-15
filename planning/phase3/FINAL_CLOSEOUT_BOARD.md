@@ -11,7 +11,7 @@ Branch: `phase3/book-completion`. This board is the current machine record. It i
 | G05 Journal prompts | PASS for source | 114 journal fences. Signature prompts included in the builder. | Rendered companion still old. |
 | G06 Repeat pack | PASS for files | Existing repeat-pack PDF/DOCX. 0.38 in line height in HTML. | Physical measure not done. |
 | G07 Memoir privacy | PASS | `review/phase3/PRIVACY_REGRESSION.md`. Four synthetic tests. | Not identity verification. Not encrypted. |
-| G08 Distinct experiences | FAIL | Prior clusters 001/005/081, 041/107, 039/046, 006/102 left distinct. Part 10: 080 rewritten. | Remaining clusters are in progress with the developmental editor. |
+| G08 Distinct experiences | PASS for the assigned clusters | `review/phase3/EDITORIAL_CLOSEOUT.md`. 52 practical-middle hashes recomputed and matched. No chapter rewritten. | Not a human playtest. |
 | G09 Copy and research | FAIL | No new full proof. | After chapter edits. |
 | G10 Art | FAIL | Audit stands. Drawing corrections are in progress with the art director. | 13 assets, contact sheets, owner approval. |
 | G11 Game materials | FAIL | S04 spent-room rule is in the signature and the last card packet. | Regenerate cards after final text. |
