@@ -6,11 +6,11 @@ Updated during the first implementation pass on `phase3/book-completion`. A gate
 | --- | --- | --- |
 | G01 Complete scope | PASS | `scripts/test_phase3_app_bundle.py` lists IDs 001–108 and S01–S06 once. No chapter was removed. |
 | G02 Full chapter content | PASS for retention | Existing chapter and signature prose is still on disk. This pass did not abridge it. |
-| G03 Time discovery | PASS | `scripts/test_phase3_discovery.py`. Shelves documented in `planning/DECISIONS.md` item 10 and `planning/phase3/VARIANT_AUDIT.md`. |
-| G04 Signature parity | FAIL | Signature versions are in the index code and the app bundle. The printed companion has not yet been rebuilt with signature sections, and the workbook PDF is still the previous export. |
-| G05 Journal prompts | PASS for source | Each of the 114 files has a journal fence. Equal blank lines are in the repeat pack. |
+| G03 Time discovery | PASS | `scripts/test_phase3_discovery.py`, including 001, 017, 043, 071, S01, S02, and the three evening lines (024 extended, 035 standard, S05 extended) classified long-day with no invented minutes. `planning/phase3/VARIANT_AUDIT.md` reports 337 variants and 0 parser notes. |
+| G04 Signature parity | FAIL | `scripts/build_journal.py` now appends S01–S06 prompt pages from each signature journal fence. The companion PDF has not been rebuilt with those pages, and the workbook PDF is still the previous export. |
+| G05 Journal prompts | PASS for source | Each of the 114 files has a journal fence. Equal blank lines are in the repeat pack. Signature prompts are also queued in the companion builder. |
 | G06 Repeat pack | PASS for files | `release/Our_Story_Repeatable_Session_Pack_v1.pdf` and `.docx`. Line height in the HTML is 0.38in. A physical print measurement is not done. |
-| G07 Memoir exporter | PASS | `scripts/test_phase3_memoir.py` builds shared, partner, and full-private PDF/DOCX from fictional temp sessions and refuses `release/` plus a path escape. |
+| G07 Memoir exporter | PASS | `scripts/test_phase3_memoir.py` (4 tests). Shared PDF and DOCX omit fictional private markers, unmarked captions, and private images. Partner A omits Partner B-only markers and media. Full-private requires both local authorization files and both flags, then includes the private images. Path escape and `release/` are refused. Existing exports are not overwritten. See `review/phase3/PRIVACY_REGRESSION.md`. |
 | G08 Distinct experiences | FAIL | 001/005/081, 041/107, 039/046, and 006/102 were left unchanged (`review/phase3/CONTRAST_001_046.md`). Part 10 is eight tools; only 080 was rewritten (`review/phase3/CONTRAST_PART10.md`). The other required clusters are still open. |
 | G09 Copy and research | FAIL | No new full-book proof or evidence pass has been signed in this phase. |
 | G10 Art | FAIL | All 130 drawings were reviewed in `review/phase3/ART_AUDIT.md`: 117 keep, 10 improve, 3 replace (005, 024, 061). No SVG was edited. Contact sheets and owner approval are still open. |

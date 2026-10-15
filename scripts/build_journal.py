@@ -29,6 +29,7 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.shared import Inches, Pt
 
 import build_all
+import catalog_variants
 
 ROOT = build_all.ROOT
 OUT_DIR = ROOT / "build" / "journal"
@@ -77,6 +78,7 @@ def allow(path) -> None:
         rel in {"journal/COMPANION_STRUCTURE.md", "journal/PROMPT_BANK.md", "source/experience_catalog.json"}
         or rel.startswith("journal/templates/")
         or rel == "styles/journal.css"
+        or (rel.startswith("signature/S") and rel.endswith(".md"))
     )
     if not permitted:
         raise SystemExit(f"Journal build refuses to read {rel}")
@@ -215,6 +217,57 @@ def title_blocks(structure: str) -> list:
     ]
 
 
+SEAT_LABELS = {
+    "partner_a": "Partner A",
+    "partner_b": "Partner B",
+    "shared": "Shared",
+    "revisit": "Revisit",
+}
+
+
+def signature_prompt_lines(path) -> list[tuple[str, str]]:
+    text = read_text(path)
+    match = re.search(r"```journal\n(.*?)```", text, re.DOTALL)
+    if not match:
+        raise SystemExit(f"{path.name}: signature journal fence is missing.")
+    found: list[tuple[str, str]] = []
+    seat = ""
+    for line in match.group(1).splitlines():
+        stripped = line.strip()
+        if stripped.endswith(":") and not stripped.startswith("-"):
+            seat = stripped[:-1]
+            continue
+        if stripped.startswith("- ") and seat in SEAT_LABELS:
+            found.append((seat, stripped[2:].strip()))
+    if not found:
+        raise SystemExit(f"{path.name}: signature journal fence has no prompts.")
+    return found
+
+
+def signature_blocks() -> list:
+    """Companion pages for S01–S06, taken from each signature's journal fence."""
+    blocks: list = [
+        ("heading", 1, "Signature sessions"),
+        (
+            "para",
+            "S01 through S06 keep their own prompts. They do not replace 001–108. A later sitting gets new lines. The earlier sitting stays. Sharing a private page is optional. A blank line is a pass.",
+            False,
+        ),
+    ]
+    for path in sorted((ROOT / "signature").glob("S*.md")):
+        meta = catalog_variants.read_frontmatter(path)
+        activity_id = str(meta.get("id") or path.stem[:3])
+        title = str(meta.get("title") or path.stem)
+        blocks.append(("heading", 2, f"{activity_id} — {title}"))
+        for label in ("Date", "Place", "Version played", "Attempt"):
+            blocks.append(("label", label))
+            blocks.append(("rule", 1))
+        for seat, prompt in signature_prompt_lines(path):
+            blocks.append(("para", f"**{SEAT_LABELS[seat]}:** {prompt}", True))
+            blocks.append(("rule", 8))
+    return blocks
+
+
 def body_blocks(structure: str, bank: str) -> list:
     require_phrase(structure, "Eight handwriting rules")
     require_phrase(structure, "Date we began this companion")
@@ -252,6 +305,7 @@ def body_blocks(structure: str, bank: str) -> list:
     for path in template_paths():
         blocks.extend(blocks_from_markdown(read_text(path), rules_from_quotes=True, skip_fences=True))
     blocks.extend(blocks_from_markdown(bank[bank.find("\n## Part "):] if "\n## Part " in bank else bank, expand_prompts=True, skip_fences=True))
+    blocks.extend(signature_blocks())
     blocks.append(("heading", 1, "A note"))
     blocks.append(("para", "These pages are blank on purpose. Write only what you both choose to keep.", False))
     return blocks

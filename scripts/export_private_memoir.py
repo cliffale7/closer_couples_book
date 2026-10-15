@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import argparse
 import html
+import re
 import sys
 from datetime import date
 from pathlib import Path
@@ -31,6 +32,9 @@ import build_all  # noqa: E402
 
 MODES = ("shared", "partner-a", "partner-b", "full-private")
 BODY_FILES = {"partner_a": "partner-a.md", "partner_b": "partner-b.md", "shared": "shared.md"}
+KNOWN_VISIBILITY = {"shared", "partner_a", "partner_b", "private"}
+PROMPT_SEAT_RE = re.compile(r"\.(partner_a|partner_b|shared|revisit)(?:\.|$)")
+META_FIELDS = ("title", "place", "date", "time", "version_played", "status")
 
 
 def configure_stdio() -> None:
@@ -96,6 +100,7 @@ def load_sessions(private_root: Path) -> list[dict]:
         return []
     contained(sessions_dir, private_root)
     found = []
+    seen_ids: set[str] = set()
     for folder in sorted(path for path in sessions_dir.iterdir() if path.is_dir()):
         contained(folder, private_root)
         meta_path = folder / "session.yaml"
@@ -145,13 +150,19 @@ def load_sessions(private_root: Path) -> list[dict]:
                         "caption": str(item.get("caption") or "").strip(),
                         "image": image,
                         "missing": missing,
+                        "visibility": normalize_visibility(item.get("visibility")),
+                        "unmarked": "visibility" not in item or not str(item.get("visibility") or "").strip(),
                     }
                 )
         share = meta.get("share") if isinstance(meta.get("share"), dict) else {}
+        session_id = str(meta.get("session_id") or folder.name)
+        if session_id in seen_ids:
+            fail("Duplicate session id. No export was written.")
+        seen_ids.add(session_id)
         found.append(
             {
                 "folder_name": folder.name,
-                "session_id": str(meta.get("session_id") or folder.name),
+                "session_id": session_id,
                 "activity_id": str(meta.get("activity_id") or "").strip(),
                 "title": str(meta.get("title") or "").strip(),
                 "attempt": meta.get("attempt") or "",
@@ -162,6 +173,7 @@ def load_sessions(private_root: Path) -> list[dict]:
                 "status": str(meta.get("status") or ""),
                 "content_revision": str(meta.get("content_revision") or ""),
                 "share": {key: str(share.get(key) or "") for key in ("partner_a", "partner_b", "shared")},
+                "field_visibility": meta.get("field_visibility") if isinstance(meta.get("field_visibility"), dict) else {},
                 "prompts": meta.get("prompts") if isinstance(meta.get("prompts"), list) else [],
                 "bodies": bodies,
                 "mementos": mementos,
@@ -169,6 +181,75 @@ def load_sessions(private_root: Path) -> list[dict]:
         )
     found.sort(key=lambda item: (item["date"], str(item["attempt"]), item["activity_id"], item["session_id"]))
     return found
+
+
+def normalize_visibility(value: object) -> str:
+    """Missing and unknown marks stay private. They are not treated as shared."""
+    text = str(value or "").strip().casefold().replace("-", "_")
+    text = {
+        "partner_a": "partner_a",
+        "a": "partner_a",
+        "partner_b": "partner_b",
+        "b": "partner_b",
+        "both": "shared",
+        "public": "shared",
+    }.get(text, text)
+    if text in KNOWN_VISIBILITY:
+        return text
+    return "private"
+
+
+def visible_to(mode: str, visibility: str) -> bool:
+    if mode == "full-private":
+        return True
+    if visibility == "shared":
+        return True
+    if mode == "partner-a" and visibility == "partner_a":
+        return True
+    if mode == "partner-b" and visibility == "partner_b":
+        return True
+    return False
+
+
+def field_text(session: dict, name: str, mode: str) -> str:
+    raw = session.get("field_visibility") if isinstance(session.get("field_visibility"), dict) else {}
+    visibility = normalize_visibility(raw.get(name)) if name in raw else "private"
+    if not visible_to(mode, visibility):
+        return ""
+    value = session.get(name)
+    return "" if value is None else str(value).strip()
+
+
+def prompt_visibility(prompt: dict, share: dict) -> str:
+    if "visibility" in prompt and str(prompt.get("visibility") or "").strip():
+        return normalize_visibility(prompt.get("visibility"))
+    seat = str(prompt.get("seat") or "").strip()
+    if not seat:
+        match = PROMPT_SEAT_RE.search(str(prompt.get("id") or ""))
+        seat = match.group(1) if match else ""
+    if seat == "revisit":
+        seat = "shared"
+    if seat == "shared":
+        return "shared" if share.get("shared") == "shared" else "private"
+    if seat in {"partner_a", "partner_b"}:
+        if share.get(seat) == "shared":
+            return "shared"
+        return seat
+    return "private"
+
+
+def visible_prompts(session: dict, mode: str) -> list[dict]:
+    found = []
+    for prompt in session["prompts"]:
+        if not isinstance(prompt, dict):
+            continue
+        if visible_to(mode, prompt_visibility(prompt, session["share"])):
+            found.append(prompt)
+    return found
+
+
+def visible_mementos(session: dict, mode: str) -> list[dict]:
+    return [item for item in session["mementos"] if visible_to(mode, item["visibility"])]
 
 
 def include_body(mode: str, seat: str, share_flag: str) -> bool:
@@ -196,6 +277,28 @@ def visible_sections(session: dict, mode: str) -> list[tuple[str, str]]:
     return sections
 
 
+def session_is_included(session: dict, mode: str) -> bool:
+    return bool(visible_sections(session, mode) or visible_mementos(session, mode) or visible_prompts(session, mode))
+
+
+def chronology_label(session: dict, mode: str) -> str:
+    bits = [
+        field_text(session, "date", mode),
+        session["activity_id"],
+        field_text(session, "title", mode),
+    ]
+    if session["attempt"] != "":
+        bits.append(f"attempt {session['attempt']}")
+    return " ".join(bit for bit in bits if bit)
+
+
+def meta_line(session: dict, mode: str) -> str:
+    bits = [field_text(session, name, mode) for name in ("date", "time", "place", "version_played", "status")]
+    if session["attempt"] != "":
+        bits.append(f"attempt {session['attempt']}")
+    return " · ".join(bit for bit in bits if bit)
+
+
 def render_html(sessions: list[dict], mode: str, stamp: str) -> str:
     parts = [
         "<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'/>",
@@ -209,54 +312,29 @@ def render_html(sessions: list[dict], mode: str, stamp: str) -> str:
         ".meta { font-family: Calibri, sans-serif; font-size: 11pt; }",
         "</style></head><body>",
         "<h1>Our Story</h1>",
-        f"<p class='meta'>Local export · {html.escape(mode)} · {html.escape(stamp)}. FICTIONAL markers in a test are not a couple's memory.</p>",
+        f"<p class='meta'>Local export · {html.escape(mode)} · {html.escape(stamp)}. A local file is not an encrypted archive.</p>",
         "<h2>Chronology</h2><ul>",
     ]
     for session in sessions:
-        if not visible_sections(session, mode):
+        if not session_is_included(session, mode):
             continue
-        label = " ".join(
-            bit
-            for bit in (
-                session["date"],
-                session["activity_id"],
-                session["title"],
-                f"attempt {session['attempt']}" if session["attempt"] != "" else "",
-            )
-            if bit
-        )
-        parts.append(f"<li>{html.escape(label)}</li>")
+        parts.append(f"<li>{html.escape(chronology_label(session, mode))}</li>")
     parts.append("</ul>")
     for session in sessions:
-        sections = visible_sections(session, mode)
-        if not sections:
+        if not session_is_included(session, mode):
             continue
         parts.append("<article>")
-        heading = " ".join(bit for bit in (session["activity_id"], session["title"]) if bit) or "Session"
+        heading = " ".join(bit for bit in (session["activity_id"], field_text(session, "title", mode)) if bit) or "Session"
         parts.append(f"<h2>{html.escape(heading)}</h2>")
-        meta = " · ".join(
-            bit
-            for bit in (
-                session["date"],
-                session["time"],
-                session["place"],
-                session["version_played"],
-                session["status"],
-                f"attempt {session['attempt']}" if session["attempt"] != "" else "",
-            )
-            if bit
-        )
-        parts.append(f"<p class='meta'>{html.escape(meta)}</p>")
-        for prompt in session["prompts"]:
-            if not isinstance(prompt, dict):
-                continue
+        meta = meta_line(session, mode)
+        if meta:
+            parts.append(f"<p class='meta'>{html.escape(meta)}</p>")
+        for prompt in visible_prompts(session, mode):
             prompt_id = str(prompt.get("id") or "")
             wording = str(prompt.get("text_at_answer") or "")
             if prompt_id or wording:
-                parts.append(
-                    f"<p class='meta'>Prompt {html.escape(prompt_id)}: {html.escape(wording)}</p>"
-                )
-        for label, body in sections:
+                parts.append(f"<p class='meta'>Prompt {html.escape(prompt_id)}: {html.escape(wording)}</p>")
+        for label, body in visible_sections(session, mode):
             parts.append(f"<h3>{html.escape(label)}</h3>")
             if body.strip():
                 for paragraph in body.split("\n\n"):
@@ -265,14 +343,14 @@ def render_html(sessions: list[dict], mode: str, stamp: str) -> str:
                         parts.append(f"<p>{html.escape(text)}</p>")
             else:
                 parts.append("<p>This page was left blank.</p>")
-        for item in session["mementos"]:
+        for item in visible_mementos(session, mode):
             parts.append("<h3>Keepsake</h3>")
             if item["caption"]:
                 parts.append(f"<p>{html.escape(item['caption'])}</p>")
             if item["image"] is not None:
                 parts.append(f"<img src='{item['image'].as_uri()}' alt='{html.escape(item['caption'] or 'Keepsake')}'/>")
             elif item["missing"]:
-                parts.append("<p>The keepsake file was not in the session folder. The caption was kept.</p>")
+                parts.append("<p>A keepsake file was missing. The caption above is the record that remains.</p>")
         parts.append("</article>")
     parts.append("</body></html>")
     return "\n".join(parts)
@@ -281,49 +359,36 @@ def render_html(sessions: list[dict], mode: str, stamp: str) -> str:
 def write_docx(path: Path, sessions: list[dict], mode: str, stamp: str) -> None:
     document = Document()
     document.add_heading("Our Story", 0)
-    document.add_paragraph(f"Local export · {mode} · {stamp}")
+    document.add_paragraph(f"Local export · {mode} · {stamp}. A local file is not an encrypted archive.")
     document.add_heading("Chronology", 1)
     for session in sessions:
-        if not visible_sections(session, mode):
+        if not session_is_included(session, mode):
             continue
-        bits = [session["date"], session["activity_id"], session["title"]]
-        if session["attempt"] != "":
-            bits.append(f"attempt {session['attempt']}")
-        document.add_paragraph(" · ".join(bit for bit in bits if bit))
+        document.add_paragraph(chronology_label(session, mode))
     for session in sessions:
-        sections = visible_sections(session, mode)
-        if not sections:
+        if not session_is_included(session, mode):
             continue
-        heading = " ".join(bit for bit in (session["activity_id"], session["title"]) if bit) or "Session"
+        heading = " ".join(bit for bit in (session["activity_id"], field_text(session, "title", mode)) if bit) or "Session"
         document.add_heading(heading, 1)
-        meta = " · ".join(
-            bit
-            for bit in (
-                session["date"],
-                session["place"],
-                session["version_played"],
-                f"attempt {session['attempt']}" if session["attempt"] != "" else "",
-            )
-            if bit
-        )
+        meta = meta_line(session, mode)
         if meta:
             document.add_paragraph(meta)
-        for prompt in session["prompts"]:
-            if isinstance(prompt, dict) and (prompt.get("id") or prompt.get("text_at_answer")):
-                document.add_paragraph(
-                    f"Prompt {prompt.get('id') or ''}: {prompt.get('text_at_answer') or ''}".strip()
-                )
-        for label, body in sections:
+        for prompt in visible_prompts(session, mode):
+            document.add_paragraph(f"Prompt {prompt.get('id') or ''}: {prompt.get('text_at_answer') or ''}".strip())
+        for label, body in visible_sections(session, mode):
             document.add_heading(label, 2)
             document.add_paragraph(body.strip() or "This page was left blank.")
-        for item in session["mementos"]:
+        for item in visible_mementos(session, mode):
             document.add_heading("Keepsake", 2)
             if item["caption"]:
                 document.add_paragraph(item["caption"])
             if item["image"] is not None:
-                document.add_picture(str(item["image"]), width=Inches(4.5))
+                try:
+                    document.add_picture(str(item["image"]), width=Inches(4.5))
+                except Exception as exc:
+                    raise SystemExit(f"A keepsake image could not be read: {exc.__class__.__name__}") from exc
             elif item["missing"]:
-                document.add_paragraph("The keepsake file was not in the session folder. The caption was kept.")
+                document.add_paragraph("A keepsake file was missing. The caption above is the record that remains.")
     for paragraph in document.paragraphs:
         for run in paragraph.runs:
             run.font.name = "Georgia"
@@ -339,12 +404,37 @@ def output_paths(private_root: Path, mode: str, stamp: str) -> tuple[Path, Path,
     return folder / f"{stem}.html", folder / f"{stem}.docx", folder / f"{stem}.pdf"
 
 
+def authorizations_present(root: Path) -> bool:
+    """Local notes that each person allowed a full-private copy. Not an identity check."""
+    for person in ("partner-a", "partner-b"):
+        path = root / "authorizations" / f"{person}.yaml"
+        if not path.is_file():
+            return False
+        contained(path, root)
+        data = read_yaml(path)
+        if str(data.get("schema") or "") != "our-story-export-authorization/1":
+            return False
+        if str(data.get("person") or "") != person:
+            return False
+        if str(data.get("scope") or "") != "full-private":
+            return False
+        if data.get("granted") is not True:
+            return False
+        if not str(data.get("date") or "").strip():
+            return False
+    return True
+
+
 def export_memoir(private_root: Path, mode: str, stamp: str, authorize: set[str]) -> tuple[Path, Path]:
     root = assert_private_root(private_root)
     if mode not in MODES:
         fail(f"Unknown mode {mode}.")
-    if mode == "full-private" and authorize != {"partner-a", "partner-b"}:
-        fail("Full private export requires --authorize-partner-a and --authorize-partner-b.")
+    if mode == "full-private":
+        if authorize != {"partner-a", "partner-b"} or not authorizations_present(root):
+            fail(
+                "Full private export needs both local authorization files and both operator flags. "
+                "The flags are not proof that both people agreed, and this tool does not verify identity."
+            )
     sessions = load_sessions(root)
     html_path, docx_path, pdf_path = output_paths(root, mode, stamp)
     for path in (html_path, docx_path, pdf_path):
@@ -353,15 +443,25 @@ def export_memoir(private_root: Path, mode: str, stamp: str, authorize: set[str]
             fail("Refusing an export name that is not marked private.")
         if is_inside(path, ROOT / "release") or is_inside(path, ROOT / "build"):
             fail("Refusing to write an export into release or build.")
+        if path.exists():
+            fail("Refusing to overwrite an existing private export.")
     page = render_html(sessions, mode, stamp)
     html_path.parent.mkdir(parents=True, exist_ok=True)
     html_path.write_text(page, encoding="utf-8")
     write_docx(docx_path, sessions, mode, stamp)
     build_all.print_pdf(html_path, pdf_path, error_path=html_path.with_suffix(".pdf-error.txt"), timeout=180)
-    included = sum(1 for session in sessions if visible_sections(session, mode))
+    unmarked = sum(1 for session in sessions for item in session["mementos"] if item["unmarked"])
+    report = html_path.parent / f"Our_Story_PRIVATE_MEMOIR_{stamp.replace('-', '')}_unmarked_keepsakes.txt"
+    report.write_text(
+        f"unmarked keepsakes omitted from shared and one-person exports: {unmarked}\n"
+        "They stay out until each item has an explicit visibility. Captions are not listed here.\n",
+        encoding="utf-8",
+    )
+    included = sum(1 for session in sessions if session_is_included(session, mode))
     print(f"mode: {mode}")
     print(f"sessions_read: {len(sessions)}")
     print(f"sessions_included: {included}")
+    print(f"unmarked_keepsakes: {unmarked}")
     print(f"docx: {docx_path}")
     print(f"pdf: {pdf_path}")
     return docx_path, pdf_path

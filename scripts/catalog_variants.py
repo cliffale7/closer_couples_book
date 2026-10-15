@@ -167,7 +167,7 @@ def parse_duration(text: str) -> dict:
             "shelf": "long-day",
             "multi": False,
             "calendar": True,
-            "issues": ["minutes_not_stated"],
+            "issues": ["explicit_long_day"],
         }
     return {
         "minutes": None,
@@ -350,7 +350,6 @@ def load_variants(root: Path | None = None) -> list[Variant]:
 def write_audit(path: Path, rows: list[Variant]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     indexed = [row for row in rows if row.time_category]
-    issues = [row for row in rows if row.issues]
     lines = [
         "# Variant time audit",
         "",
@@ -358,14 +357,17 @@ def write_audit(path: Path, rows: list[Variant]) -> None:
         "",
         "Boundary rule: a stated minute count belongs to exactly one shelf. The upper bound of each shelf through 3 hours is inclusive, so 10 minutes is only Quick Connections, 20 is only Little Discoveries, 45 is only Meaningful Sessions, 90 is only Deep Dives, and 180 is only Full Experiences. A single day longer than 3 hours is Long day. A numbered span of days is Multi-day, including a version whose sentence also names a short closing talk.",
         "",
+        "An evening, afternoon, or all-day line with no minute count is Long day. The audit does not invent a minute total for that line.",
+        "",
         f"Indexed variants: {len(indexed)}",
-        f"Rows with parser notes: {len(issues)}",
+        f"Rows with parser notes: {sum(1 for row in rows if any(item != 'explicit_long_day' for item in row.issues))}",
         "",
         "| ID | Variant | Shelf | Minutes | Duration text | Notes |",
         "| --- | --- | --- | --- | --- | --- |",
     ]
     for row in rows:
-        notes = ", ".join(row.issues)
+        labels = {"explicit_long_day": "explicit long-day; minutes not invented"}
+        notes = ", ".join(labels.get(item, item) for item in row.issues)
         minutes = "" if row.estimated_minutes is None else str(row.estimated_minutes)
         duration = row.display_duration.replace("|", "/")
         lines.append(

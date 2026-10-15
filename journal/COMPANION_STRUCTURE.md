@@ -245,6 +245,8 @@ note: "Fictional shared line for layout only: they left burnt toast on the hits 
 
 The prompt bank holds four prompts for each ID from 001 through 108: Partner A, Partner B, a shared narrative prompt, and a revisit prompt. Writers place them in the chapter’s `journal` fence. The chapter contract also asks for a second bullet under each partner. Use a narrower follow-up inside the same premise, or the second slot printed on `partner-page.md`. Do not replace the bank prompt with a generic feelings question, and do not demand that secrets be transcribed.
 
+Signature sessions S01–S06 are printed after the numbered bank. Their prompts come from the journal fence in each signature file. Each signature page has date, place, version, and attempt lines, then Partner A, Partner B, Shared, and Revisit with the same eight handwriting rules. They do not replace 001–108.
+
 The shared fence in the chapter can keep the contract’s standing lines (what happened, the line worth keeping, what we discovered, what we might do next). The bank’s shared prompt is the activity-specific line above them.
 
 ## 14. File map
@@ -253,5 +255,6 @@ The shared fence in the chapter can keep the contract’s standing lines (what h
 | --- | --- |
 | `journal/COMPANION_STRUCTURE.md` | This architecture |
 | `journal/PROMPT_BANK.md` | Prompts for IDs 001–108 |
+| `signature/S01`–`S06` | Signature prompts printed in the companion from each session's journal fence |
 | `journal/templates/*.md` | Blank printable sheets |
 | `journal/private/` | Their notes, gitignored, never authored by this project |

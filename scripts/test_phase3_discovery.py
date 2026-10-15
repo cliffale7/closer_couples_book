@@ -91,6 +91,34 @@ class VariantShelfTests(unittest.TestCase):
         for activity_id in ("S01", "S02", "S03", "S04", "S05", "S06"):
             self.assertIn(activity_id, self.grouped)
 
+    def test_evening_lines_stay_long_day_without_invented_minutes(self):
+        cases = (("024", "extended"), ("035", "standard"), ("S05", "extended"))
+        for activity_id, variant_id in cases:
+            row = self.variant(activity_id, variant_id)
+            self.assertIsNone(row.estimated_minutes, activity_id)
+            self.assertEqual(row.time_category, "long-day", activity_id)
+            self.assertFalse(row.is_multi_day, activity_id)
+            self.assertEqual(row.issues, ["explicit_long_day"], activity_id)
+        uncertain = [
+            row
+            for row in catalog_variants.load_variants()
+            if any(item != "explicit_long_day" for item in row.issues)
+        ]
+        self.assertEqual(uncertain, [])
+
+    def test_signature_companion_pages_include_every_prompt(self):
+        import build_journal
+
+        blocks = build_journal.signature_blocks()
+        rendered = "\n".join(str(block) for block in blocks)
+        for activity_id in ("S01", "S02", "S03", "S04", "S05", "S06"):
+            self.assertIn(activity_id, rendered)
+        prompts = [block for block in blocks if block[0] == "para" and len(block) > 2 and block[2]]
+        rules = [block for block in blocks if block[0] == "rule" and block[1] == 8]
+        self.assertGreaterEqual(len(prompts), 24)
+        self.assertEqual(len(rules), len(prompts))
+        self.assertIn("The card where I wanted to go farther", rendered)
+
     def test_every_indexed_variant_has_a_shelf(self):
         for row in self.rows:
             self.assertIn(row.time_category, catalog_variants.SHELF_ORDER)
