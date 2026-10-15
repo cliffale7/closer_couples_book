@@ -93,6 +93,8 @@ nav.toc a {
 
 figure.motif { margin: 0.6em 0 1em; }
 figure.motif img { max-width: 8em; height: auto; }
+figure.motif.plate { margin: 0.4em 0 1em; }
+figure.motif.plate img { max-width: 100%; width: 100%; height: auto; }
 
 table {
   width: 100%;

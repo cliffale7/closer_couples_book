@@ -339,6 +339,17 @@ figure.motif img {
   height: auto;
 }
 
+figure.motif.plate {
+  float: none;
+  width: 5.4in;
+  margin: 0.08in auto 0.16in;
+}
+
+figure.motif.plate img {
+  width: 5.4in;
+  height: auto;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;

@@ -1,0 +1,1049 @@
+{
+  "style": "lamp-lit table",
+  "counts": {
+    "approved": 10,
+    "rejected_svg": 120
+  },
+  "slots": [
+    {
+      "id": "cover-front",
+      "kind": "cover",
+      "title": "Front cover",
+      "scene_seed": "Two contemporary adults at a lamp-lit table at night",
+      "live_path": "assets/covers/cover-front.jpg",
+      "status": "approved"
+    },
+    {
+      "id": "cover-back",
+      "kind": "cover",
+      "title": "Back cover",
+      "scene_seed": "The same table after the conversation, lamp still lit, chairs pushed back",
+      "live_path": "assets/covers/cover-back.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "title-page",
+      "kind": "cover",
+      "title": "Title image",
+      "scene_seed": "A copper lamp, two cups, and an open blank book, with no lettering",
+      "live_path": "assets/covers/title-page.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "part-01",
+      "kind": "part",
+      "title": "The Art of Really Knowing Someone",
+      "scene_seed": "A threshold scene for this part, painted, with no type",
+      "live_path": "assets/parts/01-opener.jpg",
+      "status": "approved"
+    },
+    {
+      "id": "part-02",
+      "kind": "part",
+      "title": "Vulnerability and the Courage to Be Seen",
+      "scene_seed": "A threshold scene for this part, painted, with no type",
+      "live_path": "assets/parts/02-opener.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "part-03",
+      "kind": "part",
+      "title": "The Science and Experience of Closeness",
+      "scene_seed": "A threshold scene for this part, painted, with no type",
+      "live_path": "assets/parts/03-opener.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "part-04",
+      "kind": "part",
+      "title": "Love, Affection, and Feeling Chosen",
+      "scene_seed": "A threshold scene for this part, painted, with no type",
+      "live_path": "assets/parts/04-opener.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "part-05",
+      "kind": "part",
+      "title": "Desire, Attraction, and Sensual Intimacy",
+      "scene_seed": "A threshold scene for this part, painted, with no type",
+      "live_path": "assets/parts/05-opener.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "part-06",
+      "kind": "part",
+      "title": "Playfulness, Laughter, and a Little Mischief",
+      "scene_seed": "A threshold scene for this part, painted, with no type",
+      "live_path": "assets/parts/06-opener.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "part-07",
+      "kind": "part",
+      "title": "The Inner World: Dreams, Meaning, and Identity",
+      "scene_seed": "A threshold scene for this part, painted, with no type",
+      "live_path": "assets/parts/07-opener.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "part-08",
+      "kind": "part",
+      "title": "Trust, Communication, and Emotional Safety",
+      "scene_seed": "A threshold scene for this part, painted, with no type",
+      "live_path": "assets/parts/08-opener.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "part-09",
+      "kind": "part",
+      "title": "Shared Adventures and New Experiences",
+      "scene_seed": "A threshold scene for this part, painted, with no type",
+      "live_path": "assets/parts/09-opener.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "part-10",
+      "kind": "part",
+      "title": "The Past, the Present, and the Story of Us",
+      "scene_seed": "A threshold scene for this part, painted, with no type",
+      "live_path": "assets/parts/10-opener.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "part-11",
+      "kind": "part",
+      "title": "Radical Curiosity and the Surprising Stuff",
+      "scene_seed": "A threshold scene for this part, painted, with no type",
+      "live_path": "assets/parts/11-opener.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "part-12",
+      "kind": "part",
+      "title": "Building a Closer Future Together",
+      "scene_seed": "A threshold scene for this part, painted, with no type",
+      "live_path": "assets/parts/12-opener.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "part-13",
+      "kind": "part",
+      "title": "The Inventor’s Workshop: Original Proposals",
+      "scene_seed": "A threshold scene for this part, painted, with no type",
+      "live_path": "assets/parts/13-opener.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "001",
+      "kind": "chapter",
+      "title": "The Stranger Across From Me",
+      "scene_seed": "Two empty chairs and a constellation shaped like a question mark",
+      "live_path": "assets/chapters/001/illustration.jpg",
+      "status": "approved"
+    },
+    {
+      "id": "002",
+      "kind": "chapter",
+      "title": "The Life You’ve Never Told Me",
+      "scene_seed": "A closed book with a loose ribbon and a small lamp",
+      "live_path": "assets/chapters/002/illustration.jpg",
+      "status": "approved"
+    },
+    {
+      "id": "003",
+      "kind": "chapter",
+      "title": "The Five Defining Moments",
+      "scene_seed": "Five stones set along a path, the last one still in a hand",
+      "live_path": "assets/chapters/003/illustration.jpg",
+      "status": "approved"
+    },
+    {
+      "id": "004",
+      "kind": "chapter",
+      "title": "Before I Was Me",
+      "scene_seed": "A paper boat beside an adult coat on the same hook",
+      "live_path": "assets/chapters/004/illustration.jpg",
+      "status": "approved"
+    },
+    {
+      "id": "005",
+      "kind": "chapter",
+      "title": "The Things Nobody Thinks to Ask",
+      "scene_seed": "A question mark assembled from a key, a spoon, a ticket, and a star",
+      "live_path": "assets/chapters/005/illustration.jpg",
+      "status": "approved"
+    },
+    {
+      "id": "006",
+      "kind": "chapter",
+      "title": "The Museum of Me",
+      "scene_seed": "Three museum plinths and a tiny empty frame",
+      "live_path": "assets/chapters/006/illustration.jpg",
+      "status": "approved"
+    },
+    {
+      "id": "007",
+      "kind": "chapter",
+      "title": "The Opinion I Changed",
+      "scene_seed": "A path that forks and then rejoins",
+      "live_path": "assets/chapters/007/illustration.jpg",
+      "status": "approved"
+    },
+    {
+      "id": "008",
+      "kind": "chapter",
+      "title": "The Secret Biography",
+      "scene_seed": "A biography page with a half-mask resting in the margin",
+      "live_path": "assets/chapters/008/illustration.jpg",
+      "status": "approved"
+    },
+    {
+      "id": "009",
+      "kind": "chapter",
+      "title": "The Uncomfortable Truth",
+      "scene_seed": "A sealed envelope with the flap lifted by choice",
+      "live_path": "assets/chapters/009/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "010",
+      "kind": "chapter",
+      "title": "The Fear Beneath the Fear",
+      "scene_seed": "Nested strata of earth and a small lamp at the lowest layer",
+      "live_path": "assets/chapters/010/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "011",
+      "kind": "chapter",
+      "title": "What I Don’t Show the World",
+      "scene_seed": "A coat on a hook and a brighter garment showing underneath",
+      "live_path": "assets/chapters/011/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "012",
+      "kind": "chapter",
+      "title": "The Permission Slip",
+      "scene_seed": "A permission slip with an unused wax seal",
+      "live_path": "assets/chapters/012/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "013",
+      "kind": "chapter",
+      "title": "Confession Without Consequence",
+      "scene_seed": "A speech bubble and a separate door labeled pass",
+      "live_path": "assets/chapters/013/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "014",
+      "kind": "chapter",
+      "title": "The Part of Me That Still Hurts",
+      "scene_seed": "A mended cup with a copper line along the crack",
+      "live_path": "assets/chapters/014/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "015",
+      "kind": "chapter",
+      "title": "When I Feel Small",
+      "scene_seed": "A chair drawn small because the room around it is vast",
+      "live_path": "assets/chapters/015/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "016",
+      "kind": "chapter",
+      "title": "No Armor Tonight",
+      "scene_seed": "A set of armor left on a stand beside the table",
+      "live_path": "assets/chapters/016/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "017",
+      "kind": "chapter",
+      "title": "Four Minutes of Forever",
+      "scene_seed": "Two profiles and four minute-marks, with no hearts",
+      "live_path": "assets/chapters/017/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "018",
+      "kind": "chapter",
+      "title": "The Silent Conversation",
+      "scene_seed": "Hands shaping a sentence in the air while mouths stay closed",
+      "live_path": "assets/chapters/018/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "019",
+      "kind": "chapter",
+      "title": "Breathe With Me",
+      "scene_seed": "Two breath arcs meeting over a shared bench",
+      "live_path": "assets/chapters/019/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "020",
+      "kind": "chapter",
+      "title": "The Listening Experiment",
+      "scene_seed": "An open speaker and a still listener with words reflected back",
+      "live_path": "assets/chapters/020/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "021",
+      "kind": "chapter",
+      "title": "The Trust Walk",
+      "scene_seed": "A blindfold offered, not tied, and a clear hallway",
+      "live_path": "assets/chapters/021/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "022",
+      "kind": "chapter",
+      "title": "The Language of Touch",
+      "scene_seed": "An open palm hovering, waiting to be welcomed",
+      "live_path": "assets/chapters/022/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "023",
+      "kind": "chapter",
+      "title": "The Sixty-Second Embrace",
+      "scene_seed": "Two figures in a still embrace and a single minute-mark",
+      "live_path": "assets/chapters/023/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "024",
+      "kind": "chapter",
+      "title": "The Presence Challenge",
+      "scene_seed": "A phone lying face down on a cleared table",
+      "live_path": "assets/chapters/024/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "025",
+      "kind": "chapter",
+      "title": "What Loving Me Actually Looks Like",
+      "scene_seed": "A scatter of loving gestures drawn as objects, not five labeled boxes",
+      "live_path": "assets/chapters/025/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "026",
+      "kind": "chapter",
+      "title": "The Appreciation Avalanche",
+      "scene_seed": "Notes stacking from vague praise to a specific memory",
+      "live_path": "assets/chapters/026/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "027",
+      "kind": "chapter",
+      "title": "The Moment I Knew",
+      "scene_seed": "A clock stopped on one remembered hour",
+      "live_path": "assets/chapters/027/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "028",
+      "kind": "chapter",
+      "title": "Instructions for Loving Me",
+      "scene_seed": "A playful owner's manual with warning labels",
+      "live_path": "assets/chapters/028/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "029",
+      "kind": "chapter",
+      "title": "The Reassurance Menu",
+      "scene_seed": "A small menu card, a kettle, and four weather marks",
+      "live_path": "assets/chapters/029/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "030",
+      "kind": "chapter",
+      "title": "The Compliment You Can’t Dodge",
+      "scene_seed": "A compliment card that stays on the receiver's side of the table",
+      "live_path": "assets/chapters/030/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "031",
+      "kind": "chapter",
+      "title": "A Love Letter From the Future",
+      "scene_seed": "A letter dated years ahead, sealed but not prophetic",
+      "live_path": "assets/chapters/031/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "032",
+      "kind": "chapter",
+      "title": "The Everyday Devotion Experiment",
+      "scene_seed": "Seven tiny copper marks across ordinary days, not a score chart",
+      "live_path": "assets/chapters/032/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "033",
+      "kind": "chapter",
+      "title": "The Attraction Interview",
+      "scene_seed": "Two sparks on one timeline, years apart",
+      "live_path": "assets/chapters/033/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "034",
+      "kind": "chapter",
+      "title": "The Yes, No, Maybe Game",
+      "scene_seed": "Three equal cards reading yes, no, and maybe",
+      "live_path": "assets/chapters/034/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "035",
+      "kind": "chapter",
+      "title": "The Art of Anticipation",
+      "scene_seed": "A trail of small notes leading to a set table",
+      "live_path": "assets/chapters/035/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "036",
+      "kind": "chapter",
+      "title": "The Sensory Date",
+      "scene_seed": "A record, a citrus peel, a cloth, a glass, and a low lamp",
+      "live_path": "assets/chapters/036/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "037",
+      "kind": "chapter",
+      "title": "The Desire Nobody Asked About",
+      "scene_seed": "A closed locket on an open palm",
+      "live_path": "assets/chapters/037/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "038",
+      "kind": "chapter",
+      "title": "The Slow Dance With No Music",
+      "scene_seed": "Two pairs of bare feet and an empty music stand",
+      "live_path": "assets/chapters/038/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "039",
+      "kind": "chapter",
+      "title": "The Romantic Time Machine",
+      "scene_seed": "One doorway wearing two different centuries",
+      "live_path": "assets/chapters/039/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "040",
+      "kind": "chapter",
+      "title": "The Intimacy Blueprint",
+      "scene_seed": "A room plan with space, light, and a closed door that can stay closed",
+      "live_path": "assets/chapters/040/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "041",
+      "kind": "chapter",
+      "title": "Two Truths and a Beautiful Lie",
+      "scene_seed": "Three story cards, one of them slightly crooked",
+      "live_path": "assets/chapters/041/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "042",
+      "kind": "chapter",
+      "title": "Would You Rather: Unhinged Edition",
+      "scene_seed": "A fork in the road with a ridiculous hat on each path",
+      "live_path": "assets/chapters/042/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "043",
+      "kind": "chapter",
+      "title": "The Newlywed Game, Without the Wedding",
+      "scene_seed": "Two quiz paddles and a wedding cake lightly crossed out",
+      "live_path": "assets/chapters/043/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "044",
+      "kind": "chapter",
+      "title": "The Ridiculous Role Reversal",
+      "scene_seed": "Two coats swapped, sleeves comically wrong",
+      "live_path": "assets/chapters/044/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "045",
+      "kind": "chapter",
+      "title": "The Great Debate of Absolutely Nothing",
+      "scene_seed": "A teacup podium and a tiny gavel",
+      "live_path": "assets/chapters/045/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "046",
+      "kind": "chapter",
+      "title": "The Alternate Universe Couple",
+      "scene_seed": "A small planet with two homemade flags",
+      "live_path": "assets/chapters/046/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "047",
+      "kind": "chapter",
+      "title": "Truth, Dare, or Discover",
+      "scene_seed": "Three doors marked truth, dare, and discover, each with a pass key",
+      "live_path": "assets/chapters/047/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "048",
+      "kind": "chapter",
+      "title": "The Secret Mission Exchange",
+      "scene_seed": "Sealed mission envelopes on a week calendar",
+      "live_path": "assets/chapters/048/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "049",
+      "kind": "chapter",
+      "title": "The Life Not Taken",
+      "scene_seed": "A map with a second road drawn faintly beside the lived one",
+      "live_path": "assets/chapters/049/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "050",
+      "kind": "chapter",
+      "title": "The Things That Make Life Worth Living",
+      "scene_seed": "Ordinary objects arranged like treasures on a table",
+      "live_path": "assets/chapters/050/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "051",
+      "kind": "chapter",
+      "title": "The Unfinished Version of Me",
+      "scene_seed": "A portrait whose outline is still in pencil",
+      "live_path": "assets/chapters/051/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "052",
+      "kind": "chapter",
+      "title": "The Belief Beneath the Belief",
+      "scene_seed": "A stone split to show another stone inside",
+      "live_path": "assets/chapters/052/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "053",
+      "kind": "chapter",
+      "title": "If Nobody Were Watching",
+      "scene_seed": "An empty theater and one willing figure on the stage",
+      "live_path": "assets/chapters/053/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "054",
+      "kind": "chapter",
+      "title": "The Personal Mythology",
+      "scene_seed": "A mythic beast sketched in the margin of a life",
+      "live_path": "assets/chapters/054/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "055",
+      "kind": "chapter",
+      "title": "What I Want to Experience Before I Die",
+      "scene_seed": "A list holding both a mountain and a Tuesday lunch",
+      "live_path": "assets/chapters/055/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "056",
+      "kind": "chapter",
+      "title": "The Questions Without Answers",
+      "scene_seed": "A constellation of question marks and no answer key",
+      "live_path": "assets/chapters/056/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "057",
+      "kind": "chapter",
+      "title": "The Instruction Manual for My Bad Days",
+      "scene_seed": "A field manual, a kettle, and a folded blanket",
+      "live_path": "assets/chapters/057/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "058",
+      "kind": "chapter",
+      "title": "What You Heard vs. What I Meant",
+      "scene_seed": "Two speech bubbles that do not match, and a gentle pencil",
+      "live_path": "assets/chapters/058/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "059",
+      "kind": "chapter",
+      "title": "The Gentle Disagreement",
+      "scene_seed": "Two chairs angled toward each other, not a courtroom",
+      "live_path": "assets/chapters/059/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "060",
+      "kind": "chapter",
+      "title": "The Repair Shop",
+      "scene_seed": "A small repair bench with thread and no pointing arrow",
+      "live_path": "assets/chapters/060/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "061",
+      "kind": "chapter",
+      "title": "The Invisible Need",
+      "scene_seed": "A need outlined inside the shape of a joke",
+      "live_path": "assets/chapters/061/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "062",
+      "kind": "chapter",
+      "title": "The Safety Map",
+      "scene_seed": "A house plan with warm rooms and drafty rooms",
+      "live_path": "assets/chapters/062/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "063",
+      "kind": "chapter",
+      "title": "The Appreciation Behind the Complaint",
+      "scene_seed": "A complaint card folded to reveal a wish on the reverse",
+      "live_path": "assets/chapters/063/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "064",
+      "kind": "chapter",
+      "title": "The Trust Bank",
+      "scene_seed": "A jar of small coins, deposits and one withdrawal",
+      "live_path": "assets/chapters/064/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "065",
+      "kind": "chapter",
+      "title": "The First-Time Challenge",
+      "scene_seed": "A door neither person has opened, two hands on one handle",
+      "live_path": "assets/chapters/065/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "066",
+      "kind": "chapter",
+      "title": "The Twenty-Dollar Adventure",
+      "scene_seed": "A folded banknote",
+      "live_path": "assets/chapters/066/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "067",
+      "kind": "chapter",
+      "title": "The Comfort Zone Exchange",
+      "scene_seed": "Two comfort circles and a third circle just outside them",
+      "live_path": "assets/chapters/067/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "068",
+      "kind": "chapter",
+      "title": "The Night of Random Decisions",
+      "scene_seed": "Dice, a coin, and a card, each with a small veto mark",
+      "live_path": "assets/chapters/068/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "069",
+      "kind": "chapter",
+      "title": "Build Something Together",
+      "scene_seed": "Two piles of parts becoming one built object",
+      "live_path": "assets/chapters/069/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "070",
+      "kind": "chapter",
+      "title": "The World Through Your Eyes",
+      "scene_seed": "A pair of spectacles looking at a landscape only one person knew",
+      "live_path": "assets/chapters/070/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "071",
+      "kind": "chapter",
+      "title": "The Twelve-Hour Vacation",
+      "scene_seed": "An ordinary Tuesday page stamped with a tiny holiday seal",
+      "live_path": "assets/chapters/071/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "072",
+      "kind": "chapter",
+      "title": "The Shared Courage Experiment",
+      "scene_seed": "A low wall both people can step over together",
+      "live_path": "assets/chapters/072/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "073",
+      "kind": "chapter",
+      "title": "The First Chapter",
+      "scene_seed": "Chapter one written twice and laid side by side",
+      "live_path": "assets/chapters/073/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "074",
+      "kind": "chapter",
+      "title": "The Moments You Didn’t Know Mattered",
+      "scene_seed": "A tiny gesture enlarged inside a magnifying glass",
+      "live_path": "assets/chapters/074/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "075",
+      "kind": "chapter",
+      "title": "Our Greatest Hits",
+      "scene_seed": "Tickets, a joke, and a photograph on one string",
+      "live_path": "assets/chapters/075/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "076",
+      "kind": "chapter",
+      "title": "The Moment I Saw You Differently",
+      "scene_seed": "The same portrait in two frames, the second one changed",
+      "live_path": "assets/chapters/076/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "077",
+      "kind": "chapter",
+      "title": "The Relationship Timeline",
+      "scene_seed": "A long string timeline with knots for turning points",
+      "live_path": "assets/chapters/077/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "078",
+      "kind": "chapter",
+      "title": "The Unspoken Thank-You",
+      "scene_seed": "A thank-you card finally addressed",
+      "live_path": "assets/chapters/078/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "079",
+      "kind": "chapter",
+      "title": "The Soundtrack of Us",
+      "scene_seed": "A ribbon of musical notes running through a row of years",
+      "live_path": "assets/chapters/079/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "080",
+      "kind": "chapter",
+      "title": "The Day Worth Reliving",
+      "scene_seed": "One calendar day circled, with both sun and rain",
+      "live_path": "assets/chapters/080/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "081",
+      "kind": "chapter",
+      "title": "The Forbidden Question Box",
+      "scene_seed": "A question box and a hand setting one slip aside",
+      "live_path": "assets/chapters/081/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "082",
+      "kind": "chapter",
+      "title": "The Moral Gray Area",
+      "scene_seed": "A balance scale that is allowed to stay uneven",
+      "live_path": "assets/chapters/082/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "083",
+      "kind": "chapter",
+      "title": "The Secret Nobody Would Guess",
+      "scene_seed": "A pocket turned out to show one surprising marble",
+      "live_path": "assets/chapters/083/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "084",
+      "kind": "chapter",
+      "title": "The Dark Side of Me",
+      "scene_seed": "A shadow given a face and drawn without scorn",
+      "live_path": "assets/chapters/084/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "085",
+      "kind": "chapter",
+      "title": "What Would You Do If…?",
+      "scene_seed": "Three doors under a single handwritten if",
+      "live_path": "assets/chapters/085/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "086",
+      "kind": "chapter",
+      "title": "The Unpopular Opinion Club",
+      "scene_seed": "A small club pin and two cups, no gavel",
+      "live_path": "assets/chapters/086/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "087",
+      "kind": "chapter",
+      "title": "The Question Behind the Question",
+      "scene_seed": "Stairs of questions, each one under the last",
+      "live_path": "assets/chapters/087/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "088",
+      "kind": "chapter",
+      "title": "The Thing I’m Still Figuring Out",
+      "scene_seed": "An unfinished equation left on a napkin",
+      "live_path": "assets/chapters/088/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "089",
+      "kind": "chapter",
+      "title": "The Relationship We Would Invent",
+      "scene_seed": "A blank constitution and two pens",
+      "live_path": "assets/chapters/089/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "090",
+      "kind": "chapter",
+      "title": "The Future Memory",
+      "scene_seed": "A postcard sent from a day that has not happened yet",
+      "live_path": "assets/chapters/090/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "091",
+      "kind": "chapter",
+      "title": "What We Want More Of",
+      "scene_seed": "A list titled more of, with no fix-it column",
+      "live_path": "assets/chapters/091/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "092",
+      "kind": "chapter",
+      "title": "The Dream Exchange",
+      "scene_seed": "Two kites on different strings in one sky",
+      "live_path": "assets/chapters/092/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "093",
+      "kind": "chapter",
+      "title": "The Relationship Bucket List",
+      "scene_seed": "A suitcase packed with shared plans",
+      "live_path": "assets/chapters/093/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "094",
+      "kind": "chapter",
+      "title": "The Annual Reintroduction",
+      "scene_seed": "The same door reopened in a new season",
+      "live_path": "assets/chapters/094/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "095",
+      "kind": "chapter",
+      "title": "A Promise I Actually Want to Keep",
+      "scene_seed": "A promise short enough to fit on a kept card",
+      "live_path": "assets/chapters/095/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "096",
+      "kind": "chapter",
+      "title": "The Next Chapter",
+      "scene_seed": "A next-chapter page with the rest of the book unwritten",
+      "live_path": "assets/chapters/096/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "097",
+      "kind": "chapter",
+      "title": "The Emotional Archaeologists",
+      "scene_seed": "An archaeologist's brush and a label being peeled back",
+      "live_path": "assets/chapters/097/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "098",
+      "kind": "chapter",
+      "title": "The One-Hundred-Year Interview",
+      "scene_seed": "Two very old teacups and three blank future-memory cards",
+      "live_path": "assets/chapters/098/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "099",
+      "kind": "chapter",
+      "title": "The Invisible Postcards",
+      "scene_seed": "Ordinary-day postcards so small they could be missed",
+      "live_path": "assets/chapters/099/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "100",
+      "kind": "chapter",
+      "title": "The Emotional Weather Report",
+      "scene_seed": "An inner weather map and a closed umbrella",
+      "live_path": "assets/chapters/100/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "101",
+      "kind": "chapter",
+      "title": "The Borrowed Brain Experiment",
+      "scene_seed": "Two borrowed hats over one scenario card",
+      "live_path": "assets/chapters/101/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "102",
+      "kind": "chapter",
+      "title": "The Museum of Unsaid Things",
+      "scene_seed": "Twin museum labels: what happened, and what I wish you understood",
+      "live_path": "assets/chapters/102/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "103",
+      "kind": "chapter",
+      "title": "The Relationship Escape Room",
+      "scene_seed": "A room, split clues, and two keys that turn together",
+      "live_path": "assets/chapters/103/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "104",
+      "kind": "chapter",
+      "title": "The Two-Person Civilization",
+      "scene_seed": "A tiny map of a civilization and a storm-shaped event card",
+      "live_path": "assets/chapters/104/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "105",
+      "kind": "chapter",
+      "title": "The Compliment Decoder",
+      "scene_seed": "Five compliments written as coded tickets",
+      "live_path": "assets/chapters/105/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "106",
+      "kind": "chapter",
+      "title": "The Intimacy Negotiators",
+      "scene_seed": "One hundred beads and two bowls, with no demand",
+      "live_path": "assets/chapters/106/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "107",
+      "kind": "chapter",
+      "title": "The Memory Smuggler",
+      "scene_seed": "A true story with one smuggled star",
+      "live_path": "assets/chapters/107/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "108",
+      "kind": "chapter",
+      "title": "The Secret Door",
+      "scene_seed": "A corridor of doors and keys that can be offered or kept",
+      "live_path": "assets/chapters/108/motif.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "S01",
+      "kind": "signature",
+      "title": "The Long Table",
+      "scene_seed": "Set questions down a table so they grow more personal with distance, and leave the last card face down unless both of you choose to turn it.",
+      "live_path": "assets/signatures/S01-hero.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "S02",
+      "kind": "signature",
+      "title": "The Night With the Lights Low",
+      "scene_seed": "One lamp, music you already own, and five slow stations where a want can be spoken and any touch can be declined.",
+      "live_path": "assets/signatures/S02-hero.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "S03",
+      "kind": "signature",
+      "title": "The Case of the Missing Tuesday",
+      "scene_seed": "An ordinary Tuesday went thin, and you reconstruct it from four objects that are already in the room.",
+      "live_path": "assets/signatures/S03-hero.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "S04",
+      "kind": "signature",
+      "title": "The Branching Evening",
+      "scene_seed": "From a night hall, choose a kitchen, a dark walk, or a quiet chair, and let every return be a way to finish.",
+      "live_path": "assets/signatures/S04-hero.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "S05",
+      "kind": "signature",
+      "title": "The Capsule We Open Later",
+      "scene_seed": "Seal a few pieces of this season at the table, write an opening date you can still change, and keep the key in the house.",
+      "live_path": "assets/signatures/S05-hero.svg",
+      "status": "rejected_svg"
+    },
+    {
+      "id": "S06",
+      "kind": "signature",
+      "title": "The Long Toast",
+      "scene_seed": "Raise one unmatched glass for a year you can actually remember, leave a fuzzy year honest, and set a hope on the blank card for a year that has not arrived.",
+      "live_path": "assets/signatures/S06-hero.svg",
+      "status": "rejected_svg"
+    }
+  ]
+}

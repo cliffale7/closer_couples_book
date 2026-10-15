@@ -839,7 +839,10 @@ def opener_xhtml(doc: SourceDoc, images: ImageSink, anchors: set[str]) -> str:
         if placed.startswith("<p"):
             bits.append(placed)
         elif placed:
-            bits.append(f'<figure class="motif">{placed}<figcaption>Motif</figcaption></figure>')
+            raster = str(motif).lower().endswith((".jpg", ".jpeg", ".png", ".webp"))
+            figure = "motif plate" if raster else "motif"
+            caption = "Illustration" if raster else "Motif"
+            bits.append(f'<figure class="{figure}">{placed}<figcaption>{caption}</figcaption></figure>')
     summary = meta_line(doc)
     if summary:
         bits.append(f'<p class="meta-line">{esc(summary)}</p>')
@@ -924,7 +927,7 @@ def title_inner(proof: bool, images: ImageSink) -> str:
             "and is not catalog entry 001.</p>"
         )
     cover = images.place(
-        "assets/covers/cover-front.svg",
+        plate_path("assets/covers/cover-front.svg"),
         "Front cover of The Closer Project on a midnight ground.",
         missing_note=False,
     )
@@ -1004,7 +1007,7 @@ def colophon_inner(docs: list[SourceDoc], notes: list[str], images: ImageSink) -
     else:
         skipped = "<p>No referenced image was missing.</p>"
     cover = images.place(
-        "assets/covers/cover-back.svg",
+        plate_path("assets/covers/cover-back.svg"),
         "Back cover of The Closer Project.",
         missing_note=False,
     )
@@ -1021,11 +1024,19 @@ def colophon_inner(docs: list[SourceDoc], notes: list[str], images: ImageSink) -
 </section>'''
 
 
+def plate_path(relative: str) -> str:
+    """Prefer a reviewed painting. The SVG stays on disk until that painting exists."""
+    candidate = str(Path(relative).with_suffix(".jpg"))
+    if (ROOT / candidate).is_file():
+        return candidate
+    return relative
+
+
 def part_opener_path(part: object) -> str | None:
     text = str(part).strip()
     if not text.isdigit():
         return None
-    return f"assets/parts/{int(text):02d}-opener.svg"
+    return plate_path(f"assets/parts/{int(text):02d}-opener.svg")
 
 
 def part_introductions() -> dict[str, str]:
@@ -2117,7 +2128,13 @@ def picture_width(path: Path):
     if path.suffix.lower() == ".svg":
         width, height = svg_pixel_size(path)
     else:
-        width, height = 440, 280
+        try:
+            from PIL import Image
+
+            with Image.open(path) as image:
+                width, height = image.size
+        except Exception:
+            width, height = 1280, 720
     width_in = width / 100
     height_in = height / 100
     scale = min(1.0, 5.2 / width_in if width_in else 1, 6.2 / height_in if height_in else 1)
@@ -2154,8 +2171,9 @@ def workbook_svgs(docs: list[SourceDoc]) -> list[Path]:
         *(f"assets/parts/{index:02d}-opener.svg" for index in range(1, 14)),
         *(f"assets/signatures/S{index:02d}-hero.svg" for index in range(1, 7)),
     ):
-        path = resolve_asset(rel)
-        if path is not None:
+        chosen = plate_path(rel)
+        path = resolve_asset(chosen)
+        if path is not None and path.suffix.lower() == ".svg":
             found.append(path)
     for doc in docs:
         motif = doc.meta.get("motif")
@@ -2351,7 +2369,7 @@ def build_docx(docs: list[SourceDoc], part_anchors: dict[str, str], proof: bool,
                align=WD_ALIGN_PARAGRAPH.CENTER, before=72, after=6, bookmark="title-page")
     add_docx_image(
         document,
-        "assets/covers/cover-front.svg",
+        plate_path("assets/covers/cover-front.svg"),
         "Front cover of The Closer Project.",
         missing_note=False,
         svg_label="Cover",
@@ -2470,7 +2488,7 @@ def build_docx(docs: list[SourceDoc], part_anchors: dict[str, str], proof: bool,
     document.add_page_break()
     add_docx_image(
         document,
-        "assets/covers/cover-back.svg",
+        plate_path("assets/covers/cover-back.svg"),
         "Back cover of The Closer Project.",
         missing_note=False,
         svg_label="Back cover",
@@ -2704,12 +2722,14 @@ def self_check() -> None:
     if signature_problems(complete):
         raise SystemExit("A complete signature was rejected.")
     check_signatures([])
-    if part_opener_path(1) != "assets/parts/01-opener.svg" or part_opener_path(13) != "assets/parts/13-opener.svg":
+    opener_one = part_opener_path(1) or ""
+    opener_thirteen = part_opener_path(13) or ""
+    if Path(opener_one).name not in {"01-opener.svg", "01-opener.jpg"} or opener_thirteen != "assets/parts/13-opener.svg":
         raise SystemExit("Part opener paths must use a zero-padded part number.")
     sink = ImageSink()
     opened = part_inner("1", "The Art of Really Knowing Someone", "part-01", sink)
-    if "assets/parts/01-opener.svg" not in opened or "<figure" not in opened:
-        raise SystemExit("Part opener did not include the SVG.")
+    if "01-opener" not in opened or "<figure" not in opened:
+        raise SystemExit("Part opener did not include its image.")
     skipped = part_inner("99", "Missing part", "part-99", sink)
     if "<figure" in skipped:
         raise SystemExit("A missing part opener SVG should be skipped.")

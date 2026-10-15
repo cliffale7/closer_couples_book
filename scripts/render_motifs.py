@@ -2851,6 +2851,10 @@ def check_svg(text: str, viewbox: str, label: str):
 
 
 def main():
+    raise SystemExit(
+        "Phase 4 stopped this script. It only writes the rejected SVG line art. "
+        "Finished plates are painted image files. Do not run this in their place."
+    )
     art = json.loads(ART_MAP.read_text(encoding="utf-8"))
     chapters = art["chapters"]
     if [c["id"] for c in chapters] != [f"{i:03d}" for i in range(1, 109)]:
