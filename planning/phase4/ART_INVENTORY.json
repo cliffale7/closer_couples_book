@@ -1,8 +1,8 @@
 {
   "style": "lamp-lit table",
   "counts": {
-    "approved": 81,
-    "rejected_svg": 49
+    "approved": 89,
+    "rejected_svg": 41
   },
   "slots": [
     {
@@ -714,64 +714,64 @@
       "kind": "chapter",
       "title": "The First Chapter",
       "scene_seed": "Chapter one written twice and laid side by side",
-      "live_path": "assets/chapters/073/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/073/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "074",
       "kind": "chapter",
       "title": "The Moments You Didn’t Know Mattered",
       "scene_seed": "A tiny gesture enlarged inside a magnifying glass",
-      "live_path": "assets/chapters/074/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/074/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "075",
       "kind": "chapter",
       "title": "Our Greatest Hits",
       "scene_seed": "Tickets, a joke, and a photograph on one string",
-      "live_path": "assets/chapters/075/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/075/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "076",
       "kind": "chapter",
       "title": "The Moment I Saw You Differently",
       "scene_seed": "The same portrait in two frames, the second one changed",
-      "live_path": "assets/chapters/076/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/076/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "077",
       "kind": "chapter",
       "title": "The Relationship Timeline",
       "scene_seed": "A long string timeline with knots for turning points",
-      "live_path": "assets/chapters/077/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/077/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "078",
       "kind": "chapter",
       "title": "The Unspoken Thank-You",
       "scene_seed": "A thank-you card finally addressed",
-      "live_path": "assets/chapters/078/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/078/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "079",
       "kind": "chapter",
       "title": "The Soundtrack of Us",
       "scene_seed": "A ribbon of musical notes running through a row of years",
-      "live_path": "assets/chapters/079/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/079/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "080",
       "kind": "chapter",
       "title": "The Day Worth Reliving",
       "scene_seed": "One calendar day circled, with both sun and rain",
-      "live_path": "assets/chapters/080/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/080/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "081",
