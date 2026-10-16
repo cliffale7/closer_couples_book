@@ -150,6 +150,15 @@ code {
   font-size: 12pt;
 }
 
+.frontispiece {
+  break-after: page;
+  page-break-after: always;
+  min-height: 8.15in;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .kicker {
   font-family: Calibri, "Segoe UI", sans-serif;
   font-size: 9pt;

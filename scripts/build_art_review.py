@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-"""Print owner contact sheets from the current SVG drawings.
+"""Print owner contact sheets from the accepted paintings.
 
 Writes build/art-review/art-review.html and build/art-review/OWNER_ART_REVIEW.pdf.
-Does not mark any drawing approved.
+Looking at the file is not approval.
 """
 
 from __future__ import annotations
 
 import html
-import re
+import json
 import sys
 from pathlib import Path
 
@@ -21,21 +21,7 @@ OUT = ROOT / "build" / "art-review"
 HTML_PATH = OUT / "art-review.html"
 PDF_PATH = OUT / "OWNER_ART_REVIEW.pdf"
 
-CORRECTED = {
-    "assets/chapters/005/motif.svg",
-    "assets/chapters/013/motif.svg",
-    "assets/chapters/021/motif.svg",
-    "assets/chapters/024/motif.svg",
-    "assets/chapters/061/motif.svg",
-    "assets/chapters/065/motif.svg",
-    "assets/chapters/066/motif.svg",
-    "assets/chapters/099/motif.svg",
-    "assets/chapters/106/motif.svg",
-    "assets/parts/05-opener.svg",
-    "assets/parts/06-opener.svg",
-    "assets/signatures/S01-hero.svg",
-    "assets/signatures/S03-hero.svg",
-}
+INVENTORY = ROOT / "planning" / "phase4" / "ART_INVENTORY.json"
 
 CSS = """
 @page { size: letter; margin: 0.5in; }
@@ -53,21 +39,14 @@ figcaption { font-size: 8pt; line-height: 1.25; margin-top: 3px; }
 """
 
 
-def aria_label(path: Path) -> str:
-    text = path.read_text(encoding="utf-8")
-    match = re.search(r'aria-label="([^"]+)"', text)
-    return match.group(1) if match else path.name
-
-
-def figure(rel: str) -> str:
-    path = ROOT / rel
-    label = aria_label(path)
-    mark = " <span class='changed'>Corrected. Awaiting owner.</span>" if rel in CORRECTED else ""
+def figure(slot: dict) -> str:
+    rel = slot["live_path"]
+    label = f"{slot['id']}  {slot['title']}"
     src = Path("..") / ".." / rel
     return (
         "<figure>"
         f"<img src='{html.escape(src.as_posix())}' alt='{html.escape(label)}'/>"
-        f"<figcaption>{html.escape(rel)}{mark}<br/>{html.escape(label)}</figcaption>"
+        f"<figcaption>{html.escape(label)}</figcaption>"
         "</figure>"
     )
 
@@ -77,47 +56,44 @@ def chunk(items: list[str], size: int) -> list[list[str]]:
 
 
 def main() -> int:
-    covers = [
-        "assets/covers/cover-front.svg",
-        "assets/covers/cover-back.svg",
-        "assets/covers/title-page.svg",
-    ]
-    parts = [f"assets/parts/{number:02d}-opener.svg" for number in range(1, 14)]
-    heroes = [f"assets/signatures/S0{number}-hero.svg" for number in range(1, 7)]
-    motifs = [f"assets/chapters/{number:03d}/motif.svg" for number in range(1, 109)]
-    for rel in covers + parts + heroes + motifs:
-        if not (ROOT / rel).is_file():
-            raise SystemExit(f"Missing drawing {rel}")
+    inventory = json.loads(INVENTORY.read_text(encoding="utf-8"))
+    slots = inventory["slots"]
+    if len(slots) != 130 or any(slot.get("status") != "approved" for slot in slots):
+        raise SystemExit("Art review requires 130 approved paintings.")
+    for slot in slots:
+        if not (ROOT / slot["live_path"]).is_file():
+            raise SystemExit(f"Missing painting {slot['live_path']}")
+    grouped = {
+        "cover": [slot for slot in slots if slot["kind"] == "cover"],
+        "part": [slot for slot in slots if slot["kind"] == "part"],
+        "signature": [slot for slot in slots if slot["kind"] == "signature"],
+        "chapter": [slot for slot in slots if slot["kind"] == "chapter"],
+    }
     parts_html = [
         "<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'/>",
         "<title>Owner art review</title>",
         f"<style>{CSS}</style></head><body>",
         "<h1>Owner art review</h1>",
-        "<p class='note'>These sheets show the drawings in the current source. "
-        "Thirteen were redrawn after the art audit. Looking at this file is not approval. "
-        "Owner approval remains open.</p>",
-        "<ul>",
+        "<p class='note'>These sheets show the 130 accepted paintings. "
+        "Looking at this file is not approval. Owner approval remains open.</p>",
     ]
-    for rel in sorted(CORRECTED):
-        parts_html.append(f"<li>{html.escape(rel)} — {html.escape(aria_label(ROOT / rel))}</li>")
-    parts_html.append("</ul>")
     sections = [
-        ("Covers", covers, "wide", 2),
-        ("Part openers", parts, "wide", 4),
-        ("Signature heroes", heroes, "wide", 2),
+        ("Covers and title", grouped["cover"], "wide", 2),
+        ("Part openers", grouped["part"], "wide", 4),
+        ("Signature heroes", grouped["signature"], "wide", 2),
     ]
     for title, items, kind, size in sections:
         for index, group in enumerate(chunk(items, size), start=1):
             parts_html.append(f"<h2>{html.escape(title)} {index}</h2>")
             parts_html.append(f"<div class='grid {kind}'>")
-            parts_html.extend(figure(rel) for rel in group)
+            parts_html.extend(figure(slot) for slot in group)
             parts_html.append("</div>")
-    for index, group in enumerate(chunk(motifs, 9), start=1):
-        first = group[0].split("/")[2]
-        last = group[-1].split("/")[2]
-        parts_html.append(f"<h2>Chapter motifs {first}–{last}</h2>")
+    for index, group in enumerate(chunk(grouped["chapter"], 9), start=1):
+        first = group[0]["id"]
+        last = group[-1]["id"]
+        parts_html.append(f"<h2>Chapters {html.escape(first)}–{html.escape(last)}</h2>")
         parts_html.append("<div class='grid'>")
-        parts_html.extend(figure(rel) for rel in group)
+        parts_html.extend(figure(slot) for slot in group)
         parts_html.append("</div>")
     parts_html.append("</body></html>")
     OUT.mkdir(parents=True, exist_ok=True)

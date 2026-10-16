@@ -932,6 +932,15 @@ def title_inner(proof: bool, images: ImageSink) -> str:
         missing_note=False,
     )
     figure = f'<figure class="cover">{cover}</figure>' if cover and not cover.startswith("<p") else ""
+    title_plate = images.place(
+        plate_path("assets/covers/title-page.svg"),
+        "A copper lamp and an open blank book.",
+        missing_note=False,
+    )
+    title_figure = f'<figure class="cover">{title_plate}</figure>' if title_plate and not title_plate.startswith("<p") else ""
+    frontispiece = f'''<section class="frontispiece" id="frontispiece">
+{title_figure}
+</section>''' if title_figure else ""
     return f'''<header class="title-page" id="title-page">
 <p class="kicker">Draft v1 · 14 October 2026</p>
 {figure}
@@ -940,7 +949,8 @@ def title_inner(proof: bool, images: ImageSink) -> str:
 <div class="rule"></div>
 <p class="deck">Experiences for two adults who already like each other.</p>
 {banner}
-</header>'''
+</header>
+{frontispiece}'''
 
 
 def toc_inner(docs: list[SourceDoc], part_anchors: dict[str, str]) -> str:
@@ -2390,6 +2400,14 @@ def build_docx(docs: list[SourceDoc], part_anchors: dict[str, str], proof: bool,
             align=WD_ALIGN_PARAGRAPH.CENTER,
         )
         shade_paragraph(banner, "FBF8F2")
+    document.add_page_break()
+    add_docx_image(
+        document,
+        plate_path("assets/covers/title-page.svg"),
+        "A copper lamp and an open blank book.",
+        missing_note=False,
+        svg_label="Title image",
+    )
     document.add_page_break()
     add_text_p(document, "Contents", bookmarks, style="Heading 1", font="Palatino Linotype", size=26, bookmark="contents")
     current = None
