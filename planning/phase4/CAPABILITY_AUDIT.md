@@ -27,10 +27,10 @@ Output is JPEG, not layered source art. There is no vector redraw and no type in
 
 Independent review is in `planning/phase4/REVIEW_BATCH_00.md`. The style lock is in `planning/phase4/STYLE.md`.
 
-Approved and placed: front cover, back cover, title image, part openers 01–06, and chapters 001–096. Chapter 007’s first picture was rejected because the path did not split. The second picture is the one in the book.
+Approved and placed: front cover, back cover, title image, part openers 01–06, and chapters 001–104. Chapter 007’s first picture was rejected because the path did not split. The second picture is the one in the book.
 
 Rejected: the Victorian cover, and the first chapter 007 path.
 
 ## Inventory
 
-108 chapter plates, 13 part openers, 6 signature heroes, front cover, back cover, and title image. One hundred five are approved. Twenty-five are still the rejected SVG drawings and are not finished art. Counts live in `planning/phase4/ART_INVENTORY.json`.
+108 chapter plates, 13 part openers, 6 signature heroes, front cover, back cover, and title image. One hundred thirteen are approved. Seventeen are still the rejected SVG drawings and are not finished art. Counts live in `planning/phase4/ART_INVENTORY.json`.

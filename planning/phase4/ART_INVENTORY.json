@@ -1,8 +1,8 @@
 {
   "style": "lamp-lit table",
   "counts": {
-    "approved": 105,
-    "rejected_svg": 25
+    "approved": 113,
+    "rejected_svg": 17
   },
   "slots": [
     {
@@ -906,64 +906,64 @@
       "kind": "chapter",
       "title": "The Emotional Archaeologists",
       "scene_seed": "An archaeologist's brush and a label being peeled back",
-      "live_path": "assets/chapters/097/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/097/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "098",
       "kind": "chapter",
       "title": "The One-Hundred-Year Interview",
       "scene_seed": "Two very old teacups and three blank future-memory cards",
-      "live_path": "assets/chapters/098/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/098/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "099",
       "kind": "chapter",
       "title": "The Invisible Postcards",
       "scene_seed": "Ordinary-day postcards so small they could be missed",
-      "live_path": "assets/chapters/099/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/099/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "100",
       "kind": "chapter",
       "title": "The Emotional Weather Report",
       "scene_seed": "An inner weather map and a closed umbrella",
-      "live_path": "assets/chapters/100/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/100/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "101",
       "kind": "chapter",
       "title": "The Borrowed Brain Experiment",
       "scene_seed": "Two borrowed hats over one scenario card",
-      "live_path": "assets/chapters/101/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/101/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "102",
       "kind": "chapter",
       "title": "The Museum of Unsaid Things",
       "scene_seed": "Twin museum labels: what happened, and what I wish you understood",
-      "live_path": "assets/chapters/102/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/102/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "103",
       "kind": "chapter",
       "title": "The Relationship Escape Room",
       "scene_seed": "A room, split clues, and two keys that turn together",
-      "live_path": "assets/chapters/103/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/103/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "104",
       "kind": "chapter",
       "title": "The Two-Person Civilization",
       "scene_seed": "A tiny map of a civilization and a storm-shaped event card",
-      "live_path": "assets/chapters/104/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/104/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "105",
