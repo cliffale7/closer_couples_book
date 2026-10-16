@@ -28,7 +28,7 @@ discussion: true
 touch: false
 repeatable: true
 cross_links: ["030", "078", "076"]
-motif: "assets/chapters/105/motif.svg"
+motif: "assets/chapters/105/illustration.jpg"
 ---
 
 ## The hook

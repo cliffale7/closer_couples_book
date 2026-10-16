@@ -1,8 +1,8 @@
 {
   "style": "lamp-lit table",
   "counts": {
-    "approved": 113,
-    "rejected_svg": 17
+    "approved": 117,
+    "rejected_svg": 13
   },
   "slots": [
     {
@@ -970,32 +970,32 @@
       "kind": "chapter",
       "title": "The Compliment Decoder",
       "scene_seed": "Five compliments written as coded tickets",
-      "live_path": "assets/chapters/105/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/105/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "106",
       "kind": "chapter",
       "title": "The Intimacy Negotiators",
       "scene_seed": "One hundred beads and two bowls, with no demand",
-      "live_path": "assets/chapters/106/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/106/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "107",
       "kind": "chapter",
       "title": "The Memory Smuggler",
       "scene_seed": "A true story with one smuggled star",
-      "live_path": "assets/chapters/107/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/107/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "108",
       "kind": "chapter",
       "title": "The Secret Door",
       "scene_seed": "A corridor of doors and keys that can be offered or kept",
-      "live_path": "assets/chapters/108/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/108/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "S01",
