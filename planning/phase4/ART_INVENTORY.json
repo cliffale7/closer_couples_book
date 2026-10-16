@@ -1,8 +1,8 @@
 {
   "style": "lamp-lit table",
   "counts": {
-    "approved": 41,
-    "rejected_svg": 89
+    "approved": 49,
+    "rejected_svg": 81
   },
   "slots": [
     {
@@ -394,64 +394,64 @@
       "kind": "chapter",
       "title": "The Attraction Interview",
       "scene_seed": "Two sparks on one timeline, years apart",
-      "live_path": "assets/chapters/033/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/033/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "034",
       "kind": "chapter",
       "title": "The Yes, No, Maybe Game",
       "scene_seed": "Three equal cards reading yes, no, and maybe",
-      "live_path": "assets/chapters/034/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/034/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "035",
       "kind": "chapter",
       "title": "The Art of Anticipation",
       "scene_seed": "A trail of small notes leading to a set table",
-      "live_path": "assets/chapters/035/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/035/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "036",
       "kind": "chapter",
       "title": "The Sensory Date",
       "scene_seed": "A record, a citrus peel, a cloth, a glass, and a low lamp",
-      "live_path": "assets/chapters/036/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/036/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "037",
       "kind": "chapter",
       "title": "The Desire Nobody Asked About",
       "scene_seed": "A closed locket on an open palm",
-      "live_path": "assets/chapters/037/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/037/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "038",
       "kind": "chapter",
       "title": "The Slow Dance With No Music",
       "scene_seed": "Two pairs of bare feet and an empty music stand",
-      "live_path": "assets/chapters/038/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/038/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "039",
       "kind": "chapter",
       "title": "The Romantic Time Machine",
       "scene_seed": "One doorway wearing two different centuries",
-      "live_path": "assets/chapters/039/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/039/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "040",
       "kind": "chapter",
       "title": "The Intimacy Blueprint",
       "scene_seed": "A room plan with space, light, and a closed door that can stay closed",
-      "live_path": "assets/chapters/040/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/040/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "041",
