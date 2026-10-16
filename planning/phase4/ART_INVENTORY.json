@@ -1,8 +1,8 @@
 {
   "style": "lamp-lit table",
   "counts": {
-    "approved": 73,
-    "rejected_svg": 57
+    "approved": 81,
+    "rejected_svg": 49
   },
   "slots": [
     {
@@ -650,64 +650,64 @@
       "kind": "chapter",
       "title": "The First-Time Challenge",
       "scene_seed": "A door neither person has opened, two hands on one handle",
-      "live_path": "assets/chapters/065/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/065/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "066",
       "kind": "chapter",
       "title": "The Twenty-Dollar Adventure",
       "scene_seed": "A folded banknote",
-      "live_path": "assets/chapters/066/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/066/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "067",
       "kind": "chapter",
       "title": "The Comfort Zone Exchange",
       "scene_seed": "Two comfort circles and a third circle just outside them",
-      "live_path": "assets/chapters/067/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/067/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "068",
       "kind": "chapter",
       "title": "The Night of Random Decisions",
       "scene_seed": "Dice, a coin, and a card, each with a small veto mark",
-      "live_path": "assets/chapters/068/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/068/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "069",
       "kind": "chapter",
       "title": "Build Something Together",
       "scene_seed": "Two piles of parts becoming one built object",
-      "live_path": "assets/chapters/069/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/069/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "070",
       "kind": "chapter",
       "title": "The World Through Your Eyes",
       "scene_seed": "A pair of spectacles looking at a landscape only one person knew",
-      "live_path": "assets/chapters/070/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/070/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "071",
       "kind": "chapter",
       "title": "The Twelve-Hour Vacation",
       "scene_seed": "An ordinary Tuesday page stamped with a tiny holiday seal",
-      "live_path": "assets/chapters/071/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/071/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "072",
       "kind": "chapter",
       "title": "The Shared Courage Experiment",
       "scene_seed": "A low wall both people can step over together",
-      "live_path": "assets/chapters/072/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/072/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "073",
