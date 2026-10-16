@@ -1,8 +1,8 @@
 {
   "style": "lamp-lit table",
   "counts": {
-    "approved": 49,
-    "rejected_svg": 81
+    "approved": 57,
+    "rejected_svg": 73
   },
   "slots": [
     {
@@ -458,64 +458,64 @@
       "kind": "chapter",
       "title": "Two Truths and a Beautiful Lie",
       "scene_seed": "Three story cards, one of them slightly crooked",
-      "live_path": "assets/chapters/041/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/041/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "042",
       "kind": "chapter",
       "title": "Would You Rather: Unhinged Edition",
       "scene_seed": "A fork in the road with a ridiculous hat on each path",
-      "live_path": "assets/chapters/042/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/042/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "043",
       "kind": "chapter",
       "title": "The Newlywed Game, Without the Wedding",
       "scene_seed": "Two quiz paddles and a wedding cake lightly crossed out",
-      "live_path": "assets/chapters/043/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/043/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "044",
       "kind": "chapter",
       "title": "The Ridiculous Role Reversal",
       "scene_seed": "Two coats swapped, sleeves comically wrong",
-      "live_path": "assets/chapters/044/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/044/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "045",
       "kind": "chapter",
       "title": "The Great Debate of Absolutely Nothing",
       "scene_seed": "A teacup podium and a tiny gavel",
-      "live_path": "assets/chapters/045/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/045/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "046",
       "kind": "chapter",
       "title": "The Alternate Universe Couple",
       "scene_seed": "A small planet with two homemade flags",
-      "live_path": "assets/chapters/046/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/046/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "047",
       "kind": "chapter",
       "title": "Truth, Dare, or Discover",
       "scene_seed": "Three doors marked truth, dare, and discover, each with a pass key",
-      "live_path": "assets/chapters/047/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/047/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "048",
       "kind": "chapter",
       "title": "The Secret Mission Exchange",
       "scene_seed": "Sealed mission envelopes on a week calendar",
-      "live_path": "assets/chapters/048/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/048/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "049",
