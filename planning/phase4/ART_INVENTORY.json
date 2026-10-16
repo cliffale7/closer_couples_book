@@ -1,8 +1,8 @@
 {
   "style": "lamp-lit table",
   "counts": {
-    "approved": 89,
-    "rejected_svg": 41
+    "approved": 97,
+    "rejected_svg": 33
   },
   "slots": [
     {
@@ -778,64 +778,64 @@
       "kind": "chapter",
       "title": "The Forbidden Question Box",
       "scene_seed": "A question box and a hand setting one slip aside",
-      "live_path": "assets/chapters/081/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/081/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "082",
       "kind": "chapter",
       "title": "The Moral Gray Area",
       "scene_seed": "A balance scale that is allowed to stay uneven",
-      "live_path": "assets/chapters/082/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/082/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "083",
       "kind": "chapter",
       "title": "The Secret Nobody Would Guess",
       "scene_seed": "A pocket turned out to show one surprising marble",
-      "live_path": "assets/chapters/083/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/083/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "084",
       "kind": "chapter",
       "title": "The Dark Side of Me",
       "scene_seed": "A shadow given a face and drawn without scorn",
-      "live_path": "assets/chapters/084/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/084/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "085",
       "kind": "chapter",
       "title": "What Would You Do If…?",
       "scene_seed": "Three doors under a single handwritten if",
-      "live_path": "assets/chapters/085/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/085/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "086",
       "kind": "chapter",
       "title": "The Unpopular Opinion Club",
       "scene_seed": "A small club pin and two cups, no gavel",
-      "live_path": "assets/chapters/086/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/086/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "087",
       "kind": "chapter",
       "title": "The Question Behind the Question",
       "scene_seed": "Stairs of questions, each one under the last",
-      "live_path": "assets/chapters/087/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/087/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "088",
       "kind": "chapter",
       "title": "The Thing I’m Still Figuring Out",
       "scene_seed": "An unfinished equation left on a napkin",
-      "live_path": "assets/chapters/088/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/088/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "089",
