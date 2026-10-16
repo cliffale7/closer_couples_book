@@ -6,9 +6,9 @@ The 14 October manifest described a 1,452-page workbook. This rebuild replaces i
 
 | File | Bytes | SHA-256 | Check |
 | --- | ---: | --- | --- |
-| `The_Closer_Project_Illustrated_Workbook_v1_draft.pdf` | 18830776 | `a06a4202ace0e959a63ee1f3c348affb57980874e824156e38f7f8928f1254ef` | 1475 pages; MediaBox 504 by 720 pt (7 by 10 in) |
-| `The_Closer_Project_Illustrated_Workbook_v1_draft.docx` | 10854526 | `c9dba642866adee9d997bef88db57c57d10e12730833179ddfeb2f9839e22034` | Opens; accepted plates embedded as JPEG, remaining slots as PNG |
-| `The_Closer_Project_Reader_v1_draft.epub` | 9955405 | `82757cd5f3508acc54245d10ca93ada8699bdcb9580e667501b3e4610f836c2a` | `python scripts/validate.py` passed |
+| `The_Closer_Project_Illustrated_Workbook_v1_draft.pdf` | 21191430 | `a41a41e232f37d3b8c13e1e6d46ba4d0a0dce1e77053903ec96d8e992bcc8e27` | 1475 pages; MediaBox 504 by 720 pt (7 by 10 in) |
+| `The_Closer_Project_Illustrated_Workbook_v1_draft.docx` | 13066688 | `ba30043d69d27a5acc15c01902655ba3026614479e63cf17fa8a2aa1203f0d56` | Opens; accepted plates embedded as JPEG, remaining slots as PNG |
+| `The_Closer_Project_Reader_v1_draft.epub` | 12256914 | `9817da7b48e58f74ea38a5e92606ec92bb2f4008af2672ec93fd77622574716c` | `python scripts/validate.py` passed |
 | `Our_Story_Companion_Journal_v1_draft.pdf` | 1134903 | `55512c5575853a861eca6e85f059d79dea8ad5f96ecff81b7b89c2c523931af8` | 294 pages; US Letter; S01–S06 sections present |
 | `Our_Story_Companion_Journal_v1_draft.docx` | 100251 | `b35be11d5d823278280549fba79575962cbd214aa7e34cd68e06b03f3fc1c41b` | Blank prompts |
 | `Printable_Cards_and_Worksheets_v1_draft.pdf` | 835355 | `90380fee1f6a291dca90851e04f678e6a876d19a987e2977691dcd4053d41202` | 49 pages; US Letter |
