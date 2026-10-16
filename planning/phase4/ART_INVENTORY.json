@@ -1,8 +1,8 @@
 {
   "style": "lamp-lit table",
   "counts": {
-    "approved": 97,
-    "rejected_svg": 33
+    "approved": 105,
+    "rejected_svg": 25
   },
   "slots": [
     {
@@ -842,64 +842,64 @@
       "kind": "chapter",
       "title": "The Relationship We Would Invent",
       "scene_seed": "A blank constitution and two pens",
-      "live_path": "assets/chapters/089/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/089/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "090",
       "kind": "chapter",
       "title": "The Future Memory",
       "scene_seed": "A postcard sent from a day that has not happened yet",
-      "live_path": "assets/chapters/090/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/090/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "091",
       "kind": "chapter",
       "title": "What We Want More Of",
       "scene_seed": "A list titled more of, with no fix-it column",
-      "live_path": "assets/chapters/091/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/091/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "092",
       "kind": "chapter",
       "title": "The Dream Exchange",
       "scene_seed": "Two kites on different strings in one sky",
-      "live_path": "assets/chapters/092/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/092/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "093",
       "kind": "chapter",
       "title": "The Relationship Bucket List",
       "scene_seed": "A suitcase packed with shared plans",
-      "live_path": "assets/chapters/093/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/093/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "094",
       "kind": "chapter",
       "title": "The Annual Reintroduction",
       "scene_seed": "The same door reopened in a new season",
-      "live_path": "assets/chapters/094/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/094/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "095",
       "kind": "chapter",
       "title": "A Promise I Actually Want to Keep",
       "scene_seed": "A promise short enough to fit on a kept card",
-      "live_path": "assets/chapters/095/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/095/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "096",
       "kind": "chapter",
       "title": "The Next Chapter",
       "scene_seed": "A next-chapter page with the rest of the book unwritten",
-      "live_path": "assets/chapters/096/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/096/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "097",
