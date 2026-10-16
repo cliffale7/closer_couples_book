@@ -61,8 +61,10 @@ class AppBundleTests(unittest.TestCase):
             blob = archive.read("activities.json")
         self.assertNotIn("journal/private", names)
         self.assertNotIn(b"DO_NOT_COMMIT", blob)
-        self.assertIn("assets/assets/signatures/S01-hero.svg", names)
-        self.assertIn("assets/assets/covers/cover-front.svg", names)
+        self.assertIn("assets/assets/signatures/S01-hero.jpg", names)
+        self.assertIn("assets/assets/covers/cover-front.jpg", names)
+        self.assertNotIn("assets/assets/signatures/S01-hero.svg", names)
+        self.assertNotIn("assets/assets/covers/cover-front.svg", names)
 
     def test_spoilers_and_app_update_are_explicit(self):
         activities = self.read("activities.json")

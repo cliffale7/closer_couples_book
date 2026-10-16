@@ -301,13 +301,13 @@ def asset_entries(docs: list[build_all.SourceDoc]) -> list[tuple[str, bytes]]:
         if motif:
             paths.append(ROOT / motif)
     for number in range(1, 14):
-        paths.append(ROOT / f"assets/parts/{number:02d}-opener.svg")
+        paths.append(ROOT / build_all.plate_path(f"assets/parts/{number:02d}-opener.svg"))
     signatures = ROOT / "assets" / "signatures"
     if signatures.is_dir():
-        paths.extend(sorted(signatures.glob("S*-hero.svg")))
+        paths.extend(ROOT / build_all.plate_path(path.relative_to(ROOT).as_posix()) for path in sorted(signatures.glob("S*-hero.svg")))
     covers = ROOT / "assets" / "covers"
     if covers.is_dir():
-        paths.extend(sorted(covers.glob("*.svg")))
+        paths.extend(ROOT / build_all.plate_path(path.relative_to(ROOT).as_posix()) for path in sorted(covers.glob("*.svg")))
     found = []
     seen = set()
     for path in paths:
