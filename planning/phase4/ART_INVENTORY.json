@@ -1,8 +1,8 @@
 {
   "style": "lamp-lit table",
   "counts": {
-    "approved": 65,
-    "rejected_svg": 65
+    "approved": 73,
+    "rejected_svg": 57
   },
   "slots": [
     {
@@ -586,64 +586,64 @@
       "kind": "chapter",
       "title": "The Instruction Manual for My Bad Days",
       "scene_seed": "A field manual, a kettle, and a folded blanket",
-      "live_path": "assets/chapters/057/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/057/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "058",
       "kind": "chapter",
       "title": "What You Heard vs. What I Meant",
       "scene_seed": "Two speech bubbles that do not match, and a gentle pencil",
-      "live_path": "assets/chapters/058/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/058/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "059",
       "kind": "chapter",
       "title": "The Gentle Disagreement",
       "scene_seed": "Two chairs angled toward each other, not a courtroom",
-      "live_path": "assets/chapters/059/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/059/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "060",
       "kind": "chapter",
       "title": "The Repair Shop",
       "scene_seed": "A small repair bench with thread and no pointing arrow",
-      "live_path": "assets/chapters/060/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/060/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "061",
       "kind": "chapter",
       "title": "The Invisible Need",
       "scene_seed": "A need outlined inside the shape of a joke",
-      "live_path": "assets/chapters/061/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/061/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "062",
       "kind": "chapter",
       "title": "The Safety Map",
       "scene_seed": "A house plan with warm rooms and drafty rooms",
-      "live_path": "assets/chapters/062/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/062/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "063",
       "kind": "chapter",
       "title": "The Appreciation Behind the Complaint",
       "scene_seed": "A complaint card folded to reveal a wish on the reverse",
-      "live_path": "assets/chapters/063/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/063/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "064",
       "kind": "chapter",
       "title": "The Trust Bank",
       "scene_seed": "A jar of small coins, deposits and one withdrawal",
-      "live_path": "assets/chapters/064/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/064/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "065",
