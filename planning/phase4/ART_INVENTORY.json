@@ -1,8 +1,8 @@
 {
   "style": "lamp-lit table",
   "counts": {
-    "approved": 18,
-    "rejected_svg": 112
+    "approved": 26,
+    "rejected_svg": 104
   },
   "slots": [
     {
@@ -266,64 +266,64 @@
       "kind": "chapter",
       "title": "Four Minutes of Forever",
       "scene_seed": "Two profiles and four minute-marks, with no hearts",
-      "live_path": "assets/chapters/017/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/017/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "018",
       "kind": "chapter",
       "title": "The Silent Conversation",
       "scene_seed": "Hands shaping a sentence in the air while mouths stay closed",
-      "live_path": "assets/chapters/018/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/018/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "019",
       "kind": "chapter",
       "title": "Breathe With Me",
       "scene_seed": "Two breath arcs meeting over a shared bench",
-      "live_path": "assets/chapters/019/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/019/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "020",
       "kind": "chapter",
       "title": "The Listening Experiment",
       "scene_seed": "An open speaker and a still listener with words reflected back",
-      "live_path": "assets/chapters/020/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/020/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "021",
       "kind": "chapter",
       "title": "The Trust Walk",
       "scene_seed": "A blindfold offered, not tied, and a clear hallway",
-      "live_path": "assets/chapters/021/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/021/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "022",
       "kind": "chapter",
       "title": "The Language of Touch",
       "scene_seed": "An open palm hovering, waiting to be welcomed",
-      "live_path": "assets/chapters/022/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/022/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "023",
       "kind": "chapter",
       "title": "The Sixty-Second Embrace",
       "scene_seed": "Two figures in a still embrace and a single minute-mark",
-      "live_path": "assets/chapters/023/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/023/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "024",
       "kind": "chapter",
       "title": "The Presence Challenge",
       "scene_seed": "A phone lying face down on a cleared table",
-      "live_path": "assets/chapters/024/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/024/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "025",

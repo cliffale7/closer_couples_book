@@ -29,6 +29,14 @@ APPROVED = {
     "014": "assets/chapters/014/illustration.jpg",
     "015": "assets/chapters/015/illustration.jpg",
     "016": "assets/chapters/016/illustration.jpg",
+    "017": "assets/chapters/017/illustration.jpg",
+    "018": "assets/chapters/018/illustration.jpg",
+    "019": "assets/chapters/019/illustration.jpg",
+    "020": "assets/chapters/020/illustration.jpg",
+    "021": "assets/chapters/021/illustration.jpg",
+    "022": "assets/chapters/022/illustration.jpg",
+    "023": "assets/chapters/023/illustration.jpg",
+    "024": "assets/chapters/024/illustration.jpg",
 }
 
 
