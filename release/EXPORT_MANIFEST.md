@@ -1,14 +1,14 @@
 # Export manifest
 
-15 October 2026. Rebuilt on `phase4/real-illustrations` after the first eighteen lamp-lit paintings were placed: the front cover, the part 1 opener, and chapters 001–016. The other plates are still the rejected line drawings. These files are a draft for owner review. They are not a retail edition. `journal/private/` is not in this folder.
+15 October 2026. Rebuilt on `phase4/real-illustrations` after twenty-six lamp-lit paintings were placed: the front cover, the part 1 opener, and chapters 001–024. The other plates are still the rejected line drawings. These files are a draft for owner review. They are not a retail edition. `journal/private/` is not in this folder.
 
 The 14 October manifest described a 1,452-page workbook. This rebuild replaces it. That earlier file is not the current book.
 
 | File | Bytes | SHA-256 | Check |
 | --- | ---: | --- | --- |
-| `The_Closer_Project_Illustrated_Workbook_v1_draft.pdf` | 15803091 | `bf6389a008524aa173b22a18dbc930401b7bef6e3a85694b74e761d34d5a169d` | 1472 pages; MediaBox 504 by 720 pt (7 by 10 in) |
-| `The_Closer_Project_Illustrated_Workbook_v1_draft.docx` | 7992356 | `29af0a0dbc4973f2db2470a5f27ff4ee64cbe055e0aeeb15390e54b3cc848e55` | Opens; accepted plates embedded as JPEG, remaining slots as PNG |
-| `The_Closer_Project_Reader_v1_draft.epub` | 7025299 | `33a10fa72273cc23059205cbcdb0da33de8ffaf45956bd42f48aac0c0b98b3d0` | `python scripts/validate.py` passed |
+| `The_Closer_Project_Illustrated_Workbook_v1_draft.pdf` | 18830776 | `a06a4202ace0e959a63ee1f3c348affb57980874e824156e38f7f8928f1254ef` | 1475 pages; MediaBox 504 by 720 pt (7 by 10 in) |
+| `The_Closer_Project_Illustrated_Workbook_v1_draft.docx` | 10854526 | `c9dba642866adee9d997bef88db57c57d10e12730833179ddfeb2f9839e22034` | Opens; accepted plates embedded as JPEG, remaining slots as PNG |
+| `The_Closer_Project_Reader_v1_draft.epub` | 9955405 | `82757cd5f3508acc54245d10ca93ada8699bdcb9580e667501b3e4610f836c2a` | `python scripts/validate.py` passed |
 | `Our_Story_Companion_Journal_v1_draft.pdf` | 1134903 | `55512c5575853a861eca6e85f059d79dea8ad5f96ecff81b7b89c2c523931af8` | 294 pages; US Letter; S01–S06 sections present |
 | `Our_Story_Companion_Journal_v1_draft.docx` | 100251 | `b35be11d5d823278280549fba79575962cbd214aa7e34cd68e06b03f3fc1c41b` | Blank prompts |
 | `Printable_Cards_and_Worksheets_v1_draft.pdf` | 835355 | `90380fee1f6a291dca90851e04f678e6a876d19a987e2977691dcd4053d41202` | 49 pages; US Letter |
@@ -21,7 +21,7 @@ The 14 October manifest described a 1,452-page workbook. This rebuild replaces i
 
 ## Limits
 
-- The workbook is 1,472 pages at 7 by 10 inches. No chapter fell under 1,200 words.
+- The workbook is 1,475 pages at 7 by 10 inches. No chapter fell under 1,200 words.
 - Accepted paintings print at 5.4 inches wide. Their source files are about 1280 by 720 pixels, near 237 pixels per inch at that width. The cover file is 864 by 1152.
 - Remaining chapter and part pictures are still the rejected SVG line drawings.
 - DOCX embeds the accepted JPEGs directly and PNG rasters of the SVG slots.
