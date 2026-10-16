@@ -1,14 +1,14 @@
 # Export manifest
 
-15 October 2026. Rebuilt on `phase4/real-illustrations` after one hundred thirteen lamp-lit paintings were placed: both covers, the title image, part openers 01–06, and chapters 001–104. The other plates are still the rejected line drawings. These files are a draft for owner review. They are not a retail edition. `journal/private/` is not in this folder.
+15 October 2026. Rebuilt on `phase4/real-illustrations` after one hundred seventeen lamp-lit paintings were placed: both covers, the title image, part openers 01–06, and all 108 chapters. Part openers 07–13 and the six signature heroes were still the rejected line drawings in this file. These files are a draft for owner review. They are not a retail edition. `journal/private/` is not in this folder.
 
 The 14 October manifest described a 1,452-page workbook. This rebuild replaces it. That earlier file is not the current book.
 
 | File | Bytes | SHA-256 | Check |
 | --- | ---: | --- | --- |
-| `The_Closer_Project_Illustrated_Workbook_v1_draft.pdf` | 50511180 | `2f4bec8ff481749ccee738d8b77f4973b692177239abfe033edb36237bd9c70d` | 1503 pages; MediaBox 504 by 720 pt (7 by 10 in) |
-| `The_Closer_Project_Illustrated_Workbook_v1_draft.docx` | 40969965 | `9686c22ad4657535fa6c006d5a3306bdcefd3d390d215bcda01bbbefb4752f3b` | Opens; accepted plates embedded as JPEG, remaining slots as PNG |
-| `The_Closer_Project_Reader_v1_draft.epub` | 40651769 | `4ff6ef82dabed0c2acfa1aabb80696e4809111c5d3c3417f97e8ce659532d9a9` | `python scripts/validate.py` passed |
+| `The_Closer_Project_Illustrated_Workbook_v1_draft.pdf` | 52036113 | `be71f2d41f0a4c2a087d4091c92c0919b84f269e613a0fd9f8a49171e81c71bc` | 1503 pages; MediaBox 504 by 720 pt (7 by 10 in) |
+| `The_Closer_Project_Illustrated_Workbook_v1_draft.docx` | 42439625 | `7f40f927ee681eb524c50cf8d135e2fe8d19c5deae2db25565ec306644258a90` | Opens; accepted plates embedded as JPEG, remaining slots as PNG |
+| `The_Closer_Project_Reader_v1_draft.epub` | 42142867 | `1ff99efe6f64f6eebaabcff258ceca44d39e32c702260b2633c69dffa55c53d1` | `python scripts/validate.py` passed |
 | `Our_Story_Companion_Journal_v1_draft.pdf` | 1134903 | `55512c5575853a861eca6e85f059d79dea8ad5f96ecff81b7b89c2c523931af8` | 294 pages; US Letter; S01–S06 sections present |
 | `Our_Story_Companion_Journal_v1_draft.docx` | 100251 | `b35be11d5d823278280549fba79575962cbd214aa7e34cd68e06b03f3fc1c41b` | Blank prompts |
 | `Printable_Cards_and_Worksheets_v1_draft.pdf` | 835355 | `90380fee1f6a291dca90851e04f678e6a876d19a987e2977691dcd4053d41202` | 49 pages; US Letter |
