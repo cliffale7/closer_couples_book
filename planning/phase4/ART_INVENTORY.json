@@ -1,8 +1,8 @@
 {
   "style": "lamp-lit table",
   "counts": {
-    "approved": 26,
-    "rejected_svg": 104
+    "approved": 41,
+    "rejected_svg": 89
   },
   "slots": [
     {
@@ -18,16 +18,16 @@
       "kind": "cover",
       "title": "Back cover",
       "scene_seed": "The same table after the conversation, lamp still lit, chairs pushed back",
-      "live_path": "assets/covers/cover-back.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/covers/cover-back.jpg",
+      "status": "approved"
     },
     {
       "id": "title-page",
       "kind": "cover",
       "title": "Title image",
       "scene_seed": "A copper lamp, two cups, and an open blank book, with no lettering",
-      "live_path": "assets/covers/title-page.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/covers/title-page.jpg",
+      "status": "approved"
     },
     {
       "id": "part-01",
@@ -42,40 +42,40 @@
       "kind": "part",
       "title": "Vulnerability and the Courage to Be Seen",
       "scene_seed": "A threshold scene for this part, painted, with no type",
-      "live_path": "assets/parts/02-opener.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/parts/02-opener.jpg",
+      "status": "approved"
     },
     {
       "id": "part-03",
       "kind": "part",
       "title": "The Science and Experience of Closeness",
       "scene_seed": "A threshold scene for this part, painted, with no type",
-      "live_path": "assets/parts/03-opener.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/parts/03-opener.jpg",
+      "status": "approved"
     },
     {
       "id": "part-04",
       "kind": "part",
       "title": "Love, Affection, and Feeling Chosen",
       "scene_seed": "A threshold scene for this part, painted, with no type",
-      "live_path": "assets/parts/04-opener.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/parts/04-opener.jpg",
+      "status": "approved"
     },
     {
       "id": "part-05",
       "kind": "part",
       "title": "Desire, Attraction, and Sensual Intimacy",
       "scene_seed": "A threshold scene for this part, painted, with no type",
-      "live_path": "assets/parts/05-opener.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/parts/05-opener.jpg",
+      "status": "approved"
     },
     {
       "id": "part-06",
       "kind": "part",
       "title": "Playfulness, Laughter, and a Little Mischief",
       "scene_seed": "A threshold scene for this part, painted, with no type",
-      "live_path": "assets/parts/06-opener.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/parts/06-opener.jpg",
+      "status": "approved"
     },
     {
       "id": "part-07",
@@ -330,64 +330,64 @@
       "kind": "chapter",
       "title": "What Loving Me Actually Looks Like",
       "scene_seed": "A scatter of loving gestures drawn as objects, not five labeled boxes",
-      "live_path": "assets/chapters/025/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/025/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "026",
       "kind": "chapter",
       "title": "The Appreciation Avalanche",
       "scene_seed": "Notes stacking from vague praise to a specific memory",
-      "live_path": "assets/chapters/026/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/026/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "027",
       "kind": "chapter",
       "title": "The Moment I Knew",
       "scene_seed": "A clock stopped on one remembered hour",
-      "live_path": "assets/chapters/027/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/027/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "028",
       "kind": "chapter",
       "title": "Instructions for Loving Me",
       "scene_seed": "A playful owner's manual with warning labels",
-      "live_path": "assets/chapters/028/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/028/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "029",
       "kind": "chapter",
       "title": "The Reassurance Menu",
       "scene_seed": "A small menu card, a kettle, and four weather marks",
-      "live_path": "assets/chapters/029/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/029/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "030",
       "kind": "chapter",
       "title": "The Compliment You Can’t Dodge",
       "scene_seed": "A compliment card that stays on the receiver's side of the table",
-      "live_path": "assets/chapters/030/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/030/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "031",
       "kind": "chapter",
       "title": "A Love Letter From the Future",
       "scene_seed": "A letter dated years ahead, sealed but not prophetic",
-      "live_path": "assets/chapters/031/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/031/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "032",
       "kind": "chapter",
       "title": "The Everyday Devotion Experiment",
       "scene_seed": "Seven tiny copper marks across ordinary days, not a score chart",
-      "live_path": "assets/chapters/032/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/032/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "033",
