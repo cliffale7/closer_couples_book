@@ -1,8 +1,8 @@
 {
   "style": "lamp-lit table",
   "counts": {
-    "approved": 117,
-    "rejected_svg": 13
+    "approved": 130,
+    "rejected_svg": 0
   },
   "slots": [
     {
@@ -82,56 +82,56 @@
       "kind": "part",
       "title": "The Inner World: Dreams, Meaning, and Identity",
       "scene_seed": "A threshold scene for this part, painted, with no type",
-      "live_path": "assets/parts/07-opener.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/parts/07-opener.jpg",
+      "status": "approved"
     },
     {
       "id": "part-08",
       "kind": "part",
       "title": "Trust, Communication, and Emotional Safety",
       "scene_seed": "A threshold scene for this part, painted, with no type",
-      "live_path": "assets/parts/08-opener.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/parts/08-opener.jpg",
+      "status": "approved"
     },
     {
       "id": "part-09",
       "kind": "part",
       "title": "Shared Adventures and New Experiences",
       "scene_seed": "A threshold scene for this part, painted, with no type",
-      "live_path": "assets/parts/09-opener.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/parts/09-opener.jpg",
+      "status": "approved"
     },
     {
       "id": "part-10",
       "kind": "part",
       "title": "The Past, the Present, and the Story of Us",
       "scene_seed": "A threshold scene for this part, painted, with no type",
-      "live_path": "assets/parts/10-opener.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/parts/10-opener.jpg",
+      "status": "approved"
     },
     {
       "id": "part-11",
       "kind": "part",
       "title": "Radical Curiosity and the Surprising Stuff",
       "scene_seed": "A threshold scene for this part, painted, with no type",
-      "live_path": "assets/parts/11-opener.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/parts/11-opener.jpg",
+      "status": "approved"
     },
     {
       "id": "part-12",
       "kind": "part",
       "title": "Building a Closer Future Together",
       "scene_seed": "A threshold scene for this part, painted, with no type",
-      "live_path": "assets/parts/12-opener.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/parts/12-opener.jpg",
+      "status": "approved"
     },
     {
       "id": "part-13",
       "kind": "part",
       "title": "The Inventor’s Workshop: Original Proposals",
       "scene_seed": "A threshold scene for this part, painted, with no type",
-      "live_path": "assets/parts/13-opener.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/parts/13-opener.jpg",
+      "status": "approved"
     },
     {
       "id": "001",
@@ -1002,48 +1002,48 @@
       "kind": "signature",
       "title": "The Long Table",
       "scene_seed": "Set questions down a table so they grow more personal with distance, and leave the last card face down unless both of you choose to turn it.",
-      "live_path": "assets/signatures/S01-hero.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/signatures/S01-hero.jpg",
+      "status": "approved"
     },
     {
       "id": "S02",
       "kind": "signature",
       "title": "The Night With the Lights Low",
       "scene_seed": "One lamp, music you already own, and five slow stations where a want can be spoken and any touch can be declined.",
-      "live_path": "assets/signatures/S02-hero.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/signatures/S02-hero.jpg",
+      "status": "approved"
     },
     {
       "id": "S03",
       "kind": "signature",
       "title": "The Case of the Missing Tuesday",
       "scene_seed": "An ordinary Tuesday went thin, and you reconstruct it from four objects that are already in the room.",
-      "live_path": "assets/signatures/S03-hero.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/signatures/S03-hero.jpg",
+      "status": "approved"
     },
     {
       "id": "S04",
       "kind": "signature",
       "title": "The Branching Evening",
       "scene_seed": "From a night hall, choose a kitchen, a dark walk, or a quiet chair, and let every return be a way to finish.",
-      "live_path": "assets/signatures/S04-hero.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/signatures/S04-hero.jpg",
+      "status": "approved"
     },
     {
       "id": "S05",
       "kind": "signature",
       "title": "The Capsule We Open Later",
       "scene_seed": "Seal a few pieces of this season at the table, write an opening date you can still change, and keep the key in the house.",
-      "live_path": "assets/signatures/S05-hero.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/signatures/S05-hero.jpg",
+      "status": "approved"
     },
     {
       "id": "S06",
       "kind": "signature",
       "title": "The Long Toast",
       "scene_seed": "Raise one unmatched glass for a year you can actually remember, leave a fuzzy year honest, and set a hope on the blank card for a year that has not arrived.",
-      "live_path": "assets/signatures/S06-hero.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/signatures/S06-hero.jpg",
+      "status": "approved"
     }
   ]
 }

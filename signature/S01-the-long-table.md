@@ -26,7 +26,7 @@ discussion: true
 touch: false
 repeatable: true
 cross_links: ["001", "013", "056"]
-motif: "assets/signatures/S01-hero.svg"
+motif: "assets/signatures/S01-hero.jpg"
 ---
 
 ## The hook
