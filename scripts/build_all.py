@@ -2724,7 +2724,7 @@ def self_check() -> None:
     check_signatures([])
     opener_one = part_opener_path(1) or ""
     opener_thirteen = part_opener_path(13) or ""
-    if Path(opener_one).name not in {"01-opener.svg", "01-opener.jpg"} or opener_thirteen != "assets/parts/13-opener.svg":
+    if Path(opener_one).name not in {"01-opener.svg", "01-opener.jpg"} or Path(opener_thirteen).name not in {"13-opener.svg", "13-opener.jpg"}:
         raise SystemExit("Part opener paths must use a zero-padded part number.")
     sink = ImageSink()
     opened = part_inner("1", "The Art of Really Knowing Someone", "part-01", sink)
