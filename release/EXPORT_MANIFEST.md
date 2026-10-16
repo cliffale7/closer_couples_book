@@ -1,14 +1,14 @@
 # Export manifest
 
-15 October 2026. Rebuilt on `phase4/real-illustrations` after one hundred seventeen lamp-lit paintings were placed: both covers, the title image, part openers 01–06, and all 108 chapters. Part openers 07–13 and the six signature heroes were still the rejected line drawings in this file. These files are a draft for owner review. They are not a retail edition. `journal/private/` is not in this folder.
+15 October 2026. Rebuilt on `phase4/real-illustrations` after all 130 lamp-lit paintings were placed: both covers, the title image, all 13 part openers, all 108 chapters, and signature heroes S01–S06. These files are a draft for owner review. They are not a retail edition. `journal/private/` is not in this folder.
 
 The 14 October manifest described a 1,452-page workbook. This rebuild replaces it. That earlier file is not the current book.
 
 | File | Bytes | SHA-256 | Check |
 | --- | ---: | --- | --- |
-| `The_Closer_Project_Illustrated_Workbook_v1_draft.pdf` | 52036113 | `be71f2d41f0a4c2a087d4091c92c0919b84f269e613a0fd9f8a49171e81c71bc` | 1503 pages; MediaBox 504 by 720 pt (7 by 10 in) |
-| `The_Closer_Project_Illustrated_Workbook_v1_draft.docx` | 42439625 | `7f40f927ee681eb524c50cf8d135e2fe8d19c5deae2db25565ec306644258a90` | Opens; accepted plates embedded as JPEG, remaining slots as PNG |
-| `The_Closer_Project_Reader_v1_draft.epub` | 42142867 | `1ff99efe6f64f6eebaabcff258ceca44d39e32c702260b2633c69dffa55c53d1` | `python scripts/validate.py` passed |
+| `The_Closer_Project_Illustrated_Workbook_v1_draft.pdf` | 57029416 | `a4c3cde50f320f9b4c0eda1eae72a7ecadc3fd5ced978683c7d8d8edd129b12a` | 1505 pages; MediaBox 504 by 720 pt (7 by 10 in) |
+| `The_Closer_Project_Illustrated_Workbook_v1_draft.docx` | 47180432 | `718928eac59190158d900b1733b0fcbe4abba8a1e07054e5fc9547247ce99328` | Opens; accepted plates embedded as JPEG |
+| `The_Closer_Project_Reader_v1_draft.epub` | 46999554 | `9b73793948c7816dc6850ad4edd629d9ffcecb93f8d0c89e052f5b4b04ab1c6d` | `python scripts/validate.py` passed |
 | `Our_Story_Companion_Journal_v1_draft.pdf` | 1134903 | `55512c5575853a861eca6e85f059d79dea8ad5f96ecff81b7b89c2c523931af8` | 294 pages; US Letter; S01–S06 sections present |
 | `Our_Story_Companion_Journal_v1_draft.docx` | 100251 | `b35be11d5d823278280549fba79575962cbd214aa7e34cd68e06b03f3fc1c41b` | Blank prompts |
 | `Printable_Cards_and_Worksheets_v1_draft.pdf` | 835355 | `90380fee1f6a291dca90851e04f678e6a876d19a987e2977691dcd4053d41202` | 49 pages; US Letter |
@@ -21,10 +21,9 @@ The 14 October manifest described a 1,452-page workbook. This rebuild replaces i
 
 ## Limits
 
-- The workbook is 1,503 pages at 7 by 10 inches. No chapter fell under 1,200 words.
+- The workbook is 1,505 pages at 7 by 10 inches. No chapter fell under 1,200 words.
 - Accepted paintings print at 5.4 inches wide. Their source files are about 1280 by 720 pixels, near 237 pixels per inch at that width. The cover file is 864 by 1152.
-- Remaining chapter and part pictures are still the rejected SVG line drawings.
-- DOCX embeds the accepted JPEGs directly and PNG rasters of the SVG slots.
+- DOCX embeds the accepted JPEGs directly.
 - Chrome reprints the PDF on each run, so the PDF bytes are not stable across machines.
 - Owner art approval, owner prose approval, and a real playtest are still open.
 - The Android zip is `release/app_content/The_Closer_Project_Content_v1-draft.zip`, 654836 bytes, SHA-256 `3737f9c9d33214aaa3cd241a65cc4cefb9a21fa98e01eb34e1c195cc9c1deaa3`. Its manifest names source commit `b69f95bd37bc1e11842205fbf116343d3b581b3b`. `CHANGES.json` compares it with the previous public zip: no activities added or removed, 13 drawing files changed. On-device import was not tested.
