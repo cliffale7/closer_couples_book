@@ -1,8 +1,8 @@
 {
   "style": "lamp-lit table",
   "counts": {
-    "approved": 57,
-    "rejected_svg": 73
+    "approved": 65,
+    "rejected_svg": 65
   },
   "slots": [
     {
@@ -522,64 +522,64 @@
       "kind": "chapter",
       "title": "The Life Not Taken",
       "scene_seed": "A map with a second road drawn faintly beside the lived one",
-      "live_path": "assets/chapters/049/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/049/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "050",
       "kind": "chapter",
       "title": "The Things That Make Life Worth Living",
       "scene_seed": "Ordinary objects arranged like treasures on a table",
-      "live_path": "assets/chapters/050/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/050/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "051",
       "kind": "chapter",
       "title": "The Unfinished Version of Me",
       "scene_seed": "A portrait whose outline is still in pencil",
-      "live_path": "assets/chapters/051/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/051/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "052",
       "kind": "chapter",
       "title": "The Belief Beneath the Belief",
       "scene_seed": "A stone split to show another stone inside",
-      "live_path": "assets/chapters/052/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/052/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "053",
       "kind": "chapter",
       "title": "If Nobody Were Watching",
       "scene_seed": "An empty theater and one willing figure on the stage",
-      "live_path": "assets/chapters/053/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/053/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "054",
       "kind": "chapter",
       "title": "The Personal Mythology",
       "scene_seed": "A mythic beast sketched in the margin of a life",
-      "live_path": "assets/chapters/054/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/054/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "055",
       "kind": "chapter",
       "title": "What I Want to Experience Before I Die",
       "scene_seed": "A list holding both a mountain and a Tuesday lunch",
-      "live_path": "assets/chapters/055/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/055/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "056",
       "kind": "chapter",
       "title": "The Questions Without Answers",
       "scene_seed": "A constellation of question marks and no answer key",
-      "live_path": "assets/chapters/056/motif.svg",
-      "status": "rejected_svg"
+      "live_path": "assets/chapters/056/illustration.jpg",
+      "status": "approved"
     },
     {
       "id": "057",
