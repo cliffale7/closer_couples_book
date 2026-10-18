@@ -6,9 +6,9 @@ The 14 October manifest described a 1,452-page workbook. This rebuild replaces i
 
 | File | Bytes | SHA-256 | Check |
 | --- | ---: | --- | --- |
-| `The_Closer_Project_Illustrated_Workbook_v1_draft.pdf` | 57450761 | `69c43046d7b914e9a41de24d0d293c080ee06766e9e2b68726f2ba33918782a8` | 1506 pages; MediaBox 504 by 720 pt (7 by 10 in) |
-| `The_Closer_Project_Illustrated_Workbook_v1_draft.docx` | 47588895 | `b9b090117684df8a7c594fc0a20d9b835d6855253c340ac4621f5e4eb281f002` | Opens; accepted plates embedded as JPEG |
-| `The_Closer_Project_Reader_v1_draft.epub` | 47408137 | `5e4024c2d735dbcefe49875672383ad2f342501fe1b2c4f27780f71cf64aff54` | `python scripts/validate.py` passed |
+| `The_Closer_Project_Illustrated_Workbook_v1_draft.pdf` | 57590901 | `7b56f72df1655459a88680cff552ae309e8f14b4b8b4509e0a2b7aab060c28c3` | 1506 pages; MediaBox 504 by 720 pt (7 by 10 in). Cover and chapters 001–004 are anime plates. |
+| `The_Closer_Project_Illustrated_Workbook_v1_draft.docx` | 47728992 | `7b013448cc0a786d0ba7b62801c023ad7e9811b990dda923313a1d02aed41441` | Opens; accepted plates embedded as JPEG |
+| `The_Closer_Project_Reader_v1_draft.epub` | 47548234 | `22980ca23ae565b5984ef737bd32544d2a3a64fab56fdef732326a29b70307dd` | `python scripts/validate.py` passed |
 | `Our_Story_Companion_Journal_v1_draft.pdf` | 1134903 | `55512c5575853a861eca6e85f059d79dea8ad5f96ecff81b7b89c2c523931af8` | 294 pages; US Letter; S01–S06 sections present |
 | `Our_Story_Companion_Journal_v1_draft.docx` | 100251 | `b35be11d5d823278280549fba79575962cbd214aa7e34cd68e06b03f3fc1c41b` | Blank prompts |
 | `Printable_Cards_and_Worksheets_v1_draft.pdf` | 835355 | `90380fee1f6a291dca90851e04f678e6a876d19a987e2977691dcd4053d41202` | 49 pages; US Letter |
