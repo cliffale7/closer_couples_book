@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Closer activity cards — template routes</title>
+<style>
+  @page large { size: 3.5in 5.5in; margin: 0; }
+  @page small { size: 2.75in 4.75in; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: #fff; }
+  .card {
+    position: relative;
+    overflow: hidden;
+    page-break-after: always;
+    break-after: page;
+    background: #F6F1E7;
+    color: #241F1C;
+  }
+  .large { page: large; width: 3.5in; height: 5.5in; }
+  .small { page: small; width: 2.75in; height: 4.75in; }
+  .safe { position: absolute; inset: 0.16in; }
+  .crop {
+    position: absolute; inset: 0.08in;
+    border: 0.4pt dashed rgba(36, 31, 28, 0.35);
+    pointer-events: none;
+  }
+  .kicker {
+    font-family: Calibri, "Segoe UI", sans-serif;
+    font-size: 8pt;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #3E6464;
+    margin: 0;
+  }
+  h1 {
+    font-family: "Palatino Linotype", Palatino, Georgia, serif;
+    font-weight: normal;
+    line-height: 1.05;
+    margin: 0.04in 0 0.06in;
+  }
+  .large h1 { font-size: 16pt; }
+  .small h1 { font-size: 12.5pt; }
+  .hook {
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    margin: 0 0 0.06in;
+  }
+  .large .hook { font-size: 10pt; }
+  .small .hook { font-size: 8.5pt; }
+  .art {
+    width: 100%;
+    object-fit: cover;
+    object-position: center 30%;
+    display: block;
+    background: #E7D7C3;
+  }
+  .large .art { height: 2.55in; }
+  .small .art { height: 1.85in; }
+  .meta, .steps, .remember, .pass, p {
+    font-family: Calibri, "Segoe UI", sans-serif;
+  }
+  .large .meta, .large .steps, .large .remember, .large .pass, .large p { font-size: 10pt; line-height: 1.25; }
+  .small .meta, .small .steps, .small .remember, .small .pass, .small p { font-size: 8pt; line-height: 1.2; }
+  .steps { margin: 0.04in 0 0; padding-left: 0.16in; }
+  .steps li { margin: 0.03in 0; }
+  .pass { margin: 0.05in 0 0; }
+  .source { font-size: 7pt; letter-spacing: 0.04em; color: #6d645c; margin-top: 0.04in; }
+  .band { height: 0.08in; margin: 0 0 0.06in; }
+  .playful { background: #3E6464; color: #FBF8F2; }
+  .playful .kicker, .playful .source { color: #E7D7C3; }
+  .playful h1 { font-family: Calibri, "Segoe UI", sans-serif; font-weight: 700; }
+  .keepsake { background: #F3E6D8; }
+  .keepsake h1 { font-family: Georgia, "Times New Roman", serif; font-style: italic; }
+  .note-page { page: large; width: 3.5in; height: 5.5in; padding: 0.2in; font-family: Calibri, sans-serif; font-size: 9pt; }
+</style>
+</head>
+<body>
+
+<section class="card large">
+  <div class="crop"></div>
+  <div class="safe">
+    <div class="band" style="background:#3E6464"></div>
+    <p class="kicker">03 · Closeness · circle</p>
+    <h1>Breathe With Me</h1>
+    <p class="hook">Sit. Let the air be ordinary.</p>
+    <img class="art" src="deck-smoke-c1.jpg" alt="Two adults at a table, one listening, one speaking."/>
+    <p class="meta">About 15 minutes · low effort</p>
+  </div>
+</section>
+
+<section class="card large">
+  <div class="crop"></div>
+  <div class="safe">
+    <p class="kicker">03 · Closeness</p>
+    <h1>Breathe With Me</h1>
+    <p>Settle the seats before you start.</p>
+    <ol class="steps">
+      <li>Say “here” if you want one word. Start a timer for six minutes.</li>
+      <li>Breathe at your own rate. Matching is optional. Do not correct the other person’s breathing.</li>
+      <li>Sighs and small shifts are allowed. Stop if you are in pain.</li>
+      <li>When the timer ends, or either of you stops, wait a moment. Then one sentence each about what you noticed in yourself.</li>
+    </ol>
+    <p class="remember">Remember: the length, and one notice. Skip any claim that you synced.</p>
+    <p class="pass">Either of you may end the sit. Ending is a finished turn.</p>
+    <p class="source">C01 sample · source 019 · not a finished card</p>
+  </div>
+</section>
+
+<section class="card large playful">
+  <div class="crop"></div>
+  <div class="safe">
+    <p class="kicker">05 · Desire · diamond</p>
+    <h1>Yes, No, Maybe</h1>
+    <p class="hook">Sort in private. Compare only the stars.</p>
+    <img class="art" src="deck-smoke-c1.jpg" alt="Smoke-test picture used only to check the crop."/>
+    <p class="meta">About 45 minutes · two private sheets</p>
+  </div>
+</section>
+
+<section class="card large playful">
+  <div class="crop"></div>
+  <div class="safe">
+    <p class="kicker">05 · Desire</p>
+    <h1>Yes, No, Maybe</h1>
+    <p>Two private sheets. No shared screen until the stars are chosen. You are sorting ideas, not doing them tonight.</p>
+    <ol class="steps">
+      <li>Apart, head four lanes: romantic, affectionate, sensual, sexual. A blank lane is allowed. Add or cross out any idea.</li>
+      <li>Still apart, star up to five yeses you will discuss, and up to three nos you want known. Unstarred nos stay unseen.</li>
+      <li>Together, read one starred item at a time. The listener says “heard,” or asks one question, then stops.</li>
+      <li>Name at most one easy shared yes, and say aloud that you still ask and nothing else is scheduled. Or name none.</li>
+    </ol>
+    <p class="pass">A star is not consent. A maybe is not a promise. Skip any lane. If either of you has been drinking, play another night.</p>
+    <p class="source">Layout sample · source 034</p>
+  </div>
+</section>
+
+<section class="card large keepsake">
+  <div class="crop"></div>
+  <div class="safe">
+    <p class="kicker">08 · Trust · square</p>
+    <h1>The Gentle Disagreement</h1>
+    <p class="hook">One small difference. Then stop.</p>
+    <img class="art" src="deck-smoke-c1.jpg" alt="Smoke-test picture used only to check the crop."/>
+    <p class="meta">About 40 minutes · low effort</p>
+  </div>
+</section>
+
+<section class="card large keepsake">
+  <div class="crop"></div>
+  <div class="safe">
+    <p class="kicker">08 · Trust</p>
+    <h1>The Gentle Disagreement</h1>
+    <p>Agree that “pause” stops the topic. Breakups, money crises, jealousy, and in-law emergencies are off the list tonight.</p>
+    <ol class="steps">
+      <li>Name one current preference, chore, or plan in a single sentence. If it needs a history, choose a smaller difference.</li>
+      <li>Each of you: your preference, then the care under it. Two or three sentences. Nobody has to concede.</li>
+      <li>Each of you asks one curious question. The other answers. A question that builds a case is retired.</li>
+      <li>If a one-week experiment appears, write it, including what pauses it. Willing, willing with an edit, or unwilling. Unwilling finishes the card.</li>
+    </ol>
+    <p class="remember">Remember one line of the other person’s care, if you want a note.</p>
+    <p class="pass">Say “pause” and you both stop. A stopped topic has no penalty and no make-up debate tonight.</p>
+    <p class="source">Layout sample · source 059</p>
+  </div>
+</section>
+
+<section class="card small playful">
+  <div class="crop"></div>
+  <div class="safe">
+    <p class="kicker">05 · Desire · small proof</p>
+    <h1>Yes, No, Maybe</h1>
+    <p>Same back as the large card, set at 2.75 by 4.75 inches.</p>
+    <ol class="steps">
+      <li>Apart, head four lanes. A blank lane is allowed.</li>
+      <li>Star up to five yeses and three nos. Unstarred nos stay unseen.</li>
+      <li>Read one starred item. The listener says “heard,” then stops.</li>
+      <li>Name one easy yes and say you still ask. Or name none.</li>
+    </ol>
+    <p class="pass">A star is not consent. Skip any lane.</p>
+    <p class="source">2.75 × 4.75 in comparative</p>
+  </div>
+</section>
+
+<section class="note-page">
+  <p><strong>Proof notes.</strong> Large pages are 3.5 by 5.5 inches. The last card is 2.75 by 4.75 inches. The dashed line is an on-card safe guide, not a vendor die line. Bleed of 3 mm is not included in this trim-size file.</p>
+  <p>The picture is the smoke test, reused to judge the crop. It is not three illustrations and not an approved card.</p>
+  <p>Body type on the large cards is 10 pt Calibri. The small card is 8 pt, under the 9.5 pt floor, and is a comparison, not a candidate for production.</p>
+</section>
+
+</body>
+</html>

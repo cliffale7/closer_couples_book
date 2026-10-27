@@ -1,0 +1,12 @@
+gate,item,status,evidence
+source_freeze,book commit recorded,pass,b12b6a6b1ab3c00892a6d0a5efc2ddc4d8ec4cf7
+isolation,book files untouched,pass,card-deck/ only plus archive copy
+image_smoke,one generated raster saved,pass,card-deck/qa/smoke/deck-smoke-c1.jpg
+image_ppi,about 300 ppi at crop,fail,864px across 3.5in is about 247 ppi
+template_proof,three routes printed,pass,design/proofs/template-routes.pdf pages 1-6 are 3.5 by 5.5 in
+selection_65,five per part scored,open,
+card_text,65 stand-alone backs,open,0
+images_approved,65 unique fronts,open,0
+fronts_backs,65 pairs typeset,open,0
+owner_review,package exported,open,
+human_playtest,owner and partner,open,not claimed
