@@ -9,7 +9,7 @@
     "steps": [
       "Name what is off tonight. Use these slips or write originals. Each privately keeps three, folded, initial on the outside.",
       "Coin for the first draw, then alternate. Answer and say \"that's the answer,\" pass, or, if the initial is theirs, \"This one is yours. Do you want it?\"",
-      "They answer, pass, or tear it unread. Your own slip cannot be offered back. Two draws finish. \"Close the box\" may end it sooner."
+      "They answer, pass, or tear it. Not your own slip. Two draws finish. \"Close the box\" can end it sooner."
     ],
     "bank": [
       "Which compliment do you trust least?",
@@ -21,30 +21,29 @@
       "What are you tired of being good at?",
       "What do you hope I have already noticed, without a hint?"
     ],
-    "ending": "Tear the unread slips, or return them by initial. Do not peek.",
-    "pass": "The listener says \"Passed.\" No groan and no bargain. A pass is complete.",
-    "safety": "Tear a slip that asks for harm, an illness, or a third person's secret. An answer is not consent."
+    "ending": "Return unread slips by initial. Do not peek.",
+    "pass": "Say \"Passed.\" No bargain. A pass is complete.",
+    "safety": "Tear a slip about harm, illness, or a third person's secret. Not consent."
   },
   {
     "card_id": "C52",
     "source_id": "082",
     "title": "The Moral Gray Area",
-    "hook": "Two live costs, and no answer key.",
+    "hook": "No answer key.",
     "time": "about 15 minutes",
     "touch": false,
     "steps": [
-      "Read one scene. A veto retires it. Take the other, or stop. A coin picks the opener.",
-      "Two quiet minutes. Write the values that collide and the cost of each path.",
-      "Opener, up to 3 minutes. \"I do not land\" counts. Listener, one sentence only: \"The collision I heard was ___ and ___.\" Do not grade.",
-      "The other speaks up to 3 minutes. Reflect them the same way. Each says, \"What I want you to know about how I decide is ___.\" If apart, \"We landed differently.\" No rebuttal."
+      "One scene. Coin opens. A veto retires the card.",
+      "Two quiet minutes on values and costs.",
+      "Up to 3 minutes each. \"I do not land\" counts. Reflect, do not grade: \"The collision I heard was ___ and ___.\" Each: \"What I want you to know about how I decide is ___.\" If apart, \"We landed differently.\" No rebuttal."
     ],
     "bank": [
       "Three nights. A piece of work would fund a dream you have named for years. It would also take you out three nights a week for a year. Yes funds the dream and spends the evenings. No keeps the evenings and leaves the dream unfunded. The other person in your home is allowed to be unhappy either way. There is no villain in the house.",
-      "The incomplete refund. A product failed in a way that matches the refund policy. You also caused part of the failure. You can describe the defect that happened and leave your part out. The money matters. A complete account may mean no refund."
+      "The incomplete refund. A product failed in a way that matches the refund policy. You also caused part of the failure. You can describe the defect that happened and leave your part out. A complete account may mean no refund."
     ],
-    "ending": "One scene is finished, even if you landed apart.",
-    "pass": "Retire the card, or pass the scene, without naming the nerve.",
-    "safety": "Not a current wound, not last Thursday, and not physical danger. Disagreement can stand."
+    "ending": "Stop after one scene.",
+    "pass": "Retire or pass, unexplained.",
+    "safety": "No current wound, no last Thursday, no physical danger."
   },
   {
     "card_id": "C53",
@@ -64,7 +63,7 @@
       "When did you start keeping it small?",
       "What would it change for you if I understood it and still disagreed?"
     ],
-    "ending": "Each listener names one thing now understood that was not clear an hour ago. You may still disagree.",
+    "ending": "Each listener says, \"One thing I understand about your view that I did not understand an hour ago.\" You may still disagree.",
     "pass": "Pause, pass, or trade it for a milder opinion.",
     "safety": "If it is a complaint about the listener, name that and save it for a direct request another day."
   },
@@ -112,6 +111,6 @@
     ],
     "ending": "Read both aloud as open items. Do not solve them. A later date is a revisit, not a deadline.",
     "pass": "Pass, pause, or choose a smaller unknown. They need not match in size.",
-    "safety": "Do not make it a household plan. A crisis leaves the card. \"You'll definitely be fine\" shuts the door."
+    "safety": "Do not make it a household plan. A crisis leaves the card. \"You'll definitely be fine\" shuts it. \"I believe you that this is unfinished\" can stand."
   }
 ]

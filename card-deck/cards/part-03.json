@@ -9,12 +9,12 @@
     "steps": [
       "Timer in reach. A raised hand, or the word stop, ends it. Optional line: we look, we notice, we can stop.",
       "Four minutes. Blinks are allowed. Glance away to settle, then return. Do not decode the other face.",
-      "Hand or word stops the timer. That ending counts. Then look away on purpose, so the bout closes.",
+      "When time ends, or a hand or the word stop ends it, look away on purpose. Early still counts.",
       "One notice each, from your own side only. One sentence. Do not interpret your partner's face."
     ],
     "ending": "The standard is four minutes inside about fifteen. Ending early completes the session.",
     "pass": "Passing finishes the session. Without gaze, attend to your own hands or to sound. You do not have to take hold.",
-    "safety": "Skip drinking, and skip a dare. Stop for dizziness, panic, or a wish to get out. A long look is not consent to touch or sex."
+    "safety": "Skip this if anyone has been drinking, or if it is a dare. Stop for dizziness, panic, or a wish to get out. A long look is not consent to touch or sex."
   },
   {
     "card_id": "C12",
@@ -24,14 +24,14 @@
     "time": "About 15 minutes",
     "touch": false,
     "steps": [
-      "Seats first. Say you are not trying to breathe alike, only sitting while breath does what it does. The word here is optional.",
-      "Start six minutes. Quit a performed slow breath. Do not correct the other person.",
+      "Seats first. Say: we are not trying to breathe alike. We are sitting here until the breath does whatever it does. The word here is optional.",
+      "Start six minutes. Quit performing a slow breath. Do not correct the other person.",
       "Sighs and shifts are allowed. Move if you are in pain. Eyes may stay open.",
       "Wait a moment when it ends. Two sentences each: what you noticed in yourself, then one thing you could point to."
     ],
     "ending": "The standard sit is six minutes, inside about fifteen. Claim no sync.",
     "pass": "Speak or stop at any time. Stopping is success. A recline is a full version.",
-    "safety": "Never restrict the breath, and never use a hold. Stop for pain, dizziness, or distress. Agree any hand before the timer. This is not a prelude to sex."
+    "safety": "Never restrict the breath, and never hold it. Stop for pain, dizziness, or distress. Agree any hand before the timer. This is not a prelude to sex."
   },
   {
     "card_id": "C13",
@@ -61,9 +61,9 @@
       "Unseen, mark hand, shoulder, upper back, linked arms, knees, forearm, hair, face, and one nonsexual form you add: welcome tonight, not tonight, or leave out.",
       "Play only the overlap. An added form needs a yes from both. No overlap: describe a future welcome, and do not demonstrate it.",
       "Before contact, the receiver sets pressure, place, and duration. The giver follows and does not wander or add a place.",
-      "Stop, a lifted hand, or moving away retires that item. Otherwise one word: comfort, affection, neutral, or stop. Then swap."
+      "Stop, a lifted hand, or moving away retires it. If it finishes, one word: comfort, affection, neutral, or stop. Then swap."
     ],
-    "ending": "Four is a ceiling, not a quota. Read the words back. Welcomes expire when you get up.",
+    "ending": "Four is a ceiling. Read the words back. Welcomes expire when you get up.",
     "pass": "You may describe instead of touching, and skip the explanation. A pass on the swap is a decline.",
     "safety": "This stays nonsexual. Do not ask why, and do not lobby a not tonight. A mark is not consent past this list, and it ends with the evening."
   },

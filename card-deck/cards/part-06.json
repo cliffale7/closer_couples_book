@@ -53,7 +53,7 @@
       "Show one veto each first. \"Stop,\" or a raised hand, ends the scene.",
       "Pick one scene. Enlarge one shared joke, or manners only: how you order, pause, or thank.",
       "Seated, 60 seconds. No confession, conflict, or sexual caricature. They watch without correcting.",
-      "They sort stung, accurate, then flattering fiction. A sting is one sentence, then your one-sentence apology or a 20-second redo. No explanation until invited. If nothing stung, say \"Nothing stung. I checked.\" Reverse the same scene."
+      "They sort stung, accurate, then flattering fiction. A sting is one sentence, then your one-sentence apology or a 20-second redo. No explanation until invited. If nothing stung, say \"Nothing stung. I checked.\" Reverse the same scene. The reverse is not a correction."
     ],
     "bank": [
       "Ordering dinner while hungry and still trying to be polite to the menu.",
@@ -96,8 +96,8 @@
     "time": "about 20 minutes",
     "touch": false,
     "steps": [
-      "Affection menu first, empty allowed, read aloud. Name Truth, Dare, or Discover, read one of its lines, then do it, take the written alternative, or pass.",
-      "Four turns each. No escalation. A Discover is shared and still your turn."
+      "Affection menu first, empty allowed. Name the mode and one line. Do it, the alternative, or pass.",
+      "Four turns each. No escalation. Discover stays your turn."
     ],
     "bank": [
       "Truth. What sound, taste, or smell steadies you?",
@@ -110,8 +110,8 @@
       "Discover. Recall a shared meal. Each of you names one detail.",
       "Discover. Each offer a word you like the sound of. Put both words in one shared sentence."
     ],
-    "ending": "End on a Discover or goodnight, not on a dare.",
-    "pass": "Pass ends the turn. No penalty. Your partner does not answer it.",
-    "safety": "Affection only from the menu you both accepted first. A decline is not a free pass to touch."
+    "ending": "End on a Discover or goodnight, not a dare.",
+    "pass": "Pass ends the turn.",
+    "safety": "Only affection you both accepted first. A decline is not a pass to touch."
   }
 ]

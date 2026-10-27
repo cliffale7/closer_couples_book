@@ -63,38 +63,37 @@
     "card_id": "C44",
     "source_id": "068",
     "title": "The Night of Random Decisions",
-    "hook": "Chance picks. You keep one veto.",
+    "hook": "Menus you both accept.",
     "time": "about 40 minutes",
     "touch": false,
     "steps": [
-      "One tool all night: die 1-6, or six cards. Do not switch after an outcome.",
-      "In order: six activity, six food, six talk. Replace any line you cannot both accept. An empty slot copies stay in, the simplest thing, or quiet.",
-      "Three rolls at a small size: activity about 10 minutes, then food, then talk.",
-      "One veto each. It cancels the result, the option returns, and you roll again. No second veto."
+      "Die 1-6 or six cards, one tool all night. Six activity, six food, six talk.",
+      "Replace a refused line with one you both accept.",
+      "Activity about 10 minutes. One veto, one reroll, no second."
     ],
     "bank": [
-      "A card game you both already like, for 20 minutes, or a game whose rules are already in the house.",
-      "One episode of a show you have both already agreed is fine.",
-      "A walk to the mailbox, the end of the hall, or another flat turnaround you name in the slot.",
-      "10 photos from an album or a camera roll you both are willing to open.",
+      "A card game you both already like.",
+      "One episode of a show you both agree is fine.",
+      "A flat walk: mailbox, hall, or a turnaround you name.",
+      "10 photos you are both willing to open.",
       "Stay in and do nothing extra.",
       "Stop the game.",
       "Tea, or water.",
-      "Toast or bread with something you both eat.",
+      "Toast or bread you both eat.",
       "Fruit you both eat.",
       "Leftovers you both eat.",
-      "A snack already in the house that you both eat.",
-      "The simplest thing already in the house.",
-      "A playlist you both already like, at a volume you name now.",
+      "A snack in the house you both eat.",
+      "The simplest thing in the house.",
+      "A playlist you both like, volume named now.",
       "One song each, chosen from music you both tolerate.",
       "Silence for 10 minutes.",
-      "A page you already own, read aloud or passed in text.",
-      "One question: what was a good 10 minutes this week?",
+      "A page you own, read aloud or passed in text.",
+      "What was a good 10 minutes this week?",
       "Quiet, no prompt."
     ],
-    "ending": "Where did it feel like play, and where did it pinch?",
-    "pass": "Stop with no roll, anytime, for free.",
-    "safety": "A safety no is not a reroll to get what you prefer. It becomes stay in, or stops the game. A roll is not consent to touch."
+    "ending": "Where it played and pinched.",
+    "pass": "Stop free, no roll.",
+    "safety": "A safety no is not a reroll to get a preferred outcome. Stay in, or stop. Not consent."
   },
   {
     "card_id": "C45",
@@ -106,8 +105,8 @@
     "steps": [
       "Whoever feels the difficulty picks the challenge, the ceiling, and the smaller success. If you both feel it, the lower ceiling wins.",
       "One role: quiet presence, read the plan back once, or celebrate at the end. Pushing is not a role.",
-      "Say the stop word once before you start. Do the smaller success. The full ceiling can wait.",
-      "The stop word ends it. No debate that minute. Say, \"This is the version we completed.\" Stop at the ceiling even if the mood is good."
+      "Say the stop word once. Do the smaller success.",
+      "The stop word ends it. Say, \"This is the version we completed.\" Stop at the ceiling too."
     ],
     "bank": [
       "Read four sentences aloud to your partner. Smaller success: two sentences.",
@@ -115,8 +114,8 @@
       "Start a form and stop after the first box. Smaller success: the form opened and the first field read aloud.",
       "Walk one flat block and turn around. Smaller success: the end of the hall, or the doorway and back."
     ],
-    "ending": "They answer first: what helped, what added pressure, repeat, shrink, or leave it.",
-    "pass": "Passing the card, a veto, or a safety no is complete. No explanation required.",
+    "ending": "They answer first. What helped, what pressured, and will you repeat, shrink, or leave it?",
+    "pass": "A pass, a veto, or a safety no is complete.",
     "safety": "No filming, audience, surprise, humiliation, or sexual task. Touch is not the role."
   }
 ]

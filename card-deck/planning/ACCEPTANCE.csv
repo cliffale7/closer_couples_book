@@ -5,9 +5,9 @@ image_smoke,one generated raster saved,pass,card-deck/qa/smoke/deck-smoke-c1.jpg
 image_ppi,300 ppi at the placed picture,pass,864px at 2.88in is 300 ppi; full-bleed 3.5in would be about 247 and is not used
 template_proof,three routes printed,pass,design/proofs/template-routes.pdf; owner locked 3.5 by 5.5 and ended the template cycle
 selection_65,five per part scored,pass,selection/FINAL_65.csv has 65 rows
-card_text,65 stand-alone backs,open,65 JSON backs on disk; gated so far: parts 1, 10, 12, 13
-images_approved,65 unique fronts,open,10 accepted: C01-C05 and C46-C50
-fronts_backs,65 pairs typeset,open,10 pairs in production-trim.pdf at 3.5 by 5.5 in; C46 back fits at 10 pt
+card_text,65 stand-alone backs,open,65 JSON backs on disk; gated: parts 1, 2, 7, 8, 10, 12, 13
+images_approved,65 unique fronts,open,15 accepted: C01-C10 and C46-C50
+fronts_backs,65 pairs typeset,open,C01-C10 and C46-C50 entering production-trim.pdf
 owner_review,package exported,open,
 human_playtest,owner and partner,open,not claimed
 golden_thread,supplied image used or reported missing,pass,design/GOLDEN_THREAD.md reports the image missing; no substitute drawn

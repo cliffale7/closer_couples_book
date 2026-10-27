@@ -189,6 +189,7 @@ html, body { margin: 0; padding: 0; background: #d9d3c7; }
   font: 8pt Calibri, sans-serif; color: #5c5148; border-top: 0.4pt solid #d9cbb8;
   padding-top: 0.04in;
 }
+.back footer span { white-space: nowrap; }
 """
 
 BLEED_STYLE = STYLE.replace(

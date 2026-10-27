@@ -4,7 +4,7 @@
     "source_id": "009",
     "title": "The Uncomfortable Truth",
     "hook": "One hard admission, then 3 quiet minutes before anyone repairs it.",
-    "time": "Short, about 10 minutes. Standard, about 30 minutes.",
+    "time": "about 30 minutes",
     "touch": false,
     "steps": [
       "Say your pause phrase. Choose who speaks first. The second turn gets the same clock.",
@@ -21,7 +21,7 @@
     "source_id": "012",
     "title": "The Permission Slip",
     "hook": "Sign permission to be unfinished in one specific way. Your partner may hear the sentence. They do not grant it.",
-    "time": "Short, about 10 minutes. Standard, about 25 minutes.",
+    "time": "about 25 minutes",
     "touch": false,
     "steps": [
       "Glance at the menu or ignore it: imperfect, playful, uncertain, ambitious, needy, emotionally open. Draft in silence.",
@@ -38,7 +38,7 @@
     "source_id": "013",
     "title": "Confession Without Consequence",
     "hook": "Offer one harmless embarrassment, regret, insecurity, or private oddity. Curious questions only.",
-    "time": "Short, about 10 minutes. Standard, about 30 minutes.",
+    "time": "about 30 minutes",
     "touch": false,
     "steps": [
       "Name the four kinds. Agree a pause word. \"Different item\" is enough.",
@@ -55,7 +55,7 @@
     "source_id": "015",
     "title": "When I Feel Small",
     "hook": "Name when you feel inadequate or overlooked, and the response that has actually helped.",
-    "time": "Short, about 15 minutes. Standard, about 30 minutes.",
+    "time": "about 30 minutes",
     "touch": false,
     "steps": [
       "About 8 private minutes. Two recognizable situations. For each, one helping behavior and one that bounces. \"Love me more\" is too vague. Unsure is allowed. A guess is labeled a guess.",
@@ -71,7 +71,7 @@
     "source_id": "016",
     "title": "No Armor Tonight",
     "hook": "For a short window, set down joke-as-cover, defense, and the impressive answer. One modest topic, spoken plainly.",
-    "time": "Short, about 6 minutes. Standard, about 15 minutes.",
+    "time": "about 15 minutes",
     "touch": false,
     "steps": [
       "Say the topic in one sentence. Set about 15 minutes, and split it in half.",
