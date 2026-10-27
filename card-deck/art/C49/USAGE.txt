@@ -1,0 +1,4 @@
+Tool: Cursor GenerateImage. Aspect 3:4. Native 864x1152 JPEG.
+Placed at 2.88 by 3.84 inches, which is 300 ppi of this source.
+No enlargement. Not the smoke-test image.
+Scene: Two adults in a doorway, one seeing the other with recognition rather than assumption.

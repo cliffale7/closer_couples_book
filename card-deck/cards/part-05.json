@@ -1,0 +1,87 @@
+[
+  {
+    "card_id": "C21",
+    "source_id": "033",
+    "title": "The Attraction Interview",
+    "hook": "First, what caught you. Then a Tuesday. Then the old theory of chemistry you have retired. Both of you are interviewed.",
+    "time": "About 35 minutes",
+    "touch": false,
+    "steps": [
+      "A coin picks who starts. Eight minutes, in that order, and all three get asked. Complicated, plus one true part, is a complete answer.",
+      "Include one detail that remains with the lights off: a sound, humor, or an action. Sexual detail is optional.",
+      "Two follow-ups, and no grade. Ask what you notice now that you could not name then. Thank them. Swap, so both answer.",
+      "Each of you names one sentence you want kept. No rebuttal, and no score."
+    ],
+    "ending": "Nothing is booked. Sorting yes, no, and maybe is another evening unless you both want that now.",
+    "pass": "Pass, pause, or change the question. You owe no history of other lovers, and no comment on a face.",
+    "safety": "A body comment may be redirected, and the redirect ends it. Desire is not owed. Do not schedule sex to prove the interview worked."
+  },
+  {
+    "card_id": "C22",
+    "source_id": "034",
+    "title": "The Yes, No, Maybe Game",
+    "hook": "Sort alone. Four lanes: romantic, affectionate, sensual, and sexual. Compare only the stars.",
+    "time": "About 45 minutes",
+    "touch": false,
+    "steps": [
+      "Rules first. A blank is not a shy yes. A short game may drop sensual and sexual and is still a whole game.",
+      "Star up to five yeses and three nos to make known. Unstarred nos stay unseen. A starred no is not a debate.",
+      "One starred item at a time. The listener says heard, or asks one question, then stops. Maybe is not consent.",
+      "At most one easy shared yes, if both still want it. You still ask, and nothing else is scheduled. Or none."
+    ],
+    "ending": "A starred yes on paper is not the moment. If the gap hurts, skip that yes and end.",
+    "pass": "Pass any lane. Hidden nos stay hidden. If anyone is intoxicated, play another night.",
+    "safety": "A game result is not consent to touch or sex. Ask again in the room. A safer-sex no stays a no. Others stay off the sheet."
+  },
+  {
+    "card_id": "C23",
+    "source_id": "036",
+    "title": "The Sensory Date",
+    "hook": "Sound, scent, texture, taste, and light, in that order. Touch only where both of you have marked it welcome.",
+    "time": "About 60 minutes",
+    "touch": true,
+    "steps": [
+      "Choose materials together. Sex is off the map unless both put it on before you start. Name each channel off or on, never maybe.",
+      "Each hosts one channel. A third may be quiet background. Do not demonstrate an unchosen channel. Offer, then wait.",
+      "Yes, smaller, or no. A no retires that station. The date continues. One yes does not start the next.",
+      "Restate welcome touch and wait. They set pressure and place. None means skip touch and stay."
+    ],
+    "ending": "Name one thing to repeat. Sex on the map still needs a present yes. Momentum is not that yes.",
+    "pass": "Scent is opt-in. Apart, the same music and tea are not a touch station.",
+    "safety": "Hands do not replace a declined station. Stop ends it. Named desire is not a sequel."
+  },
+  {
+    "card_id": "C24",
+    "source_id": "037",
+    "title": "The Desire Nobody Asked About",
+    "hook": "One wish nobody asked about. It is allowed to remain a wish. Hearing it is not a yes.",
+    "time": "About 40 minutes",
+    "touch": false,
+    "steps": [
+      "Agree the order before anyone shares. Write first: an unasked affection, a fantasy that may stay imaginary, or a closeness you usually edit out.",
+      "Read it at the size you wrote. If you start shrinking it, finish the sentence or pass the turn.",
+      "Then the listener stops after three moves: restate it and allow a correction, appreciate the telling, and say hearing this is not a yes.",
+      "One mark: tell only, maybe another day, or please do not ask me to do this. No haggling. Then switch."
+    ],
+    "ending": "Tell only stays out of later flirtation. A maybe waits for its owner. A smaller wish still counts.",
+    "pass": "Pass a lane or the session. If they go quiet, ask. Silence is not assent.",
+    "safety": "Do not solve it. A wish is not a debt. A third person, or humiliation, stays tell only. Later sex needs its own yes."
+  },
+  {
+    "card_id": "C25",
+    "source_id": "038",
+    "title": "The Slow Dance With No Music",
+    "hook": "Sway in silence. No music, and no steps to get right.",
+    "time": "About 30 minutes",
+    "touch": true,
+    "steps": [
+      "Before touch, agree three minutes or up to eight. Name form and ceiling. Hands-only, a chair, or lying down count. If you differ, use the smaller.",
+      "Rehearse the stop: two squeezes and a release, or the word pause, then step back. Say who leads first, or that nobody does.",
+      "A tap to switch the lead is not a new invitation. Be quiet, move small, and skip the posture notes. No surprise song.",
+      "The stop ends the dance. Only the person who stopped may ask to restart. Separate by a hand's width before you speak."
+    ],
+    "ending": "Ask what you noticed, or skip the talk. Either one finishes the dance.",
+    "pass": "You may skip the dance. An early stop is finished, and it creates no debt.",
+    "safety": "A sway is not consent to sex. Arousal is not an instruction. The ceiling may drop at once. It rises only if you stop, speak, and both agree."
+  }
+]

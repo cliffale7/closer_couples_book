@@ -1,0 +1,86 @@
+[
+  {
+    "card_id": "C06",
+    "source_id": "009",
+    "title": "The Uncomfortable Truth",
+    "hook": "One hard admission, then 3 quiet minutes before anyone repairs it.",
+    "time": "Short, about 10 minutes. Standard, about 30 minutes.",
+    "touch": false,
+    "steps": [
+      "Say your pause phrase. Choose who speaks first. The second turn gets the same clock.",
+      "A quiet minute, then one difficult admission. If the listener speaks, the only line is, \"I'm taking this in.\"",
+      "When you stop, start 3 minutes. No fix, bright side, cross-examination, or matching confession. If the quiet feels like a wall, repeat that sentence only.",
+      "Ask for one short reply and name the kind: what you heard, one question, or an idea. Or end the turn. Then swap."
+    ],
+    "ending": "One truth each, under this rule, finishes the standard sitting.",
+    "pass": "A pass or a smaller admission is a finished turn. The pause phrase can stop you or send you to an easier truth.",
+    "safety": "Do not build a case against your partner. Ongoing harm, abuse, or a safety problem stops this frame. Ordinary responsibility resumes."
+  },
+  {
+    "card_id": "C07",
+    "source_id": "012",
+    "title": "The Permission Slip",
+    "hook": "Sign permission to be unfinished in one specific way. Your partner may hear the sentence. They do not grant it.",
+    "time": "Short, about 10 minutes. Standard, about 25 minutes.",
+    "touch": false,
+    "steps": [
+      "Glance at the menu or ignore it: imperfect, playful, uncertain, ambitious, needy, emotionally open. Draft in silence.",
+      "Standard shape: I give myself permission to be [one way] when [a real situation], and I will stop requiring [one self-demand] of myself this week.",
+      "Read it to yourself. If their body, time, or money is the object, keep the permission and set the request aside. A later request can be declined.",
+      "Read aloud only if you want to. The witness says what they heard, then stops. They do not rewrite it or grant it. Then swap. A card may stay unread."
+    ],
+    "ending": "Done when each person who wanted a slip has signed one or chosen not to show it.",
+    "pass": "You may pass, pocket the card, or change the word. One honest permission is enough.",
+    "safety": ""
+  },
+  {
+    "card_id": "C08",
+    "source_id": "013",
+    "title": "Confession Without Consequence",
+    "hook": "Offer one harmless embarrassment, regret, insecurity, or private oddity. Curious questions only.",
+    "time": "Short, about 10 minutes. Standard, about 30 minutes.",
+    "touch": false,
+    "steps": [
+      "Name the four kinds. Agree a pause word. \"Different item\" is enough.",
+      "Before the story, say, \"This is mine to tell, and it is harmless,\" and name the kind. If you cannot, it leaves the game. Tell it in 3 to 5 minutes.",
+      "Two curious questions, not a case and not advice. A declined question is replaced, or you stop at one.",
+      "Close the turn. Swap with equal time. The second person may pass, and does not owe a more dramatic kind."
+    ],
+    "ending": "Done when each allowed offer, or a pass, has been heard inside the rule.",
+    "pass": "Either of you may pass or decline a question. The pause word changes the item.",
+    "safety": "If harm shows up, say, \"This leaves the game.\" Abuse, a betrayal they have a right to know, an undisclosed health or legal risk, harm to someone else, infidelity, and illegal acts stay outside."
+  },
+  {
+    "card_id": "C09",
+    "source_id": "015",
+    "title": "When I Feel Small",
+    "hook": "Name when you feel inadequate or overlooked, and the response that has actually helped.",
+    "time": "Short, about 15 minutes. Standard, about 30 minutes.",
+    "touch": false,
+    "steps": [
+      "About 8 private minutes. Two recognizable situations. For each, one helping behavior and one that bounces. \"Love me more\" is too vague. Unsure is allowed. A guess is labeled a guess.",
+      "Share one situation and both responses, as written. Your partner repeats the help in their words, then says can, sometimes, or not really. No demonstration unless you ask.",
+      "Correct them if they polished your sentence into a nicer one. Then swap. Stop after one situation each."
+    ],
+    "ending": "Done when the help has been repeated and answered with a real limit.",
+    "pass": "You may pass, shrink a situation, or leave what bounces unspoken. A pass finishes the turn.",
+    "safety": "If the situation is a harmful pattern, they restate and do not cross-examine. Stopping it is a separate conversation."
+  },
+  {
+    "card_id": "C10",
+    "source_id": "016",
+    "title": "No Armor Tonight",
+    "hook": "For a short window, set down joke-as-cover, defense, and the impressive answer. One modest topic, spoken plainly.",
+    "time": "Short, about 6 minutes. Standard, about 15 minutes.",
+    "touch": false,
+    "steps": [
+      "Say the topic in one sentence. Set about 15 minutes, and split it in half.",
+      "Talk about the feeling. If a joke ducks it, say, \"Let me try that plainly,\" and restate one sentence. Your partner does not catch it for you. A delighted laugh may stay.",
+      "At the half, the listener offers one feeling of their own about what they heard. Not a score of how bare you were.",
+      "Swap for the same length. End when the timer ends, or sooner. There is no armor score."
+    ],
+    "ending": "A plain sentence is enough. After the timer, the evening may be funny again.",
+    "pass": "Either of you may end early or trade for a milder topic.",
+    "safety": "An insult is not unarmored truth. If the topic becomes harm or safety, stop the style game and deal with it directly."
+  }
+]

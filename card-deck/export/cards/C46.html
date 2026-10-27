@@ -1,0 +1,86 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><style>
+@page { size: 3.5in 5.5in; margin: 0; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #d9d3c7; }
+.card {
+  width: 3.5in; height: 5.5in; page-break-after: always;
+  background: #f4efe4; color: #241c16; position: relative; overflow: hidden;
+}
+.front .frame {
+  position: absolute; inset: 0.14in; border: 1.5pt solid; display: flex;
+  flex-direction: column; background: #f7f3ea;
+}
+.art {
+  width: 2.88in; height: 3.84in; margin: 0.1in auto 0; overflow: hidden;
+  background: #efe6d4;
+}
+.art img { width: 2.88in; height: 3.84in; object-fit: cover; display: block; }
+.await {
+  height: 100%; display: flex; align-items: center; justify-content: center;
+  font: 10pt Calibri, sans-serif;
+}
+.front footer { margin-top: auto; padding: 0.1in 0.12in 0.12in; }
+.front h1 { font: 12.5pt/1.15 Georgia, serif; margin: 0.04in 0 0.02in; }
+.front .kicker, .back .kicker {
+  display: flex; align-items: center; gap: 0.06in;
+  font: 8pt Calibri, sans-serif; letter-spacing: 0.04em; text-transform: uppercase;
+  margin: 0;
+}
+.front .meta { margin: 0; font: 8pt Calibri, sans-serif; }
+.mark { width: 0.16in; height: 0.16in; flex: none; }
+.back header {
+  height: 0.48in; display: flex; gap: 0.08in; align-items: center;
+  padding: 0.06in 0.16in;
+}
+.back .full { margin: 0; font: 8pt Calibri, sans-serif; }
+.back .body { padding: 0.1in 0.16in 0.34in; }
+.back h1 { font: 12.5pt/1.1 Georgia, serif; margin: 0 0 0.04in; }
+.hook { font: italic 10pt/1.25 Georgia, serif; margin: 0 0 0.05in; }
+.back ol { margin: 0 0 0.05in 0.16in; padding: 0; }
+.back li { font: 10pt/1.25 Calibri, sans-serif; margin: 0 0 0.04in; }
+.bank { margin-top: 0.04in; }
+.ending { font: 10pt/1.25 Calibri, sans-serif; margin: 0.04in 0; }
+.safety, .pass { font: 9.5pt/1.25 Calibri, sans-serif; margin: 0.03in 0; }
+.pass { font-style: italic; }
+.back footer {
+  position: absolute; left: 0.16in; right: 0.16in; bottom: 0.1in;
+  display: flex; justify-content: space-between; gap: 0.06in;
+  font: 8pt Calibri, sans-serif; color: #5c5148; border-top: 0.4pt solid #d9cbb8;
+  padding-top: 0.04in;
+}
+</style></head><body>
+    <article class="card front">
+      <div class="frame" style="border-color:#C6A15B">
+        <div class="art"><img src="../../art/C46/final.jpg" alt=""></div>
+        <footer style="background:#C6A15B;color:#1c140f">
+          <p class="kicker"><svg class="mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5h5a3 3 0 0 1 3 3v12s-1-1-3-1H6V5zm12 0h-5a3 3 0 0 0-3 3v12s1-1 3-1h5V5z" fill="none" stroke="#1c140f" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg> C46 · Story</p>
+          <h1>The First Chapter</h1>
+          <p class="meta">The Past, the Present, and the Story of Us</p>
+        </footer>
+      </div>
+    </article>
+    
+    <article class="card back">
+      <header style="background:#C6A15B;color:#1c140f">
+        <svg class="mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5h5a3 3 0 0 1 3 3v12s-1-1-3-1H6V5zm12 0h-5a3 3 0 0 0-3 3v12s1-1 3-1h5V5z" fill="none" stroke="#1c140f" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>
+        <div>
+          <p class="kicker">Part 10 · Story</p>
+          <p class="full">The Past, the Present, and the Story of Us</p>
+        </div>
+      </header>
+      <div class="body">
+        <h1>The First Chapter</h1>
+        <p class="hook">Write the beginning twice, apart, before either voice can steer it.</p>
+        <ol><li>10 quiet minutes. Five lines each: where it begins for you, and a different day is allowed; what you were unsure of; one detail later tellings have polished; what you guessed the other person felt; one fact you still do not know, which may stay private.</li><li>One person reads the five lines. The listener does not correct a name or improve a line. Private marks only: same memory, news to me, I remember it differently. Then switch.</li><li>Now talk. Say both beginnings and what each is counting. One curious question for the news. Set disagreements side by side, and do not average them.</li></ol>
+        
+        <p class="ending">Optional: one agreed fact and one uncertainty you will leave in. Or name that uncertainty and stop.</p>
+        <p class="safety">Stop if a live argument about faithfulness is waiting. Have it in plain time.</p>
+        <p class="pass">Skip any stretch you do not want replayed. No reason is required. You may stop after one scene.</p>
+      </div>
+      <footer>
+        <span>about 40 minutes</span>
+        <span>No touch required.</span>
+        <span>Book 073</span>
+      </footer>
+    </article>
+    </body></html>

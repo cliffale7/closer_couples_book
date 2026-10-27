@@ -10,3 +10,4 @@
 - Locked the 65-card inventory in `selection/FINAL_65.csv`. The 67-card trial stays archived.
 - Wrote Part 1 card backs from the chapters. Generated five unique illustrations and placed them at 2.88 by 3.84 in (300 ppi of the 864×1152 source).
 - Reported the Golden Thread image missing. Did not draw a substitute.
+- Gated the Story, Future, and Workshop backs. Illustrated and printed C46–C50 in the same 3.5 by 5.5 layout.

@@ -1,0 +1,83 @@
+[
+  {
+    "card_id": "C61",
+    "source_id": "100",
+    "title": "The Emotional Weather Report",
+    "hook": "Name the sky you are under. Your partner may look at it without becoming the weather service.",
+    "time": "about 10 minutes",
+    "touch": false,
+    "steps": [
+      "Region: work, body, the relationship, or your private interior. Condition and direction: clearing, steady, incoming, stuck, or more after a break. Then optional help you will arrange, help you are requesting, or nothing.",
+      "Stop. The listener does not hand over a plan. They may ask where it is heaviest, whether it is passing, or whether the report is finished. Advice waits until it is requested.",
+      "Both of you may report. The two skies do not have to merge. A request is specific enough to accept or decline, and a decline is not a failed forecast. Plain sentences count the same as metaphor."
+    ],
+    "ending": "No forecast tonight is a complete answer. Then talk the way you already talk.",
+    "pass": "You do not owe a forecast every day.",
+    "safety": "Despair, panic, or danger is a real signal. Step out of the metaphor, stay, and bring in outside help when safety is in question."
+  },
+  {
+    "card_id": "C62",
+    "source_id": "101",
+    "title": "The Borrowed Brain Experiment",
+    "hook": "Write their answer before anyone speaks. The yes is worth zero.",
+    "time": "about 40 minutes",
+    "touch": false,
+    "steps": [
+      "Veto before writing. Then stop after these three. Realistic: a found wallet, cash and an ID, no owner, and what they do by day's end. Funny: a hated dessert served with pride while the table watches the first bite. Gray: a sibling or close friend asks them to keep from you a harmless secret, a night class they are failing, though you would rather not be left out.",
+      "2 silent minutes. Each writes the other's choice, a value, a fear or hope, and a constraint, before anyone speaks. Then each answers for their own mind and names the stranger's beat.",
+      "Choice scores 0. A value they claim scores 2. A constraint you understood scores 1. Write the one you missed. Drop the points if they sting."
+    ],
+    "ending": "Stop at three. Thank the person who corrected you.",
+    "pass": "Veto or pass ends that card. Leave the miss here.",
+    "safety": "No sex, betrayal, or humiliation in any replacement card."
+  },
+  {
+    "card_id": "C63",
+    "source_id": "105",
+    "title": "The Compliment Decoder",
+    "hook": "Guess the episode behind a specific compliment. Different is a successful twist.",
+    "time": "about 20 minutes",
+    "touch": false,
+    "steps": [
+      "Write three to five observations of what they do, not how they look, and not kind or amazing. Hide the source: one scene, a rough date.",
+      "Keep the source covered until the guess is out. The receiver guesses the episode. Then the giver reveals it, which may be another day. Mark same or different. The first difference, say that the twist worked, so nobody apologizes.",
+      "A guessed scene can still matter, and it does not replace the source. A gap is not a lecture about attention."
+    ],
+    "ending": "Name one episode you want kept beside the praise. Leave the misses unmemorialized.",
+    "pass": "You may pass on a guess, or on the reveal. Bodily or sexual lines only if you both opted in.",
+    "safety": "Do not compliment someone for tolerating harm, and retire a line that is really advice."
+  },
+  {
+    "card_id": "C64",
+    "source_id": "106",
+    "title": "The Intimacy Negotiators",
+    "hook": "One hundred private points on a shared menu of closeness, then one evening from the overlap.",
+    "time": "about 45 minutes",
+    "touch": false,
+    "steps": [
+      "Apart, spend exactly 100 on up to eight: affection, romance, playfulness, meaningful conversation, sensuality, adventure, closeness, quiet, spontaneity, privacy. Rename up to three. Zeros and a remainder are allowed. No talk while the numbers go down.",
+      "Read yours. One question if a word is opaque. Circle up to three for tonight. Cross out what is off the table. No reason owed. Do not average. The higher number loses.",
+      "A cross-out removes that form for both. Design one home evening from what remains, name one piece you can drop, and say a limit even if you will not name the form."
+    ],
+    "ending": "No overlap means parallel quiet or a rain check. Points expire when you stand up. A high score is not a scheduled obligation.",
+    "pass": "You may refuse the whole card.",
+    "safety": "A number is not consent to touch or sex, and it loses to a limit or a later no."
+  },
+  {
+    "card_id": "C65",
+    "source_id": "108",
+    "title": "The Secret Door",
+    "hook": "Offer a private title. They may ask for one key. No tour is promised.",
+    "time": "about 50 minutes",
+    "touch": false,
+    "steps": [
+      "Up to four titles, including one lighter door. Read one. They may request a single key by name.",
+      "Brass, the facts. Glass, the inner weather. Iron, the cost of continuing. Ribbon, a hope with no contract, including nothing. Blank, the door exists and you stop.",
+      "You may give that key, say not that key, or stay quiet. Stop mid-sentence if you want. They do not supply the ending. A demand, or pushing after a no, ends the round.",
+      "Show only the titles you mean to. Two doors and one key can finish it. No notes on a door they closed."
+    ],
+    "ending": "Name the surprising door, and one closed door you will leave without a story.",
+    "pass": "Pocket a card unread. Sexual material needs a prior willingness to talk that way. A key is not consent.",
+    "safety": "If there is danger, abuse, or a crisis, leave the game and get help when someone is unsafe."
+  }
+]

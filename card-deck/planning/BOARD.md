@@ -14,8 +14,8 @@ Status: **IN PROGRESS**. Not ready for owner review. Five illustrated cards are 
 
 - Sixty-five selections recorded, with reasons, and the forty-three not selected.
 - Card backs for Part 1 (C01–C05) written from the chapters.
-- Five unique illustrations generated, reviewed, and placed at 2.88 by 3.84 inches so the 864 by 1152 source is 300 ppi. They are not the smoke-test image.
-- Trim and bleed proofs of those five pairs are produced by `tools/render_cards.py` when that script exits 0.
+- Parts 10, 12, and 13 (C46–C50, C56–C65) passed a text gate against the chapters. See `qa/GATE-part-10-12-13.md`.
+- Ten unique illustrations accepted. C46–C50 use the same 2.88 by 3.84 inch placement as the first five.
 
 ## Not done
 

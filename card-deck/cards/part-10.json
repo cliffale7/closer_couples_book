@@ -1,0 +1,85 @@
+[
+  {
+    "card_id": "C46",
+    "source_id": "073",
+    "title": "The First Chapter",
+    "hook": "Write the beginning twice, apart, before either voice can steer it.",
+    "time": "about 40 minutes",
+    "touch": false,
+    "steps": [
+      "10 quiet minutes. Five lines each: where it begins for you, and a different day is allowed; what you were unsure of; one detail later tellings have polished; what you guessed the other person felt; one fact you still do not know, which may stay private.",
+      "One person reads the five lines. The listener does not correct a name or improve a line. Private marks only: same memory, news to me, I remember it differently. Then switch.",
+      "Now talk. Say both beginnings and what each is counting. One curious question for the news. Set disagreements side by side, and do not average them."
+    ],
+    "ending": "Optional: one agreed fact and one uncertainty you will leave in. Or name that uncertainty and stop.",
+    "pass": "Skip any stretch you do not want replayed. No reason is required. You may stop after one scene.",
+    "safety": "Stop if a live argument about faithfulness is waiting. Have it in plain time."
+  },
+  {
+    "card_id": "C47",
+    "source_id": "074",
+    "title": "The Moments You Didn’t Know Mattered",
+    "hook": "A small act you carried at a size the giver never heard. Not a performance of gratitude.",
+    "time": "about 35 minutes",
+    "touch": false,
+    "steps": [
+      "8 quiet minutes. Up to five small items: a sentence, a chore, a look, a restraint, a practical save. Three should be smaller than a gift or a trip. One honest item is enough.",
+      "Trade one at a time: where you were, what they did, and why it stayed. The receiver lets it land and does not improve the story. One curious question. They may take a minute. A different memory does not cancel yours.",
+      "Switch one for one. No matching size is required. Two spoken and the rest private is complete.",
+      "Agreed pairs only, in two columns: what was done, and what it meant. Shrink a swollen sentence back to the gesture."
+    ],
+    "ending": "Read the columns once at their actual size. Leave the week alone.",
+    "pass": "Stop early if you want. Skip a third person's secret, and a sexual moment you have not both agreed to discuss.",
+    "safety": ""
+  },
+  {
+    "card_id": "C48",
+    "source_id": "075",
+    "title": "Our Greatest Hits",
+    "hook": "Four columns. A funny story does not have to be the meaningful one.",
+    "time": "about 50 minutes",
+    "touch": false,
+    "steps": [
+      "Headings: funniest, most romantic, unexpected, meaningful. Quietly write a slug for each you have: place, the turn, why it plays. Empty stays empty.",
+      "Take one column at a time. A story may sit in two only if you both agree. Tell the place, the turn, and why it still plays.",
+      "The listener asks for one extra detail, names what landed, and saves their own story for their turn. If you split on whether it was funny, write both. No vote.",
+      "Mark keepers you both will retell, one is enough, plus one detail you will stop sanding. Read the headings, empties included."
+    ],
+    "ending": "Then stop, before the hits become a second dinner.",
+    "pass": "A nomination can move to a private margin with no case to argue. You may pass a column.",
+    "safety": "Humiliating a partner, or a friend who is not here, stays off. Stories about sex, bodies, or family need a yes from both."
+  },
+  {
+    "card_id": "C49",
+    "source_id": "076",
+    "title": "The Moment I Saw You Differently",
+    "hook": "Four beats: the smaller picture, the place, the detail that broke it, the wider one.",
+    "time": "about 35 minutes",
+    "touch": false,
+    "steps": [
+      "5 quiet minutes. Sketch the smaller picture without scolding your past self, one scene, the detail that refused to fit, and the wider picture: warmer, stranger, sadder, or more accurate. Not a diagnosis. No detail means pass.",
+      "Speak the four beats. A minute of quiet before the listener talks.",
+      "They reflect the change, and may add how it felt inside the scene. They do not grind down the old picture, sweeten it, or perform the quality. A missing memory does not erase the seeing. They need not agree.",
+      "Switch to a different episode. Close with one line each: what you know now that you could not have known at the start."
+    ],
+    "ending": "Then stop. A tour of every misreading is a different week.",
+    "pass": "Pass an accusation or an open injury, unless you both want that scene. No third person's secret.",
+    "safety": ""
+  },
+  {
+    "card_id": "C50",
+    "source_id": "078",
+    "title": "The Unspoken Thank-You",
+    "hook": "Finish one thanks that lost the race with the week. The cost may be wrong.",
+    "time": "about 30 minutes",
+    "touch": false,
+    "steps": [
+      "8 minutes apart. Three sentences: what they did; what you think it cost them, as a guess; what changed for you. Name the act.",
+      "Read. The receiver takes it in, and may correct the cost with care. They do not joke it away or answer with a thanks in the same breath.",
+      "Switch. Size and era need not match. No unpaid thanks you believe is a finished turn: say you looked."
+    ],
+    "ending": "Ask once if a sentence may be kept. A no still leaves the spoken thanks complete. Then stop.",
+    "pass": "If resentment is still tangled in it, pick a smaller finished act or postpone. You may decline a thanks that sweetens a hard period.",
+    "safety": "Do not thank a partner for harm endured, silence, or unfair work treated as a gift. A request disguised as thanks gets cut."
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "card_id": "C31",
+    "source_id": "049",
+    "title": "The Life Not Taken",
+    "hook": "One real fork, an ordinary day on the other side, and the desire that never quite left.",
+    "time": "Short, about 15 minutes. Standard, about 40 minutes.",
+    "touch": false,
+    "steps": [
+      "Five quiet minutes. Four lines each: the fork and roughly when; an ordinary day there, no heroics; the desire still alive here; one thing in this life you would not trade.",
+      "About 4 minutes. Your partner reflects the desire in one sentence and may ask one question about that want. If it is blurry, they repeat the blur and supply no better dream.",
+      "Switch. One fork each. Close by saying keep, borrow, or leave. Borrow is a maybe for another day, not a decision tonight. Leave sets the fork down."
+    ],
+    "ending": "Imagining a path is not agreeing to take it.",
+    "pass": "You may pass, pause, or trade for a milder fork. The old choice is not on trial.",
+    "safety": "Skip a fork that is mostly a death, an illness, or another loss. If this hides a decision that changes your partner's life, say so and pause."
+  },
+  {
+    "card_id": "C32",
+    "source_id": "051",
+    "title": "The Unfinished Version of Me",
+    "hook": "A quality you are still practicing, and a mystery you have not solved. Your partner may ask. They may not finish it.",
+    "time": "Short, about 15 minutes. Standard, about 40 minutes.",
+    "touch": false,
+    "steps": [
+      "Write one of each. Still practicing: the quality, plus a recent concrete example. Clumsy counts. Still mysterious: a question about yourself you cannot yet answer.",
+      "Read them. Up to two curious questions. No diagnosis, no type, and no sentence finished for you. Advice waits until you say, \"I want a suggestion.\"",
+      "Name one mystery you are content to leave unsolved this year. Your partner repeats it as a door they will respect. No plan and no deadline.",
+      "Switch. Both doors get named. Do not compare whose unfinishedness is more interesting."
+    ],
+    "ending": "You are done when those doors have been left shut.",
+    "pass": "You may pass, change a prompt, or keep a mystery at the level of a hint.",
+    "safety": ""
+  },
+  {
+    "card_id": "C33",
+    "source_id": "053",
+    "title": "If Nobody Were Watching",
+    "hook": "Name the audiences and send them outside. Then pursue, express, and abandon, with one ordinary line.",
+    "time": "Short, about 15 minutes. Standard, about 40 minutes.",
+    "touch": false,
+    "steps": [
+      "List them and read the list: family, coworkers, friends, a former self, your partner as judge only. If one must stay, say so.",
+      "Three lines. Pursue, what you would go toward. Express, what you would let show. Abandon, what you would set down. One line should sound like a Wednesday.",
+      "Sort each item: help wanted, or mine alone. A private habit can stay a wish. If abandon would change care, money, fidelity, or safety, label it fantasy of relief or an actual request.",
+      "Your partner answers an actual request as themselves, and may take time. Then bring the audiences back. The visit is not a contract."
+    ],
+    "ending": "Nothing here has to be acted out.",
+    "pass": "You may pass any verb. Either of you may stop.",
+    "safety": "If you do not know the label, call it a fantasy of relief for tonight and do not act on it."
+  },
+  {
+    "card_id": "C34",
+    "source_id": "055",
+    "title": "What I Want to Experience Before I Die",
+    "hook": "A personal list with Tuesday on it and the far-off hope. Witnessed, and not co-owned.",
+    "time": "Short, about 20 minutes. Standard, about 50 minutes.",
+    "touch": false,
+    "steps": [
+      "Draft at least eight. At least four are ordinary or cheap. Mark grand items grand. Someday, and maybe never, still counts.",
+      "Read at human speed. A question may clarify the item. Do not turn it into a booking.",
+      "On their list, only two marks: one help you truly mean, named as a concrete offer, and one item you will leave entirely theirs.",
+      "The writer sorts: ordinary and soon, grand and maybe never, help welcome. Initial only the help you mean. No initial, no obligation.",
+      "Read one ordinary item and one maybe-never item aloud. Then stop."
+    ],
+    "ending": "Hearing a wish is not a budget, a waiver, or a joint plan.",
+    "pass": "You may pass, shorten the list, or leave any item unspoken. A short list is finished.",
+    "safety": "If talk of dying floods you, stay with ordinary pleasures or stop. A dangerous wish does not become a plan."
+  },
+  {
+    "card_id": "C35",
+    "source_id": "056",
+    "title": "The Questions Without Answers",
+    "hook": "Six open questions. \"I don't know\" is a full answer.",
+    "time": "Short, about 20 minutes. Standard, about 45 minutes.",
+    "touch": false,
+    "steps": [
+      "Pass as you go. Consciousness: when you are simply aware, what, if anything, is happening? Mortality: what, if anything, persists after a life ends? Love: what it is doing on a quiet day, when it is not proving itself? Morality: in a hard choice you still respect, whose good were you trying not to spend? Fate: was one choice yours, already shaped, or a mix? Mystery: what do you hope never gets fully explained? Blank, if you need one.",
+      "About 2 minutes each: a position, a fragment, or the feeling. The other person says only what they heard. No improvement. Your correction stands.",
+      "Each of you names one question to keep unfinished, and stops there. You need not agree, and you need not finish."
+    ],
+    "ending": "Leave that question unfinished.",
+    "pass": "Pass any theme, or use a plainer question of your own.",
+    "safety": "Do not press a promise, a confession, or a plan. If mortality is raw, switch themes."
+  }
+]

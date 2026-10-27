@@ -1,0 +1,117 @@
+[
+  {
+    "card_id": "C26",
+    "source_id": "041",
+    "title": "Two Truths and a Beautiful Lie",
+    "hook": "Two true stories and one generous fiction.",
+    "time": "about 15 minutes",
+    "touch": false,
+    "steps": [
+      "Each of you privately writes three scenes, four to six sentences, similar length. Two happened. One is wholly made, its own scene. Mix the order. Label only Story 1, 2, and 3.",
+      "Tell them in order. No questions between. The listener names the fiction and one reason, or passes.",
+      "Uncover in an ordinary voice. Name the fiction in one sentence, then restate each truth as something to remember.",
+      "Switch. One fresh round each finishes. Trim a long story before the guess."
+    ],
+    "bank": [
+      "A flattering adventure that did not happen.",
+      "A comic mishap in a city you have never visited.",
+      "A tiny honor that was never awarded."
+    ],
+    "ending": "Name one kept truth each. Read those lines once.",
+    "pass": "Drop a story before telling it, or pass the guess. A pass is finished. You may still uncover.",
+    "safety": "No sex, health, or other people's private lives. Replace a story that would hurt, mock, or hide a real wound. A miss is not a verdict. No score."
+  },
+  {
+    "card_id": "C27",
+    "source_id": "042",
+    "title": "Would You Rather: Unhinged Edition",
+    "hook": "One sentence why, and a third door.",
+    "time": "about 15 minutes",
+    "touch": false,
+    "steps": [
+      "Left is before \"or.\" Right is after. Choose in secret, coin or scrap. Reveal on three.",
+      "One sentence each. Say \"Third door\" to reject the frame. You still hear their choice. It does not stick to you. Play all four."
+    ],
+    "bank": [
+      "Would you rather live in a house where every door is a curtain, or a house where every curtain is a locked door?",
+      "Would you rather carry a phone that speaks only in weather forecasts, or own a kettle that sings a full opera when it boils?",
+      "Would you rather share the home with a well-mannered goose who has opinions, or with a houseplant that must be read to every night?",
+      "Would you rather eat breakfast as soup, using a tiny fork, or eat dinner as a sandwich the size of a hardcover book?"
+    ],
+    "ending": "Each of you names one choice that stays imaginary.",
+    "pass": "Discard a pair before you choose, or pass instead of a reason.",
+    "safety": "Hypothetical only. Not consent, a promise, a confession, or a jab at a body or a wound."
+  },
+  {
+    "card_id": "C28",
+    "source_id": "044",
+    "title": "The Ridiculous Role Reversal",
+    "hook": "Seated, enlarge one inside joke, then let them sort it.",
+    "time": "about 15 minutes",
+    "touch": false,
+    "steps": [
+      "Show one veto each first. \"Stop,\" or a raised hand, ends the scene.",
+      "Pick one scene. Enlarge one shared joke, or manners only: how you order, pause, or thank.",
+      "Seated, 60 seconds. No confession, conflict, or sexual caricature. They watch without correcting.",
+      "They sort stung, accurate, then flattering fiction. A sting is one sentence, then your one-sentence apology or a 20-second redo. No explanation until invited. If nothing stung, say \"Nothing stung. I checked.\" Reverse the same scene."
+    ],
+    "bank": [
+      "Ordering dinner while hungry and still trying to be polite to the menu.",
+      "Narrating a weekday morning from the alarm to the door.",
+      "Telling a harmless party story about a lost umbrella.",
+      "Choosing a film, and taking slightly too long to do it."
+    ],
+    "ending": "Both sting checks are done. Retired lines stay retired.",
+    "pass": "Stopping is a success. Sort, or drop the scene. Nobody owes a laugh.",
+    "safety": "No stutter, tic, accent, or mobility pattern. No anger, sadness, desire, body, or family."
+  },
+  {
+    "card_id": "C29",
+    "source_id": "045",
+    "title": "The Great Debate of Absolutely Nothing",
+    "hook": "Defend an empty motion, then put the opinion down.",
+    "time": "about 12 minutes",
+    "touch": false,
+    "steps": [
+      "Draw one. If either says \"too close,\" bury it and draw again. Three burials ends the night.",
+      "Flip a coin. If you both reach, the person who did not draw flips. Heads, the flipper defends. Tails, the flipper opposes.",
+      "Thirty seconds. Two points each: a definition, fake evidence, or a grave warning. No real week, family, or news.",
+      "Affirmative, 70 seconds. Negative, 70 seconds. Address the motion. No \"you always.\""
+    ],
+    "bank": [
+      "This house believes soup is a beverage.",
+      "This house believes socks deserve opinions.",
+      "This house believes the moon is showing off.",
+      "This house believes spoons are the only honest utensil."
+    ],
+    "ending": "Both say, in an ordinary voice, \"I do not hold this position.\" Each names one real topic you are glad stayed off the card, and does not open it.",
+    "pass": "Burying a motion, or stopping mid-sentence, is a success.",
+    "safety": "Not their habits, body, family, work, politics, or a chore in a funny hat. A real complaint stops the game. No score."
+  },
+  {
+    "card_id": "C30",
+    "source_id": "047",
+    "title": "Truth, Dare, or Discover",
+    "hook": "Three equal doors.",
+    "time": "about 20 minutes",
+    "touch": false,
+    "steps": [
+      "Affection menu first, empty allowed, read aloud. Name Truth, Dare, or Discover, read one of its lines, then do it, take the written alternative, or pass.",
+      "Four turns each. No escalation. A Discover is shared and still your turn."
+    ],
+    "bank": [
+      "Truth. What sound, taste, or smell steadies you?",
+      "Truth. What small competence are you proud of that rarely gets mentioned?",
+      "Truth. What rule do you keep for yourself that nobody else assigned?",
+      "Dare. Speak in a whisper for 2 minutes, or write the whispers and pass the note.",
+      "Dare. Give a sincere weather report about the mood of the room, or write the forecast in two sentences.",
+      "Dare. Hum an original tune of six notes, or tap the rhythm on the table or on your own knee.",
+      "Discover. Name a texture you like. That can be the whole discover.",
+      "Discover. Recall a shared meal. Each of you names one detail.",
+      "Discover. Each offer a word you like the sound of. Put both words in one shared sentence."
+    ],
+    "ending": "End on a Discover or goodnight, not on a dare.",
+    "pass": "Pass ends the turn. No penalty. Your partner does not answer it.",
+    "safety": "Affection only from the menu you both accepted first. A decline is not a free pass to touch."
+  }
+]

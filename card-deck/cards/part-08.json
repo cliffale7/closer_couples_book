@@ -1,0 +1,87 @@
+[
+  {
+    "card_id": "C36",
+    "source_id": "057",
+    "title": "The Instruction Manual for My Bad Days",
+    "hook": "How a hard day looks on you, what helps in the first 10 minutes, and what makes that window worse.",
+    "time": "Short, about 15 minutes. Standard, about 40 minutes.",
+    "touch": false,
+    "steps": [
+      "About 15 minutes. Date the page. Short lines for early signs, what misleads, what helps in the first 10 minutes, what makes it worse, what is not about your partner, how space looks and when you return, and when to stay nearby.",
+      "Read it back in the writer's own words. Ask one clarifying question. The writer answers, passes, or revises a line.",
+      "Say what you cannot carry. Shrink that instruction, or leave it as a cue you will sometimes miss. Missing it is human."
+    ],
+    "ending": "Date the page. It is a revocable guide, and a poor scorecard.",
+    "pass": "\"Pause\" ends a line, a page, or the sitting. Passing is a complete answer.",
+    "safety": "Leave danger and self-harm off this page. If someone is at risk, stop and get urgent local help. Do not describe a method. Any touch named here can still be declined."
+  },
+  {
+    "card_id": "C37",
+    "source_id": "058",
+    "title": "What You Heard vs. What I Meant",
+    "hook": "One mild moment. The sentence you meant, beside the sentence they heard, story and all.",
+    "time": "Short, about 15 minutes. Standard, about 35 minutes.",
+    "touch": false,
+    "steps": [
+      "Name it in one sentence. Either of you may veto it. If it needs a speech of blame, choose a smaller clip or pause.",
+      "Speaker, two sentences: the plain meaning, then the feeling or the practical point. Listener: what you took the words to mean, then the story you added. That story is what landed.",
+      "Mark match, partial, or missed. One minute on the label. Match means the point arrived. Partial means a piece was replaced. Missed means different events.",
+      "The speaker names a reply that would have felt like understanding. The listener offers it once, as practice. The speaker says whether it landed and may adjust a word.",
+      "If time remains, name the story you tend to add, about yourself only."
+    ],
+    "ending": "Different sentences can be the whole result. One line for any effect that remains.",
+    "pass": "A veto needs no case. Pausing on a hot moment is a clean ending.",
+    "safety": ""
+  },
+  {
+    "card_id": "C38",
+    "source_id": "059",
+    "title": "The Gentle Disagreement",
+    "hook": "One manageable disagreement, taken only as far as a short trial.",
+    "time": "Short, about 15 minutes. Standard, about 40 minutes.",
+    "touch": false,
+    "steps": [
+      "Write the veto list first: breakups, money crises, jealousy investigations, and in-law emergencies, plus anything either of you adds. A veto needs no argument.",
+      "Name the difference in one sentence. If it needs a history, choose a smaller one.",
+      "Each states a preference, then the care under it. A body, an identity, or a limit the other does not live goes first. One curious question each. No conversion is owed.",
+      "Write a one-week trial, what would count, and what pauses it. Willing, willing with an edit, or unwilling. Unwilling is a complete ending. Set a 10-minute check and read the trial once."
+    ],
+    "ending": "You may leave the difference. The old pattern may win the check.",
+    "pass": "Say \"pause\" and stop. If voices rise, sit 2 minutes. Then resume, shrink, or end. No penalty. No make-up debate tonight.",
+    "safety": "If it swells into a wound, money, jealousy, or a character verdict, pause and drop the trial."
+  },
+  {
+    "card_id": "C39",
+    "source_id": "060",
+    "title": "The Repair Shop",
+    "hook": "One cooled, minor misstep, in order: what happened, your own part, then a repair that fits.",
+    "time": "Short, about 15 minutes. Standard, about 35 minutes.",
+    "touch": false,
+    "steps": [
+      "Both agree it is minor and already cool, or do not open. One misstep only.",
+      "Acknowledgment: say what happened, short and specific, including the effect you can see. No defense and no countercharge.",
+      "The person who acted names their own part, in the active. Context may be one clause, not the paragraph. Skip \"I am sorry you felt.\"",
+      "Then a fitting amend: a redo, an apology with content, or a small routine change. Propose one, or ask what fits. The answer is fits, a smaller change, or postpone."
+    ],
+    "ending": "Postponing is a complete result. Forgiveness, if it comes, keeps its own clock. Close the bench.",
+    "pass": "The affected person may refuse to revisit. That refusal ends the card. Do not put a wound on the bench they will not claim.",
+    "safety": "Affairs, abuse, legal matters, and ongoing harm stay outside this shop. The affected person does not owe the actor comfort."
+  },
+  {
+    "card_id": "C40",
+    "source_id": "063",
+    "title": "The Appreciation Behind the Complaint",
+    "hook": "One recurring minor irritation, then the wish, then a small request they may decline.",
+    "time": "Short, about 15 minutes. Standard, about 30 minutes.",
+    "touch": false,
+    "steps": [
+      "One irritation each. Take the first all the way through before the second. Write the three lines before you speak them.",
+      "Complaint: the recurring event, without \"you always,\" \"never,\" or a word about character. Specific enough to picture.",
+      "Wish: a positive condition, something you want present. If it needs a new personality, it is still a complaint. Rewrite it.",
+      "Request: one behavior, one scene, one week, possible for the body and the calendar. Your partner repeats the wish in their own words. You say whether they caught it. Only then they accept, edit, or decline. Then switch."
+    ],
+    "ending": "A decline is a finished answer. Offer a smaller request, or leave the wish known and unmet.",
+    "pass": "Either of you may bring no irritation tonight. One translation is enough if the other person is spent.",
+    "safety": "Contempt, a rupture over values, and anything about safety, coercion, or harm do not belong in these three lines."
+  }
+]
