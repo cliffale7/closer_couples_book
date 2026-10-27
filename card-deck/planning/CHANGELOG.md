@@ -12,3 +12,4 @@
 - Reported the Golden Thread image missing. Did not draw a substitute.
 - Gated the Story, Future, and Workshop backs. Illustrated and printed C46–C50 in the same 3.5 by 5.5 layout.
 - Gated the Courage, Inner, and Trust backs. Illustrated C06–C10.
+- Gated Closeness, Chosen, and Desire. Illustrated C11–C15. Rejected the first embrace picture because the couple was not embracing.
