@@ -7,3 +7,6 @@
 - Saved smoke image `qa/smoke/deck-smoke-c1.jpg` (864×1152 JPEG).
 - Set template routes A, B, and C into `design/proofs/template-routes.html`.
 - Printed `design/proofs/template-routes.pdf` (8 pages; large trim 3.5 by 5.5 in; one comparison at 2.75 by 4.75 in).
+- Locked the 65-card inventory in `selection/FINAL_65.csv`. The 67-card trial stays archived.
+- Wrote Part 1 card backs from the chapters. Generated five unique illustrations and placed them at 2.88 by 3.84 in (300 ppi of the 864×1152 source).
+- Reported the Golden Thread image missing. Did not draw a substitute.

@@ -2,11 +2,12 @@ gate,item,status,evidence
 source_freeze,book commit recorded,pass,b12b6a6b1ab3c00892a6d0a5efc2ddc4d8ec4cf7
 isolation,book files untouched,pass,card-deck/ only plus archive copy
 image_smoke,one generated raster saved,pass,card-deck/qa/smoke/deck-smoke-c1.jpg
-image_ppi,about 300 ppi at crop,fail,864px across 3.5in is about 247 ppi
-template_proof,three routes printed,pass,design/proofs/template-routes.pdf pages 1-6 are 3.5 by 5.5 in
-selection_65,five per part scored,open,
-card_text,65 stand-alone backs,open,0
-images_approved,65 unique fronts,open,0
-fronts_backs,65 pairs typeset,open,0
+image_ppi,300 ppi at the placed picture,pass,864px at 2.88in is 300 ppi; full-bleed 3.5in would be about 247 and is not used
+template_proof,three routes printed,pass,design/proofs/template-routes.pdf; owner locked 3.5 by 5.5 and ended the template cycle
+selection_65,five per part scored,pass,selection/FINAL_65.csv has 65 rows
+card_text,65 stand-alone backs,open,part-01.json is 5 of 65
+images_approved,65 unique fronts,open,5 accepted in art/REVIEW-C01-C05.md
+fronts_backs,65 pairs typeset,open,first five only, pending the print check
 owner_review,package exported,open,
 human_playtest,owner and partner,open,not claimed
+golden_thread,supplied image used or reported missing,pass,design/GOLDEN_THREAD.md reports the image missing; no substitute drawn

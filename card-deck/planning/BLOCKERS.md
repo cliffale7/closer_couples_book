@@ -2,16 +2,20 @@
 
 ## B1 — Print resolution
 
-The only image provider in this session is Cursor image generation. The smoke file is a JPEG, 864 by 1152 pixels, 3:4. Spread across a 3.5-inch card width, that is about 247 pixels per inch. The order asks for about 300 ppi at the printed crop. The tool has no size or resolution control, and the allowed frames are 1:1, 4:3, 3:4, 16:9, and 9:16. Upscaling will not be reported as 300 ppi.
-
-Art can continue as screen-scale originals. A press master at 300 ppi is blocked until a provider can deliver a larger raster, or the owner accepts the measured ppi.
-
-No money was spent. No extra service was purchased.
+Resolved for the working layout. The generator still returns 864 by 1152 and has no pixel control. The picture is placed at 2.88 by 3.84 inches, which is 300 ppi of that source. A full-bleed 3.5-inch picture would be about 247 ppi, so the front keeps a paper margin instead of inventing detail by enlargement. No service was purchased.
 
 ## B2 — Selection
 
-`FINAL_65.csv` does not exist yet. Writers must not compress all 65 until five per part are scored from the full chapters.
+Cleared. `selection/FINAL_65.csv` has 65 rows, five per part. `selection/NOT_SELECTED.md` records the other 43.
 
 ## B3 — Template sign-off
 
-`design/TEMPLATE_CAPACITY.md` waits on a look at the printed proof. It is not signed.
+Closed by the owner on 26 October 2026. 3.5 by 5.5 inches is the working size. Another template cycle is not the next task. Each new card is still checked for fit at 10 pt.
+
+## B4 — Golden Thread asset
+
+The shared Golden Thread image is absent. Reported in `design/GOLDEN_THREAD.md`. Production uses the part color, number, name, and symbol. No fake thread was drawn.
+
+## B5 — Remaining production
+
+Sixty cards still need finished text, a unique reviewed illustration, and a paired front and back. The deck is not a candidate until those exist and an independent audit passes.

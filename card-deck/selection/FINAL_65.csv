@@ -1,0 +1,66 @@
+card_id,part,part_name,source_id,source_title,why_selected
+C01,1,Knowing,001,The Stranger Across From Me,Courtesy questions a stranger could ask. Immediate, original, and playable with paper.
+C02,1,Knowing,002,The Life You've Never Told Me,One untold episode with a protected listener. High emotional payoff, clear clock.
+C03,1,Knowing,005,The Things Nobody Thinks to Ask,Fresh questions across kinds. Strong replay, no props beyond paper.
+C04,1,Knowing,006,The Museum of Me,Objects carry a life. Visual, tender, and easy to understand.
+C05,1,Knowing,007,The Opinion I Changed,Three beats and one question. Shows how a person revises a mind.
+C06,2,Courage,009,The Uncomfortable Truth,One difficult admission and a delay before repair. The section's serious center.
+C07,2,Courage,012,The Permission Slip,A permission you sign for yourself, not a job you hand your partner.
+C08,2,Courage,013,Confession Without Consequence,Harmless confession with a pre-check. Lighter courage beside 009.
+C09,2,Courage,015,When I Feel Small,What helps and what bounces, then can / sometimes / not really.
+C10,2,Courage,016,No Armor Tonight,Plain feeling for a short window. Practical and bounded.
+C11,3,Closeness,017,Four Minutes of Forever,Looking without decoding. Distinct, quiet, and complete in one sitting.
+C12,3,Closeness,019,Breathe With Me,Shared room, separate breath. Simple and hard to do well.
+C13,3,Closeness,020,The Listening Experiment,Uninterrupted speech, a reflection, and a correction. The listening mechanic.
+C14,3,Closeness,022,The Language of Touch,Only the overlap, with the receiver setting the contact.
+C15,3,Closeness,023,The Sixty-Second Embrace,A timed embrace with an early exit that still counts.
+C16,4,Chosen,025,What Loving Me Actually Looks Like,Visible specifics instead of category bins.
+C17,4,Chosen,026,The Appreciation Avalanche,From a general compliment to a dated scene.
+C18,4,Chosen,027,The Moment I Knew,One scene, what shifted, what went unsaid.
+C19,4,Chosen,028,Instructions for Loving Me,Operating notes and warning signs, not a quota.
+C20,4,Chosen,030,The Compliment You Can't Dodge,Ten seconds of receiving without the dodge.
+C21,5,Desire,033,The Attraction Interview,First attraction, current attraction, and how chemistry is understood now.
+C22,5,Desire,034,The Yes No Maybe Game,Private sort with star caps. Maybe is not consent.
+C23,5,Desire,036,The Sensory Date,Hosted senses. Sex stays off the map unless both put it on first.
+C24,5,Desire,037,The Desire Nobody Asked About,One unasked wish, restated, not shrunk.
+C25,5,Desire,038,The Slow Dance With No Music,A danced closeness with a rehearsed stop.
+C26,6,Play,041,Two Truths and a Beautiful Lie,Scenes, not trivia. Guess, then uncover.
+C27,6,Play,042,Would You Rather Unhinged Edition,Absurd pairs, a third door, and a choice that stays imaginary.
+C28,6,Play,044,The Ridiculous Role Reversal,A kind, seated portrait and a sort of what landed.
+C29,6,Play,045,The Great Debate of Absolutely Nothing,Serious debate about nothing, then both positions are abandoned.
+C30,6,Play,047,Truth Dare or Discover,Chosen mode, a pass, and no hidden escalation.
+C31,7,Inner,049,The Life Not Taken,One fork, an ordinary day on the other side, and what you would not trade.
+C32,7,Inner,051,The Unfinished Version of Me,Still practicing, still mysterious. Concrete, not a poster.
+C33,7,Inner,053,If Nobody Were Watching,Pursue, express, abandon, then help wanted or private.
+C34,7,Inner,055,What I Want to Experience Before I Die,Ordinary wants beside any grand ones.
+C35,7,Inner,056,The Questions Without Answers,Shared questions that do not need a winner.
+C36,8,Trust,057,The Instruction Manual for My Bad Days,Early signs, what misleads, what helps, what is not about you.
+C37,8,Trust,058,What You Heard vs What I Meant,Meant, heard, and the story you added.
+C38,8,Trust,059,The Gentle Disagreement,A small difference, the care under it, and an unwilling ending that counts.
+C39,8,Trust,060,The Repair Shop,Acknowledgment, your own part, then a fitting amend.
+C40,8,Trust,063,The Appreciation Behind the Complaint,Complaint, wish, then a request the other person may decline.
+C41,9,Adventure,065,The First-Time Challenge,A mild shared first, with the body rules kept.
+C42,9,Adventure,066,The Twenty-Dollar Adventure,Four lines and a ceiling. A room can be the whole trip.
+C43,9,Adventure,067,The Comfort Zone Exchange,Beginner-size hosting, with a return visit booked.
+C44,9,Adventure,068,The Night of Random Decisions,One randomizer, real vetoes, three small menus.
+C45,9,Adventure,072,The Shared Courage Experiment,The person who feels it sets the ceiling. Smaller success completes it.
+C46,10,Story,073,The First Chapter,Two beginnings are allowed. One unknown may stay private.
+C47,10,Story,074,The Moments You Didn't Know Mattered,Small weights, reported rather than prosecuted.
+C48,10,Story,075,Our Greatest Hits,Funny and meaningful stay in separate columns.
+C49,10,Story,076,The Moment I Saw You Differently,A smaller picture, the detail that broke it, the wider one.
+C50,10,Story,078,The Unspoken Thank-You,The act, the cost you think it had, and what changed.
+C51,11,Curiosity,081,The Forbidden Question Box,Questions you rarely ask, returnable to their author.
+C52,11,Curiosity,082,The Moral Gray Area,Values in collision, without a grade.
+C53,11,Curiosity,086,The Unpopular Opinion Club,One kept-small opinion and two curious questions.
+C54,11,Curiosity,087,The Question Behind the Question,Start ordinary and see whether it has a basement.
+C55,11,Curiosity,088,The Thing I'm Still Figuring Out,An unanswered blank, with company instead of advice.
+C56,12,Future,089,The Relationship We Would Invent,Imported assumptions, then agreements you actually choose.
+C57,12,Future,090,The Future Memory,A happy day told as memory, then what can be built.
+C58,12,Future,091,What We Want More Of,Presence, not a disguised complaint.
+C59,12,Future,093,The Relationship Bucket List,Ridiculous and ordinary goals in the same collection.
+C60,12,Future,095,A Promise I Actually Want to Keep,Small promises that survive without applause.
+C61,13,Workshop,100,The Emotional Weather Report,A forecast, not a problem handed over for solving.
+C62,13,Workshop,101,The Borrowed Brain Experiment,Guess the other's choice before they speak.
+C63,13,Workshop,105,The Compliment Decoder,Guess the episode. A mismatch is the point.
+C64,13,Workshop,106,The Intimacy Negotiators,Name the kinds of closeness and compare without scheduling them.
+C65,13,Workshop,108,The Secret Door,One private door, and only the key that is offered.

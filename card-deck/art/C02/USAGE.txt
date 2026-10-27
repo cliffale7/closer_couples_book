@@ -1,0 +1,6 @@
+Tool: Cursor GenerateImage. Aspect 3:4. Native 864x1152 JPEG.
+Placed at 2.88 by 3.84 inches, which is 300 ppi of this source.
+No Lanczos enlargement. Commercial use is the owner's commissioned deck job.
+The tool returned no separate license file.
+Source file copied from the generator output c02-untold.jpg.
+Not the smoke-test image deck-smoke-c1.jpg.

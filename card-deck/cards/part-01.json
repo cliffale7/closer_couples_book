@@ -1,0 +1,86 @@
+[
+  {
+    "card_id": "C01",
+    "source_id": "001",
+    "title": "The Stranger Across From Me",
+    "hook": "For a few minutes you are a courteous stranger with a good ear, not a partner with a file.",
+    "time": "about 25 minutes",
+    "touch": false,
+    "steps": [
+      "In silence, about 5 minutes, each of you writes three questions a polite stranger could ask this person. Mix them: a memory of a year or room when they felt most like themselves; a habit a new friend would misread, and what that misreading gets wrong; a belief they rarely say in a group, asked so they can decline.",
+      "It qualifies only if it needs no shared history and cannot be answered in one word. Tear up anything worn out this month, and anything that is a flirt-test or a cross-examination.",
+      "Ask one at a time. One follow-up may ask to see the answer more clearly. It may not corner it. A declined question is a complete answer. Then swap."
+    ],
+    "ending": "Name one thing you had not known how to ask. Leave the rest on the paper.",
+    "pass": "Either of you may pass the whole card. Passing is a finished visit.",
+    "safety": ""
+  },
+  {
+    "card_id": "C02",
+    "source_id": "002",
+    "title": "The Life You've Never Told Me",
+    "hook": "One episode the relationship has not heard, told once, without a diagnosis.",
+    "time": "about 30 minutes",
+    "touch": false,
+    "steps": [
+      "Alone, about 5 minutes, jot four anchors, not a script. Place: where the bodies were. The turn: the moment the day changed, in one sentence. One formative person inside this episode. What still echoes in an ordinary week now.",
+      "Decide who tells first. Set 8 to 10 minutes. The teller speaks or reads without interruption.",
+      "The listener keeps the episode in view. Do not correct a date, diagnose a family, or rush to why the teller is this way. If a matching story rises, put a hand on the table or on your own knee and leave it there until the timer is yours.",
+      "Swap with the same clock. A matching story after both turns is optional."
+    ],
+    "ending": "The listener says one concrete detail they are keeping, not a moral. The teller may correct that detail.",
+    "pass": "If the episode is too live tonight, say so and choose another, or pass the card.",
+    "safety": ""
+  },
+  {
+    "card_id": "C03",
+    "source_id": "005",
+    "title": "The Things Nobody Thinks to Ask",
+    "hook": "Three questions you have never asked this person. Leave favorite colors in the other room.",
+    "time": "about 30 minutes",
+    "touch": false,
+    "steps": [
+      "Each of you writes three questions you have never asked. Spread them across more than one kind: belief, habit, memory, preference, private thought. You do not have to hit all five kinds tonight.",
+      "Examples you may discard: a money rule absorbed before you could argue with it; what your hands do in the first minute you are alone in a kitchen; a hallway that still belongs to a version of you this relationship has not met; the texture of quiet you want after a loud day.",
+      "Ask one. The answer can be short. One curious follow-up is allowed. Advice is not.",
+      "Decline any question. Then swap until each written question has been asked or retired."
+    ],
+    "ending": "Each of you names the question you are glad existed, even if you declined it.",
+    "pass": "A declined question is complete. Passing the card is complete.",
+    "safety": ""
+  },
+  {
+    "card_id": "C04",
+    "source_id": "006",
+    "title": "The Museum of Me",
+    "hook": "You curate four pieces of a life. Your partner is a visitor, not a critic.",
+    "time": "about 35 minutes",
+    "touch": false,
+    "steps": [
+      "Each curator prepares four exhibits. Every label has three lines: what it is, which stretch of life it holds, and why it is in the collection. A mug, a person, a song, or a missed train can be an exhibit.",
+      "If all four are achievements, replace one with something ordinary, odd, or unfinished.",
+      "The curator speaks the labels in their own order. After each exhibit the visitor may ask one question that asks to see the piece more clearly. A question that replaces the piece with the visitor's theory does not count. Ask another, or ask none.",
+      "Then the visitor becomes the curator."
+    ],
+    "ending": "The visitor names the exhibit they will remember, in the curator's words, and the curator may correct the label.",
+    "pass": "Any exhibit may stay in storage. Say \"not on view\" and continue.",
+    "safety": ""
+  },
+  {
+    "card_id": "C05",
+    "source_id": "007",
+    "title": "The Opinion I Changed",
+    "hook": "How you actually change your mind, told without a trophy.",
+    "time": "about 25 minutes",
+    "touch": false,
+    "steps": [
+      "Choose who goes first by appetite, not by the more impressive conversion. Set about 8 minutes.",
+      "The teller speaks three beats in order. The old sentence. What shifted it. How they tend to change.",
+      "The listener does not prosecute the current view and does not applaud a flattering conversion. They ask only: \"What was the hardest part to let go?\"",
+      "After the answer, the listener reflects the growth line in one sentence. The teller corrects it if needed. That correction is the listening. Then swap, with the same time."
+    ],
+    "ending": "If the reflection was fair, the teller says so in a few words. Stop there.",
+    "pass": "If you have no change you want to tell, pass. Passing is a complete card.",
+    "safety": ""
+  }
+]
